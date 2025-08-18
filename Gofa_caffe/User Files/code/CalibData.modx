@@ -1,0 +1,9 @@
+MODULE CalibData
+    TASK PERS wobjdata Workobject_Home_coffe:=[FALSE,TRUE,"",[[0,0,0],[1,0,0,0]],[[0,0,0],[1,0,0,0]]];
+    TASK PERS wobjdata Workobject_Machine_coffe:=[FALSE,TRUE,"",[[436.245,503.993,217],[0.5,-0.5,0.5,0.5]],[[0,0,0],[1,0,0,0]]];
+    TASK PERS wobjdata Workobject_PickPhin:=[FALSE,TRUE,"",[[211.74,592.403,201.5],[0.5,0.5,0.5,0.5]],[[0,0,0],[1,0,0,0]]];
+    TASK PERS wobjdata Workobject_Table_Cup:=[FALSE,TRUE,"",[[730,-150,179.883287657],[0,0,1,0]],[[0,0,0],[1,0,0,0]]]; 
+    PERS tooldata Gripper_Tool:=[TRUE,[[0.153,0.021,172.1],[1,0,0,0]],[0.426,[0.093,0.483,94.718],[1,0,0,0],0,0,0]];
+    PERS tooldata Phin_Tool:=[TRUE,[[-28.679,-0.732,252.938],[1,0,0,0]],[0.426,[0.093,0.483,94.718],[1,0,0,0],0,0,0]]; 
+    PERS tooldata Cup_Tool:=[TRUE,[[-8.277,-0.416,134.749],[1,0,0,0]],[0.2,[836.929,526.208,0],[1,0,0,0],0,0,0]];
+ENDMODULE

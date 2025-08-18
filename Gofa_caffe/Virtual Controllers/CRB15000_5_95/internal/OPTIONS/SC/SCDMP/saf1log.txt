@@ -1,0 +1,39 @@
+ ====== SAFETY log from CPU1 [2025-07-03 14:03:48] [0 us] =======
+
+ [35] Diff:  72613645 str: 
+Got command 4, parameters 3,                             
+ [ 0] Diff: 879116808 str: REF_MSK 0x0 -> 0x1, SC 0                                 
+ [ 1] Diff:    331399 str: Got command 8, parameters 1,                              
+ [ 2] Diff:      1484 str: Axis 0 is unsynced                                         
+ [ 3] Diff:         0 str: cal_off_err: 0.000000                                             
+ [ 4] Diff:         0 str: cal_pos_err: 0.000000                                             
+ [ 5] Diff:         0 str: q_motor_m_err: 20.614767                                           
+ [ 6] Diff:         1 str: last_speed: 0.000000                                              
+ [ 7] Diff:        19 str: DRV_ENA 1 -> 0, SC 0                                     
+ [ 8] Diff:         0 str: STOP_0  0 -> 1, SC 0                                     
+ [ 9] Diff:      8541 str: ENABLE1 1 -> 0, SC 0                                     
+ [10] Diff:     16880 str: REF_MSK 0x1 -> 0x0, SC 0                                 
+ [11] Diff:   3982021 str: OVR not locked config in auto I                             
+ [12] Diff:         3 str: STOP_0  1 -> 0, SC 0                                     
+ [13] Diff:  15181318 str: ENABLE1 0 -> 1, SC 0                                     
+ [14] Diff:    189023 str: DRV_ENA 0 -> 1, SC 0                                     
+ [15] Diff:         1 str: REF_MSK 0x0 -> 0x1, SC 0                                 
+ [16] Diff:1006174176 str: Got command 8, parameters 1,                              
+ [17] Diff:     12826 str: Axis 0 is unsynced                                         
+ [18] Diff:         0 str: cal_off_err: 0.000000                                             
+ [19] Diff:         1 str: cal_pos_err: 0.000000                                             
+ [20] Diff:         0 str: q_motor_m_err: 11.772268                                           
+ [21] Diff:         0 str: last_speed: 0.000000                                              
+ [22] Diff:        18 str: DRV_ENA 1 -> 0, SC 0                                     
+ [23] Diff:         0 str: STOP_0  0 -> 1, SC 0                                     
+ [24] Diff:     17746 str: ENABLE1 1 -> 0, SC 0                                     
+ [25] Diff:     99545 str: REF_MSK 0x1 -> 0x0, SC 0                                 
+ [26] Diff:   3887686 str: OVR not locked config in auto I                             
+ [27] Diff:         3 str: STOP_0  1 -> 0, SC 0                                     
+ [28] Diff: 181552666 str: STOP_0  0 -> 1, SC 0                                     
+ [29] Diff:2687361967 str: --- scLog started ---                                       
+ [30] Diff:       247 str: Reading persistent safety data                              
+ [31] Diff:        49 str: New Pers. Key SC 0                                         
+ [32] Diff:         1 str: Pers.saf. data wrong key 0 for                             
+ [33] Diff:         0 str: Pers.saf. data wrong key 0 for                             
+ [34] Diff:         1 str: Pers.saf. data wrong key 0 for                             

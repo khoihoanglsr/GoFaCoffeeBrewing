@@ -1,0 +1,414 @@
+Tool:	elog
+Version:	2.0
+Date:	2025-07-03 14:03:47
+System Name:	C:/Users/DELL/OneDrive/Máy tính/Gofa_caffe_1/Virtual Controllers/CRB15000_5_95
+RobotWare:	7.18.1
+RobotControl:	7.18.1
+Controller Name:	CRB15000_5_95
+Controller Id:	VIRTUAL_CONTROLLER
+
+
+
+Common log messages
+SeqNo     	Type	Category            	Code    	Title     	Date                		Description		Arguments	
+275       	E		Common              	71391   	<title>   	1970-01-01 07:00:29:669057	<description>	{args: "MechUnitNotMoving"}
+273       	W		Common              	40210   	<title>   	1970-01-01 07:00:29:669045	<description>	{args: "T_GOFA_LED"}
+272       	I		Common              	10015   	<title>   	1970-01-01 07:00:29:669039	<description>	
+271       	E		Common              	20012   	<title>   	1970-01-01 07:00:29:669031	<description>	{args: "120"}
+269       	I		Common              	10014   	<title>   	1970-01-01 07:00:29:669010	<description>	
+264       	E		Common              	34312   	<title>   	1970-01-01 07:00:17:163025	<description>	{args: "rob1_1", "1", "1"}
+263       	I		Common              	10045   	<title>   	1970-01-01 07:00:00:033013	<description>	
+262       	I		Common              	10056   	<title>   	1970-01-01 07:12:47:971003	<description>	
+261       	I		Common              	10401   	<title>   	1970-01-01 07:12:47:950001	<description>	{args: "Admin (DELL)", "RobotStudio@DESKTOP-G8ELRFG"}
+260       	I		Common              	10401   	<title>   	1970-01-01 07:12:47:934001	<description>	{args: "Admin", "RobAPI2-Client"}
+259       	I		Common              	10149   	<title>   	1970-01-01 07:10:57:114003	<description>	{args: "T_ROB1", "PickPhin", "Default User"}
+258       	I		Common              	10002   	<title>   	1970-01-01 07:10:48:399001	<description>	{args: "2", "0", "T_ROB1"}
+257       	I		Common              	10149   	<title>   	1970-01-01 07:10:45:090003	<description>	{args: "T_ROB1", "PickPhin", "Default User"}
+256       	I		Common              	10002   	<title>   	1970-01-01 07:10:44:946013	<description>	{args: "2", "0", "T_ROB1"}
+255       	I		Common              	10010   	<title>   	1970-01-01 07:09:46:514023	<description>	
+254       	W		Common              	90526   	<title>   	1970-01-01 07:09:46:510001	<description>	
+253       	I		Common              	10012   	<title>   	1970-01-01 07:09:42:518019	<description>	
+252       	I		Common              	10400   	<title>   	1970-01-01 07:09:41:946004	<description>	{args: "Admin", "RobAPI2-Client"}
+251       	I		Common              	10400   	<title>   	1970-01-01 07:09:41:931002	<description>	{args: "Admin (DELL)", "RobotStudio@DESKTOP-G8ELRFG"}
+250       	I		Common              	10401   	<title>   	1970-01-01 07:09:34:215000	<description>	{args: "Admin", "RobAPI2-Client"}
+249       	I		Common              	10401   	<title>   	1970-01-01 07:09:30:664000	<description>	{args: "Admin (DELL)", "RobotStudio@DESKTOP-G8ELRFG"}
+248       	I		Common              	10125   	<title>   	1970-01-01 07:02:13:289017	<description>	{args: "2", "T_ROB1", "17"}
+247       	I		Common              	10151   	<title>   	1970-01-01 07:02:01:838026	<description>	{args: "2", "T_ROB1"}
+246       	I		Common              	10053   	<title>   	1970-01-01 07:02:01:838018	<description>	{args: "0"}
+245       	I		Common              	10052   	<title>   	1970-01-01 07:02:01:481023	<description>	{args: "0"}
+244       	I		Common              	10149   	<title>   	1970-01-01 07:02:01:262003	<description>	{args: "T_ROB1", "main", "Admin"}
+243       	I		Common              	10002   	<title>   	1970-01-01 07:02:01:116015	<description>	{args: "2", "0", "T_ROB1"}
+242       	I		Common              	10011   	<title>   	1970-01-01 07:01:55:742018	<description>	
+241       	I		Common              	10010   	<title>   	1970-01-01 07:01:40:202023	<description>	
+240       	W		Common              	90526   	<title>   	1970-01-01 07:01:40:198001	<description>	
+239       	I		Common              	10012   	<title>   	1970-01-01 07:01:36:202012	<description>	
+238       	I		Common              	10011   	<title>   	1970-01-01 07:01:36:192025	<description>	
+237       	I		Common              	10400   	<title>   	1970-01-01 07:01:35:367002	<description>	{args: "Admin", "RobAPI2-Client"}
+236       	I		Common              	10400   	<title>   	1970-01-01 07:01:35:319005	<description>	{args: "Admin (DELL)", "RobotStudio@DESKTOP-G8ELRFG"}
+235       	I		Common              	10150   	<title>   	1970-01-01 07:01:33:395224	<description>	{args: "1", "SC_CBC"}
+234       	I		Common              	10150   	<title>   	1970-01-01 07:01:33:395211	<description>	{args: "3", "T_GOFA_LED"}
+233       	I		Common              	10129   	<title>   	1970-01-01 07:01:33:395200	<description>	{args: "3", "T_GOFA_LED", "9"}
+232       	I		Common              	10129   	<title>   	1970-01-01 07:01:33:395173	<description>	{args: "2", "T_ROB1", "9"}
+231       	I		Common              	10150   	<title>   	1970-01-01 07:01:33:395146	<description>	{args: "3", "T_GOFA_LED"}
+230       	I		Common              	10155   	<title>   	1970-01-01 07:01:33:395138	<description>	{args: "2", "T_ROB1"}
+229       	I		Common              	10002   	<title>   	1970-01-01 07:01:33:395125	<description>	{args: "3", "0", "T_GOFA_LED"}
+228       	I		Common              	10002   	<title>   	1970-01-01 07:01:33:395116	<description>	{args: "1", "0", "SC_CBC"}
+227       	W		Common              	40210   	<title>   	1970-01-01 07:01:33:395107	<description>	{args: "T_GOFA_LED"}
+226       	I		Common              	10017   	<title>   	1970-01-01 07:01:33:395037	<description>	
+225       	I		Common              	10010   	<title>   	1970-01-01 07:01:33:395010	<description>	
+224       	W		Common              	90526   	<title>   	1970-01-01 07:01:32:962001	<description>	
+223       	I		Common              	10045   	<title>   	1970-01-01 07:00:00:060013	<description>	
+222       	I		Common              	10056   	<title>   	1970-01-01 07:04:32:577002	<description>	
+221       	I		Common              	10401   	<title>   	1970-01-01 07:04:32:070002	<description>	{args: "Admin (DELL)", "RobotStudio@DESKTOP-G8ELRFG"}
+220       	I		Common              	10401   	<title>   	1970-01-01 07:04:32:046000	<description>	{args: "Admin", "RobAPI2-Client"}
+219       	I		Common              	10010   	<title>   	1970-01-01 07:02:43:412023	<description>	
+218       	W		Common              	90526   	<title>   	1970-01-01 07:02:43:408001	<description>	
+217       	I		Common              	10012   	<title>   	1970-01-01 07:02:39:412023	<description>	
+216       	W		Common              	90526   	<title>   	1970-01-01 07:01:45:760001	<description>	
+215       	I		Common              	10010   	<title>   	1970-01-01 07:01:45:268040	<description>	
+214       	E		Common              	90867   	<title>   	1970-01-01 07:01:45:268012	<description>	
+213       	I		Common              	10012   	<title>   	1970-01-01 07:01:41:768083	<description>	
+212       	I		Common              	10010   	<title>   	1970-01-01 07:01:41:768061	<description>	
+211       	I		Common              	10011   	<title>   	1970-01-01 07:01:41:768030	<description>	
+210       	I		Common              	10400   	<title>   	1970-01-01 07:01:40:864002	<description>	{args: "Admin", "RobAPI2-Client"}
+209       	I		Common              	10400   	<title>   	1970-01-01 07:01:40:789002	<description>	{args: "Admin (DELL)", "RobotStudio@DESKTOP-G8ELRFG"}
+208       	I		Common              	10150   	<title>   	1970-01-01 07:01:37:501224	<description>	{args: "1", "SC_CBC"}
+207       	I		Common              	10150   	<title>   	1970-01-01 07:01:37:501211	<description>	{args: "3", "T_GOFA_LED"}
+206       	I		Common              	10129   	<title>   	1970-01-01 07:01:37:501200	<description>	{args: "3", "T_GOFA_LED", "9"}
+205       	I		Common              	10129   	<title>   	1970-01-01 07:01:37:501173	<description>	{args: "2", "T_ROB1", "9"}
+204       	I		Common              	10150   	<title>   	1970-01-01 07:01:37:501146	<description>	{args: "3", "T_GOFA_LED"}
+203       	I		Common              	10155   	<title>   	1970-01-01 07:01:37:501138	<description>	{args: "2", "T_ROB1"}
+202       	I		Common              	10002   	<title>   	1970-01-01 07:01:37:501125	<description>	{args: "3", "0", "T_GOFA_LED"}
+201       	I		Common              	10002   	<title>   	1970-01-01 07:01:37:501116	<description>	{args: "1", "0", "SC_CBC"}
+200       	W		Common              	40210   	<title>   	1970-01-01 07:01:37:501107	<description>	{args: "T_GOFA_LED"}
+199       	I		Common              	10017   	<title>   	1970-01-01 07:01:37:501037	<description>	
+198       	I		Common              	10010   	<title>   	1970-01-01 07:01:37:501010	<description>	
+197       	W		Common              	90526   	<title>   	1970-01-01 07:01:37:068001	<description>	
+196       	I		Common              	10045   	<title>   	1970-01-01 07:00:00:060013	<description>	
+195       	I		Common              	10056   	<title>   	1970-01-01 07:01:41:730002	<description>	
+194       	I		Common              	10401   	<title>   	1970-01-01 07:01:41:227002	<description>	{args: "Admin (DELL)", "RobotStudio@DESKTOP-G8ELRFG"}
+193       	I		Common              	10401   	<title>   	1970-01-01 07:01:41:212000	<description>	{args: "Admin", "RobAPI2-Client"}
+192       	W		Common              	90526   	<title>   	1970-01-01 07:01:34:071001	<description>	
+191       	I		Common              	10010   	<title>   	1970-01-01 07:01:33:220038	<description>	
+190       	E		Common              	90867   	<title>   	1970-01-01 07:01:33:220010	<description>	
+189       	I		Common              	10012   	<title>   	1970-01-01 07:01:30:079046	<description>	
+188       	I		Common              	10011   	<title>   	1970-01-01 07:01:30:079026	<description>	
+187       	I		Common              	10400   	<title>   	1970-01-01 07:01:29:217002	<description>	{args: "Admin", "RobAPI2-Client"}
+186       	I		Common              	10400   	<title>   	1970-01-01 07:01:29:170002	<description>	{args: "Admin (DELL)", "RobotStudio@DESKTOP-G8ELRFG"}
+185       	I		Common              	10150   	<title>   	1970-01-01 07:01:27:180224	<description>	{args: "1", "SC_CBC"}
+184       	I		Common              	10150   	<title>   	1970-01-01 07:01:27:180211	<description>	{args: "3", "T_GOFA_LED"}
+183       	I		Common              	10129   	<title>   	1970-01-01 07:01:27:180200	<description>	{args: "3", "T_GOFA_LED", "9"}
+182       	I		Common              	10129   	<title>   	1970-01-01 07:01:27:180173	<description>	{args: "2", "T_ROB1", "9"}
+181       	I		Common              	10150   	<title>   	1970-01-01 07:01:27:180146	<description>	{args: "3", "T_GOFA_LED"}
+180       	I		Common              	10155   	<title>   	1970-01-01 07:01:27:180138	<description>	{args: "2", "T_ROB1"}
+179       	I		Common              	10002   	<title>   	1970-01-01 07:01:27:180125	<description>	{args: "3", "0", "T_GOFA_LED"}
+178       	I		Common              	10002   	<title>   	1970-01-01 07:01:27:180092	<description>	{args: "1", "0", "SC_CBC"}
+177       	W		Common              	40210   	<title>   	1970-01-01 07:01:27:180071	<description>	{args: "T_GOFA_LED"}
+176       	I		Common              	10017   	<title>   	1970-01-01 07:01:27:180037	<description>	
+175       	I		Common              	10010   	<title>   	1970-01-01 07:01:27:180010	<description>	
+174       	W		Common              	90526   	<title>   	1970-01-01 07:01:26:747001	<description>	
+173       	I		Common              	10045   	<title>   	1970-01-01 07:00:00:042013	<description>	
+172       	I		Common              	10056   	<title>   	1970-01-01 07:02:08:996002	<description>	
+171       	I		Common              	10401   	<title>   	1970-01-01 07:02:08:488013	<description>	{args: "Admin (DELL)", "RobotStudio@DESKTOP-G8ELRFG"}
+170       	I		Common              	10401   	<title>   	1970-01-01 07:02:08:488000	<description>	{args: "Admin", "RobAPI2-Client"}
+169       	W		Common              	90526   	<title>   	1970-01-01 07:01:33:669001	<description>	
+168       	I		Common              	10010   	<title>   	1970-01-01 07:01:32:829023	<description>	
+167       	E		Common              	90867   	<title>   	1970-01-01 07:01:32:801011	<description>	
+166       	I		Common              	10012   	<title>   	1970-01-01 07:01:29:677079	<description>	
+165       	I		Common              	10010   	<title>   	1970-01-01 07:01:29:677057	<description>	
+164       	I		Common              	10011   	<title>   	1970-01-01 07:01:29:677026	<description>	
+163       	I		Common              	10400   	<title>   	1970-01-01 07:01:28:799002	<description>	{args: "Admin", "RobAPI2-Client"}
+162       	I		Common              	10400   	<title>   	1970-01-01 07:01:28:754002	<description>	{args: "Admin (DELL)", "RobotStudio@DESKTOP-G8ELRFG"}
+161       	I		Common              	10150   	<title>   	1970-01-01 07:01:26:778224	<description>	{args: "1", "SC_CBC"}
+160       	I		Common              	10150   	<title>   	1970-01-01 07:01:26:778211	<description>	{args: "3", "T_GOFA_LED"}
+159       	I		Common              	10129   	<title>   	1970-01-01 07:01:26:778200	<description>	{args: "3", "T_GOFA_LED", "9"}
+158       	I		Common              	10129   	<title>   	1970-01-01 07:01:26:778173	<description>	{args: "2", "T_ROB1", "9"}
+157       	I		Common              	10150   	<title>   	1970-01-01 07:01:26:778146	<description>	{args: "3", "T_GOFA_LED"}
+156       	I		Common              	10155   	<title>   	1970-01-01 07:01:26:778138	<description>	{args: "2", "T_ROB1"}
+155       	I		Common              	10002   	<title>   	1970-01-01 07:01:26:778125	<description>	{args: "3", "0", "T_GOFA_LED"}
+154       	I		Common              	10002   	<title>   	1970-01-01 07:01:26:778116	<description>	{args: "1", "0", "SC_CBC"}
+153       	W		Common              	40210   	<title>   	1970-01-01 07:01:26:778107	<description>	{args: "T_GOFA_LED"}
+152       	I		Common              	10017   	<title>   	1970-01-01 07:01:26:778037	<description>	
+151       	I		Common              	10010   	<title>   	1970-01-01 07:01:26:778010	<description>	
+150       	W		Common              	90526   	<title>   	1970-01-01 07:01:26:345001	<description>	
+149       	I		Common              	10045   	<title>   	1970-01-01 07:00:00:024013	<description>	
+148       	I		Common              	10056   	<title>   	1970-01-01 07:01:36:201002	<description>	
+147       	I		Common              	10401   	<title>   	1970-01-01 07:01:36:201004	<description>	{args: "Admin (DELL)", "RobotStudio@DESKTOP-G8ELRFG"}
+146       	W		Common              	90526   	<title>   	1970-01-01 07:01:33:366001	<description>	
+145       	E		Common              	90867   	<title>   	1970-01-01 07:01:32:546007	<description>	
+144       	I		Common              	10017   	<title>   	1970-01-01 07:01:30:681061	<description>	
+143       	I		Common              	10010   	<title>   	1970-01-01 07:01:30:681042	<description>	
+142       	I		Common              	10016   	<title>   	1970-01-01 07:01:30:578008	<description>	
+141       	I		Common              	10015   	<title>   	1970-01-01 07:01:30:542038	<description>	
+140       	I		Common              	10012   	<title>   	1970-01-01 07:01:29:374077	<description>	
+139       	I		Common              	10010   	<title>   	1970-01-01 07:01:29:374055	<description>	
+138       	I		Common              	10011   	<title>   	1970-01-01 07:01:29:374024	<description>	
+137       	I		Common              	10400   	<title>   	1970-01-01 07:01:28:545002	<description>	{args: "Admin", "RobAPI2-Client"}
+136       	I		Common              	10400   	<title>   	1970-01-01 07:01:28:501002	<description>	{args: "Admin (DELL)", "RobotStudio@DESKTOP-G8ELRFG"}
+135       	I		Common              	10150   	<title>   	1970-01-01 07:01:26:307224	<description>	{args: "1", "SC_CBC"}
+134       	I		Common              	10150   	<title>   	1970-01-01 07:01:26:307211	<description>	{args: "3", "T_GOFA_LED"}
+133       	I		Common              	10129   	<title>   	1970-01-01 07:01:26:307200	<description>	{args: "3", "T_GOFA_LED", "9"}
+132       	I		Common              	10129   	<title>   	1970-01-01 07:01:26:307173	<description>	{args: "2", "T_ROB1", "9"}
+131       	I		Common              	10150   	<title>   	1970-01-01 07:01:26:307146	<description>	{args: "3", "T_GOFA_LED"}
+130       	I		Common              	10155   	<title>   	1970-01-01 07:01:26:307138	<description>	{args: "2", "T_ROB1"}
+129       	I		Common              	10002   	<title>   	1970-01-01 07:01:26:307125	<description>	{args: "3", "0", "T_GOFA_LED"}
+128       	I		Common              	10002   	<title>   	1970-01-01 07:01:26:307116	<description>	{args: "1", "0", "SC_CBC"}
+127       	W		Common              	40210   	<title>   	1970-01-01 07:01:26:307107	<description>	{args: "T_GOFA_LED"}
+126       	I		Common              	10017   	<title>   	1970-01-01 07:01:26:307037	<description>	
+125       	I		Common              	10010   	<title>   	1970-01-01 07:01:26:307010	<description>	
+124       	W		Common              	90526   	<title>   	1970-01-01 07:01:25:874001	<description>	
+123       	I		Common              	10045   	<title>   	1970-01-01 07:00:00:033013	<description>	
+122       	I		Common              	10056   	<title>   	1970-01-01 07:09:34:651002	<description>	
+121       	I		Common              	10401   	<title>   	1970-01-01 07:09:34:176001	<description>	{args: "Admin (DELL)", "RobotStudio@DESKTOP-G8ELRFG"}
+120       	I		Common              	10401   	<title>   	1970-01-01 07:09:34:158002	<description>	{args: "Admin", "RobAPI2-Client"}
+119       	I		Common              	10010   	<title>   	1970-01-01 07:01:46:362023	<description>	
+118       	W		Common              	90526   	<title>   	1970-01-01 07:01:46:358001	<description>	
+117       	I		Common              	10012   	<title>   	1970-01-01 07:01:42:362014	<description>	
+116       	I		Common              	10011   	<title>   	1970-01-01 07:01:42:352028	<description>	
+115       	I		Common              	10400   	<title>   	1970-01-01 07:01:41:471002	<description>	{args: "Admin", "RobAPI2-Client"}
+114       	I		Common              	10400   	<title>   	1970-01-01 07:01:41:413001	<description>	{args: "Admin (DELL)", "RobotStudio@DESKTOP-G8ELRFG"}
+113       	I		Common              	10150   	<title>   	1970-01-01 07:01:38:235496	<description>	{args: "1", "SC_CBC"}
+112       	I		Common              	10150   	<title>   	1970-01-01 07:01:38:235483	<description>	{args: "3", "T_GOFA_LED"}
+111       	I		Common              	10129   	<title>   	1970-01-01 07:01:38:235472	<description>	{args: "3", "T_GOFA_LED", "9"}
+110       	I		Common              	10129   	<title>   	1970-01-01 07:01:38:235445	<description>	{args: "2", "T_ROB1", "9"}
+109       	I		Common              	10150   	<title>   	1970-01-01 07:01:38:235418	<description>	{args: "3", "T_GOFA_LED"}
+108       	I		Common              	10155   	<title>   	1970-01-01 07:01:38:235410	<description>	{args: "2", "T_ROB1"}
+107       	I		Common              	10002   	<title>   	1970-01-01 07:01:38:235397	<description>	{args: "3", "0", "T_GOFA_LED"}
+106       	I		Common              	10002   	<title>   	1970-01-01 07:01:38:235388	<description>	{args: "1", "0", "SC_CBC"}
+105       	W		Common              	40210   	<title>   	1970-01-01 07:01:38:235379	<description>	{args: "T_GOFA_LED"}
+104       	I		Common              	10017   	<title>   	1970-01-01 07:01:38:235037	<description>	
+103       	I		Common              	10010   	<title>   	1970-01-01 07:01:38:235010	<description>	
+102       	W		Common              	90526   	<title>   	1970-01-01 07:01:37:802001	<description>	
+101       	I		Common              	10045   	<title>   	1970-01-01 07:00:00:060013	<description>	
+100       	I		Common              	10056   	<title>   	1970-01-01 07:30:09:792003	<description>	
+99        	I		Common              	10401   	<title>   	1970-01-01 07:30:09:273013	<description>	{args: "Admin (DELL)", "RobotStudio@DESKTOP-G8ELRFG"}
+98        	I		Common              	10401   	<title>   	1970-01-01 07:30:09:273000	<description>	{args: "Admin", "RobAPI2-Client"}
+97        	I		Common              	10125   	<title>   	1970-01-01 07:03:45:139017	<description>	{args: "2", "T_ROB1", "17"}
+96        	I		Common              	10151   	<title>   	1970-01-01 07:03:01:839068	<description>	{args: "2", "T_ROB1"}
+95        	I		Common              	10053   	<title>   	1970-01-01 07:03:01:839060	<description>	{args: "0"}
+94        	I		Common              	10052   	<title>   	1970-01-01 07:03:01:839027	<description>	{args: "0"}
+93        	I		Common              	10149   	<title>   	1970-01-01 07:03:01:744003	<description>	{args: "T_ROB1", "main", "Admin"}
+92        	I		Common              	10002   	<title>   	1970-01-01 07:03:01:612017	<description>	{args: "2", "0", "T_ROB1"}
+91        	I		Common              	10125   	<title>   	1970-01-01 07:03:00:844041	<description>	{args: "2", "T_ROB1", "17"}
+90        	I		Common              	10151   	<title>   	1970-01-01 07:01:52:616026	<description>	{args: "2", "T_ROB1"}
+89        	I		Common              	10053   	<title>   	1970-01-01 07:01:52:616018	<description>	{args: "0"}
+88        	I		Common              	10052   	<title>   	1970-01-01 07:01:52:267017	<description>	{args: "0"}
+87        	I		Common              	10011   	<title>   	1970-01-01 07:01:52:084018	<description>	
+86        	I		Common              	10149   	<title>   	1970-01-01 07:01:51:752003	<description>	{args: "T_ROB1", "main", "Admin"}
+85        	W		Common              	90526   	<title>   	1970-01-01 07:01:30:564001	<description>	
+84        	I		Common              	10010   	<title>   	1970-01-01 07:01:29:719038	<description>	
+83        	E		Common              	90867   	<title>   	1970-01-01 07:01:29:719010	<description>	
+82        	I		Common              	10012   	<title>   	1970-01-01 07:01:26:572079	<description>	
+81        	I		Common              	10010   	<title>   	1970-01-01 07:01:26:572057	<description>	
+80        	I		Common              	10011   	<title>   	1970-01-01 07:01:26:572026	<description>	
+79        	I		Common              	10400   	<title>   	1970-01-01 07:01:25:699001	<description>	{args: "Admin", "RobAPI2-Client"}
+78        	I		Common              	10400   	<title>   	1970-01-01 07:01:25:643001	<description>	{args: "Admin (DELL)", "RobotStudio@DESKTOP-G8ELRFG"}
+77        	I		Common              	10129   	<title>   	1970-01-01 07:01:24:016009	<description>	{args: "2", "T_ROB1", "9"}
+76        	I		Common              	10150   	<title>   	1970-01-01 07:01:23:937225	<description>	{args: "1", "SC_CBC"}
+75        	I		Common              	10150   	<title>   	1970-01-01 07:01:23:937212	<description>	{args: "3", "T_GOFA_LED"}
+74        	I		Common              	10129   	<title>   	1970-01-01 07:01:23:937201	<description>	{args: "3", "T_GOFA_LED", "9"}
+73        	I		Common              	10002   	<title>   	1970-01-01 07:01:23:937162	<description>	{args: "2", "0", "T_ROB1"}
+72        	I		Common              	10150   	<title>   	1970-01-01 07:01:23:937146	<description>	{args: "3", "T_GOFA_LED"}
+71        	I		Common              	10150   	<title>   	1970-01-01 07:01:23:937138	<description>	{args: "2", "T_ROB1"}
+70        	I		Common              	10002   	<title>   	1970-01-01 07:01:23:937125	<description>	{args: "3", "0", "T_GOFA_LED"}
+69        	I		Common              	10002   	<title>   	1970-01-01 07:01:23:937116	<description>	{args: "1", "0", "SC_CBC"}
+68        	W		Common              	40210   	<title>   	1970-01-01 07:01:23:937107	<description>	{args: "T_GOFA_LED"}
+67        	I		Common              	10017   	<title>   	1970-01-01 07:01:23:937037	<description>	
+66        	I		Common              	10010   	<title>   	1970-01-01 07:01:23:937010	<description>	
+65        	W		Common              	90526   	<title>   	1970-01-01 07:01:23:504001	<description>	
+64        	I		Common              	10045   	<title>   	1970-01-01 07:00:00:024013	<description>	
+63        	I		Common              	10056   	<title>   	1970-01-01 07:01:44:527002	<description>	
+62        	I		Common              	10401   	<title>   	1970-01-01 07:01:44:030017	<description>	{args: "Admin (DELL)", "RobotStudio@DESKTOP-G8ELRFG"}
+61        	I		Common              	10401   	<title>   	1970-01-01 07:01:44:030004	<description>	{args: "Admin", "RobAPI2-Client"}
+60        	I		Common              	10010   	<title>   	1970-01-01 07:01:34:649023	<description>	
+59        	W		Common              	90526   	<title>   	1970-01-01 07:01:34:645001	<description>	
+58        	I		Common              	10012   	<title>   	1970-01-01 07:01:30:649012	<description>	
+57        	I		Common              	10011   	<title>   	1970-01-01 07:01:30:639025	<description>	
+56        	I		Common              	10017   	<title>   	1970-01-01 07:01:29:890066	<description>	
+55        	I		Common              	10010   	<title>   	1970-01-01 07:01:29:890047	<description>	
+54        	I		Common              	10016   	<title>   	1970-01-01 07:01:29:889013	<description>	
+53        	W		Common              	90526   	<title>   	1970-01-01 07:01:29:889001	<description>	
+52        	I		Common              	10400   	<title>   	1970-01-01 07:01:29:837004	<description>	{args: "Admin", "RobAPI2-Client"}
+51        	I		Common              	10400   	<title>   	1970-01-01 07:01:29:830001	<description>	{args: "Admin (DELL)", "RobotStudio@DESKTOP-G8ELRFG"}
+50        	I		Common              	10129   	<title>   	1970-01-01 07:01:28:089009	<description>	{args: "2", "T_ROB1", "9"}
+49        	I		Common              	10150   	<title>   	1970-01-01 07:01:28:010222	<description>	{args: "1", "SC_CBC"}
+48        	I		Common              	10150   	<title>   	1970-01-01 07:01:28:010209	<description>	{args: "3", "T_GOFA_LED"}
+47        	I		Common              	10129   	<title>   	1970-01-01 07:01:28:010198	<description>	{args: "3", "T_GOFA_LED", "9"}
+46        	I		Common              	10002   	<title>   	1970-01-01 07:01:28:010159	<description>	{args: "2", "0", "T_ROB1"}
+45        	I		Common              	10150   	<title>   	1970-01-01 07:01:28:010143	<description>	{args: "3", "T_GOFA_LED"}
+44        	I		Common              	10150   	<title>   	1970-01-01 07:01:28:010135	<description>	{args: "2", "T_ROB1"}
+43        	I		Common              	10002   	<title>   	1970-01-01 07:01:28:010122	<description>	{args: "3", "0", "T_GOFA_LED"}
+42        	I		Common              	10002   	<title>   	1970-01-01 07:01:28:010089	<description>	{args: "1", "0", "SC_CBC"}
+41        	W		Common              	40210   	<title>   	1970-01-01 07:01:28:010068	<description>	{args: "T_GOFA_LED"}
+40        	I		Common              	10015   	<title>   	1970-01-01 07:01:28:010036	<description>	
+39        	I		Common              	10012   	<title>   	1970-01-01 07:01:28:010009	<description>	
+38        	I		Common              	10045   	<title>   	1970-01-01 07:00:00:033013	<description>	
+37        	I		Common              	10056   	<title>   	1970-01-01 07:01:32:486002	<description>	
+36        	I		Common              	10129   	<title>   	1970-01-01 07:01:23:900009	<description>	{args: "2", "T_ROB1", "9"}
+35        	I		Common              	10150   	<title>   	1970-01-01 07:01:23:821187	<description>	{args: "3", "T_GOFA_LED"}
+34        	I		Common              	10129   	<title>   	1970-01-01 07:01:23:821176	<description>	{args: "3", "T_GOFA_LED", "9"}
+33        	I		Common              	10002   	<title>   	1970-01-01 07:01:23:821137	<description>	{args: "2", "0", "T_ROB1"}
+32        	I		Common              	10150   	<title>   	1970-01-01 07:01:23:821121	<description>	{args: "3", "T_GOFA_LED"}
+31        	I		Common              	10150   	<title>   	1970-01-01 07:01:23:821113	<description>	{args: "2", "T_ROB1"}
+30        	I		Common              	10015   	<title>   	1970-01-01 07:01:23:821036	<description>	
+29        	I		Common              	10012   	<title>   	1970-01-01 07:01:23:821009	<description>	
+28        	I		Common              	10253   	<title>   	1970-01-01 07:01:19:364120	<description>	{args: "3", ""}
+27        	I		Common              	10040   	<title>   	1970-01-01 07:01:19:364089	<description>	{args: "T_ROB1", "", "91808952", "2856"}
+26        	I		Common              	10002   	<title>   	1970-01-01 07:01:19:364018	<description>	{args: "3", "0", "T_GOFA_LED"}
+25        	I		Common              	10002   	<title>   	1970-01-01 07:01:19:364010	<description>	{args: "2", "0", "T_ROB1"}
+24        	I		Common              	10002   	<title>   	1970-01-01 07:01:19:364002	<description>	{args: "1", "0", "SC_CBC"}
+23        	I		Common              	10045   	<title>   	1970-01-01 07:00:00:033013	<description>	
+22        	I		Common              	10056   	<title>   	1970-01-01 07:01:44:262002	<description>	
+21        	I		Common              	10255   	<title>   	1970-01-01 07:01:43:261060	<description>	{args: "5", "Default User"}
+20        	I		Common              	10254   	<title>   	1970-01-01 07:01:43:261049	<description>	{args: "4", "Default User"}
+19        	I		Common              	10252   	<title>   	1970-01-01 07:01:43:261041	<description>	{args: "2", "Default User"}
+18        	I		Common              	10251   	<title>   	1970-01-01 07:01:43:261025	<description>	{args: "1", "Default User"}
+17        	I		Common              	10250   	<title>   	1970-01-01 07:01:43:261011	<description>	{args: "0", "Default User"}
+16        	I		Common              	10129   	<title>   	1970-01-01 07:01:31:842009	<description>	{args: "2", "T_ROB1", "9"}
+15        	I		Common              	10150   	<title>   	1970-01-01 07:01:31:763187	<description>	{args: "3", "T_GOFA_LED"}
+14        	I		Common              	10129   	<title>   	1970-01-01 07:01:31:763176	<description>	{args: "3", "T_GOFA_LED", "9"}
+13        	I		Common              	10002   	<title>   	1970-01-01 07:01:31:763137	<description>	{args: "2", "0", "T_ROB1"}
+12        	I		Common              	10150   	<title>   	1970-01-01 07:01:31:763121	<description>	{args: "3", "T_GOFA_LED"}
+11        	I		Common              	10150   	<title>   	1970-01-01 07:01:31:763113	<description>	{args: "2", "T_ROB1"}
+10        	I		Common              	10015   	<title>   	1970-01-01 07:01:31:763036	<description>	
+9         	I		Common              	10012   	<title>   	1970-01-01 07:01:31:763009	<description>	
+8         	I		Common              	10040   	<title>   	1970-01-01 07:01:27:306089	<description>	{args: "T_ROB1", "", "91809480", "2856"}
+7         	I		Common              	10002   	<title>   	1970-01-01 07:01:27:306018	<description>	{args: "3", "0", "T_GOFA_LED"}
+6         	I		Common              	10002   	<title>   	1970-01-01 07:01:27:306010	<description>	{args: "2", "0", "T_ROB1"}
+5         	I		Common              	10002   	<title>   	1970-01-01 07:01:27:306002	<description>	{args: "1", "0", "SC_CBC"}
+4         	I		Common              	90665   	<title>   	1970-01-01 07:00:09:303000	<description>	
+3         	I		Common              	10045   	<title>   	1970-01-01 07:00:00:033013	<description>	
+2         	I		Common              	10056   	<title>   	1970-01-01 07:00:07:226021	<description>	
+1         	I		Common              	10046   	<title>   	1970-01-01 07:00:00:060010	<description>	
+
+Operational log messages
+SeqNo     	Type	Category            	Code    	Title     	Date                		Description		Arguments	
+272       	I		Operational         	10015   	<title>   	1970-01-01 07:00:29:669039	<description>	
+269       	I		Operational         	10014   	<title>   	1970-01-01 07:00:29:669010	<description>	
+263       	I		Operational         	10045   	<title>   	1970-01-01 07:00:00:033013	<description>	
+262       	I		Operational         	10056   	<title>   	1970-01-01 07:12:47:971003	<description>	
+261       	I		Operational         	10401   	<title>   	1970-01-01 07:12:47:950001	<description>	{args: "Admin (DELL)", "RobotStudio@DESKTOP-G8ELRFG"}
+260       	I		Operational         	10401   	<title>   	1970-01-01 07:12:47:934001	<description>	{args: "Admin", "RobAPI2-Client"}
+259       	I		Operational         	10149   	<title>   	1970-01-01 07:10:57:114003	<description>	{args: "T_ROB1", "PickPhin", "Default User"}
+258       	I		Operational         	10002   	<title>   	1970-01-01 07:10:48:399001	<description>	{args: "2", "0", "T_ROB1"}
+257       	I		Operational         	10149   	<title>   	1970-01-01 07:10:45:090003	<description>	{args: "T_ROB1", "PickPhin", "Default User"}
+256       	I		Operational         	10002   	<title>   	1970-01-01 07:10:44:946013	<description>	{args: "2", "0", "T_ROB1"}
+255       	I		Operational         	10010   	<title>   	1970-01-01 07:09:46:514023	<description>	
+253       	I		Operational         	10012   	<title>   	1970-01-01 07:09:42:518019	<description>	
+252       	I		Operational         	10400   	<title>   	1970-01-01 07:09:41:946004	<description>	{args: "Admin", "RobAPI2-Client"}
+251       	I		Operational         	10400   	<title>   	1970-01-01 07:09:41:931002	<description>	{args: "Admin (DELL)", "RobotStudio@DESKTOP-G8ELRFG"}
+250       	I		Operational         	10401   	<title>   	1970-01-01 07:09:34:215000	<description>	{args: "Admin", "RobAPI2-Client"}
+249       	I		Operational         	10401   	<title>   	1970-01-01 07:09:30:664000	<description>	{args: "Admin (DELL)", "RobotStudio@DESKTOP-G8ELRFG"}
+248       	I		Operational         	10125   	<title>   	1970-01-01 07:02:13:289017	<description>	{args: "2", "T_ROB1", "17"}
+247       	I		Operational         	10151   	<title>   	1970-01-01 07:02:01:838026	<description>	{args: "2", "T_ROB1"}
+246       	I		Operational         	10053   	<title>   	1970-01-01 07:02:01:838018	<description>	{args: "0"}
+245       	I		Operational         	10052   	<title>   	1970-01-01 07:02:01:481023	<description>	{args: "0"}
+244       	I		Operational         	10149   	<title>   	1970-01-01 07:02:01:262003	<description>	{args: "T_ROB1", "main", "Admin"}
+243       	I		Operational         	10002   	<title>   	1970-01-01 07:02:01:116015	<description>	{args: "2", "0", "T_ROB1"}
+242       	I		Operational         	10011   	<title>   	1970-01-01 07:01:55:742018	<description>	
+241       	I		Operational         	10010   	<title>   	1970-01-01 07:01:40:202023	<description>	
+239       	I		Operational         	10012   	<title>   	1970-01-01 07:01:36:202012	<description>	
+238       	I		Operational         	10011   	<title>   	1970-01-01 07:01:36:192025	<description>	
+237       	I		Operational         	10400   	<title>   	1970-01-01 07:01:35:367002	<description>	{args: "Admin", "RobAPI2-Client"}
+236       	I		Operational         	10400   	<title>   	1970-01-01 07:01:35:319005	<description>	{args: "Admin (DELL)", "RobotStudio@DESKTOP-G8ELRFG"}
+235       	I		Operational         	10150   	<title>   	1970-01-01 07:01:33:395224	<description>	{args: "1", "SC_CBC"}
+234       	I		Operational         	10150   	<title>   	1970-01-01 07:01:33:395211	<description>	{args: "3", "T_GOFA_LED"}
+233       	I		Operational         	10129   	<title>   	1970-01-01 07:01:33:395200	<description>	{args: "3", "T_GOFA_LED", "9"}
+232       	I		Operational         	10129   	<title>   	1970-01-01 07:01:33:395173	<description>	{args: "2", "T_ROB1", "9"}
+231       	I		Operational         	10150   	<title>   	1970-01-01 07:01:33:395146	<description>	{args: "3", "T_GOFA_LED"}
+230       	I		Operational         	10155   	<title>   	1970-01-01 07:01:33:395138	<description>	{args: "2", "T_ROB1"}
+229       	I		Operational         	10002   	<title>   	1970-01-01 07:01:33:395125	<description>	{args: "3", "0", "T_GOFA_LED"}
+228       	I		Operational         	10002   	<title>   	1970-01-01 07:01:33:395116	<description>	{args: "1", "0", "SC_CBC"}
+226       	I		Operational         	10017   	<title>   	1970-01-01 07:01:33:395037	<description>	
+225       	I		Operational         	10010   	<title>   	1970-01-01 07:01:33:395010	<description>	
+223       	I		Operational         	10045   	<title>   	1970-01-01 07:00:00:060013	<description>	
+222       	I		Operational         	10056   	<title>   	1970-01-01 07:04:32:577002	<description>	
+221       	I		Operational         	10401   	<title>   	1970-01-01 07:04:32:070002	<description>	{args: "Admin (DELL)", "RobotStudio@DESKTOP-G8ELRFG"}
+220       	I		Operational         	10401   	<title>   	1970-01-01 07:04:32:046000	<description>	{args: "Admin", "RobAPI2-Client"}
+219       	I		Operational         	10010   	<title>   	1970-01-01 07:02:43:412023	<description>	
+217       	I		Operational         	10012   	<title>   	1970-01-01 07:02:39:412023	<description>	
+215       	I		Operational         	10010   	<title>   	1970-01-01 07:01:45:268040	<description>	
+213       	I		Operational         	10012   	<title>   	1970-01-01 07:01:41:768083	<description>	
+212       	I		Operational         	10010   	<title>   	1970-01-01 07:01:41:768061	<description>	
+211       	I		Operational         	10011   	<title>   	1970-01-01 07:01:41:768030	<description>	
+210       	I		Operational         	10400   	<title>   	1970-01-01 07:01:40:864002	<description>	{args: "Admin", "RobAPI2-Client"}
+209       	I		Operational         	10400   	<title>   	1970-01-01 07:01:40:789002	<description>	{args: "Admin (DELL)", "RobotStudio@DESKTOP-G8ELRFG"}
+
+System log messages
+SeqNo     	Type	Category            	Code    	Title     	Date                		Description		Arguments	
+271       	E		System              	20012   	<title>   	1970-01-01 07:00:29:669031	<description>	{args: "120"}
+
+Hardware log messages
+SeqNo     	Type	Category            	Code    	Title     	Date                		Description		Arguments	
+264       	E		Hardware            	34312   	<title>   	1970-01-01 07:00:17:163025	<description>	{args: "rob1_1", "1", "1"}
+
+Program log messages
+SeqNo     	Type	Category            	Code    	Title     	Date                		Description		Arguments	
+273       	W		Program             	40210   	<title>   	1970-01-01 07:00:29:669045	<description>	{args: "T_GOFA_LED"}
+227       	W		Program             	40210   	<title>   	1970-01-01 07:01:33:395107	<description>	{args: "T_GOFA_LED"}
+200       	W		Program             	40210   	<title>   	1970-01-01 07:01:37:501107	<description>	{args: "T_GOFA_LED"}
+177       	W		Program             	40210   	<title>   	1970-01-01 07:01:27:180071	<description>	{args: "T_GOFA_LED"}
+153       	W		Program             	40210   	<title>   	1970-01-01 07:01:26:778107	<description>	{args: "T_GOFA_LED"}
+127       	W		Program             	40210   	<title>   	1970-01-01 07:01:26:307107	<description>	{args: "T_GOFA_LED"}
+105       	W		Program             	40210   	<title>   	1970-01-01 07:01:38:235379	<description>	{args: "T_GOFA_LED"}
+68        	W		Program             	40210   	<title>   	1970-01-01 07:01:23:937107	<description>	{args: "T_GOFA_LED"}
+41        	W		Program             	40210   	<title>   	1970-01-01 07:01:28:010068	<description>	{args: "T_GOFA_LED"}
+
+Motion log messages
+SeqNo     	Type	Category            	Code    	Title     	Date                		Description		Arguments	
+
+Communication log messages
+SeqNo     	Type	Category            	Code    	Title     	Date                		Description		Arguments	
+275       	E		Communication       	71391   	<title>   	1970-01-01 07:00:29:669057	<description>	{args: "MechUnitNotMoving"}
+
+UserDef log messages
+SeqNo     	Type	Category            	Code    	Title     	Date                		Description		Arguments	
+
+Safety log messages
+SeqNo     	Type	Category            	Code    	Title     	Date                		Description		Arguments	
+254       	W		Safety              	90526   	<title>   	1970-01-01 07:09:46:510001	<description>	
+240       	W		Safety              	90526   	<title>   	1970-01-01 07:01:40:198001	<description>	
+224       	W		Safety              	90526   	<title>   	1970-01-01 07:01:32:962001	<description>	
+218       	W		Safety              	90526   	<title>   	1970-01-01 07:02:43:408001	<description>	
+216       	W		Safety              	90526   	<title>   	1970-01-01 07:01:45:760001	<description>	
+214       	E		Safety              	90867   	<title>   	1970-01-01 07:01:45:268012	<description>	
+197       	W		Safety              	90526   	<title>   	1970-01-01 07:01:37:068001	<description>	
+192       	W		Safety              	90526   	<title>   	1970-01-01 07:01:34:071001	<description>	
+190       	E		Safety              	90867   	<title>   	1970-01-01 07:01:33:220010	<description>	
+174       	W		Safety              	90526   	<title>   	1970-01-01 07:01:26:747001	<description>	
+169       	W		Safety              	90526   	<title>   	1970-01-01 07:01:33:669001	<description>	
+167       	E		Safety              	90867   	<title>   	1970-01-01 07:01:32:801011	<description>	
+150       	W		Safety              	90526   	<title>   	1970-01-01 07:01:26:345001	<description>	
+146       	W		Safety              	90526   	<title>   	1970-01-01 07:01:33:366001	<description>	
+145       	E		Safety              	90867   	<title>   	1970-01-01 07:01:32:546007	<description>	
+124       	W		Safety              	90526   	<title>   	1970-01-01 07:01:25:874001	<description>	
+118       	W		Safety              	90526   	<title>   	1970-01-01 07:01:46:358001	<description>	
+102       	W		Safety              	90526   	<title>   	1970-01-01 07:01:37:802001	<description>	
+85        	W		Safety              	90526   	<title>   	1970-01-01 07:01:30:564001	<description>	
+83        	E		Safety              	90867   	<title>   	1970-01-01 07:01:29:719010	<description>	
+65        	W		Safety              	90526   	<title>   	1970-01-01 07:01:23:504001	<description>	
+59        	W		Safety              	90526   	<title>   	1970-01-01 07:01:34:645001	<description>	
+53        	W		Safety              	90526   	<title>   	1970-01-01 07:01:29:889001	<description>	
+4         	I		Safety              	90665   	<title>   	1970-01-01 07:00:09:303000	<description>	
+
+Internal log messages
+SeqNo     	Type	Category            	Code    	Title     	Date                		Description		Arguments	
+276       	E		Internal            	100000  	<title>   	2025-07-03 14:03:47:000000	<description>	{args: "MC0: sysout.cc 1234 loop_all_instances_and_install_hooks SYS -10"}
+274       	E		Internal            	100000  	<title>   	2025-07-03 14:03:47:000000	<description>	{args: "MC0: subscr.cc 183 subscr_add: Object pointer is NULL"}
+270       	E		Internal            	100000  	<title>   	2025-07-03 14:03:47:000000	<description>	{args: "MC0: cab_startup.cpp 904 Unknown operating mode from Safety events 0 "}
+268       	E		Internal            	100000  	<title>   	2025-07-03 14:03:47:000000	<description>	{args: "MC0: cab_startup.cpp 589 Startup of rapid or safety did not startup in time status = -42"}
+267       	E		Internal            	100000  	<title>   	2025-07-03 14:03:47:000000	<description>	{args: "MC0: puscfg.cc 2318 moc_startup is NOT done"}
+266       	E		Internal            	100000  	<title>   	2025-07-03 14:03:47:000000	<description>	{args: "MC0: rapid_startup.cc 489 puscfg_connect_to_motion -1"}
+265       	E		Internal            	100000  	<title>   	2025-07-03 14:03:47:000000	<description>	{args: "MC0: puscfg.cc 2318 moc_startup is NOT done"}
+
+Process log messages
+SeqNo     	Type	Category            	Code    	Title     	Date                		Description		Arguments	
+
+Configuration log messages
+SeqNo     	Type	Category            	Code    	Title     	Date                		Description		Arguments	
+
+RAPID log messages
+SeqNo     	Type	Category            	Code    	Title     	Date                		Description		Arguments	
+
+RemoteService log messages
+SeqNo     	Type	Category            	Code    	Title     	Date                		Description		Arguments	

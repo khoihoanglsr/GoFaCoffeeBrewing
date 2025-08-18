@@ -1,0 +1,79 @@
+ ====== TRACE log from CPU1 [2025-07-03 14:03:48] [315 us] =======
+
+ [129] Diff:         0 str: iµÅ”Feedback: MC_READY_DEVICE                               
+ [130] Diff:         0 str: iµÈ3Feedback: COUPLE_RESULT                                 
+ [131] Diff:         0 str: iµÈ3Feedback: SNC RUNNING                                   
+ [133] Diff:         0 str: iÁ‘4Feedback: MC_READY_DEVICE                               
+ [134] Diff:         0 str: iÁ—Feedback: COUPLE_RESULT                                 
+ [146] Diff:         0 str: †Î[Feedback: SNC INIT                                      
+ [149] Diff:         0 str: †Ð@Dump Thread started                                     
+ [ 0] Diff: 165880091 str:  scShutdownDone 12380                                          
+ [ 1] Diff:      1071 str: SC state from 4 to 5                                      
+ [ 2] Diff:   8253869 str: --- scLog started ---                                       
+ [ 3] Diff:        17 str: SC state to 1                                              
+ [ 4] Diff:       157 str: Feedback: SNC INIT                                          
+ [ 5] Diff:       403 str:  Startup ready                                              
+ [ 6] Diff:         0 str: SC state from 1 to 2                                      
+ [ 7] Diff:    109969 str: Dump Thread started                                         
+ [ 8] Diff:    789789 str: FSoE app init: 0, 0                                       
+ [ 9] Diff:        34 str: FSoE app init: 1, 0                                       
+ [10] Diff:        26 str: FSoE app init: 2, 0                                       
+ [11] Diff:        27 str: FSoE app init: 3, 0                                       
+ [12] Diff:        25 str: FSoE app init: 4, 0                                       
+ [13] Diff:        25 str: FSoE app init: 5, 0                                       
+ [14] Diff:      2785 str: SC state from 2 to 3                                      
+ [15] Diff:       386 str: SC state from 3 to 4                                      
+ [16] Diff:       753 str: Feedback: MC_READY_DEVICE                                   
+ [17] Diff:       602 str: Feedback: COUPLE_RESULT                                     
+ [18] Diff:         0 str: Feedback: SNC RUNNING                                       
+ [19] Diff:         0 str: Feedback: DEVICE_RUNNING                                    
+ [20] Diff:    580755 str: Feedback: MC_READY_DEVICE                                   
+ [21] Diff:      1010 str: Feedback: COUPLE_RESULT                                     
+ [22] Diff:         0 str: Feedback: DEVICE_RUNNING                                    
+ [23] Diff:    870395 str: FSoE enable PS: OK                                          
+ [24] Diff:   7067184 str: FSoE enable PS: OK                                          
+ [25] Diff:   7781226 str: End of valid references                                     
+ [26] Diff:        11 str:  Enter early shutdown 5455                                    
+ [27] Diff:      1092 str: Writing persistent safety data                              
+ [28] Diff:     29010 str:  Shutdown in progress 5462                                    
+ [29] Diff:       241 str:  scShutdownDone 5463                                          
+ [30] Diff:       937 str: SC state from 4 to 5                                      
+ [31] Diff:1996765744 str: --- scLog started ---                                       
+ [32] Diff:        28 str: SC state to 1                                              
+ [33] Diff:       230 str: Feedback: SNC INIT                                          
+ [34] Diff:       304 str:  Startup ready                                              
+ [35] Diff:         0 str: SC state from 1 to 2                                      
+ [36] Diff:    241141 str: Dump Thread started                                         
+ [37] Diff:    972801 str: FSoE app init: 0, 0                                       
+ [38] Diff:        32 str: FSoE app init: 1, 0                                       
+ [39] Diff:        28 str: FSoE app init: 2, 0                                       
+ [40] Diff:        26 str: FSoE app init: 3, 0                                       
+ [41] Diff:        26 str: FSoE app init: 4, 0                                       
+ [42] Diff:        26 str: FSoE app init: 5, 0                                       
+ [43] Diff:      2875 str: SC state from 2 to 3                                      
+ [44] Diff:      1078 str: •SC state from 3 to 4                                     
+ [101] Diff:4294772456 str: ù¹àDump Thread started                                     
+ [102] Diff:         0 str: ùâDump Thread started                                     
+ [103] Diff:         0 str: ùèDump Thread started                                     
+ [104] Diff:         0 str: ù<UDump Thread started                                     
+ [105] Diff:         0 str: ù`MDump Thread started                                     
+ [106] Diff:         0 str: ù†mDump Thread started                                     
+ [107] Diff:         0 str: ù§^Dump Thread started                                     
+ [108] Diff:         0 str: ù+_pDump Thread started                                     
+ [109] Diff:         0 str: ù+ˆDump Thread started                                     
+ [110] Diff:         0 str: ù+¨-Dump Thread started                                     
+ [111] Diff:         0 str: ù+ÕDump Thread started                                     
+ [112] Diff:         0 str: ù+õ‡Dump Thread started                                     
+ [113] Diff:         0 str: ù,{¢Dump Thread started                                     
+ [114] Diff:         0 str: ù,´¤Dump Thread started                                     
+ [115] Diff:         0 str: ù,¼òDump Thread started                                     
+ [116] Diff:         0 str: ù,ÄfDump Thread started                                     
+ [117] Diff:         0 str: ù,ÊÖDump Thread started                                     
+ [118] Diff:         0 str: ù,ÐdDump Thread started                                     
+ [119] Diff:         0 str: ù,Ö4Dump Thread started                                     
+ [120] Diff:         0 str: ù,Û”Dump Thread started                                     
+ [121] Diff:         0 str: ù,âjDump Thread started                                     
+ [122] Diff:         0 str: ù,çqDump Thread started                                     
+ [123] Diff:         0 str: ù,ìÃDump Thread started                                     
+ [124] Diff:         0 str: ù,ñ›Dump Thread started                                     
+ [125] Diff:         0 str: ù,üÛDump Thread started                                     

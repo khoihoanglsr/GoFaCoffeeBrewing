@@ -1,0 +1,5 @@
+ ====== SIOS log from CPU1 [2025-07-03 14:03:48] [0 us] =======
+
+ [ 0] Diff:2261875469 str: 
+Scoord cmd 107 status 0                                    
+ [35] Diff:4294966531 str:                                                             

@@ -1,0 +1,5 @@
+            <!-- CIP Safety Configuration -->
+            <Net name="CIPSafety" visible="true" readonly="false" description="CIP Safety Network">
+              <Device name="EN_Internal_Device" inSizeBits="64" outSizeBits="64" visible="true" readonly="false" description="Internal CIP Safety Adapter" connectionType="target">
+              </Device>
+            </Net>

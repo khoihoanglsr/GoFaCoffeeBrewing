@@ -1,0 +1,3 @@
+      <Net name="FSoESlave" visible="true" readonly="false" protected="false">
+        <Device name="EC_Internal_Device" inSizeBits="64" outSizeBits="64" slaveAddress="1" applicationParameterSize="4" visible="true" readonly="false" protected="false" />
+      </Net>

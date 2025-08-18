@@ -1,0 +1,1909 @@
+image_system_pool_memory_restore: can't open 'E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/image.bin' for reading. [errno: 12]
+image_controller_pool_memory_restore: Can't open 'E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/ctrl.bin' for reading. [errno: 12]
+Global pool was initialized.
+System pool was initialized.
+Startmode is COLD.
+Cleaned the TEMP directory.
+Load key
+No ExternalUAS configuration found
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/install.cmd
+07:00:00:054016 Status 0 from startup_log
+Begin system installation
+07:00:00:054019 Status 0 from echo
+07:00:00:054021 Status 0 from basedefs
+07:00:00:054023 Status 0 from invoke2 s17_initialize
+Goto to label: NO_AXC
+07:00:00:054026 Status 0 from if_feature_present abb.robotics.robotcontrol.controllerhw.axiscomputer.none
+E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/TEMP has been mounted.
+07:00:00:054029 Status 0 from baseinit
+07:00:00:054031 Status 0 from uprobe_init
+07:00:00:054033 Status 0 from debug_service_base_init
+07:00:00:054035 Status 0 from invoke S33_01_create
+07:00:00:054037 Status 0 from S33_01_init
+Goto to label: NO_AXC
+07:00:00:054040 Status 0 from if_feature_present abb.robotics.robotcontrol.controllerhw.axiscomputer.none
+07:00:00:054042 Status 0 from invoke S98_01_create
+07:00:00:054044 Status 0 from S98_01_setup
+07:00:00:054046 Status 0 from S98_01_init
+07:00:00:054048 Status 0 from sysdmp_init
+Goto to label: VC_SKIP_SYSDMPTASK
+07:00:00:054051 Status 0 from ifvc VC_SKIP_SYSDMPTASK
+07:00:00:054053 Status 0 from debug_service_init
+07:00:00:054055 Status 0 from sysdmp_add
+07:00:00:054057 Status 0 from setstr BootBase
+07:00:00:054059 Status 0 from selectmedia $ANSWER
+07:00:00:054061 Status 0 from task 
+07:00:00:060000 Status 0 from synchronize task
+07:00:00:060002 Status 0 from go task
+07:00:00:060004 Status 0 from task 
+07:00:00:060006 Status 0 from task 
+07:00:00:060008 Status 0 from task 
+[94m
+25-05-10 14:31:02 MC0: type = STATE_CHANGE id = Operational code = 46 (10046)
+[37m
+07:00:00:060015 Status 0 from basenew
+Base services started
+07:00:00:060018 Status 0 from echo
+07:00:00:060020 Status 0 from S98_01_new
+07:00:00:060022 Status 0 from setenv
+07:00:00:060024 Status 0 from setenv
+Goto to label: VC_PYTHON
+07:00:00:060027 Status 0 from ifvc VC_PYTHON
+07:00:00:060029 Status 0 from setenv
+07:00:00:060031 Status 0 from setenv
+07:00:00:060033 Status 0 from init eio
+07:00:00:060036 Status 0 from init motion
+07:00:00:060040 Status 0 from init rol
+07:00:00:060042 Status 0 from init cab
+07:00:00:060044 Status 0 from init bar
+07:00:00:060046 Status 0 from init pgmrun
+07:00:00:060048 Status 0 from init rapid
+07:00:00:060050 Status 0 from init puscfg
+07:00:00:060052 Status 0 from setEioValidationLevel
+07:00:00:060054 Status 0 from task 
+07:00:00:060056 Status 0 from task 
+07:00:00:060058 Status 0 from setvar
+Installing configuration system
+07:00:00:060061 Status 0 from echo
+07:00:00:060063 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/sys.cfg
+07:00:00:060065 Status 0 from invoke2 cfg_create_type_xml
+07:00:00:060067 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/eio_internal.cfg
+07:00:00:060069 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/sys_eiosig.cfg
+Goto to label: NO_PIB_SAF
+07:00:00:060072 Status 0 from getkey pib
+07:00:00:060074 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/pgmbtn.cfg
+07:00:00:060076 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlmset.cfg
+07:00:00:060078 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlmove.cfg
+07:00:00:060080 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlmsys.cfg
+07:00:00:060082 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlexe.cfg
+07:00:00:060084 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlcom.cfg
+07:00:00:060086 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlsocket.cfg
+07:00:00:060088 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlio.cfg
+07:00:00:060090 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rltrap.cfg
+07:00:00:060092 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlmmec.cfg
+07:00:00:060094 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlsys.cfg
+07:00:00:060096 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlload.cfg
+07:00:00:060098 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlmsrc.cfg
+07:00:00:060100 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rltrig.cfg
+07:00:00:060102 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlpid.cfg
+07:00:00:060104 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlsmod.cfg
+07:00:00:060106 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlfsta.cfg
+07:00:00:060108 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlraps.cfg
+07:00:00:060110 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlmath.cfg
+07:00:00:060112 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlmexe.cfg
+07:00:00:060114 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlsset.cfg
+07:00:00:060116 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlstr.cfg
+07:00:00:060118 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlcure.cfg
+07:00:00:060120 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlwz.cfg
+07:00:00:060122 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rltool.cfg
+07:00:00:060124 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlsym.cfg
+07:00:00:060126 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlbit.cfg
+07:00:00:060128 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlcal.cfg
+07:00:00:060130 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlcyclic.cfg
+07:00:00:060132 Status 0 from setvar
+Goto to label: NO_PAINT_CNV
+07:00:00:060135 Status 0 from getkey paintMedia
+07:00:00:060137 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlcnv.cfg
+Goto to label: NEXT_STEP
+07:00:00:060140 Status 0 from goto NEXT_STEP
+07:00:00:060142 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlind.cfg
+07:00:00:060144 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlcorr.cfg
+07:00:00:060146 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlopr.cfg
+07:00:00:060148 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rldata.cfg
+07:00:00:060150 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlmq.cfg
+07:00:00:060152 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rltrigios.cfg
+07:00:00:060154 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/mockit1.cfg
+07:00:00:060156 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/calwrist.cfg
+07:00:00:060158 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/usrmmc.cfg
+07:00:00:060160 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/usrmmc_mc.cfg
+07:00:00:060162 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/bat_shutdownmmc.cfg
+07:00:00:060164 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/rlbasic.cfg
+07:00:00:060166 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/calwrist_sys.cfg
+07:00:00:060168 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/bat_shutdownsys.cfg
+07:00:00:060170 Status 0 from is_option_present SAFEMOVEPRO
+Goto to label: SAFEMOVE
+07:00:00:060173 Status 0 from goto SAFEMOVE
+07:00:00:060175 Status 0 from if_feature_present abb.robotics.robots.robots.irb14050.0_5-0_5
+07:00:00:060177 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/CBC_SYS.cfg
+07:00:00:060179 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/CBC_SYS_mmc.cfg
+Goto to label: NEXT_STEP
+07:00:00:060182 Status 0 from goto NEXT_STEP
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/fctrqsens/install.cmd
+07:00:00:060185 Status 0 from is_option_present FCTRQSENS
+07:00:00:060187 Status 0 from fileexist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/HOME/TorqueSensorCal
+07:00:00:060189 Status 0 from mkdir E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/HOME/TorqueSensorCal
+07:00:00:060191 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/fctrqsens/SYS_TRQ_CALIB.cfg
+07:00:00:060193 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/fctrqsens/SYS_TRQ_CALIB_MMC.cfg
+07:00:00:060195 Status 0 from copy C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/fctrqsens/TorqueSensorCalib.jpg
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/fctrqsens/install.cmd
+07:00:00:060198 Status 0 from include C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/fctrqsens/TorqueSensorCalib.jpg
+07:00:00:060200 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/linked_m_sup_base.cfg
+07:00:00:070000 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/usrsys.cfg
+07:00:00:070002 Status 0 from invoke2 cfg_create_type_xml
+07:00:00:070004 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/sio_net_nondeletable.cfg
+07:00:00:070006 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/sio_net_internal.cfg
+07:00:00:070008 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/sio_net.cfg
+07:00:00:070010 Status 0 from invoke2 cfg_create_type_xml
+07:00:00:070012 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/sys_fan_control.cfg
+Goto to label: NO_SEIN
+07:00:00:070015 Status 0 from is_option_present SEIN
+07:00:00:076000 Status 0 from synchronize task
+07:00:00:076002 Status 0 from go task
+Installing system files
+07:00:00:076005 Status 0 from echo
+07:00:00:076007 Status 0 from direxist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/OPTIONS/SC
+07:00:00:076009 Status 0 from mkdir E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/OPTIONS/SC
+07:00:00:076011 Status 0 from fileexist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/opt_l0.cmd
+Goto to label: NEXT_STEP
+07:00:00:076014 Status 0 from goto NEXT_STEP
+07:00:00:076016 Status 0 from fileexist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/option.cmd
+Goto to label: NEXT_STEP
+07:00:00:076019 Status 0 from goto NEXT_STEP
+07:00:00:076021 Status 0 from fileexist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/opt_l1.cmd
+Goto to label: NEXT_STEP
+07:00:00:076024 Status 0 from goto NEXT_STEP
+07:00:00:076026 Status 0 from fileexist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/opt_l2.cmd
+Goto to label: NEXT_STEP
+07:00:00:076029 Status 0 from goto NEXT_STEP
+07:00:00:076031 Status 0 from fileexist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/opt_l3.cmd
+Goto to label: NEXT_STEP
+07:00:00:076034 Status 0 from goto NEXT_STEP
+07:00:00:076036 Status 0 from fileexist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/upgrade_opt.cmd
+Goto to label: NEXT_STEP
+07:00:00:076039 Status 0 from goto NEXT_STEP
+07:00:00:076041 Status 0 from register 
+07:00:00:076043 Status 0 from register 
+07:00:00:076045 Status 0 from register 
+07:00:00:076047 Status 0 from register 
+07:00:00:076049 Status 0 from register 
+07:00:00:076051 Status 0 from register 
+07:00:00:076053 Status 0 from register 
+07:00:00:076055 Status 0 from register 
+07:00:00:076057 Status 0 from register 
+07:00:00:076059 Status 0 from register 
+07:00:00:076061 Status 0 from register 
+07:00:00:076063 Status 0 from fileexist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/HOME/rapid_edit_rules.xml
+Goto to label: NEXT_STEP
+07:00:00:076066 Status 0 from goto NEXT_STEP
+07:00:00:076068 Status 0 from setstr Rules
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/rules/install.cmd
+07:00:00:076071 Status 0 from register 
+07:00:00:076073 Status 0 from setstr $BOOTPATH/cfg/
+07:00:00:076075 Status 0 from register 
+07:00:00:076077 Status 0 from register 
+07:00:00:076079 Status 0 from register 
+07:00:00:076081 Status 0 from register 
+07:00:00:076083 Status 0 from register 
+07:00:00:076085 Status 0 from register 
+07:00:00:076087 Status 0 from register 
+07:00:00:076089 Status 0 from register 
+07:00:00:076091 Status 0 from register 
+07:00:00:076093 Status 0 from register 
+Goto to label: NO_RC
+07:00:00:076096 Status 0 from ifvc NO_RC
+Goto to label: ST
+07:00:00:076099 Status 0 from getkey MT
+07:00:00:076101 Status 0 from register 
+Goto to label: END_UDPUC
+07:00:00:076104 Status 0 from is_option_present UDPUC
+Goto to label: END_IV
+07:00:00:076107 Status 0 from is_option_present IV
+Goto to label: NO_SEIN
+07:00:00:076110 Status 0 from is_option_present SEIN
+07:00:00:076112 Status 0 from register 
+07:00:00:076114 Status 0 from register 
+07:00:00:076116 Status 0 from register 
+07:00:00:076118 Status 0 from setstr $BOOTPATH/elog/
+07:00:00:076120 Status 0 from register 
+07:00:00:076122 Status 0 from register 
+07:00:00:076124 Status 0 from register 
+07:00:00:076126 Status 0 from register 
+07:00:00:076128 Status 0 from register 
+07:00:00:076130 Status 0 from register 
+07:00:00:076132 Status 0 from register 
+07:00:00:076134 Status 0 from register 
+07:00:00:076136 Status 0 from register 
+07:00:00:076138 Status 0 from register 
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/rules/install.cmd
+Goto to label: NEXT_STEP
+07:00:00:076142 Status 0 from selectmedia 
+07:00:00:076144 Status 0 from setstr LanguageInstall
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/install.cmd
+07:00:00:076147 Status 0 from setvar
+07:00:00:076149 Status 0 from getkey LanguageCode
+Goto to label: SET_LANGUAGE
+07:00:00:076152 Status 0 from goto SET_LANGUAGE
+07:00:00:076154 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/en.cfg
+07:00:00:076156 Status 0 from setenv
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instlang.cmd
+07:00:00:076159 Status 0 from setstr en
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:076162 Status 0 from setstr $BOOTPATH/../$LANG/controller
+Goto to label: INSTALL_FILE
+07:00:00:076165 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../en/controller/rapid/roloptext.xml
+07:00:00:076167 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../en/controller/rapid/roloptext.xml
+Goto to label: INSTALL_FILE
+07:00:00:076170 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../en/controller/rapid/calwrist.xml
+07:00:00:076172 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../en/controller/rapid/calwrist.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:076175 Status 0 from include INSTALL_FILE
+07:00:00:076177 Status 0 from setstr cs
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:086001 Status 0 from setstr $BOOTPATH/../$LANG/controller
+Goto to label: INSTALL_FILE
+07:00:00:086004 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../cs/controller/rapid/roloptext.xml
+07:00:00:086006 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../cs/controller/rapid/roloptext.xml
+Goto to label: INSTALL_FILE
+07:00:00:086009 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../cs/controller/rapid/calwrist.xml
+07:00:00:086011 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../cs/controller/rapid/calwrist.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:086014 Status 0 from include INSTALL_FILE
+07:00:00:086016 Status 0 from setstr da
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:086019 Status 0 from setstr $BOOTPATH/../$LANG/controller
+Goto to label: INSTALL_FILE
+07:00:00:086022 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../da/controller/rapid/roloptext.xml
+07:00:00:086024 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../da/controller/rapid/roloptext.xml
+Goto to label: INSTALL_FILE
+07:00:00:086027 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../da/controller/rapid/calwrist.xml
+07:00:00:086029 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../da/controller/rapid/calwrist.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:086032 Status 0 from include INSTALL_FILE
+07:00:00:086034 Status 0 from setstr de
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:086037 Status 0 from setstr $BOOTPATH/../$LANG/controller
+Goto to label: INSTALL_FILE
+07:00:00:086040 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../de/controller/rapid/roloptext.xml
+07:00:00:086042 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../de/controller/rapid/roloptext.xml
+Goto to label: INSTALL_FILE
+07:00:00:086045 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../de/controller/rapid/calwrist.xml
+07:00:00:086047 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../de/controller/rapid/calwrist.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:086050 Status 0 from include INSTALL_FILE
+07:00:00:086052 Status 0 from setstr es
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:086055 Status 0 from setstr $BOOTPATH/../$LANG/controller
+Goto to label: INSTALL_FILE
+07:00:00:086058 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../es/controller/rapid/roloptext.xml
+07:00:00:086060 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../es/controller/rapid/roloptext.xml
+Goto to label: INSTALL_FILE
+07:00:00:086063 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../es/controller/rapid/calwrist.xml
+07:00:00:086065 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../es/controller/rapid/calwrist.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:086068 Status 0 from include INSTALL_FILE
+07:00:00:086070 Status 0 from setstr fi
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:086073 Status 0 from setstr $BOOTPATH/../$LANG/controller
+Goto to label: INSTALL_FILE
+07:00:00:086076 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../fi/controller/rapid/roloptext.xml
+07:00:00:086078 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../fi/controller/rapid/roloptext.xml
+Goto to label: INSTALL_FILE
+07:00:00:086081 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../fi/controller/rapid/calwrist.xml
+07:00:00:086083 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../fi/controller/rapid/calwrist.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:086086 Status 0 from include INSTALL_FILE
+07:00:00:086088 Status 0 from setstr fr
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:086091 Status 0 from setstr $BOOTPATH/../$LANG/controller
+Goto to label: INSTALL_FILE
+07:00:00:086094 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../fr/controller/rapid/roloptext.xml
+07:00:00:086096 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../fr/controller/rapid/roloptext.xml
+Goto to label: INSTALL_FILE
+07:00:00:086099 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../fr/controller/rapid/calwrist.xml
+07:00:00:086101 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../fr/controller/rapid/calwrist.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:086104 Status 0 from include INSTALL_FILE
+07:00:00:086106 Status 0 from setstr hu
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:086109 Status 0 from setstr $BOOTPATH/../$LANG/controller
+Goto to label: INSTALL_FILE
+07:00:00:086112 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../hu/controller/rapid/roloptext.xml
+07:00:00:086114 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../hu/controller/rapid/roloptext.xml
+Goto to label: INSTALL_FILE
+07:00:00:086117 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../hu/controller/rapid/calwrist.xml
+07:00:00:086119 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../hu/controller/rapid/calwrist.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:086122 Status 0 from include INSTALL_FILE
+07:00:00:086124 Status 0 from setstr it
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:086127 Status 0 from setstr $BOOTPATH/../$LANG/controller
+Goto to label: INSTALL_FILE
+07:00:00:086130 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../it/controller/rapid/roloptext.xml
+07:00:00:086132 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../it/controller/rapid/roloptext.xml
+Goto to label: INSTALL_FILE
+07:00:00:086135 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../it/controller/rapid/calwrist.xml
+07:00:00:086137 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../it/controller/rapid/calwrist.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:086140 Status 0 from include INSTALL_FILE
+07:00:00:086142 Status 0 from setstr ja
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:086145 Status 0 from setstr $BOOTPATH/../$LANG/controller
+Goto to label: INSTALL_FILE
+07:00:00:086148 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../ja/controller/rapid/roloptext.xml
+07:00:00:086150 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../ja/controller/rapid/roloptext.xml
+Goto to label: INSTALL_FILE
+07:00:00:086153 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../ja/controller/rapid/calwrist.xml
+07:00:00:086155 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../ja/controller/rapid/calwrist.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:086158 Status 0 from include INSTALL_FILE
+07:00:00:086160 Status 0 from setstr ko
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:096000 Status 0 from setstr $BOOTPATH/../$LANG/controller
+Goto to label: INSTALL_FILE
+07:00:00:096003 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../ko/controller/rapid/roloptext.xml
+07:00:00:096005 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../ko/controller/rapid/roloptext.xml
+Goto to label: INSTALL_FILE
+07:00:00:096008 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../ko/controller/rapid/calwrist.xml
+07:00:00:096010 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../ko/controller/rapid/calwrist.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:096013 Status 0 from include INSTALL_FILE
+07:00:00:096015 Status 0 from setstr nl
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:096018 Status 0 from setstr $BOOTPATH/../$LANG/controller
+Goto to label: INSTALL_FILE
+07:00:00:096021 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../nl/controller/rapid/roloptext.xml
+07:00:00:096023 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../nl/controller/rapid/roloptext.xml
+Goto to label: INSTALL_FILE
+07:00:00:096026 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../nl/controller/rapid/calwrist.xml
+07:00:00:096028 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../nl/controller/rapid/calwrist.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:096031 Status 0 from include INSTALL_FILE
+07:00:00:096033 Status 0 from setstr pl
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:096036 Status 0 from setstr $BOOTPATH/../$LANG/controller
+Goto to label: INSTALL_FILE
+07:00:00:096039 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../pl/controller/rapid/roloptext.xml
+07:00:00:096041 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../pl/controller/rapid/roloptext.xml
+Goto to label: INSTALL_FILE
+07:00:00:096044 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../pl/controller/rapid/calwrist.xml
+07:00:00:096046 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../pl/controller/rapid/calwrist.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:096049 Status 0 from include INSTALL_FILE
+07:00:00:096051 Status 0 from setstr pt
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:096054 Status 0 from setstr $BOOTPATH/../$LANG/controller
+Goto to label: INSTALL_FILE
+07:00:00:096057 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../pt/controller/rapid/roloptext.xml
+07:00:00:096059 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../pt/controller/rapid/roloptext.xml
+Goto to label: INSTALL_FILE
+07:00:00:096062 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../pt/controller/rapid/calwrist.xml
+07:00:00:096064 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../pt/controller/rapid/calwrist.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:096067 Status 0 from include INSTALL_FILE
+07:00:00:096069 Status 0 from setstr ro
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:096072 Status 0 from setstr $BOOTPATH/../$LANG/controller
+Goto to label: INSTALL_FILE
+07:00:00:096075 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../ro/controller/rapid/roloptext.xml
+07:00:00:096077 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../ro/controller/rapid/roloptext.xml
+Goto to label: INSTALL_FILE
+07:00:00:096080 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../ro/controller/rapid/calwrist.xml
+07:00:00:096082 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../ro/controller/rapid/calwrist.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:096085 Status 0 from include INSTALL_FILE
+07:00:00:096087 Status 0 from setstr ru
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:096090 Status 0 from setstr $BOOTPATH/../$LANG/controller
+Goto to label: INSTALL_FILE
+07:00:00:096093 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../ru/controller/rapid/roloptext.xml
+07:00:00:096095 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../ru/controller/rapid/roloptext.xml
+Goto to label: INSTALL_FILE
+07:00:00:096098 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../ru/controller/rapid/calwrist.xml
+07:00:00:096100 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../ru/controller/rapid/calwrist.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:096103 Status 0 from include INSTALL_FILE
+07:00:00:096105 Status 0 from setstr sl
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:096108 Status 0 from setstr $BOOTPATH/../$LANG/controller
+Goto to label: INSTALL_FILE
+07:00:00:096111 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../sl/controller/rapid/roloptext.xml
+07:00:00:096113 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../sl/controller/rapid/roloptext.xml
+Goto to label: INSTALL_FILE
+07:00:00:096116 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../sl/controller/rapid/calwrist.xml
+07:00:00:096118 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../sl/controller/rapid/calwrist.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:096121 Status 0 from include INSTALL_FILE
+07:00:00:096123 Status 0 from setstr sv
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:096126 Status 0 from setstr $BOOTPATH/../$LANG/controller
+Goto to label: INSTALL_FILE
+07:00:00:096129 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../sv/controller/rapid/roloptext.xml
+07:00:00:096131 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../sv/controller/rapid/roloptext.xml
+Goto to label: INSTALL_FILE
+07:00:00:096134 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../sv/controller/rapid/calwrist.xml
+07:00:00:096136 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../sv/controller/rapid/calwrist.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:096139 Status 0 from include INSTALL_FILE
+07:00:00:096141 Status 0 from setstr tr
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:096144 Status 0 from setstr $BOOTPATH/../$LANG/controller
+Goto to label: INSTALL_FILE
+07:00:00:096147 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../tr/controller/rapid/roloptext.xml
+07:00:00:096149 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../tr/controller/rapid/roloptext.xml
+Goto to label: INSTALL_FILE
+07:00:00:096152 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../tr/controller/rapid/calwrist.xml
+07:00:00:096154 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../tr/controller/rapid/calwrist.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:096157 Status 0 from include INSTALL_FILE
+07:00:00:096159 Status 0 from setstr vi
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:096162 Status 0 from setstr $BOOTPATH/../$LANG/controller
+Goto to label: INSTALL_FILE
+07:00:00:106001 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../vi/controller/rapid/roloptext.xml
+07:00:00:106003 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../vi/controller/rapid/roloptext.xml
+Goto to label: INSTALL_FILE
+07:00:00:106006 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../vi/controller/rapid/calwrist.xml
+07:00:00:106008 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../vi/controller/rapid/calwrist.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:106011 Status 0 from include INSTALL_FILE
+07:00:00:106013 Status 0 from setstr zh
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:106016 Status 0 from setstr $BOOTPATH/../$LANG/controller
+Goto to label: INSTALL_FILE
+07:00:00:106019 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../zh/controller/rapid/roloptext.xml
+07:00:00:106021 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../zh/controller/rapid/roloptext.xml
+Goto to label: INSTALL_FILE
+07:00:00:106024 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../zh/controller/rapid/calwrist.xml
+07:00:00:106026 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/../zh/controller/rapid/calwrist.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/language/install.cmd
+07:00:00:106029 Status 0 from include INSTALL_FILE
+07:00:00:106031 Status 0 from setstr $LANGUAGE
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instlang.cmd
+07:00:00:106034 Status 0 from include $LANG
+07:00:00:106036 Status 0 from register 
+07:00:00:106038 Status 0 from register 
+07:00:00:106040 Status 0 from register 
+07:00:00:106042 Status 0 from register 
+07:00:00:106044 Status 0 from register 
+07:00:00:106046 Status 0 from register 
+07:00:00:106048 Status 0 from register 
+07:00:00:106050 Status 0 from register 
+07:00:00:106052 Status 0 from register 
+07:00:00:106054 Status 0 from register 
+07:00:00:106056 Status 0 from register 
+07:00:00:106058 Status 0 from register 
+07:00:00:106060 Status 0 from register 
+07:00:00:106062 Status 0 from register 
+07:00:00:106064 Status 0 from register 
+07:00:00:106066 Status 0 from register 
+07:00:00:106068 Status 0 from register 
+07:00:00:106070 Status 0 from register 
+07:00:00:106072 Status 0 from register 
+07:00:00:106074 Status 0 from register 
+07:00:00:106076 Status 0 from register 
+07:00:00:106078 Status 0 from register 
+07:00:00:106080 Status 0 from register 
+07:00:00:106082 Status 0 from register 
+07:00:00:106084 Status 0 from register 
+07:00:00:106086 Status 0 from register 
+07:00:00:106088 Status 0 from register 
+Goto to label: ST
+07:00:00:106091 Status 0 from getkey MT
+07:00:00:106093 Status 0 from register 
+Goto to label: END_UDPUC
+07:00:00:106096 Status 0 from is_option_present UDPUC
+Goto to label: END_IV
+07:00:00:106099 Status 0 from is_option_present IV
+Goto to label: END_SEIN
+07:00:00:106102 Status 0 from is_option_present SEIN
+07:00:00:106104 Status 0 from register 
+Goto to label: NO_ERROR
+07:00:00:106107 Status 0 from goto NO_ERROR
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/language/install/install.cmd
+Goto to label: NEXT_STEP
+07:00:00:106111 Status 0 from selectmedia 
+07:00:00:106113 Status 0 from setstr $BOOTPATH
+07:00:00:106115 Status 0 from setstr $RELEASE/options/enms
+Goto to label: LOAD_CMD
+07:00:00:106118 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/en_base_install.cmd
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/en_base_install.cmd
+Goto to label: INSTALL_FILE
+07:00:00:106122 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/en_base_cfgtypes.xml
+07:00:00:106124 Status 0 from invoke2 cfg_create_type_xml
+07:00:00:106126 Status 0 from direxist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/OPTIONS/ENIP
+Goto to label: CREATE_OPTIONS_ENIP_DIRECTORY
+07:00:00:106129 Status 0 from goto CREATE_OPTIONS_ENIP_DIRECTORY
+07:00:00:106131 Status 0 from mkdir E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/OPTIONS/ENIP
+07:00:00:106133 Status 0 from setvar
+Goto to label: STANDARD_SCANNER
+07:00:00:106136 Status 0 from getkey CIPSCANNER
+07:00:00:106138 Status 0 from setvar
+Goto to label: NEXT_STEP
+07:00:00:106141 Status 0 from getkey ENIPSCANNER
+07:00:00:106143 Status 0 from setvar
+Goto to label: NEXT_STEP
+07:00:00:106146 Status 0 from getkey ENIPADAPTER
+Goto to label: ENMS_NOT_FOUND
+07:00:00:106149 Status 0 from getkey ENIPSCANNER
+07:00:00:106151 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/en_base.cfg
+07:00:00:106153 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/en_base_template.cfg
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instlang.cmd
+07:00:00:106156 Status 0 from setstr en
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+Goto to label: INSTALL_FILE
+07:00:00:106160 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/en/en_cfgtext.xml
+07:00:00:106162 Status 0 from register 
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:106165 Status 0 from include INSTALL_FILE
+07:00:00:106167 Status 0 from setstr cs
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:106170 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/cs/en_cfgtext.xml
+Goto to label: END
+07:00:00:116001 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:116004 Status 0 from include END
+07:00:00:116006 Status 0 from setstr da
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:116009 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/da/en_cfgtext.xml
+Goto to label: END
+07:00:00:116012 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:116015 Status 0 from include END
+07:00:00:116017 Status 0 from setstr de
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:116020 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/de/en_cfgtext.xml
+Goto to label: END
+07:00:00:116023 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:116026 Status 0 from include END
+07:00:00:116028 Status 0 from setstr es
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:116031 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/es/en_cfgtext.xml
+Goto to label: END
+07:00:00:116034 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:116037 Status 0 from include END
+07:00:00:116039 Status 0 from setstr fi
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:116042 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/fi/en_cfgtext.xml
+Goto to label: END
+07:00:00:116045 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:116048 Status 0 from include END
+07:00:00:116050 Status 0 from setstr fr
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:116053 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/fr/en_cfgtext.xml
+Goto to label: END
+07:00:00:116056 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:116059 Status 0 from include END
+07:00:00:116061 Status 0 from setstr hu
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:116064 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/hu/en_cfgtext.xml
+Goto to label: END
+07:00:00:116067 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:116070 Status 0 from include END
+07:00:00:116072 Status 0 from setstr it
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:116075 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/it/en_cfgtext.xml
+Goto to label: END
+07:00:00:116078 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:116081 Status 0 from include END
+07:00:00:116083 Status 0 from setstr ja
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:116086 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/ja/en_cfgtext.xml
+Goto to label: END
+07:00:00:116089 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:116092 Status 0 from include END
+07:00:00:116094 Status 0 from setstr ko
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:116097 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/ko/en_cfgtext.xml
+Goto to label: END
+07:00:00:116100 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:116103 Status 0 from include END
+07:00:00:116105 Status 0 from setstr nl
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:116108 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/nl/en_cfgtext.xml
+Goto to label: END
+07:00:00:116111 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:116114 Status 0 from include END
+07:00:00:116116 Status 0 from setstr pl
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:116119 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/pl/en_cfgtext.xml
+Goto to label: END
+07:00:00:116122 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:116125 Status 0 from include END
+07:00:00:116127 Status 0 from setstr pt
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:116130 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/pt/en_cfgtext.xml
+Goto to label: END
+07:00:00:116133 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:116136 Status 0 from include END
+07:00:00:116138 Status 0 from setstr ro
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:116141 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/ro/en_cfgtext.xml
+Goto to label: END
+07:00:00:116144 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:116147 Status 0 from include END
+07:00:00:116149 Status 0 from setstr ru
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:116152 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/ru/en_cfgtext.xml
+Goto to label: END
+07:00:00:116155 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:126001 Status 0 from include END
+07:00:00:126003 Status 0 from setstr sl
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:126006 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/sl/en_cfgtext.xml
+Goto to label: END
+07:00:00:126009 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:126012 Status 0 from include END
+07:00:00:126014 Status 0 from setstr sv
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:126017 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/sv/en_cfgtext.xml
+Goto to label: END
+07:00:00:126020 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:126023 Status 0 from include END
+07:00:00:126025 Status 0 from setstr tr
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:126028 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/tr/en_cfgtext.xml
+Goto to label: END
+07:00:00:126031 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:126034 Status 0 from include END
+07:00:00:126036 Status 0 from setstr vi
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:126039 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/vi/en_cfgtext.xml
+Goto to label: END
+07:00:00:126042 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:126045 Status 0 from include END
+07:00:00:126047 Status 0 from setstr zh
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:126050 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/zh/en_cfgtext.xml
+Goto to label: END
+07:00:00:126053 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/language/install.cmd
+07:00:00:126056 Status 0 from include END
+07:00:00:126058 Status 0 from setstr $LANGUAGE
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instlang.cmd
+07:00:00:126061 Status 0 from include $LANG
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/en_base_install.cmd
+07:00:00:126064 Status 0 from include $LANG
+07:00:00:126066 Status 0 from setstr $BOOTPATH_SAVED
+07:00:00:126068 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/SEC_SYSTEM_BASE.cfg.enc
+07:00:00:126070 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/INT_SYSTEM_BASE.cfg
+07:00:00:126072 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/EXT_SYSTEM_BASE.cfg
+Installing integrated IO driver
+07:00:00:126075 Status 0 from echo
+07:00:00:126077 Status 0 from setstr $BOOTPATH
+07:00:00:126079 Status 0 from setstr $RELEASE/options/integratedIO
+Goto to label: LOAD_CMD
+07:00:00:126082 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/integratedIO/install.cmd
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/integratedIO/install.cmd
+07:00:00:126085 Status 0 from if_feature_present abb.robotics.robotcontrol.controllerhw.io.integrated
+Controller variant does not support integratedIO, skipping
+07:00:00:126088 Status 0 from echo
+Goto to label: END
+07:00:00:126091 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/integratedIO/install.cmd
+07:00:00:126094 Status 0 from include END
+07:00:00:126096 Status 0 from setstr $BOOTPATH_SAVED
+Installing VIRTUAL driver
+07:00:00:126099 Status 0 from echo
+07:00:00:126101 Status 0 from setstr $BOOTPATH
+07:00:00:126103 Status 0 from setstr $RELEASE/options/vnet
+Goto to label: LOAD_CMD
+07:00:00:126106 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/install.cmd
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/install.cmd
+Installing virtual INC Driver
+07:00:00:126110 Status 0 from echo
+Goto to label: INSTALL_VIRTUAL_CFGTYPES
+07:00:00:126113 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/virtualInc_cfgtypes.xml
+07:00:00:126115 Status 0 from invoke2 cfg_create_type_xml
+Goto to label: CHECK_VIRTUAL_OPT_CFG
+07:00:00:126118 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/virtualInc_cfgrules.xml
+Goto to label: INSTALL_VIRTUAL_OPT_CFG
+07:00:00:126121 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/virtualInc_opt.cfg
+07:00:00:126123 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/virtualInc_opt.cfg
+Goto to label: INSTALL_VIRTUAL_OPT_CMD
+07:00:00:126126 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/virtualInc_opt.cmd
+07:00:00:126128 Status 0 from append C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/virtualInc_opt.cmd
+...done
+07:00:00:126131 Status 0 from echo
+Goto to label: INSTALL_VIRTUAL_INC_LANG
+07:00:00:126134 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instlang.cmd
+07:00:00:126136 Status 0 from verbose
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instlang.cmd
+07:00:00:126139 Status 0 from setstr en
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+Goto to label: INSTALL_VIRTUAL_INC_TEXT_FILE
+07:00:00:126143 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/en/virtualInc_cfgtext.xml
+07:00:00:126145 Status 0 from register 
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:126148 Status 0 from include INSTALL_VIRTUAL_INC_TEXT_FILE
+07:00:00:126150 Status 0 from setstr cs
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:126153 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/cs/virtualInc_cfgtext.xml
+Goto to label: END
+07:00:00:126156 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136000 Status 0 from include END
+07:00:00:136002 Status 0 from setstr da
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136005 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/da/virtualInc_cfgtext.xml
+Goto to label: END
+07:00:00:136008 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136011 Status 0 from include END
+07:00:00:136013 Status 0 from setstr de
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136016 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/de/virtualInc_cfgtext.xml
+Goto to label: END
+07:00:00:136019 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136022 Status 0 from include END
+07:00:00:136024 Status 0 from setstr es
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136027 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/es/virtualInc_cfgtext.xml
+Goto to label: END
+07:00:00:136030 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136033 Status 0 from include END
+07:00:00:136035 Status 0 from setstr fi
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136038 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/fi/virtualInc_cfgtext.xml
+Goto to label: END
+07:00:00:136041 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136044 Status 0 from include END
+07:00:00:136046 Status 0 from setstr fr
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136049 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/fr/virtualInc_cfgtext.xml
+Goto to label: END
+07:00:00:136052 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136055 Status 0 from include END
+07:00:00:136057 Status 0 from setstr hu
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136060 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/hu/virtualInc_cfgtext.xml
+Goto to label: END
+07:00:00:136063 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136066 Status 0 from include END
+07:00:00:136068 Status 0 from setstr it
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136071 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/it/virtualInc_cfgtext.xml
+Goto to label: END
+07:00:00:136074 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136077 Status 0 from include END
+07:00:00:136079 Status 0 from setstr ja
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136082 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/ja/virtualInc_cfgtext.xml
+Goto to label: END
+07:00:00:136085 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136088 Status 0 from include END
+07:00:00:136090 Status 0 from setstr ko
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136093 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/ko/virtualInc_cfgtext.xml
+Goto to label: END
+07:00:00:136096 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136099 Status 0 from include END
+07:00:00:136101 Status 0 from setstr nl
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136104 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/nl/virtualInc_cfgtext.xml
+Goto to label: END
+07:00:00:136107 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136110 Status 0 from include END
+07:00:00:136112 Status 0 from setstr pl
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136115 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/pl/virtualInc_cfgtext.xml
+Goto to label: END
+07:00:00:136118 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136121 Status 0 from include END
+07:00:00:136123 Status 0 from setstr pt
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136126 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/pt/virtualInc_cfgtext.xml
+Goto to label: END
+07:00:00:136129 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136132 Status 0 from include END
+07:00:00:136134 Status 0 from setstr ro
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136137 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/ro/virtualInc_cfgtext.xml
+Goto to label: END
+07:00:00:136140 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136143 Status 0 from include END
+07:00:00:136145 Status 0 from setstr ru
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136148 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/ru/virtualInc_cfgtext.xml
+Goto to label: END
+07:00:00:136151 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:136154 Status 0 from include END
+07:00:00:136156 Status 0 from setstr sl
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:146001 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/sl/virtualInc_cfgtext.xml
+Goto to label: END
+07:00:00:146004 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:146007 Status 0 from include END
+07:00:00:146009 Status 0 from setstr sv
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:146012 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/sv/virtualInc_cfgtext.xml
+Goto to label: END
+07:00:00:146015 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:146018 Status 0 from include END
+07:00:00:146020 Status 0 from setstr tr
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:146023 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/tr/virtualInc_cfgtext.xml
+Goto to label: END
+07:00:00:146026 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:146029 Status 0 from include END
+07:00:00:146031 Status 0 from setstr vi
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:146034 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/vi/virtualInc_cfgtext.xml
+Goto to label: END
+07:00:00:146037 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:146040 Status 0 from include END
+07:00:00:146042 Status 0 from setstr zh
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:146045 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/zh/virtualInc_cfgtext.xml
+Goto to label: END
+07:00:00:146048 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/language/install.cmd
+07:00:00:146051 Status 0 from include END
+07:00:00:146053 Status 0 from setstr $LANGUAGE
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instlang.cmd
+07:00:00:146056 Status 0 from include $LANG
+07:00:00:146058 Status 0 from include END
+07:00:00:146060 Status 0 from setstr $BOOTPATH_SAVED
+Goto to label: LOAD_CMD
+07:00:00:146063 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instdrv.cmd
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instdrv.cmd
+07:00:00:146066 Status 0 from fileexist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/DATA/EXT_DRV.cfg
+Goto to label: DRV_INSTALL
+07:00:00:146069 Status 0 from goto DRV_INSTALL
+07:00:00:146071 Status 0 from getkey Drive1
+07:00:00:146073 Status 0 from setvar
+07:00:00:146075 Status 0 from setstr $ANSWERSelect
+07:00:00:146077 Status 0 from getkey Drive1Select
+07:00:00:146079 Status 0 from mediaexist DC48
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/drives/drv1_lib/install.cmd
+07:00:00:146082 Status 0 from setvar
+07:00:00:146084 Status 0 from getkey Drive1Module
+Goto to label: DM48
+07:00:00:146087 Status 0 from goto DM48
+Installing config for drive module
+07:00:00:146090 Status 0 from echo
+07:00:00:146092 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/drives/drv1_lib/drvcfg/SEC_DRIVE_MODULE1_ADU_48.cfg.enc
+07:00:00:146094 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/drives/drv1_lib/drvcfg/EXT_DRIVE_MODULE1_ADU_48.cfg
+Goto to label: DRIVE_UNIT
+07:00:00:146097 Status 0 from goto DRIVE_UNIT
+07:00:00:146099 Status 0 from setvar
+07:00:00:146101 Status 0 from getkey Drive1Unit
+Goto to label: DU48
+07:00:00:146104 Status 0 from goto DU48
+Installing config for drive unit
+07:00:00:146107 Status 0 from echo
+07:00:00:146109 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/drives/drv1_lib/drvcfg/INT_DRIVE_ADU48_48_M1_DM1.cfg
+07:00:00:146111 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/drives/drv1_lib/drvcfg/INT_DRIVE_ADU48_48_M2_DM1.cfg
+07:00:00:146113 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/drives/drv1_lib/drvcfg/INT_DRIVE_ADU48_48_M3_DM1.cfg
+07:00:00:146115 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/drives/drv1_lib/drvcfg/INT_DRIVE_ADU48_48_M4_DM1.cfg
+07:00:00:146117 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/drives/drv1_lib/drvcfg/INT_DRIVE_ADU48_48_M5_DM1.cfg
+07:00:00:146119 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/drives/drv1_lib/drvcfg/INT_DRIVE_ADU48_48_M6_DM1.cfg
+Goto to label: DC_LINK
+07:00:00:146122 Status 0 from goto DC_LINK
+07:00:00:146124 Status 0 from setvar
+07:00:00:146126 Status 0 from getkey Drive1Select
+Goto to label: DC48
+07:00:00:146129 Status 0 from goto DC48
+Installing config for DC link 48
+07:00:00:146132 Status 0 from echo
+07:00:00:146134 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/drives/drv1_lib/drvcfg/INT_RECTIFIER_MRU48_DM1.cfg
+07:00:00:146136 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/drives/drv1_lib/drvcfg/SEC_RECTIFIER_MRU48_DM1.cfg.enc
+07:00:00:146138 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/drives/drv1_lib/drvcfg/INT_TRAFO9_DM1.cfg
+Goto to label: EXTAXPOS1_LABEL
+07:00:00:146141 Status 0 from goto EXTAXPOS1_LABEL
+07:00:00:146143 Status 0 from setvar
+Goto to label: EXTAXPOS1NN
+07:00:00:146146 Status 0 from getkey AddAx1Pos1Select
+No additional axis in position 1
+07:00:00:146149 Status 0 from echo
+Goto to label: END_LABEL
+07:00:00:146152 Status 0 from goto END_LABEL
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/drives/drv1_lib/install.cmd
+Goto to label: DRV2
+07:00:00:146156 Status 0 from selectmedia AddAx1Pos1Select
+Goto to label: TRY_NEXT
+07:00:00:146159 Status 0 from getkey Drive2
+Goto to label: TRY_NEXT
+07:00:00:146162 Status 0 from getkey Drive3
+Goto to label: TRY_NEXT
+07:00:00:156001 Status 0 from getkey Drive4
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instdrv.cmd
+07:00:00:156004 Status 0 from include END_LABEL
+Goto to label: LOAD_CMD
+07:00:00:156007 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instirb.cmd
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instirb.cmd
+07:00:00:156010 Status 0 from fileexist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/DATA/EXT_MOC.cfg
+Goto to label: IRB_INSTALL
+07:00:00:156013 Status 0 from goto IRB_INSTALL
+07:00:00:156015 Status 0 from setvar
+07:00:00:156017 Status 0 from getkey IrbOpt
+07:00:00:156019 Status 0 from setstr IrbOpt
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1/install.cmd
+07:00:00:156022 Status 0 from if INSTALL_OPTIONS
+07:00:00:156024 Status 0 from setstr NO_IRB
+07:00:00:156026 Status 0 from register $PRODUCTS/Robots_1.18.1
+07:00:00:156028 Status 0 from setenv
+07:00:00:156030 Status 0 from setstr $BOOTPATH
+07:00:00:156032 Status 0 from if END_LABEL
+07:00:00:156034 Status 0 from setvar
+Goto to label: INSTALL_IRB
+07:00:00:156037 Status 0 from getkey NO_IRB_1
+07:00:00:156039 Status 0 from getkey Irb1
+07:00:00:156041 Status 0 from setvar
+07:00:00:156043 Status 0 from setstr $ANSWERDesc
+07:00:00:156045 Status 0 from getkey Irb1Desc
+07:00:00:156047 Status 0 from mediaexist CRB 15000-5/0.95
+07:00:00:156049 Status 0 from setvar
+07:00:00:156051 Status 0 from getkey Irb1MediaSelect
+Goto to label: LOAD_IRB
+07:00:00:156054 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1/robots/crb1_15000/install.cmd
+07:00:00:156056 Status 0 from setstr IRB
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1/robots/crb1_15000/install.cmd
+
+07:00:00:156060 Status 0 from print
+CRB 15000 family
+07:00:00:156063 Status 0 from echo
+Goto to label: CLEANSC
+07:00:00:156066 Status 0 from direxist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/OPTIONS/SC
+07:00:00:156068 Status 0 from fileexist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/OPTIONS/SC/SC_ROB_1.xml
+Goto to label: NEXT_STEP
+07:00:00:156071 Status 0 from goto NEXT_STEP
+07:00:00:156073 Status 0 from setvar
+07:00:00:156075 Status 0 from getkey Irb1Desc
+Installing CRB 15000-5/0.95
+07:00:00:156078 Status 0 from echo
+07:00:00:156080 Status 0 from getkey Irb1Select
+Goto to label: CRB15000_0_95_5
+07:00:00:156083 Status 0 from goto CRB15000_0_95_5
+07:00:00:156085 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1/robots/crb1_15000/crbcfg/SEC_15000_0.95_5_1.cfg.enc
+07:00:00:156087 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1/robots/crb1_15000/crbcfg/INT_15000_0.95_5_1.cfg
+07:00:00:156089 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1/robots/crb1_15000/crbcfg/EXT_15000_0.95_5_1.cfg
+07:00:00:156091 Status 0 from copy C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1/robots/crb1_15000/crbcfg/SC_15000_0.95_5_1.xml
+Goto to label: TRY_NEXT
+07:00:00:156094 Status 0 from goto TRY_NEXT
+07:00:00:156096 Status 0 from getkey FCTRQSENS
+Force control configuration for ROB_1 is foc15000_1.cfg
+07:00:00:156099 Status 0 from echo
+07:00:00:156101 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1/robots/crb1_15000/crbcfg/foc15000_1.cfg
+Goto to label: TRY_NEXT
+07:00:00:156104 Status 0 from goto TRY_NEXT
+Goto to label: END_LABEL
+07:00:00:156107 Status 0 from goto END_LABEL
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1/robots/crb1_15000/install.cmd
+Goto to label: IRB2
+07:00:00:156111 Status 0 from selectmedia MOC
+Goto to label: INSTALL_IRB
+07:00:00:156114 Status 0 from getkey NO_IRB_2
+Goto to label: TRY_NEXT
+07:00:00:156117 Status 0 from getkey Irb2
+Goto to label: INSTALL_IRB
+07:00:00:156120 Status 0 from getkey NO_IRB_3
+Goto to label: TRY_NEXT
+07:00:00:156123 Status 0 from getkey Irb3
+Goto to label: INSTALL_IRB
+07:00:00:156126 Status 0 from getkey NO_IRB_4
+Goto to label: TRY_NEXT
+07:00:00:156129 Status 0 from getkey Irb4
+07:00:00:156131 Status 0 from ifstr TRY_NEXT
+07:00:00:156133 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1/system/SEC_SYSTEM.cfg.enc
+07:00:00:156135 Status 0 from setvar
+Goto to label: END_LABEL
+07:00:00:156138 Status 0 from goto END_LABEL
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1/install.cmd
+07:00:00:156141 Status 0 from selectmedia MOC
+07:00:00:156143 Status 0 from setvar
+07:00:00:156145 Status 0 from getkey Irb1
+07:00:00:156147 Status 0 from setvar
+Goto to label: NO_7AX
+07:00:00:156150 Status 0 from getkey 7AX
+Goto to label: NO_DUAL_ARM_DM
+07:00:00:156153 Status 0 from getkey DUAL_ARM_DM
+07:00:00:156155 Status 0 from if_feature_present abb.robotics.robotcontrol.options.multimove
+07:00:00:156157 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/tasksys.cfg
+07:00:00:156159 Status 0 from setvar
+Goto to label: TRY_NEXT
+07:00:00:156162 Status 0 from goto TRY_NEXT
+Goto to label: TRY_NEXT
+07:00:00:156165 Status 0 from getkey Irb2
+Goto to label: TRY_NEXT
+07:00:00:166001 Status 0 from getkey Irb3
+Goto to label: TRY_NEXT
+07:00:00:166004 Status 0 from getkey Irb4
+07:00:00:166006 Status 0 from if NO_IRB
+Goto to label: END_LABEL
+07:00:00:166009 Status 0 from goto END_LABEL
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instirb.cmd
+07:00:00:166012 Status 0 from include END_LABEL
+07:00:00:166014 Status 0 from setvar
+07:00:00:166016 Status 0 from setvar
+07:00:00:166018 Status 0 from setstr L0
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instopt.cmd
+Goto to label: END_OF_LOOP
+07:00:00:166022 Status 0 from getkey OptionL0
+07:00:00:166024 Status 0 from setvar
+Goto to label: END_OF_FILE
+07:00:00:166027 Status 0 from goto END_OF_FILE
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instopt.cmd
+07:00:00:166030 Status 0 from loop END_OF_FILE
+07:00:00:166032 Status 0 from setvar
+07:00:00:166034 Status 0 from setvar
+07:00:00:166036 Status 0 from setstr L1
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instopt.cmd
+Goto to label: END_OF_LOOP
+07:00:00:166040 Status 0 from getkey OptionL1
+07:00:00:166042 Status 0 from setvar
+Goto to label: END_OF_FILE
+07:00:00:166045 Status 0 from goto END_OF_FILE
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instopt.cmd
+07:00:00:166048 Status 0 from loop END_OF_FILE
+07:00:00:166050 Status 0 from setvar
+07:00:00:166052 Status 0 from setvar
+07:00:00:166054 Status 0 from setstr 
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instopt.cmd
+07:00:00:166057 Status 0 from getkey Option
+07:00:00:166059 Status 0 from setvar
+07:00:00:166061 Status 0 from setstr $ANSWERDesc
+07:00:00:166063 Status 0 from getkey RemoteServiceDesc
+07:00:00:166065 Status 0 from mediaexist Remote Service
+Goto to label: LOAD_OPTION
+07:00:00:166068 Status 0 from goto LOAD_OPTION
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/cse/install.cmd
+Installing Connected Services Embedded
+07:00:00:166072 Status 0 from echo
+07:00:00:166074 Status 0 from add_eventlog_domain
+07:00:00:166076 Status 0 from register 
+07:00:00:166078 Status 0 from register 
+07:00:00:166080 Status 0 from invoke2 cfg_create_type_xml
+07:00:00:166082 Status 0 from register 
+07:00:00:166084 Status 0 from register 
+07:00:00:166086 Status 0 from if_feature_present abb.robotics.robotcontrol.options.csgatewaynotconnected
+07:00:00:166088 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/cse/sio_cse_nondeletable.cfg
+Goto to label: CSE_CFG_DONE
+07:00:00:166091 Status 0 from goto CSE_CFG_DONE
+Goto to label: VC_SKIP_RSE
+07:00:00:166094 Status 0 from ifvc VC_SKIP_RSE
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/cse/install.cmd
+Goto to label: CONFIG_NEXT
+07:00:00:166098 Status 0 from selectmedia SIO
+07:00:00:166100 Status 0 from addvar
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instopt.cmd
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instopt.cmd
+07:00:00:166104 Status 0 from getkey Option
+07:00:00:166106 Status 0 from setvar
+07:00:00:166108 Status 0 from setstr $ANSWERDesc
+07:00:00:166110 Status 0 from getkey CSGatewayDesc
+07:00:00:166112 Status 0 from mediaexist Connected Services Gateway
+Goto to label: LOAD_OPTION
+07:00:00:166115 Status 0 from goto LOAD_OPTION
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/csgw/install.cmd
+07:00:00:166118 Status 0 from invoke2 cfg_create_type_xml
+07:00:00:166120 Status 0 from register 
+07:00:00:166122 Status 0 from register 
+07:00:00:166124 Status 0 from if_feature_present abb.robotics.robotcontrol.options.csgatewaynotconnected
+07:00:00:166126 Status 0 from if_feature_present abb.robotics.robotcontrol.options.csgateway4g
+07:00:00:166128 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/csgw/sio_csgw_nondeletable.cfg
+Goto to label: CSGW_INSTALL_DONE
+07:00:00:166131 Status 0 from goto CSGW_INSTALL_DONE
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/csgw/install.cmd
+Goto to label: CONFIG_NEXT
+07:00:00:166135 Status 0 from selectmedia SIO
+07:00:00:166137 Status 0 from addvar
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instopt.cmd
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instopt.cmd
+07:00:00:166141 Status 0 from getkey Option
+07:00:00:166143 Status 0 from setvar
+07:00:00:166145 Status 0 from setstr $ANSWERDesc
+07:00:00:166147 Status 0 from getkey SAFETYMODULEDesc
+07:00:00:166149 Status 0 from mediaexist Safety Module
+Goto to label: LOAD_OPTION
+07:00:00:166152 Status 0 from goto LOAD_OPTION
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sc/install.cmd
+Installing Safety Controller
+07:00:00:166156 Status 0 from echo
+07:00:00:166158 Status 0 from setenv
+07:00:00:166160 Status 0 from mkdir E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/OPTIONS/SC/SCDMP
+Goto to label: ADD_VC_DIR
+07:00:00:166163 Status 0 from ifvc ADD_VC_DIR
+07:00:00:166165 Status 0 from mkdir E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/SC_DISK
+07:00:00:176000 Status 0 from copy C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sc/scimageversion
+Goto to label: NEXT_STEP
+07:00:00:176003 Status 0 from fileexist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/OPTIONS/sc/SC_ROB_1.XML
+07:00:00:176005 Status 0 from fileexist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/OPTIONS/sc/SC_ROB_2.XML
+Goto to label: ROB2_COPY
+07:00:00:176008 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sc/SC_ROB_2.XML
+07:00:00:176010 Status 0 from copy C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sc/SC_ROB_2.XML
+07:00:00:176012 Status 0 from fileexist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/OPTIONS/sc/SC_ROB_3.XML
+Goto to label: ROB3_COPY
+07:00:00:176015 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sc/SC_ROB_3.XML
+07:00:00:176017 Status 0 from copy C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sc/SC_ROB_3.XML
+07:00:00:176019 Status 0 from fileexist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/OPTIONS/sc/SC_ROB_4.XML
+Goto to label: ROB4_COPY
+07:00:00:176022 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sc/SC_ROB_4.XML
+07:00:00:176024 Status 0 from copy C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sc/SC_ROB_4.XML
+Goto to label: INSTALL_SCINC_FILE
+07:00:00:176027 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sc/install_scinc.cmd
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sc/install_scinc.cmd
+Installing Safety Controller Feedback INC Driver
+07:00:00:176031 Status 0 from echo
+07:00:00:176033 Status 0 from invoke2 cfg_create_type_xml
+07:00:00:176035 Status 0 from if_feature_present abb.robotics.robotcontrol.controllerhw.safemove.essential
+07:00:00:176037 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sc/ScInc_opt_standard.cfg
+Goto to label: END_CFG
+07:00:00:176040 Status 0 from goto END_CFG
+07:00:00:176042 Status 0 from append C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sc/ScInc_opt.cmd
+...done
+07:00:00:176045 Status 0 from echo
+Goto to label: END
+07:00:00:176048 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sc/install_scinc.cmd
+07:00:00:176051 Status 0 from include END
+Goto to label: INSTALL_INTBUS_FILE
+07:00:00:176054 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sc/install_int_bus.cmd
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sc/install_int_bus.cmd
+Installing IntBus
+07:00:00:176058 Status 0 from echo
+07:00:00:176060 Status 0 from invoke2 cfg_create_type_xml
+07:00:00:176062 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sc/int_bus_network.cfg
+...done
+07:00:00:176065 Status 0 from echo
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sc/install_int_bus.cmd
+07:00:00:176068 Status 0 from include ...done
+07:00:00:176070 Status 0 from invoke2 scorch_config_reset_cfg
+07:00:00:176072 Status 0 from fileexist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/OPTIONS/sc/sc_cfg.xml
+07:00:00:176074 Status 0 from invoke2 scorch_config_create_cfg_file
+07:00:00:176076 Status 0 from invoke2 scorch_eio_generate_configuration
+07:00:00:176078 Status 0 from fileexist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/OPTIONS/sc/sc_cfg_list.xml
+Goto to label: NEXT_STEP
+07:00:00:176081 Status 0 from goto NEXT_STEP
+Goto to label: NEXT_STEP
+07:00:00:176084 Status 0 from fileexist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/OPTIONS/sc/sc_eio.cfg
+07:00:00:176086 Status 0 from config E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/OPTIONS/sc/sc_eio.cfg
+07:00:00:176088 Status 0 from if_feature_present abb.robotics.robotcontrol.controllerhw.m28.04
+07:00:00:176090 Status 0 from if_feature_present abb.robotics.robotcontrol.controllerhw.m28.05
+Goto to label: HW_M28_LEGACY
+07:00:00:176093 Status 0 from goto HW_M28_LEGACY
+Goto to label: INSTALL_MODULAR_SAFETY_LOCALIO_CFG
+07:00:00:176096 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sc/sc_local_io.cfg
+07:00:00:176098 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sc/sc_local_io.cfg
+Goto to label: INSTALL_MODULAR_SAFETY_EIO_CFG
+07:00:00:176101 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sc/saf_eio.cfg
+07:00:00:176103 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sc/saf_eio.cfg
+07:00:00:176105 Status 0 from invoke2 scorch_config_layer_add_rootcmd
+07:00:00:176107 Status 0 from if_feature_present abb.robotics.robotcontrol.options.multimove
+Goto to label: NO_MULTIMOVE
+07:00:00:176110 Status 0 from goto NO_MULTIMOVE
+Goto to label: INSTALL_DRIVE_EIO_CFG
+07:00:00:176113 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sc/drv_eio.cfg
+Installing CBC signals for single system
+07:00:00:176116 Status 0 from echo
+07:00:00:176118 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sc/drv_eio.cfg
+Goto to label: END
+07:00:00:176121 Status 0 from goto END
+End Installing Safety Controller
+07:00:00:176124 Status 0 from echo
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sc/install.cmd
+Goto to label: CONFIG_NEXT
+07:00:00:176128 Status 0 from selectmedia EIO
+07:00:00:176130 Status 0 from addvar
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instopt.cmd
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instopt.cmd
+07:00:00:176134 Status 0 from getkey Option
+07:00:00:176136 Status 0 from setvar
+07:00:00:176138 Status 0 from setstr $ANSWERDesc
+07:00:00:176140 Status 0 from getkey LeadthroughDesc
+07:00:00:176142 Status 0 from mediaexist Leadthrough
+Goto to label: LOAD_OPTION
+07:00:00:176145 Status 0 from goto LOAD_OPTION
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/lt/install.cmd
+Installing Lead Through
+07:00:00:176149 Status 0 from echo
+07:00:00:176151 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/lt/leadthrough_sys.cfg
+07:00:00:176153 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/lt/leadthrough_mmc.cfg
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/lt/install.cmd
+Goto to label: CONFIG_NEXT
+07:00:00:176157 Status 0 from selectmedia MMC
+07:00:00:176159 Status 0 from addvar
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instopt.cmd
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instopt.cmd
+07:00:00:186000 Status 0 from getkey Option
+07:00:00:186002 Status 0 from setvar
+07:00:00:186004 Status 0 from setstr $ANSWERDesc
+07:00:00:186006 Status 0 from getkey SAFEMOVEPRODesc
+07:00:00:186008 Status 0 from mediaexist 3043-3 SafeMove Collaborative
+Goto to label: LOAD_OPTION
+07:00:00:186011 Status 0 from goto LOAD_OPTION
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/safemove/install.cmd
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/safemove/install.cmd
+Goto to label: CONFIG_NEXT
+07:00:00:186016 Status 0 from selectmedia $ANSWER
+07:00:00:186018 Status 0 from addvar
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instopt.cmd
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instopt.cmd
+07:00:00:186022 Status 0 from getkey Option
+07:00:00:186024 Status 0 from setvar
+07:00:00:186026 Status 0 from setstr $ANSWERDesc
+07:00:00:186028 Status 0 from getkey MOTCOMDesc
+07:00:00:186030 Status 0 from mediaexist Motor Commutation
+Goto to label: LOAD_OPTION
+07:00:00:186033 Status 0 from goto LOAD_OPTION
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/install.cmd
+07:00:00:186036 Status 0 from if END_LABEL
+Installing Motor Commutation Service Routine...
+07:00:00:186039 Status 0 from echo
+07:00:00:186041 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/motcom_sys.cfg
+07:00:00:186043 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/motcom_mmc.cfg
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instlang.cmd
+07:00:00:186046 Status 0 from setstr en
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+Goto to label: INSTALL_FILE
+07:00:00:186050 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/en/motcomop.xml
+07:00:00:186052 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/en/motcomop.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:186055 Status 0 from include INSTALL_FILE
+07:00:00:186057 Status 0 from setstr cs
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:186060 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/cs/motcomop.xml
+Goto to label: END
+07:00:00:186063 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:186066 Status 0 from include END
+07:00:00:186068 Status 0 from setstr da
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:186071 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/da/motcomop.xml
+Goto to label: END
+07:00:00:186074 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:186077 Status 0 from include END
+07:00:00:186079 Status 0 from setstr de
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:186082 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/de/motcomop.xml
+Goto to label: END
+07:00:00:186085 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:186088 Status 0 from include END
+07:00:00:186090 Status 0 from setstr es
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:186093 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/es/motcomop.xml
+Goto to label: END
+07:00:00:186096 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:186099 Status 0 from include END
+07:00:00:186101 Status 0 from setstr fi
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:186104 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/fi/motcomop.xml
+Goto to label: END
+07:00:00:186107 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:186110 Status 0 from include END
+07:00:00:186112 Status 0 from setstr fr
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:186115 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/fr/motcomop.xml
+Goto to label: END
+07:00:00:186118 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:186121 Status 0 from include END
+07:00:00:186123 Status 0 from setstr hu
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:186126 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/hu/motcomop.xml
+Goto to label: END
+07:00:00:186129 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:186132 Status 0 from include END
+07:00:00:186134 Status 0 from setstr it
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:186137 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/it/motcomop.xml
+Goto to label: END
+07:00:00:186140 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:186143 Status 0 from include END
+07:00:00:186145 Status 0 from setstr ja
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:186148 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/ja/motcomop.xml
+Goto to label: END
+07:00:00:186151 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:186154 Status 0 from include END
+07:00:00:186156 Status 0 from setstr ko
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:196000 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/ko/motcomop.xml
+Goto to label: END
+07:00:00:196003 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:196006 Status 0 from include END
+07:00:00:196008 Status 0 from setstr nl
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:196011 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/nl/motcomop.xml
+Goto to label: END
+07:00:00:196014 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:196017 Status 0 from include END
+07:00:00:196019 Status 0 from setstr pl
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:196022 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/pl/motcomop.xml
+Goto to label: END
+07:00:00:196025 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:196028 Status 0 from include END
+07:00:00:196030 Status 0 from setstr pt
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:196033 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/pt/motcomop.xml
+Goto to label: END
+07:00:00:196036 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:196039 Status 0 from include END
+07:00:00:196041 Status 0 from setstr ro
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:196044 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/ro/motcomop.xml
+Goto to label: END
+07:00:00:196047 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:196050 Status 0 from include END
+07:00:00:196052 Status 0 from setstr ru
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:196055 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/ru/motcomop.xml
+Goto to label: END
+07:00:00:196058 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:196061 Status 0 from include END
+07:00:00:196063 Status 0 from setstr sl
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:196066 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/sl/motcomop.xml
+Goto to label: END
+07:00:00:196069 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:196072 Status 0 from include END
+07:00:00:196074 Status 0 from setstr sv
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:196077 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/sv/motcomop.xml
+Goto to label: END
+07:00:00:196080 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:196083 Status 0 from include END
+07:00:00:196085 Status 0 from setstr tr
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:196088 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/tr/motcomop.xml
+Goto to label: END
+07:00:00:196091 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:196094 Status 0 from include END
+07:00:00:196096 Status 0 from setstr vi
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:196099 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/vi/motcomop.xml
+Goto to label: END
+07:00:00:196102 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:196105 Status 0 from include END
+07:00:00:196107 Status 0 from setstr zh
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:196110 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/zh/motcomop.xml
+Goto to label: END
+07:00:00:196113 Status 0 from goto END
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/language/install.cmd
+07:00:00:196116 Status 0 from include END
+07:00:00:196118 Status 0 from setstr $LANGUAGE
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instlang.cmd
+07:00:00:196121 Status 0 from include $LANG
+...Motor Commutation installation finished
+07:00:00:196124 Status 0 from echo
+07:00:00:196126 Status 0 from setvar
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/motcom/install.cmd
+Goto to label: CONFIG_NEXT
+07:00:00:196130 Status 0 from selectmedia MMC
+07:00:00:196132 Status 0 from addvar
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instopt.cmd
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instopt.cmd
+07:00:00:196136 Status 0 from getkey Option
+07:00:00:196138 Status 0 from setvar
+07:00:00:196140 Status 0 from setstr $ANSWERDesc
+07:00:00:196142 Status 0 from getkey SISDesc
+07:00:00:196144 Status 0 from mediaexist Service Info System
+Goto to label: LOAD_OPTION
+07:00:00:196147 Status 0 from goto LOAD_OPTION
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/install.cmd
+07:00:00:196150 Status 0 from if END_LABEL
+Installing Service Information System
+07:00:00:196153 Status 0 from echo
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instlang.cmd
+07:00:00:196156 Status 0 from setstr en
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+Goto to label: INSTALL_FILE
+07:00:00:206002 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/en/sis_txt.xml
+07:00:00:206004 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/en/sis_txt.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+07:00:00:206007 Status 0 from include INSTALL_FILE
+07:00:00:206009 Status 0 from setstr cs
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+Goto to label: INSTALL_FILE
+07:00:00:206013 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/cs/sis_txt.xml
+07:00:00:206015 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/cs/sis_txt.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+07:00:00:206018 Status 0 from include INSTALL_FILE
+07:00:00:206020 Status 0 from setstr da
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+Goto to label: INSTALL_FILE
+07:00:00:206024 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/da/sis_txt.xml
+07:00:00:206026 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/da/sis_txt.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+07:00:00:206029 Status 0 from include INSTALL_FILE
+07:00:00:206031 Status 0 from setstr de
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+Goto to label: INSTALL_FILE
+07:00:00:206035 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/de/sis_txt.xml
+07:00:00:206037 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/de/sis_txt.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+07:00:00:206040 Status 0 from include INSTALL_FILE
+07:00:00:206042 Status 0 from setstr es
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+Goto to label: INSTALL_FILE
+07:00:00:206046 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/es/sis_txt.xml
+07:00:00:206048 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/es/sis_txt.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+07:00:00:206051 Status 0 from include INSTALL_FILE
+07:00:00:206053 Status 0 from setstr fi
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+Goto to label: INSTALL_FILE
+07:00:00:206057 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/fi/sis_txt.xml
+07:00:00:206059 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/fi/sis_txt.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+07:00:00:206062 Status 0 from include INSTALL_FILE
+07:00:00:206064 Status 0 from setstr fr
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+Goto to label: INSTALL_FILE
+07:00:00:206068 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/fr/sis_txt.xml
+07:00:00:206070 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/fr/sis_txt.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+07:00:00:206073 Status 0 from include INSTALL_FILE
+07:00:00:206075 Status 0 from setstr hu
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+Goto to label: INSTALL_FILE
+07:00:00:206079 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/hu/sis_txt.xml
+07:00:00:206081 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/hu/sis_txt.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+07:00:00:206084 Status 0 from include INSTALL_FILE
+07:00:00:206086 Status 0 from setstr it
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+Goto to label: INSTALL_FILE
+07:00:00:206090 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/it/sis_txt.xml
+07:00:00:206092 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/it/sis_txt.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+07:00:00:206095 Status 0 from include INSTALL_FILE
+07:00:00:206097 Status 0 from setstr ja
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+Goto to label: INSTALL_FILE
+07:00:00:206101 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/ja/sis_txt.xml
+07:00:00:206103 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/ja/sis_txt.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+07:00:00:206106 Status 0 from include INSTALL_FILE
+07:00:00:206108 Status 0 from setstr ko
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+Goto to label: INSTALL_FILE
+07:00:00:206112 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/ko/sis_txt.xml
+07:00:00:206114 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/ko/sis_txt.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+07:00:00:206117 Status 0 from include INSTALL_FILE
+07:00:00:206119 Status 0 from setstr nl
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+Goto to label: INSTALL_FILE
+07:00:00:206123 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/nl/sis_txt.xml
+07:00:00:206125 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/nl/sis_txt.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+07:00:00:206128 Status 0 from include INSTALL_FILE
+07:00:00:206130 Status 0 from setstr pl
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+Goto to label: INSTALL_FILE
+07:00:00:206134 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/pl/sis_txt.xml
+07:00:00:206136 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/pl/sis_txt.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+07:00:00:206139 Status 0 from include INSTALL_FILE
+07:00:00:206141 Status 0 from setstr pt
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+Goto to label: INSTALL_FILE
+07:00:00:206145 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/pt/sis_txt.xml
+07:00:00:206147 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/pt/sis_txt.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+07:00:00:206150 Status 0 from include INSTALL_FILE
+07:00:00:206152 Status 0 from setstr ro
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+Goto to label: INSTALL_FILE
+07:00:00:216000 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/ro/sis_txt.xml
+07:00:00:216002 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/ro/sis_txt.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+07:00:00:216005 Status 0 from include INSTALL_FILE
+07:00:00:216007 Status 0 from setstr ru
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+Goto to label: INSTALL_FILE
+07:00:00:216011 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/ru/sis_txt.xml
+07:00:00:216013 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/ru/sis_txt.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+07:00:00:216016 Status 0 from include INSTALL_FILE
+07:00:00:216018 Status 0 from setstr sl
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+Goto to label: INSTALL_FILE
+07:00:00:216022 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/sl/sis_txt.xml
+07:00:00:216024 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/sl/sis_txt.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+07:00:00:216027 Status 0 from include INSTALL_FILE
+07:00:00:216029 Status 0 from setstr sv
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+Goto to label: INSTALL_FILE
+07:00:00:216033 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/sv/sis_txt.xml
+07:00:00:216035 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/sv/sis_txt.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+07:00:00:216038 Status 0 from include INSTALL_FILE
+07:00:00:216040 Status 0 from setstr tr
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+Goto to label: INSTALL_FILE
+07:00:00:216044 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/tr/sis_txt.xml
+07:00:00:216046 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/tr/sis_txt.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+07:00:00:216049 Status 0 from include INSTALL_FILE
+07:00:00:216051 Status 0 from setstr vi
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+Goto to label: INSTALL_FILE
+07:00:00:216055 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/vi/sis_txt.xml
+07:00:00:216057 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/vi/sis_txt.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+07:00:00:216060 Status 0 from include INSTALL_FILE
+07:00:00:216062 Status 0 from setstr zh
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+Goto to label: INSTALL_FILE
+07:00:00:216066 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/zh/sis_txt.xml
+07:00:00:216068 Status 0 from text C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/zh/sis_txt.xml
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/language/install.cmd
+07:00:00:216071 Status 0 from include INSTALL_FILE
+07:00:00:216073 Status 0 from setstr $LANGUAGE
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instlang.cmd
+07:00:00:216076 Status 0 from include $LANG
+07:00:00:216078 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/sissys.cfg
+07:00:00:216080 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/sismmc.cfg
+07:00:00:216082 Status 0 from setvar
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sis/install.cmd
+Goto to label: CONFIG_NEXT
+07:00:00:216086 Status 0 from selectmedia MMC
+07:00:00:216088 Status 0 from addvar
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instopt.cmd
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instopt.cmd
+Goto to label: END_OF_LOOP
+07:00:00:216093 Status 0 from getkey Option
+07:00:00:216095 Status 0 from setvar
+Goto to label: END_OF_FILE
+07:00:00:216098 Status 0 from goto END_OF_FILE
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instopt.cmd
+07:00:00:216101 Status 0 from loop END_OF_FILE
+07:00:00:216103 Status 0 from setstr ExtOpt
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/FlexPendant/Apps_1.19.1/install.cmd
+Installing FlexPendant App Package
+07:00:00:216107 Status 0 from echo
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/FlexPendant/Apps_1.19.1/install.cmd
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1/install.cmd
+Goto to label: INSTALL_OPTIONS
+07:00:00:216112 Status 0 from if INSTALL_OPTIONS
+Goto to label: LOAD_CMD
+07:00:00:216115 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1/options/install.cmd
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1/options/install.cmd
+Installing robot options
+07:00:00:216119 Status 0 from echo
+07:00:00:216121 Status 0 from getkey OPTCRB
+Goto to label: LOAD_CMD
+07:00:00:216124 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1/options/crb/install.cmd
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1/options/crb/install.cmd
+Installing CRB option
+07:00:00:216128 Status 0 from echo
+07:00:00:216130 Status 0 from setvar
+07:00:00:216132 Status 0 from getkey Irb1Desc
+Installing CRB 15000-5/0.95
+07:00:00:216135 Status 0 from echo
+07:00:00:216137 Status 0 from getkey Irb1Select
+Goto to label: CRB15000_0_95_5
+07:00:00:216140 Status 0 from goto CRB15000_0_95_5
+Installing standard IO for GOFA
+07:00:00:216143 Status 0 from echo
+Goto to label: ASI
+07:00:00:216146 Status 0 from if_feature_present abb.robotics.robotcontrol.controllerhw.axiscomputer.none
+07:00:00:216148 Status 0 from copy C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1/options/crb/rapid/GOFA_ASI_Procedures.sysx
+07:00:00:216150 Status 0 from copy C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1/options/crb/rapid/GOFA_Main.sysx
+07:00:00:216152 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1/options/crb/config/EIO/GOFA_EIO.cfg
+07:00:00:216154 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1/options/crb/config/SYS/GOFA_SYS_T_ROB1.cfg
+07:00:00:216156 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1/options/crb/config/EIO/GOFA_EIO_Internal.cfg
+Goto to label: END_LABEL
+07:00:00:226001 Status 0 from goto END_LABEL
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1/options/crb/install.cmd
+07:00:00:226004 Status 0 from include END_LABEL
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1/options/install.cmd
+07:00:00:226007 Status 0 from include END_LABEL
+Goto to label: END_LABEL
+07:00:00:226010 Status 0 from goto END_LABEL
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1/install.cmd
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/Wizard_1.7.0/install.cmd
+Installing WIZARD Add-In
+07:00:00:226015 Status 0 from echo
+07:00:00:226017 Status 0 from getkey WIZARD
+07:00:00:226019 Status 0 from getkey Irb1Media
+07:00:00:226021 Status 0 from setenv
+07:00:00:226023 Status 0 from register $PRODUCTS/Wizard_1.7.0
+07:00:00:226025 Status 0 from direxist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/HOME/Wizard
+07:00:00:226027 Status 0 from mkdir E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/HOME/Wizard
+07:00:00:226029 Status 0 from ifstr FourAxisRobotsType
+07:00:00:226031 Status 0 from ifstr FourAxisRobotsType
+07:00:00:226033 Status 0 from ifstr FourAxisRobotsType
+07:00:00:226035 Status 0 from ifstr SixAxisRobotsType
+07:00:00:226037 Status 0 from ifstr SixAxisRobotsType
+07:00:00:226039 Status 0 from ifstr SixAxisRobotsType
+07:00:00:226041 Status 0 from ifstr FourAxisRobotsType
+07:00:00:226043 Status 0 from ifstr FourAxisRobotsType
+07:00:00:226045 Status 0 from ifstr FourAxisRobotsType
+07:00:00:226047 Status 0 from ifstr SixAxisRobotsType
+07:00:00:226049 Status 0 from ifstr SixAxisRobotsType
+07:00:00:226051 Status 0 from ifstr SWIFTI_ROB1
+07:00:00:226053 Status 0 from ifstr SixAxisRobotsType
+07:00:00:226055 Status 0 from ifstr SWIFTI_ROB1
+07:00:00:226057 Status 0 from ifstr SixAxisRobotsType
+07:00:00:226059 Status 0 from ifstr SixAxisRobotsType
+07:00:00:226061 Status 0 from ifstr SixAxisRobotsType
+07:00:00:226063 Status 0 from ifstr SixAxisRobotsType
+07:00:00:226065 Status 0 from ifstr SixAxisRobotsType
+07:00:00:226067 Status 0 from ifstr SixAxisRobotsType
+07:00:00:226069 Status 0 from ifstr SixAxisRobotsType
+07:00:00:226071 Status 0 from ifstr SixAxisRobotsType
+07:00:00:226073 Status 0 from ifstr SixAxisRobotsType
+07:00:00:226075 Status 0 from ifstr SixAxisRobotsType
+07:00:00:226077 Status 0 from ifstr SixAxisRobotsType
+07:00:00:226079 Status 0 from ifstr SixAxisRobotsType
+07:00:00:226081 Status 0 from ifstr SixAxisRobotsType
+07:00:00:226083 Status 0 from ifstr SixAxisRobotsType
+07:00:00:226085 Status 0 from ifstr SixAxisRobotsType
+07:00:00:226087 Status 0 from ifstr SixAxisRobotsType
+07:00:00:226089 Status 0 from ifstr SixAxisRobotsType
+07:00:00:226091 Status 0 from ifstr SixAxisRobotsType
+07:00:00:226093 Status 0 from ifstr SixAxisRobotsType
+07:00:00:226095 Status 0 from ifstr SixAxisRobotsType
+07:00:00:226097 Status 0 from ifstr SixAxisRobotsType
+07:00:00:226099 Status 0 from ifstr SixAxisRobotsType
+07:00:00:226101 Status 0 from ifstr 14050_ROB1
+Goto to label: 15000_ROB1
+07:00:00:226104 Status 0 from ifstr 15000_ROB1
+07:00:00:226106 Status 0 from copy C:/Users/DELL/AppData/Local/ABB/RobotWare/Wizard_1.7.0/Wizard/Wizard_Parameters/15000_ROB1/Wizard_Params.sysx
+07:00:00:226108 Status 0 from copy C:/Users/DELL/AppData/Local/ABB/RobotWare/Wizard_1.7.0/Wizard/Wizard_Data/15000_ROB1/Wizard_Data.sysx
+Goto to label: Backend
+07:00:00:226111 Status 0 from goto Backend
+07:00:00:226113 Status 0 from copy C:/Users/DELL/AppData/Local/ABB/RobotWare/Wizard_1.7.0/Wizard/Wizard.pgf
+07:00:00:226115 Status 0 from copy C:/Users/DELL/AppData/Local/ABB/RobotWare/Wizard_1.7.0/Wizard/Wizard.mod
+07:00:00:226117 Status 0 from copy C:/Users/DELL/AppData/Local/ABB/RobotWare/Wizard_1.7.0/Wizard/Wizard_LoadData.modx
+07:00:00:226119 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/Wizard_1.7.0/Config/Wizard_SYS_EXT.cfg
+07:00:00:226121 Status 0 from config C:/Users/DELL/AppData/Local/ABB/RobotWare/Wizard_1.7.0/Config/Gripper_Common/Wizard_SYS.cfg
+Goto to label: END_LABEL
+07:00:00:226124 Status 0 from getkey OPTFCTRL
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/Wizard_1.7.0/install.cmd
+07:00:00:226127 Status 0 from selectmedia OPTFCTRL
+07:00:00:226129 Status 0 from fileexist $RW_FILE_CMD
+Goto to label: NEXT_STEP
+07:00:00:226132 Status 0 from goto NEXT_STEP
+Goto to label: LOAD_CMD
+07:00:00:226135 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instirbopt.cmd
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instirbopt.cmd
+07:00:00:226138 Status 0 from fileexist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/DATA/EXT_MOC.cfg
+Goto to label: END_LABEL
+07:00:00:226141 Status 0 from goto END_LABEL
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/instirbopt.cmd
+07:00:00:226144 Status 0 from include END_LABEL
+07:00:00:226146 Status 0 from fileexist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/OPTIONS/SC/sc_cfg_list.xml
+Goto to label: SKIP_SC_CFG_LIST
+07:00:00:226149 Status 0 from goto SKIP_SC_CFG_LIST
+07:00:00:226151 Status 0 from direxist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/ADDINDATA/inbox.sc
+Goto to label: NEXT_STEP
+07:00:00:226154 Status 0 from goto NEXT_STEP
+Global permanent pool for DriveServoControl not available. Allocating...
+07:00:00:226157 Status 0 from new motion
+moc_startup_done is false 0
+moc_startup_done is false 500
+07:00:01:226000 Status 0 from new rapid
+07:00:01:226002 Status 0 from new cab
+New cfg baseline has been created.
+07:00:01:226005 Status 0 from invoke BootsupSaveCFGBaseline
+07:00:01:226007 Status 0 from invoke2 eio_system_set_cfg_output_format
+07:00:01:226009 Status 0 from fileexist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/sio_cfg_save.cfg
+Goto to label: NEXT_ERASE_STEP
+07:00:01:226012 Status 0 from goto NEXT_ERASE_STEP
+07:00:01:226014 Status 0 from setEioValidationLevel
+07:00:01:226016 Status 0 from invoke mcosboot_installation_ready
+07:00:07:226000 Status 0 from delay
+System installation finished
+07:00:07:226003 Status 0 from echo
+Goto to label: VTSPEED
+07:00:07:226006 Status 0 from ifvc VTSPEED
+07:00:07:226008 Status 0 from invoke VTSetSpeed
+restarting the controller ...
+07:00:07:226012 Status 0 from restart
+Goto to label: NO_ERROR
+07:00:07:226015 Status 0 from goto NO_ERROR
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/install.cmd

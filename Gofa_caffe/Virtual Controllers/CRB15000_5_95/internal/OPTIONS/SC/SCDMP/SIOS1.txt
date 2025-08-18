@@ -1,0 +1,128 @@
+Initialized  : YES
+Config state : OK
+
+Config CRC   : 0xd26a19f6
+SIOS mutex   : 1
+Lock count   : 0
+Import count : 0
+
+List of registered SNCs:
+Feedback
+SafeLocalIO
+PNFDevice
+PNFHost
+CIPSafety
+List of safety networks
+Network name      : Feedback
+  state           : INIT
+  activated       : YES
+  simulated       : NO
+  min import time : 4294967295 us
+  max import time : 0 us
+  min export time : 4294967295 us
+  max export time : 0 us
+List of attached devices:
+Device name     : SC_Feedback_Dev
+  state         : INIT
+  SNC started   : YES
+  activated     : YES
+  simulated     : NO
+  isLocal       : NO
+  inDataSize    : 0 (bits)
+  outDataSize   : 2048 (bits)
+  outData @ 015C6BC8: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+  outMask @ 015D35D0: ff 07 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+List of output signals:
+  Signal name                       Type      Source           Ref  Sim  BitOffset    BitWidth   Commissioning    Value
+  AutomaticMode                     BOOL      Scoord           -    NO   0            1          -                TRUE        015CFBF4
+  DriveEnable                       BOOL      Anonymous        -    NO   1            1          -                FALSE       015C907C
+  DriveEnableFeedback               BOOL      Anonymous        -    NO   2            1          -                FALSE       015C6624
+  EmergencyStopActivated            BOOL      Anonymous        -    NO   3            1          -                FALSE       015C687C
+  EnableSwitch                      BOOL      SafeLocalIODev   -    NO   4            1          -                FALSE       015C6A0C
+  ExternalEmergencyStopStatus       BOOL      SafeLocalIODev   -    NO   5            1          -                FALSE       015C67B4
+  LocalEmergencyStopStatus          BOOL      SafeLocalIODev   -    NO   6            1          -                FALSE       015C66EC
+  ManualFullSpeedMode               BOOL      Anonymous        -    NO   7            1          -                FALSE       015C8FB4
+  ManualMode                        BOOL      Scoord           -    NO   8            1          -                FALSE       015C8EEC
+  ProtectiveStop                    BOOL      SafeLocalIODev   -    NO   9            1          -                FALSE       015C6944
+  SafetyEnable                      BOOL      Anonymous        -    NO   10           1          -                TRUE        015C9E64
+Device name     : ScLocIO
+  state         : INIT
+  SNC started   : YES
+  activated     : YES
+  simulated     : NO
+  isLocal       : NO
+  inDataSize    : 0 (bits)
+  outDataSize   : 128 (bits)
+  outData @ 015D4698: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+  outMask @ 015D47A8: ff 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+List of output signals:
+  Signal name                       Type      Source           Ref  Sim  BitOffset    BitWidth   Commissioning    Value
+  ExternalEmergencyStopStatus       BOOL      SafeLocalIODev   -    NO   0            1          -                FALSE       015C67B4
+  ProtectiveStop                    BOOL      SafeLocalIODev   -    NO   1            1          -                FALSE       015C6944
+  EnableSwitch                      BOOL      SafeLocalIODev   -    NO   2            1          -                FALSE       015C6A0C
+  DeviceEnable1                     BOOL      Anonymous        -    NO   3            1          -                FALSE       015C6AD4
+  DriveEnableAllowed                BOOL      Anonymous        -    NO   4            1          -                FALSE       015C6B9C
+  LocalEmergencyStopStatus          BOOL      SafeLocalIODev   -    NO   5            1          -                FALSE       015C66EC
+  DriveEnableFeedback               BOOL      Anonymous        -    NO   6            1          -                FALSE       015C6624
+  DriveEnable                       BOOL      Anonymous        -    NO   7            1          -                FALSE       015C907C
+  EmergencyStopActivated            BOOL      Anonymous        -    NO   8            1          -                FALSE       015C687C
+Network name      : SafeLocalIO
+  state           : INIT
+  activated       : YES
+  simulated       : NO
+  min import time : 4294967295 us
+  max import time : 0 us
+  min export time : 4294967295 us
+  max export time : 0 us
+List of attached devices:
+Device name     : SafeLocalIODev
+  state         : INIT
+  SNC started   : YES
+  activated     : YES
+  simulated     : NO
+  isLocal       : YES
+  inDataSize    : 6 (bits)
+  outDataSize   : 2 (bits)
+  inData  @ 015D9AD0: 00 
+  inMask  @ 015D9BE0: 1b 
+  outData @ 015D9CF0: 00 
+  outMask @ 015D9E00: 03 
+List of input signals:
+  Signal name                       Type      Source           Ref  Sim  BitOffset    BitWidth   Commissioning    Value
+  ExternalEmergencyStopStatus       BOOL      SafeLocalIODev   -    NO   0            1          -                FALSE       015C67B4
+  ProtectiveStop                    BOOL      SafeLocalIODev   -    NO   1            1          -                FALSE       015C6944
+  EnableSwitch                      BOOL      SafeLocalIODev   -    NO   3            1          -                FALSE       015C6A0C
+  LocalEmergencyStopStatus          BOOL      SafeLocalIODev   -    NO   4            1          -                FALSE       015C66EC
+List of output signals:
+  Signal name                       Type      Source           Ref  Sim  BitOffset    BitWidth   Commissioning    Value
+  DriveEnable                       BOOL      Anonymous        -    NO   0            1          -                FALSE       015C907C
+  EmergencyStopActivated            BOOL      Anonymous        -    NO   1            1          -                FALSE       015C687C
+List of safety signals
+  Signal name                       Type      Source           Ref  Sim  Value
+  SafetyEnable                      BOOL      Anonymous        -    NO   TRUE        015C9E64
+  AutomaticMode                     BOOL      Scoord           -    NO   TRUE        015CFBF4
+  ManualMode                        BOOL      Scoord           -    NO   FALSE       015C8EEC
+  ManualFullSpeedMode               BOOL      Anonymous        -    NO   FALSE       015C8FB4
+  DriveEnable                       BOOL      Anonymous        -    NO   FALSE       015C907C
+  DriveEnableFeedback               BOOL      Anonymous        -    NO   FALSE       015C6624
+  LocalEmergencyStopStatus          BOOL      SafeLocalIODev   -    NO   FALSE       015C66EC
+  ExternalEmergencyStopStatus       BOOL      SafeLocalIODev   -    NO   FALSE       015C67B4
+  EmergencyStopActivated            BOOL      Anonymous        -    NO   FALSE       015C687C
+  ProtectiveStop                    BOOL      SafeLocalIODev   -    NO   FALSE       015C6944
+  EnableSwitch                      BOOL      SafeLocalIODev   -    NO   FALSE       015C6A0C
+  DeviceEnable1                     BOOL      Anonymous        -    NO   FALSE       015C6AD4
+  DriveEnableAllowed                BOOL      Anonymous        -    NO   FALSE       015C6B9C
+List of aliases:
+  SafetyEnable                    :  Aliases=SafetyEnable   
+  AutomaticMode                   :  Aliases=AutomaticMode   
+  ManualMode                      :  Aliases=ManualMode   
+  ManualFullSpeedMode             :  Aliases=ManualFullSpeedMode   
+  DriveEnable                     :  Aliases=DriveEnable   
+  DriveEnableFeedback             :  Aliases=DriveEnableFeedback   
+  LocalEmergencyStopStatus        :  Aliases=LocalEmergencyStopStatus   
+  ExternalEmergencyStopStatus     :  Aliases=ExternalEmergencyStopStatus   
+  EmergencyStopActivated          :  Aliases=EmergencyStopActivated   
+  ProtectiveStop                  :  Aliases=ProtectiveStop   
+  EnableSwitch                    :  Aliases=EnableSwitch   
+  DeviceEnable1                   :  Aliases=DeviceEnable1   
+  DriveEnableAllowed              :  Aliases=DriveEnableAllowed   

@@ -1,0 +1,82 @@
+Init done                              Yes
+Config state                           OK
+Manual mode only                       FALSE
+Config Version                         3.02.01
+Controller id                          VIRTUAL_CONTROLLER
+SafetyMode                             ACTIVE
+ModeSelectorType                       SW 2-Way Mode Selector (No-IO)
+ModeSelectorSetting                    AUTO
+Detachable TPU state                   INACTIVE
+
+SC Lock Info:
+  is present    : 0
+  locked by     : 
+  lock date     : 
+  lock checksum : 0000000000000000000000000000000000000000000000000000000000000000
+File Lock Info:
+  is present    : 0
+  locked by     : 
+  lock date     : 
+scoordLockError : 0
+
+File checksum   : 5073751AA8EE44612786D94994916EB30CE27631750173F2BAA99917BEAB1471
+User checksum   : 0000000000000000000000000000000000000000000000000000000000000000
+
+FuncIO                                 Signal Name                      Value
+AutomaticMode                          AutomaticMode                    1
+ManualMode                             ManualMode                       0
+ManualFullSpeedMode                    ManualFullSpeedMode              0
+AutoIn                                 (Not defined)
+ManualIn                               (Not defined)
+ManualFSIn                             (Not defined)
+LocalEmergencyStopStatus               LocalEmergencyStopStatus         0
+ExternalEmergencyStopStatus            ExternalEmergencyStopStatus      0
+EmergencyStopActivated                 EmergencyStopActivated           0
+DriveEnable                            DriveEnable                      0
+DriveEnableFeedback                    DriveEnableFeedback              0
+ExternalPowerControlFeedback           (Not defined)
+ExtComShutdownReq                      (Not defined)
+ExtComShutdownAck                      (Not defined)
+ProtectiveStop                         ProtectiveStop                   0
+EnableSwitch                           EnableSwitch                     0
+DeviceEnable1                          DeviceEnable1                    0
+DriveEnableAllowed                     DriveEnableAllowed               0
+SafetyEnable                           SafetyEnable                     1
+
+Callback Stats :
+[idx] Command                          Count  MaxTimeUs
+[  0] ERROR                            0      0
+[  1] CONFIGURE_SC                     1      13504
+[  2] RESET_CONFIGURATION              0      0
+[  3] SET_SAFETY_MODE                  1      1
+[  4] GET_SAFETY_MODE                  0      0
+[  5] GET_EXT_COM_STOP_ACK             0      0
+[  6] ACTIVATE_NETWORKS                0      0
+[  7] DEACTIVATE_NETWORKS              0      0
+[  8] SET_MODE_SELECTOR_TYPE           1      7
+[  9] SET_MODE_SELECTOR_SETTING        0      0
+[ 10] SET_CONTROLLER_ID                1      0
+[ 11] GET_LOCK_INFO                    0      0
+[ 12] SET_LOCK_INFO                    0      0
+[ 13] CLEAR_LOCK_INFO                  0      0
+[ 14] GET_FILE_CHECKSUM                0      0
+[ 15] SET_CBC_COMMAND                  0      0
+[ 16] GET_CBC_INFO                     0      0
+[ 17] FACTORY_RESTORE                  0      0
+[ 18] GET_USER_CHECKSUM                0      0
+[ 19] GET_OPERATING_MODE               0      0
+[ 20] GET_RUNCHAIN_STATUS              0      0
+[ 21] SET_DEVICE_ENABLE_1              0      0
+[ 22] SET_DEVICE_ENABLE_2              0      0
+[ 23] MOTORS_ON_EVENT                  0      0
+[ 24] DETACHABLE_TPU_START_PERIOD      0      0
+[ 25] DETACHABLE_TPU_GET_STATUS        0      0
+[ 26] DETACHABLE_TPU_CANCEL_PERIOD     0      0
+[ 27] ENABLING_DEVICE_REQUIRED         0      0
+[ 28] SET_SAMPLE_TIME                  0      0
+[ 29] AXIS_COMPUTER_NONE               1      4
+[ 30] BRAKE_RELEASE_STATUS             0      0
+[ 31] BRAKE_RELEASE_REQUEST            0      0
+[ 32] BRAKE_RELEASE_CONFIRMED          0      0
+[ 33] GET_PROTECTED_GROUP_CHECKSUM     0      0
+[ 34] GET_PROTECTED_GROUP_NAME         0      0

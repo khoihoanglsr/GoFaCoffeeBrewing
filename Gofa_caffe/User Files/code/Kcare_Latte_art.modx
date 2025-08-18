@@ -1,0 +1,96 @@
+MODULE Kcare_Latte_art
+    
+    PROC main()
+        WHILE TRUE DO 
+        Home;
+        PickPhin;
+        Made_Coffe;
+        ENDWHILE
+        
+       
+    ENDPROC
+    PROC Made_Coffe()
+        SetDO ABB_Scalable_IO_0_DO1,1;
+        MoveJ Target_CoffeTG,v200,z100,Gripper_Tool;
+        MoveJ Target_10,v500,fine,Phin_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_20,v200,fine,Phin_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_30,v200,fine,Phin_Tool\WObj:=Workobject_Machine_coffe;
+        SetDO ABB_Scalable_IO_0_DO1,0;
+        WaitTime 2;
+        MoveL Target_40,v200,fine,Phin_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_CoffeTG,v200,fine,Gripper_Tool;
+    ENDPROC
+    PROC Home()
+        MoveJ Target_CoffeTG,v500,z100,tool0;
+        SetDO ABB_Scalable_IO_0_DO1,1;
+        MoveJ Target_Home,v500,z100,tool0;
+        MoveJ Target_CoffeTG,v500,z100,tool0;
+    ENDPROC
+    PROC PickPhin()
+        SetDO ABB_Scalable_IO_0_DO1,0;
+        MoveJ Target_CoffeTG,v200,fine,Gripper_Tool\WObj:=wobj0;
+        MoveL Target_50,v200,fine,Gripper_Tool\WObj:=Workobject_PickPhin;
+        MoveL Target_60,v200,fine,Gripper_Tool\WObj:=Workobject_PickPhin;
+        SetDO ABB_Scalable_IO_0_DO1,1;
+        WaitTime 2;
+        MoveL Target_70,v200,fine,Gripper_Tool\WObj:=Workobject_PickPhin;
+        MoveJ Target_CoffeTG,v200,fine,Phin_Tool\WObj:=wobj0;
+    ENDPROC
+    PROC Drop_phin()
+        SetDO ABB_Scalable_IO_0_DO1,1;
+        MoveJ Target_CoffeTG,v200,fine,tool0\WObj:=wobj0;
+        MoveL Target_70,v200,fine,tool0\WObj:=Workobject_PickPhin;
+        MoveL Target_60,v200,fine,tool0\WObj:=Workobject_PickPhin;
+        SetDO ABB_Scalable_IO_0_DO1,0;
+        WaitTime 2;
+        MoveL Target_50,v200,fine,tool0\WObj:=Workobject_PickPhin;
+    ENDPROC
+       PROC Water_Supply()           
+        SetDO ABB_Scalable_IO_0_DO1,0;
+        MoveJ Target_CoffeTG,v200,fine,Gripper_Tool\WObj:=wobj0;
+        MoveJ Target_80,v200,fine,Gripper_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_81,v200,fine,Gripper_Tool\WObj:=Workobject_Machine_coffe;
+        SetDO ABB_Scalable_IO_0_DO1,1;
+        WaitTime 2;
+        MoveL Target_82,v200,fine,Gripper_Tool\WObj:=Workobject_Machine_coffe;
+        WaitTime 3;
+        MoveL Target_81,v200,fine,Gripper_Tool\WObj:=Workobject_Machine_coffe;
+        SetDO ABB_Scalable_IO_0_DO1,0;
+        WaitTime 2;
+        MoveJ Target_80,v200,fine,Gripper_Tool\WObj:=Workobject_Machine_coffe;
+    ENDPROC
+      
+    
+      PROC PickTable_Cup2()
+        MoveJ Target_CoffeTG,v200,fine,Cup_Tool\WObj:=wobj0;
+        MoveJ Table_cup_10,v200,fine,Cup_Tool\WObj:=Workobject_Table_Cup;
+        MoveL Table_cup_20,v200,fine,Cup_Tool\WObj:=Workobject_Table_Cup;
+        MoveL Table_cup_30,v200,fine,Cup_Tool\WObj:=Workobject_Table_Cup;
+        MoveL Table_cup_40,v200,fine,Cup_Tool\WObj:=Workobject_Table_Cup;
+    ENDPROC
+    PROC Put_In_Cup()
+        MoveL Target_CoffeTG,v100,fine,Cup_Tool\WObj:=wobj0;
+        MoveL Target_93,v200,fine,Cup_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_94,v100,fine,Cup_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_95,v100,fine,Cup_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_96,v200,fine,Cup_Tool\WObj:=Workobject_Machine_coffe;
+       
+    ENDPROC
+   
+     PROC DropTable_Cup2()
+        MoveJ Target_CoffeTG,v200,fine,Cup_Tool\WObj:=wobj0;
+        MoveL Table_cup_40,v200,fine,Cup_Tool\WObj:=Workobject_Table_Cup;
+        MoveL Table_cup_30,v200,fine,Cup_Tool\WObj:=Workobject_Table_Cup;
+        MoveL Table_cup_20,v200,fine,Cup_Tool\WObj:=Workobject_Table_Cup;
+        MoveL Table_cup_10,v200,fine,Cup_Tool\WObj:=Workobject_Table_Cup;
+    ENDPROC
+    PROC Put_Out_Cup()
+        MoveL Target_CoffeTG,v100,fine,Cup_Tool\WObj:=wobj0;
+        MoveL Target_96,v200,fine,Cup_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_95,v100,fine,Cup_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_94,v100,fine,Cup_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_93,v200,fine,Cup_Tool\WObj:=Workobject_Machine_coffe;
+    ENDPROC
+     
+    
+    ENDMODULE

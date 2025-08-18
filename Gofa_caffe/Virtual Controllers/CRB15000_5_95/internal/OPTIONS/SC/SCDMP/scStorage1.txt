@@ -1,0 +1,16 @@
+ Storage init is OK
+ Current generation  : 10
+ Active block        : 5
+ clearStorage        : NO
+ Clear storage req   : NO
+ Storage cleared     : NO
+ Time to initialize  : 819 micro seconds
+
+ Part information:
+  [Id]  Name                              Offset    Size    Used  Address     Src Block
+  [10]  Lock                                   0    1024      96  00B009E8    4
+  [11]  SafeMove                            1024    4096    2192  00B00DE8    4
+  [12]  Scoord                             32768    1024      96  00B089E8    4
+  [13]  Logging                            33792   65536   52144  00B08DE8    4
+  [14]  CIPSafety                         115712    8192    4224  00B1CDE8    4
+  [98]  PartInfo                          129024    2044    1600  00B201E8    4

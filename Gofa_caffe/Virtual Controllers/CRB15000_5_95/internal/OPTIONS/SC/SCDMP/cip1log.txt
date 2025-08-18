@@ -1,0 +1,13 @@
+ ====== CIPSAFETY log from CPU1 [2025-07-03 14:03:48] [0 us] =======
+
+ [ 0] Diff:4237781882 str: --- scLog started ---                                       
+ [ 1] Diff:  18920025 str: --- scLog started ---                                       
+ [ 2] Diff:  12434413 str: --- scLog started ---                                       
+ [ 3] Diff:  41054672 str: --- scLog started ---                                       
+ [ 4] Diff:1757149750 str: --- scLog started ---                                       
+ [ 5] Diff: 489297056 str: --- scLog started ---                                       
+ [ 6] Diff:  37388376 str: --- scLog started ---                                       
+ [ 7] Diff:  53304446 str: --- scLog started ---                                       
+ [ 8] Diff:2014002603 str: --- scLog started ---                                       
+ [ 9] Diff: 203353815 str: --- scLog started ---                                       
+ [10] Diff:3903883498 str: --- scLog started ---                                       

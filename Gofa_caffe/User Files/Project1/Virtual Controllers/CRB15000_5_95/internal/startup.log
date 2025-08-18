@@ -1,0 +1,550 @@
+Global pool was restored.
+System pool was restored.
+Startmode is WARM
+No ExternalUAS configuration found
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/startup.cmd
+Goto to label: NO_AXC
+07:00:00:018019 Status 0 from if_feature_present abb.robotics.robotcontrol.controllerhw.axiscomputer.none
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/startup_no_axc.cmd
+07:00:00:018022 Status 0 from startup_log
+Begin system startup
+07:00:00:018025 Status 0 from echo
+07:00:00:018027 Status 0 from invoke2 s17_initialize
+Goto to label: START_EMULATED_M03
+07:00:00:018030 Status 0 from ifvc START_EMULATED_M03
+07:00:00:018032 Status 0 from invoke2 s40_create_emulated_ethercat_slave
+07:00:00:018034 Status 0 from mkdir E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/M03_MEM
+Load emulated slaves from dir : C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/vcbin
+CreateMailslot for slot \\.\mailslot\asyncpdi2ecat1_72C030FA
+CreateMailslot for slot \\.\mailslot\syncpdi2ecat1_72C030FA
+CreateMailslot for slot \\.\mailslot\asyncpdi2ecat2_72C030FA
+CreateMailslot for slot \\.\mailslot\syncpdi2ecat2_72C030FA
+CreateMailslot for slot \\.\mailslot\asyncpdi2ecat3_72C030FA
+CreateMailslot for slot \\.\mailslot\syncpdi2ecat3_72C030FA
+CreateMailslot for slot \\.\mailslot\asyncpdi2ecat4_72C030FA
+CreateMailslot for slot \\.\mailslot\syncpdi2ecat4_72C030FA
+CreateMailslot for slot \\.\mailslot\asyncpdi2ecat5_72C030FA
+CreateMailslot for slot \\.\mailslot\syncpdi2ecat5_72C030FA
+CreateMailslot for slot \\.\mailslot\asyncpdi2ecat6_72C030FA
+CreateMailslot for slot \\.\mailslot\syncpdi2ecat6_72C030FA
+CreateFile for slot \\.\mailslot\asyncecat2pdi1_72C030FA
+CreateFile for slot \\.\mailslot\syncecat2pdi1_72C030FA
+CreateTestFile for slot \\.\mailslot\probemail1_72C030FA
+CreateFile for slot \\.\mailslot\asyncecat2pdi2_72C030FA
+CreateFile for slot \\.\mailslot\syncecat2pdi2_72C030FA
+CreateTestFile for slot \\.\mailslot\probemail2_72C030FA
+CreateFile for slot \\.\mailslot\asyncecat2pdi3_72C030FA
+CreateFile for slot \\.\mailslot\syncecat2pdi3_72C030FA
+CreateTestFile for slot \\.\mailslot\probemail3_72C030FA
+CreateFile for slot \\.\mailslot\asyncecat2pdi4_72C030FA
+CreateFile for slot \\.\mailslot\syncecat2pdi4_72C030FA
+CreateTestFile for slot \\.\mailslot\probemail4_72C030FA
+CreateFile for slot \\.\mailslot\asyncecat2pdi5_72C030FA
+CreateFile for slot \\.\mailslot\syncecat2pdi5_72C030FA
+CreateTestFile for slot \\.\mailslot\probemail5_72C030FA
+CreateFile for slot \\.\mailslot\asyncecat2pdi6_72C030FA
+CreateFile for slot \\.\mailslot\syncecat2pdi6_72C030FA
+CreateTestFile for slot \\.\mailslot\probemail6_72C030FA
+07:00:00:018067 Status 0 from invoke DriveLinkHal_startServices
+E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/TEMP has been mounted.
+07:00:00:018070 Status 0 from baseinit
+07:00:00:018072 Status 0 from invoke internalBusDrv
+Goto to label: NO_ASCII_LOG
+07:00:00:018075 Status 0 from getkey ASCIILogMedia
+07:00:00:018077 Status 0 from uprobe_init
+07:00:00:018079 Status 0 from debug_service_base_init
+07:00:00:018081 Status 0 from invoke S33_01_create
+07:00:00:018083 Status 0 from S33_01_init
+07:00:00:018085 Status 0 from invoke mchExceptionInit
+07:00:00:018087 Status 0 from invoke S98_01_create
+07:00:00:018089 Status 0 from S98_01_init
+Goto to label: VC_SEP_SKIP
+07:00:00:018092 Status 0 from ifvc VC_SEP_SKIP
+Loading Safety Controller images
+07:00:00:018095 Status 0 from echo
+07:00:00:018097 Status 0 from invoke scinit_load_and_start_safety_controller
+Goto to label: VC_CS_SKIP
+07:00:00:018100 Status 0 from ifvc VC_CS_SKIP
+Goto to label: VC_LED_SKIP
+07:00:00:018103 Status 0 from ifvc VC_LED_SKIP
+07:00:00:018105 Status 0 from bb_populate
+07:00:00:018107 Status 0 from bb_populate
+07:00:00:018109 Status 0 from bb_populate
+07:00:00:018111 Status 0 from bb_populate
+07:00:00:018113 Status 0 from bb_populate
+07:00:00:018115 Status 0 from bb_populate
+07:00:00:018117 Status 0 from bb_populate
+07:00:00:018119 Status 0 from bb_populate
+07:00:00:018121 Status 0 from bb_populate
+07:00:00:018123 Status 0 from bb_populate
+07:00:00:018125 Status 0 from bb_populate
+07:00:00:018127 Status 0 from bb_populate
+07:00:00:018129 Status 0 from sysdmp_init
+07:00:00:018131 Status 0 from task 
+07:00:00:018133 Status 0 from debug_service_init
+07:00:00:018135 Status 0 from sysdmp_add
+07:00:00:018137 Status 0 from sysdmp_add
+07:00:00:018139 Status 0 from sysdmp_add
+07:00:00:018141 Status 0 from sysdmp_add
+07:00:00:018143 Status 0 from sysdmp_add
+07:00:00:018145 Status 0 from sysdmp_add
+07:00:00:018147 Status 0 from sysdmp_add
+Goto to label: NO_RC_DUMPS
+07:00:00:018150 Status 0 from ifvc NO_RC_DUMPS
+07:00:00:018152 Status 0 from sysdmp_add
+07:00:00:018154 Status 0 from sysdmp_add
+07:00:00:018156 Status 0 from sysdmp_add
+07:00:00:018158 Status 0 from task 
+07:00:00:024000 Status 0 from synchronize task
+07:00:00:024002 Status 0 from go task
+07:00:00:024004 Status 0 from task 
+07:00:00:024006 Status 0 from task 
+07:00:00:024008 Status 0 from task 
+Goto to label: VC_NO_CLOCK_PROBE
+07:00:00:024011 Status 0 from ifvc VC_NO_CLOCK_PROBE
+[94m
+25-05-10 14:31:09 MC0: type = STATE_CHANGE id = Operational code = 45 (10045)
+[37m
+07:00:00:024018 Status 0 from basenew
+Base services started
+07:00:00:024021 Status 0 from echo
+Goto to label: VC_NO_REMOTE_DIAGNOSTIC
+07:00:00:024024 Status 0 from ifvc VC_NO_REMOTE_DIAGNOSTIC
+07:00:00:024026 Status 0 from S98_01_new
+07:00:00:024028 Status 0 from direxist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/TEMP/rw_trash
+Goto to label: NEXT_STEP
+07:00:00:024031 Status 0 from goto NEXT_STEP
+Goto to label: VC_NO_MC_SEP_UPGRADE
+07:00:00:024034 Status 0 from ifvc VC_NO_MC_SEP_UPGRADE
+Goto to label: VC_NO_MC_CS_UPGRADE
+07:00:00:024037 Status 0 from ifvc VC_NO_MC_CS_UPGRADE
+Goto to label: VC_NO_MC_FPGA_UPGRADE
+07:00:00:024040 Status 0 from ifvc VC_NO_MC_FPGA_UPGRADE
+07:00:00:024042 Status 0 from invoke fciInit
+07:00:00:024045 Status 0 from init eio
+07:00:00:024047 Status 0 from task 
+07:00:00:024049 Status 0 from task 
+07:00:00:024051 Status 0 from invoke incInstallDriver
+Goto to label: LOAD_CMD
+07:00:00:024054 Status 0 from fileexist C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/en_base.cmd
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/en_base.cmd
+07:00:00:024057 Status 0 from sysdmp_add
+07:00:00:024059 Status 0 from task 
+07:00:00:024061 Status 0 from task 
+07:00:00:024063 Status 0 from task 
+07:00:00:024065 Status 0 from invoke incInstallDriver
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/enms/en_base.cmd
+07:00:00:024068 Status 0 from include 
+Goto to label: NO_BONJOUR_DAEMON
+07:00:00:024071 Status 0 from ifvc NO_BONJOUR_DAEMON
+07:00:00:024073 Status 0 from invoke2 init_mempools
+07:00:00:024075 Status 0 from task 
+07:00:00:024077 Status 0 from task 
+07:00:00:024081 Status 0 from task 
+07:00:00:024083 Status 0 from task 
+07:00:00:024085 Status 0 from task 
+07:00:00:024087 Status 0 from sysdmp_trigger_add
+07:00:00:024089 Status 0 from sysdmp_trigger_add
+07:00:00:024091 Status 0 from sysdmp_trigger_add
+07:00:00:024093 Status 0 from sysdmp_trigger_add
+Starting features - phase 1 of 5
+07:00:00:024096 Status 0 from echo
+Goto to label: LOAD_CMD
+07:00:00:024099 Status 0 from fileexist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/opt_l0.cmd
+
+Script begin: E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/opt_l0.cmd
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/virtualInc_opt.cmd
+Starting Virtual Inc task and install the driver and network
+07:00:00:024104 Status 0 from echo
+07:00:00:024106 Status 0 from sysdmp_add
+07:00:00:024109 Status 0 from task 
+07:00:00:024111 Status 0 from invoke incInstallDriver
+End of Virtual Inc tasks installation
+07:00:00:024114 Status 0 from echo
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/vnet/virtualInc_opt.cmd
+07:00:00:024117 Status 0 from include End of Virtual Inc tasks installation
+
+Script begin: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sc/ScInc_opt.cmd
+Starting ScIncTasks and installs the driver/networks
+07:00:00:024121 Status 0 from echo
+07:00:00:024123 Status 0 from task 
+07:00:00:024125 Status 0 from task 
+07:00:00:024127 Status 0 from invoke incInstallDriver
+End of ScIncTasks installation
+07:00:00:024130 Status 0 from echo
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/options/sc/ScInc_opt.cmd
+07:00:00:024133 Status 0 from include End of ScIncTasks installation
+Script end: E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/opt_l0.cmd
+07:00:00:024136 Status 0 from include End of ScIncTasks installation
+Initializing system interrupts
+07:00:00:024139 Status 0 from print
+07:00:00:024142 Status 0 from init motion
+07:00:00:024146 Status 0 from init rol
+07:00:00:024150 Status 0 from init cab
+07:00:00:024152 Status 0 from init bar
+07:00:00:024154 Status 0 from init pgmrun
+07:00:00:024157 Status 0 from init rapid
+07:00:00:024159 Status 0 from init puscfg
+07:00:00:024161 Status 0 from invoke sdlog_init
+07:00:00:024163 Status 0 from task 
+Goto to label: VC_CABSUPTS_SKIP
+07:00:00:024166 Status 0 from ifvc VC_CABSUPTS_SKIP
+07:00:00:024169 Status 0 from invoke2 sevt_safety_init
+07:00:00:024171 Status 0 from invoke2 scsafIntBusInit
+07:00:00:024173 Status 0 from sysdmp_add
+07:00:00:024175 Status 0 from sysdmp_add
+07:00:00:024177 Status 0 from invoke2 epanel_device_init
+07:00:00:024179 Status 0 from preNew motion
+07:00:00:024181 Status 0 from task 
+07:00:00:024183 Status 0 from task 
+07:00:00:024185 Status 0 from task 
+07:00:00:024187 Status 0 from task 
+07:00:00:024190 Status 0 from reconfigure eio
+Starting Safety Controller orchestrator
+07:00:00:024193 Status 0 from echo
+07:00:00:024195 Status 0 from task 
+  Cpu1 in state ready
+[94m
+25-05-10 14:31:09 SC CPUA: type = STATE_CHANGE id = Safety code = 665 (90665)
+[37m
+07:00:21:694000 Status 0 from invoke2 scorch_wait_for_early_setup_done
+07:00:21:694002 Status 0 from task 
+07:00:21:694004 Status 0 from task 
+07:00:21:694006 Status 0 from task 
+07:00:21:694008 Status 0 from task 
+Goto to label: TWO_CORES
+07:00:21:694011 Status 0 from if_feature_present abb.robotics.robotcontrol.controllerhw.m28.01
+07:00:21:694013 Status 0 from task 
+07:00:21:694015 Status 0 from task 
+07:00:21:694017 Status 0 from task 
+07:00:21:694019 Status 0 from task 
+07:00:21:694021 Status 0 from task 
+07:00:21:694023 Status 0 from task 
+07:00:21:694025 Status 0 from task 
+07:00:21:694027 Status 0 from task 
+07:00:21:694029 Status 0 from task 
+07:00:21:694031 Status 0 from task 
+07:00:21:694033 Status 0 from task 
+07:00:21:694035 Status 0 from task 
+07:00:21:694037 Status 0 from task 
+07:00:21:694039 Status 0 from task 
+07:00:21:694041 Status 0 from task 
+07:00:21:694043 Status 0 from task 
+07:00:21:694045 Status 0 from task 
+07:00:21:694047 Status 0 from task 
+07:00:21:694049 Status 0 from task 
+07:00:21:694051 Status 0 from task 
+07:00:21:694053 Status 0 from task 
+07:00:21:694055 Status 0 from task 
+07:00:21:694057 Status 0 from task 
+07:00:21:694059 Status 0 from task 
+07:00:21:694066 Status 0 from task 
+07:00:21:694068 Status 0 from task 
+07:00:21:694070 Status 0 from task 
+07:00:21:694072 Status 0 from task 
+07:00:21:694074 Status 0 from task 
+07:00:21:694076 Status 0 from task 
+07:00:21:694078 Status 0 from task 
+Goto to label: NEXT_STEP
+07:00:21:694081 Status 0 from goto NEXT_STEP
+07:00:21:694083 Status 0 from task 
+07:00:21:694085 Status 0 from task 
+07:00:21:694087 Status 0 from task 
+07:00:21:694089 Status 0 from task 
+07:00:21:694091 Status 0 from task 
+07:00:21:694093 Status 0 from task 
+07:00:21:694095 Status 0 from task 
+07:00:21:694097 Status 0 from task 
+07:00:21:694099 Status 0 from task 
+07:00:21:694102 Status 0 from task 
+07:00:21:694104 Status 0 from task 
+07:00:21:694108 Status 0 from task 
+07:00:21:694111 Status 0 from task 
+07:00:21:694114 Status 0 from task 
+07:00:21:694116 Status 0 from task 
+07:00:21:694119 Status 0 from task 
+07:00:21:694121 Status 0 from task 
+07:00:21:694123 Status 0 from task 
+07:00:21:694125 Status 0 from task 
+Waiting for task group 1 to start
+07:00:21:694128 Status 0 from print
+07:00:21:700000 Status 0 from synchronize task
+07:00:22:200000 Status 0 from delay
+Rapi-Subscription running on slot: 205
+Message (cmd/msgType: 299/3) received from sid: 0
+07:00:22:200008 Status 0 from go task
+Starting features - phase 2 of 5
+07:00:22:200011 Status 0 from echo
+07:00:22:200013 Status 0 from fileexist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/option.cmd
+Goto to label: NEXT_STEP
+07:00:22:200016 Status 0 from goto NEXT_STEP
+Starting motion system
+07:00:22:200019 Status 0 from echo
+Message (cmd/msgType: 299/3) received from sid: 0
+DriveLogService reports "Not supported" for unit /Device_1
+DriveLogService reports "Not supported" for unit /Device_2
+DriveLogService reports "Not supported" for unit /Device_3
+DriveLogService reports "Not supported" for unit /Device_4
+DriveLogService reports "Not supported" for unit /Device_5
+DriveLogService reports "Not supported" for unit /Device_6
+adding fc_master1 as fc_master_name
+Task ENIPSafetyRecvTask is about to terminate but is registered in Virtual Time. The task will remain in sleeping state
+STATMATS. New motion_planner: motion_planner_1
+STATMATS. New motion_planner: motion_planner_2
+STATMATS. New motion_planner: motion_planner_3
+STATMATS. New motion_planner: motion_planner_4
+STATMATS. New motion_planner: motion_planner_5
+STATMATS. New motion_planner: motion_planner_6
+STATMATS. New motion_planner: motion_planner_7
+07:01:23:387001 Status 0 from new motion
+SISMA_BS_INFO 41152
+07:01:24:887001 Status 0 from delay
+07:01:24:887003 Status 0 from connect_dependings SYS_STORED_OBJ_CAB
+07:01:24:887005 Status 0 from if SYNCROB
+Goto to label: NOSYNC
+07:01:24:887008 Status 0 from goto NOSYNC
+Waiting for motion system to start
+07:01:24:887011 Status 0 from echo
+07:01:24:893002 Status 0 from synchronize task
+Message (cmd/msgType: 299/3) received from sid: 0
+Message (cmd/msgType: 299/3) received from sid: 0
+Message (cmd/msgType: 299/3) received from sid: 0
+07:01:24:893021 Status 0 from go task
+Synchronizing industrial networks
+07:01:24:893024 Status 0 from echo
+07:01:24:893054 Status 0 from io_synchronize
+Goto to label: VIRTIOTS_RUN
+07:01:24:893057 Status 0 from ifvc VIRTIOTS_RUN
+07:01:24:893059 Status 0 from task 
+Starting RAPID system
+07:01:24:893062 Status 0 from echo
+07:01:24:893069 Status 0 from invoke rldryrun_start
+07:01:24:893071 Status 0 from invoke rlcyclic_start
+07:01:24:893073 Status 0 from invoke rlvisualize_start
+07:01:24:893075 Status 0 from invoke rldata_init
+Message (cmd/msgType: 299/3) received from sid: 0
+------------number_of_tasks 3 
+------------number_of_tasks 3 
+------------number_of_tasks 3 
+Message (cmd/msgType: 299/3) received from sid: 0
+Message (cmd/msgType: 299/3) received from sid: 0
+[94m
+25-05-10 14:31:11 MC0: type = STATE_CHANGE id = Operational code = 2 (10002)
+arg 0: 1 arg 1: 0 
+arg 2: SC_CBC
+[37m
+[94m
+25-05-10 14:31:11 MC0: type = STATE_CHANGE id = Operational code = 2 (10002)
+arg 0: 2 arg 1: 0 
+arg 2: T_ROB1
+[37m
+[94m
+25-05-10 14:31:11 MC0: type = STATE_CHANGE id = Operational code = 2 (10002)
+arg 0: 3 arg 1: 0 
+arg 2: T_GOFA_LED
+[37m
+[94m
+25-05-10 14:31:12 MC0: type = STATE_CHANGE id = Operational code = 40 (10040)
+
+arg 0: T_ROB1
+
+arg 1: 
+arg 2: 91809416 arg 3: 2856 [37m
+07:01:24:961114 Status 0 from new rapid
+Starting features - phase 3 of 5
+07:01:24:961117 Status 0 from echo
+07:01:24:961119 Status 0 from fileexist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/opt_l1.cmd
+Goto to label: NEXT_STEP
+07:01:24:961122 Status 0 from goto NEXT_STEP
+[94m
+25-05-10 14:31:13 MC0: type = STATE_CHANGE id = Operational code = 12 (10012)
+[37m
+[94m
+25-05-10 14:31:13 MC0: type = STATE_CHANGE id = Operational code = 15 (10015)
+[37m
+07:01:29:418057 Status 0 from new cab
+Starting communication services
+07:01:29:418060 Status 0 from echo
+07:01:29:418062 Status 0 from invoke2 set_max_allowed_robapi_wan_connections
+07:01:29:418064 Status 0 from task 
+07:01:29:418066 Status 0 from task 
+07:01:29:418071 Status 0 from task 
+07:01:29:418073 Status 0 from task 
+07:01:29:418075 Status 0 from task 
+07:01:29:418077 Status 0 from task 
+07:01:29:418080 Status 0 from task 
+07:01:29:418082 Status 0 from task 
+07:01:29:418084 Status 0 from task 
+07:01:29:418086 Status 0 from task 
+07:01:29:418088 Status 0 from task 
+07:01:29:418093 Status 0 from task 
+Starting features - phase 4 of 5
+07:01:29:418096 Status 0 from echo
+07:01:29:418098 Status 0 from fileexist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/opt_l2.cmd
+Goto to label: NEXT_STEP
+07:01:29:418101 Status 0 from goto NEXT_STEP
+07:01:29:418105 Status 0 from task 
+Goto to label: NETSCANSKIP
+07:01:29:418108 Status 0 from ifvc NETSCANSKIP
+Finalizing RAPID system
+07:01:29:418111 Status 0 from echo
+[94m
+25-05-10 14:31:13 MC0: type = STATE_CHANGE id = Operational code = 150 (10150)
+arg 0: 2 
+arg 1: T_ROB1
+[37m
+[94m
+25-05-10 14:31:13 MC0: type = STATE_CHANGE id = Operational code = 150 (10150)
+arg 0: 3 
+arg 1: T_GOFA_LED
+[37m
+[94m
+25-05-10 14:31:13 MC0: type = STATE_CHANGE id = Operational code = 2 (10002)
+arg 0: 2 arg 1: 0 
+arg 2: T_ROB1
+[37m
+[94m
+25-05-10 14:31:13 MC0: type = STATE_CHANGE id = Operational code = 129 (10129)
+arg 0: 3 
+arg 1: T_GOFA_LED
+arg 2: 9 [37m
+[94m
+25-05-10 14:31:13 MC0: type = STATE_CHANGE id = Operational code = 150 (10150)
+arg 0: 3 
+arg 1: T_GOFA_LED
+[37m
+07:01:29:424001 Status 0 from synchronize task
+07:01:29:424003 Status 0 from rapid_startup_ready
+07:01:29:424005 Status 0 from cab_startup_ready
+Message (cmd/msgType: 299/3) received from sid: 0
+Message (cmd/msgType: 299/3) received from sid: 0
+Message (cmd/msgType: 299/3) received from sid: 0
+07:01:29:424022 Status 0 from go task
+Goto to label: VTSPEED
+07:01:29:424025 Status 0 from ifvc VTSPEED
+07:01:29:424027 Status 0 from invoke VTSetSpeed
+07:01:29:424029 Status 0 from invoke osal_netconf_dhcps_strict_vendor_id
+Starting features - phase 5 of 5
+07:01:29:424032 Status 0 from echo
+07:01:29:424034 Status 0 from fileexist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/opt_l3.cmd
+Goto to label: NEXT_STEP
+07:01:29:424037 Status 0 from goto NEXT_STEP
+07:01:29:424039 Status 0 from upgrade_warm_start_completed
+07:01:29:424041 Status 0 from unofficial_rw_notification
+07:01:29:424043 Status 0 from sysdmp_add
+07:01:29:424045 Status 0 from sysdmp_add
+07:01:29:424047 Status 0 from sysdmp_add
+07:01:29:424049 Status 0 from sysdmp_add
+07:01:29:424051 Status 0 from sysdmp_add
+07:01:29:424053 Status 0 from sysdmp_add
+07:01:29:424055 Status 0 from sysdmp_add
+07:01:29:424057 Status 0 from sysdmp_add
+07:01:29:424059 Status 0 from sysdmp_add
+07:01:29:424061 Status 0 from sysdmp_add
+07:01:29:424063 Status 0 from sysdmp_add
+07:01:29:424065 Status 0 from sysdmp_add
+07:01:29:424067 Status 0 from sysdmp_add
+07:01:29:424069 Status 0 from sysdmp_add
+07:01:29:424071 Status 0 from sysdmp_add
+07:01:29:424073 Status 0 from sysdmp_add
+07:01:29:424075 Status 0 from sysdmp_add
+07:01:29:424077 Status 0 from sysdmp_add
+07:01:29:424079 Status 0 from sysdmp_add
+07:01:29:424081 Status 0 from sysdmp_add
+07:01:29:424083 Status 0 from sysdmp_add
+07:01:29:424085 Status 0 from sysdmp_add
+07:01:29:424087 Status 0 from sysdmp_add
+07:01:29:424089 Status 0 from sysdmp_add
+07:01:29:424091 Status 0 from sysdmp_add
+07:01:29:424093 Status 0 from sysdmp_add
+07:01:29:424095 Status 0 from sysdmp_add
+Goto to label: NO_TRACEMEMLEAK
+07:01:29:424098 Status 0 from ifvc NO_TRACEMEMLEAK
+07:01:29:424100 Status 0 from sysdmp_add
+Goto to label: NO_SEP_DIAG
+07:01:29:424103 Status 0 from ifvc NO_SEP_DIAG
+07:01:29:424105 Status 0 from sysdmp_add
+07:01:29:424107 Status 0 from sysdmp_add
+07:01:29:424109 Status 0 from sysdmp_add
+Goto to label: NO_CHKDSK
+07:01:29:424112 Status 0 from ifvc NO_CHKDSK
+07:01:29:424114 Status 0 from sysdmp_add
+07:01:29:424116 Status 0 from sysdmp_add
+07:01:29:424118 Status 0 from sysdmp_add
+07:01:29:424120 Status 0 from sysdmp_add
+07:01:29:424122 Status 0 from sysdmp_add
+07:01:29:424124 Status 0 from sysdmp_add
+Goto to label: NEXT_STEP
+07:01:29:424127 Status 0 from goto NEXT_STEP
+07:01:29:424129 Status 0 from sysdmp_add
+07:01:29:424131 Status 0 from sysdmp_trigger_add
+07:01:29:424133 Status 0 from sysdmp_trigger_add
+07:01:29:424135 Status 0 from sysdmp_trigger_add
+07:01:29:424137 Status 0 from sysdmp_trigger_add
+07:01:29:424139 Status 0 from sysdmp_trigger_add
+07:01:29:424141 Status 0 from sysdmp_trigger_add
+07:01:29:424143 Status 0 from sysdmp_trigger_add
+07:01:29:424145 Status 0 from sysdmp_trigger_add
+07:01:29:424147 Status 0 from sysdmp_trigger_add
+07:01:29:424149 Status 0 from sysdmp_trigger_add
+07:01:29:424151 Status 0 from sysdmp_trigger_add
+07:01:29:424153 Status 0 from sysdmp_trigger_add
+07:01:29:424155 Status 0 from sysdmp_trigger_add
+07:01:29:424157 Status 0 from sysdmp_add_logfile
+07:01:29:424159 Status 0 from sysdmp_add_logfile
+07:01:29:424161 Status 0 from sysdmp_add_logfile
+07:01:29:424163 Status 0 from sysdmp_add_logfile
+07:01:29:424165 Status 0 from sysdmp_add_logfile
+07:01:29:424167 Status 0 from sysdmp_add_logfile
+07:01:29:424169 Status 0 from sysdmp_add_logfile
+07:01:29:424171 Status 0 from sysdmp_add_logfile
+07:01:29:424173 Status 0 from sysdmp_add_logfile
+07:01:29:424175 Status 0 from sysdmp_add_logfile
+07:01:29:424177 Status 0 from sysdmp_add_logfile
+07:01:29:424179 Status 0 from sysdmp_add_logfile
+07:01:29:424181 Status 0 from sysdmp_add_logfile
+07:01:29:424183 Status 0 from sysdmp_add_logfile
+07:01:29:424185 Status 0 from sysdmp_add_logfile
+07:01:29:424187 Status 0 from sysdmp_add_logfile
+07:01:29:424189 Status 0 from sysdmp_add_logfile
+07:01:29:424191 Status 0 from sysdmp_add_logfile
+07:01:29:424193 Status 0 from sysdmp_add_logfile
+07:01:29:424195 Status 0 from sysdmp_add_logfile
+07:01:29:424197 Status 0 from sysdmp_add_logfile
+07:01:29:424199 Status 0 from sysdmp_add_logfile
+07:01:29:424201 Status 0 from sysdmp_add_logfile
+Message (cmd/msgType: 299/3) received from sid: 0
+Message (cmd/msgType: 299/3) received from sid: 0
+Message (cmd/msgType: 299/3) received from sid: 0
+07:01:29:424203 Status 0 from sysdmp_add_logfile
+07:01:29:434001 Status 0 from sysdmp_add_logfile
+07:01:29:434003 Status 0 from sysdmp_add_logfile
+07:01:29:434005 Status 0 from sysdmp_add_logfile
+07:01:29:434007 Status 0 from sysdmp_add_logfile
+07:01:29:434009 Status 0 from sysdmp_add_logfile
+07:01:29:434011 Status 0 from sysdmp_add_logfile
+07:01:29:434013 Status 0 from sysdmp_add_logfile
+07:01:29:434015 Status 0 from sysdmp_add_logfile
+07:01:29:434017 Status 0 from sysdmp_add_logfile
+07:01:29:434019 Status 0 from sysdmp_add
+07:01:29:434021 Status 0 from sysdmp_add
+Goto to label: VC_CS_SHOW_SKIP
+07:01:29:434024 Status 0 from ifvc VC_CS_SHOW_SKIP
+07:01:29:434026 Status 0 from invoke fpevent_init
+07:01:29:434029 Status 0 from invoke fpcmd_init
+07:01:29:434032 Status 0 from invoke fpconsole_init
+07:01:29:434037 Status 0 from invoke fpdbg_init
+07:01:29:434039 Status 0 from invoke fpdevices_init
+07:01:29:434041 Status 0 from systemrun
+System started
+07:01:29:434044 Status 0 from echo
+07:01:29:434046 Status 0 from fileexist E:/Robots ABB/ABB Content/Gofa/Gofa Caffe/Gofa_caffe/Project1/Virtual Controllers/CRB15000_5_95/internal/post_startup_action.cmd
+Goto to label: NO_POST_ACTION
+07:01:29:434049 Status 0 from goto NO_POST_ACTION
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/startup_no_axc.cmd
+07:01:29:434052 Status 0 from include NO_POST_ACTION
+Script end: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1/system/startup.cmd

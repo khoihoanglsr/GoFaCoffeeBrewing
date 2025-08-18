@@ -1,0 +1,570 @@
+#######  Log open at 25-07-03 11:01:22 SE Asia Standard Time +0700 #######
+25-07-03 11:01:22	DpManagerUtility.cpp,470,[INFO]:	[1] Added 'C:\ProgramData\ABB\DistributionPackages\ABB.RobotWare-7.18.1\RobotPackages\RobotWareInstaller_1.21.0/abb.robotics.robotwareinstaller.rmf' to cache.
+25-07-03 11:01:22	DpManagerRWI.cpp,648,[INFO]:	Current RWI versionName: '1.21.0'
+25-07-03 11:01:22	DpManagerRWI.cpp,659,[INFO]:	Current RWI version detail '1.21.0+68'
+25-07-03 11:01:22	Startup.cpp,786,[INFO]:	Current RWI: 1.21.0+68, 1.21.0, 64-bit
+25-07-03 11:01:22	C:\a\12\s\ControllerProperties\ControllerProperties.cpp,256,[WARN]:	Failed to open file 'C:/Users/DELL/OneDrive/Máy tính/Gofa_caffe_1/Virtual Controllers/CRB15000_5_95/internal/ctrldata/controller_properties.txt'
+25-07-03 11:01:22	C:\a\12\s\ControllerProperties\ControllerProperties.cpp,188,[WARN]:	Previous controller properties file is not present or cannot be loaded.
+25-07-03 11:01:22	Startup.cpp,803,[INFO]:	Controller Id: VIRTUAL_CONTROLLER
+25-07-03 11:01:22	C:\a\12\s\ControllerProperties\ControllerProperties.cpp,883,[WARN]:	ControllerProperties::GetProperty could not find: controller_name
+25-07-03 11:01:22	Startup.cpp,805,[INFO]:	Controller Name: VIRTUAL_CONTROLLER
+25-07-03 11:01:22	DpManagerSysInstall.cpp,1193,[INFO]:	Starting SystemInstallImp::InitInstallation()...
+25-07-03 11:01:22	DpManagerSystemCommon.cpp,2144,[INFO]:	Package version check for HW Platform completed. No problem found. current HWPlatform: vc, required pkg ver = 1 
+25-07-03 11:01:22	DpManagerSysInstall.cpp,863,[INFO]:	Match type 3, installation type 1, m_ctrl = '', rootPath = C:\Users\DELL\AppData\Local\Temp\tmp2813.tmp\CRB15000_5_95, systemPath = 'C:\Users\DELL\AppData\Local\Temp\tmp2813.tmp\CRB15000_5_95/Systems/CRB15000_5_95'.
+25-07-03 11:01:22	DpManagerSysInstall.cpp,2064,[INFO]:	Load all included license files from system.
+25-07-03 11:01:22	C:\a\12\s\ControllerManagerUtility\ControllerManagerUtility.cpp,657,[INFO]:	'C:/Users/DELL/OneDrive/Máy tính/Gofa_caffe_1/Virtual Controllers/CRB15000_5_95/internal/temp/INSTALLTEMP/LICENSE/virtual.abb.robotics.robotcontrol.rlf' is not encrypted. 
+25-07-03 11:01:22	DpManagerSysInstall.cpp,2458,[INFO]:	Controller '' found, additional files path= ''.
+25-07-03 11:01:22	DpManagerSystemCommon.cpp,1697,[INFO]:	Reading content in file path 'C:\Users\DELL\AppData\Local\Temp\tmp2813.tmp\CRB15000_5_95/Systems/CRB15000_5_95/controller.rsf'.
+25-07-03 11:01:22	DpManagerUtility.cpp,470,[INFO]:	[1] Added 'C:\Users\DELL\AppData\Local\Temp\tmp2813.tmp\CRB15000_5_95/Products/abb.robotics.robotos_16.0.0/abb.robotics.robotos.rmf' to cache.
+25-07-03 11:01:22	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\DELL\AppData\Local\Temp\tmp2813.tmp\CRB15000_5_95/Products/abb.robotics.robotos_16.0.0', manifestfile = 'abb.robotics.robotos.rmf'.
+25-07-03 11:01:22	DpManagerUtility.cpp,470,[INFO]:	[2] Added 'C:\Users\DELL\AppData\Local\Temp\tmp2813.tmp\CRB15000_5_95/Products/abb.robotics.robotcontrol_7.18.1/abb.robotics.robotcontrol.rmf' to cache.
+25-07-03 11:01:22	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\DELL\AppData\Local\Temp\tmp2813.tmp\CRB15000_5_95/Products/abb.robotics.robotcontrol_7.18.1', manifestfile = 'abb.robotics.robotcontrol.rmf'.
+25-07-03 11:01:22	DpManagerUtility.cpp,470,[INFO]:	[3] Added 'C:\Users\DELL\AppData\Local\Temp\tmp2813.tmp\CRB15000_5_95/Products/abb.robotics.flexpendantapps_1.19.1/abb.robotics.flexpendantapps.rmf' to cache.
+25-07-03 11:01:22	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\DELL\AppData\Local\Temp\tmp2813.tmp\CRB15000_5_95/Products/abb.robotics.flexpendantapps_1.19.1', manifestfile = 'abb.robotics.flexpendantapps.rmf'.
+25-07-03 11:01:22	DpManagerUtility.cpp,470,[INFO]:	[4] Added 'C:\Users\DELL\AppData\Local\Temp\tmp2813.tmp\CRB15000_5_95/Products/abb.robotics.robots_1.18.1/abb.robotics.robots.rmf' to cache.
+25-07-03 11:01:22	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\DELL\AppData\Local\Temp\tmp2813.tmp\CRB15000_5_95/Products/abb.robotics.robots_1.18.1', manifestfile = 'abb.robotics.robots.rmf'.
+25-07-03 11:01:22	DpManagerUtility.cpp,470,[INFO]:	[5] Added 'C:\Users\DELL\AppData\Local\Temp\tmp2813.tmp\CRB15000_5_95/Products/abb.cn.robotics.wizard_1.7.0/abb.cn.robotics.wizard_1.7.0.rmf' to cache.
+25-07-03 11:01:22	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\DELL\AppData\Local\Temp\tmp2813.tmp\CRB15000_5_95/Products/abb.cn.robotics.wizard_1.7.0', manifestfile = 'abb.cn.robotics.wizard_1.7.0.rmf'.
+25-07-03 11:01:22	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotWareInstallationUtilities, min:1.21.0, max:1.99999999.99999999.
+25-07-03 11:01:22	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotOS, min:16.0.0, max:16.99999999.99999999.
+25-07-03 11:01:22	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotWareInstallationUtilities, min:1.21.0, max:1.99999999.99999999.
+25-07-03 11:01:22	DpManagerSystemCommon.cpp,854,[INFO]:	Using default hwplatform for AddIns: '*'.
+25-07-03 11:01:22	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotControl, min:7.0.0-299.Internal, max:7.99999999.99999999.
+25-07-03 11:01:22	DpManagerSystemCommon.cpp,854,[INFO]:	Using default hwplatform for AddIns: '*'.
+25-07-03 11:01:22	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotControl, min:7.1.0-225.Internal, max:7.99999999.99999999.
+25-07-03 11:01:22	DpManagerSystemCommon.cpp,854,[INFO]:	Using default hwplatform for AddIns: '*'.
+25-07-03 11:01:22	DpManagerSystemCommon.cpp,869,[INFO]:	No <Dependecy> found in product 'Wizard' in file 'abb.cn.robotics.wizard_1.7.0.rmf'.
+25-07-03 11:01:22	C:\a\12\s\ControllerManagerUtility\ControllerManagerUtility.cpp,657,[INFO]:	'C:/Users/DELL/OneDrive/Máy tính/Gofa_caffe_1/Virtual Controllers/CRB15000_5_95/internal/temp/INSTALLTEMP/LICENSE/virtual.abb.robotics.robotcontrol.rlf' is not encrypted. 
+25-07-03 11:01:22	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\DELL\AppData\Local\Temp\tmp2813.tmp\CRB15000_5_95/Products/abb.robotics.robotos_16.0.0/abb.robotics.robotos.rmf'
+25-07-03 11:01:22	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-07-03 11:01:22	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\DELL\AppData\Local\Temp\tmp2813.tmp\CRB15000_5_95/Products/abb.robotics.robotcontrol_7.18.1/abb.robotics.robotcontrol.rmf'
+25-07-03 11:01:22	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-07-03 11:01:22	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\DELL\AppData\Local\Temp\tmp2813.tmp\CRB15000_5_95/Products/abb.robotics.flexpendantapps_1.19.1/abb.robotics.flexpendantapps.rmf'
+25-07-03 11:01:22	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-07-03 11:01:23	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\DELL\AppData\Local\Temp\tmp2813.tmp\CRB15000_5_95/Products/abb.robotics.robots_1.18.1/abb.robotics.robots.rmf'
+25-07-03 11:01:23	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-07-03 11:01:23	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\DELL\AppData\Local\Temp\tmp2813.tmp\CRB15000_5_95/Products/abb.cn.robotics.wizard_1.7.0/abb.cn.robotics.wizard_1.7.0.rmf'
+25-07-03 11:01:23	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-07-03 11:01:23	DpManagerUtility.cpp,470,[INFO]:	[6] Added 'C:\ProgramData\ABB\DistributionPackages\ABB.RobotWare-7.18.1\RobotPackages\RobotWareInstaller_1.21.0/abb.robotics.robotwareinstaller.rmf' to cache.
+25-07-03 11:01:23	DpManagerRWI.cpp,648,[INFO]:	Current RWI versionName: '1.21.0'
+25-07-03 11:01:23	DpManagerRWI.cpp,659,[INFO]:	Current RWI version detail '1.21.0+68'
+25-07-03 11:01:23	DpManagerRWI.cpp,648,[INFO]:	Current RWI versionName: '1.21.0'
+25-07-03 11:01:23	DpManagerRWI.cpp,659,[INFO]:	Current RWI version detail '1.21.0+68'
+25-07-03 11:01:23	DpManagerSystemCommon.cpp,2071,[INFO]:	Product HW platform compatibility check done.
+25-07-03 11:01:23	DpManagerSystemCommon.cpp,179,[INFO]:	Starting resolve dependencies. Current platform is 'vc', nr of products is 5.
+25-07-03 11:01:23	DpManagerSystemCommon.cpp,227,[INFO]:	Added RobotOS, version '16.0.0+231'. Number of products left is 4.
+25-07-03 11:01:23	DpManagerSystemCommon.cpp,267,[INFO]:	Dependency check to RobotOS.
+25-07-03 11:01:23	DpManagerSystemCommon.cpp,344,[INFO]:	Add product RobotControl. Nr of products left is 3.
+25-07-03 11:01:23	DpManagerSystemCommon.cpp,355,[INFO]:	Add all products that have only one dependency and it is RobotControl.
+25-07-03 11:01:23	DpManagerSystemCommon.cpp,373,[INFO]:	Only dependency on RobotControl. Add product 'Robots' to the sorted List.
+25-07-03 11:01:23	DpManagerSystemCommon.cpp,373,[INFO]:	Only dependency on RobotControl. Add product 'FlexPendantSoftwareUpdate' to the sorted List.
+25-07-03 11:01:23	DpManagerSystemCommon.cpp,391,[INFO]:	Check dependency loop 0 starts, nr of products to solve dependency is 1.
+25-07-03 11:01:23	DpManagerSystemCommon.cpp,447,[INFO]:	Add product 'Wizard' to the sorted List.
+25-07-03 11:01:23	DpManagerSystemCommon.cpp,386,[INFO]:	No more products left to check dependency.
+25-07-03 11:01:23	DpManagerSystemCommon.cpp,494,[INFO]:	Done resolving dependencies, status = 0.
+25-07-03 11:01:23	DpManagerSysInstall.cpp,1436,[INFO]:	Product root dir path 'C:/Users/DELL/AppData/Local/ABB/RobotWare'.
+25-07-03 11:01:23	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'RobotOS' to 'C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotOS_16.0.0'.
+25-07-03 11:01:23	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'RobotOS' is already installed.
+25-07-03 11:01:23	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'RobotControl' to 'C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1'.
+25-07-03 11:01:23	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'RobotControl' is already installed.
+25-07-03 11:01:23	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'Robots' to 'C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1'.
+25-07-03 11:01:23	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'Robots' is already installed.
+25-07-03 11:01:23	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'FlexPendantSoftwareUpdate' to 'C:/Users/DELL/AppData/Local/ABB/RobotWare/FlexPendant/Apps_1.19.1'.
+25-07-03 11:01:23	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'FlexPendantSoftwareUpdate' is already installed.
+25-07-03 11:01:23	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'Wizard' to 'C:/Users/DELL/AppData/Local/ABB/RobotWare/Wizard_1.7.0'.
+25-07-03 11:01:23	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'Wizard' is already installed.
+25-07-03 11:01:23	DpManagerSysInstall.cpp,1614,[INFO]:	Copy 'C:\Users\DELL\AppData\Local\Temp\tmp2813.tmp\CRB15000_5_95/AdditionalFiles' to 'C:/Users/DELL/OneDrive/Máy tính/Gofa_caffe_1/Virtual Controllers/CRB15000_5_95/internal/inbox/CRB15000_5_95/AdditionalFiles', status = 0.
+25-07-03 11:01:23	DpManagerUtility.cpp,2268,[INFO]:	Write return message to file 'C:/Users/DELL/OneDrive/Máy tính/Gofa_caffe_1/Virtual Controllers/CRB15000_5_95/internal/inbox/message': status = 0 
+25-07-03 11:01:23	DpManagerUtility.cpp,1738,[INFO]:	Get boot info for 'VC' platform...
+25-07-03 11:01:23	DpManagerUtility.cpp,1693,[INFO]:	Got '/VCImage' from the common section: S27.01/bin/s27.01.dll.
+25-07-03 11:01:23	DpManagerSystemCommon.cpp,2640,[INFO]:	S27 OS image path from boot info: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotOS_16.0.0/S27.01/bin/s27.01.dll.
+25-07-03 11:01:23	DpManagerSysInstall.cpp,1305,[INFO]:	Installation has been finished, status = 0.
+25-07-03 11:01:23	DpManagerSysInstall.cpp,1306,[INFO]:	Clean up the temporary files.
+25-07-03 11:01:23	DpManagerUtility.cpp,470,[INFO]:	[7] Added 'C:\Users\DELL\AppData\Local\Temp\tmp2813.tmp\CRB15000_5_95\RobotWareInstaller/abb.robotics.robotwareinstaller.rmf' to cache.
+25-07-03 11:01:23	VCInstaller.cpp,647,[INFO]:	No HW settings file used.
+#######  Log open at 25-07-28 08:28:18 SE Asia Standard Time +0700 #######
+25-07-28 08:28:18	DpManagerUtility.cpp,470,[INFO]:	[1] Added 'C:\ProgramData\ABB\DistributionPackages\ABB.RobotWare-7.18.1\RobotPackages\RobotWareInstaller_1.21.0/abb.robotics.robotwareinstaller.rmf' to cache.
+25-07-28 08:28:18	DpManagerRWI.cpp,648,[INFO]:	Current RWI versionName: '1.21.0'
+25-07-28 08:28:18	DpManagerRWI.cpp,659,[INFO]:	Current RWI version detail '1.21.0+68'
+25-07-28 08:28:18	Startup.cpp,786,[INFO]:	Current RWI: 1.21.0+68, 1.21.0, 64-bit
+25-07-28 08:28:18	Startup.cpp,803,[INFO]:	Controller Id: VIRTUAL_CONTROLLER
+25-07-28 08:28:18	Startup.cpp,805,[INFO]:	Controller Name: CRB15000_5_95
+25-07-28 08:28:18	DpManagerSysInstall.cpp,1193,[INFO]:	Starting SystemInstallImp::InitInstallation()...
+25-07-28 08:28:18	DpManagerSystemCommon.cpp,2144,[INFO]:	Package version check for HW Platform completed. No problem found. current HWPlatform: vc, required pkg ver = 1 
+25-07-28 08:28:18	DpManagerSysInstall.cpp,863,[INFO]:	Match type 3, installation type 1, m_ctrl = '', rootPath = C:\Users\Lenovo\AppData\Local\Temp\tmp2BBE.tmp\CRB15000_5_95, systemPath = 'C:\Users\Lenovo\AppData\Local\Temp\tmp2BBE.tmp\CRB15000_5_95/Systems/CRB15000_5_95'.
+25-07-28 08:28:18	DpManagerSysInstall.cpp,2064,[INFO]:	Load all included license files from system.
+25-07-28 08:28:18	C:\a\12\s\ControllerManagerUtility\ControllerManagerUtility.cpp,657,[INFO]:	'G:/Documents/RobotStudio/Projects/GOFA/CAFFEE/Latte_Art/Gofa_caffe_1/Virtual Controllers/CRB15000_5_95/internal/temp/INSTALLTEMP/LICENSE/virtual.abb.robotics.robotcontrol.rlf' is not encrypted. 
+25-07-28 08:28:19	DpManagerSysInstall.cpp,2458,[INFO]:	Controller '' found, additional files path= ''.
+25-07-28 08:28:19	DpManagerSystemCommon.cpp,1697,[INFO]:	Reading content in file path 'C:\Users\Lenovo\AppData\Local\Temp\tmp2BBE.tmp\CRB15000_5_95/Systems/CRB15000_5_95/controller.rsf'.
+25-07-28 08:28:19	DpManagerUtility.cpp,470,[INFO]:	[1] Added 'C:\Users\Lenovo\AppData\Local\Temp\tmp2BBE.tmp\CRB15000_5_95/Products/abb.robotics.robotos_16.0.0/abb.robotics.robotos.rmf' to cache.
+25-07-28 08:28:19	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\Lenovo\AppData\Local\Temp\tmp2BBE.tmp\CRB15000_5_95/Products/abb.robotics.robotos_16.0.0', manifestfile = 'abb.robotics.robotos.rmf'.
+25-07-28 08:28:19	DpManagerUtility.cpp,470,[INFO]:	[2] Added 'C:\Users\Lenovo\AppData\Local\Temp\tmp2BBE.tmp\CRB15000_5_95/Products/abb.robotics.robotcontrol_7.18.1/abb.robotics.robotcontrol.rmf' to cache.
+25-07-28 08:28:19	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\Lenovo\AppData\Local\Temp\tmp2BBE.tmp\CRB15000_5_95/Products/abb.robotics.robotcontrol_7.18.1', manifestfile = 'abb.robotics.robotcontrol.rmf'.
+25-07-28 08:28:19	DpManagerUtility.cpp,470,[INFO]:	[3] Added 'C:\Users\Lenovo\AppData\Local\Temp\tmp2BBE.tmp\CRB15000_5_95/Products/abb.robotics.flexpendantapps_1.19.1/abb.robotics.flexpendantapps.rmf' to cache.
+25-07-28 08:28:19	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\Lenovo\AppData\Local\Temp\tmp2BBE.tmp\CRB15000_5_95/Products/abb.robotics.flexpendantapps_1.19.1', manifestfile = 'abb.robotics.flexpendantapps.rmf'.
+25-07-28 08:28:19	DpManagerUtility.cpp,470,[INFO]:	[4] Added 'C:\Users\Lenovo\AppData\Local\Temp\tmp2BBE.tmp\CRB15000_5_95/Products/abb.robotics.robots_1.18.1/abb.robotics.robots.rmf' to cache.
+25-07-28 08:28:19	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\Lenovo\AppData\Local\Temp\tmp2BBE.tmp\CRB15000_5_95/Products/abb.robotics.robots_1.18.1', manifestfile = 'abb.robotics.robots.rmf'.
+25-07-28 08:28:19	DpManagerUtility.cpp,470,[INFO]:	[5] Added 'C:\Users\Lenovo\AppData\Local\Temp\tmp2BBE.tmp\CRB15000_5_95/Products/abb.cn.robotics.wizard_1.7.0/abb.cn.robotics.wizard_1.7.0.rmf' to cache.
+25-07-28 08:28:19	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\Lenovo\AppData\Local\Temp\tmp2BBE.tmp\CRB15000_5_95/Products/abb.cn.robotics.wizard_1.7.0', manifestfile = 'abb.cn.robotics.wizard_1.7.0.rmf'.
+25-07-28 08:28:19	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotWareInstallationUtilities, min:1.21.0, max:1.99999999.99999999.
+25-07-28 08:28:19	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotOS, min:16.0.0, max:16.99999999.99999999.
+25-07-28 08:28:19	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotWareInstallationUtilities, min:1.21.0, max:1.99999999.99999999.
+25-07-28 08:28:19	DpManagerSystemCommon.cpp,854,[INFO]:	Using default hwplatform for AddIns: '*'.
+25-07-28 08:28:19	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotControl, min:7.0.0-299.Internal, max:7.99999999.99999999.
+25-07-28 08:28:19	DpManagerSystemCommon.cpp,854,[INFO]:	Using default hwplatform for AddIns: '*'.
+25-07-28 08:28:19	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotControl, min:7.1.0-225.Internal, max:7.99999999.99999999.
+25-07-28 08:28:19	DpManagerSystemCommon.cpp,854,[INFO]:	Using default hwplatform for AddIns: '*'.
+25-07-28 08:28:19	DpManagerSystemCommon.cpp,869,[INFO]:	No <Dependecy> found in product 'Wizard' in file 'abb.cn.robotics.wizard_1.7.0.rmf'.
+25-07-28 08:28:19	C:\a\12\s\ControllerManagerUtility\ControllerManagerUtility.cpp,657,[INFO]:	'G:/Documents/RobotStudio/Projects/GOFA/CAFFEE/Latte_Art/Gofa_caffe_1/Virtual Controllers/CRB15000_5_95/internal/temp/INSTALLTEMP/LICENSE/virtual.abb.robotics.robotcontrol.rlf' is not encrypted. 
+25-07-28 08:28:19	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\Lenovo\AppData\Local\Temp\tmp2BBE.tmp\CRB15000_5_95/Products/abb.robotics.robotos_16.0.0/abb.robotics.robotos.rmf'
+25-07-28 08:28:19	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-07-28 08:28:19	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\Lenovo\AppData\Local\Temp\tmp2BBE.tmp\CRB15000_5_95/Products/abb.robotics.robotcontrol_7.18.1/abb.robotics.robotcontrol.rmf'
+25-07-28 08:28:19	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-07-28 08:28:19	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\Lenovo\AppData\Local\Temp\tmp2BBE.tmp\CRB15000_5_95/Products/abb.robotics.flexpendantapps_1.19.1/abb.robotics.flexpendantapps.rmf'
+25-07-28 08:28:19	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-07-28 08:28:20	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\Lenovo\AppData\Local\Temp\tmp2BBE.tmp\CRB15000_5_95/Products/abb.robotics.robots_1.18.1/abb.robotics.robots.rmf'
+25-07-28 08:28:20	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-07-28 08:28:21	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\Lenovo\AppData\Local\Temp\tmp2BBE.tmp\CRB15000_5_95/Products/abb.cn.robotics.wizard_1.7.0/abb.cn.robotics.wizard_1.7.0.rmf'
+25-07-28 08:28:21	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-07-28 08:28:21	DpManagerUtility.cpp,470,[INFO]:	[6] Added 'C:\ProgramData\ABB\DistributionPackages\ABB.RobotWare-7.18.1\RobotPackages\RobotWareInstaller_1.21.0/abb.robotics.robotwareinstaller.rmf' to cache.
+25-07-28 08:28:21	DpManagerRWI.cpp,648,[INFO]:	Current RWI versionName: '1.21.0'
+25-07-28 08:28:21	DpManagerRWI.cpp,659,[INFO]:	Current RWI version detail '1.21.0+68'
+25-07-28 08:28:21	DpManagerRWI.cpp,648,[INFO]:	Current RWI versionName: '1.21.0'
+25-07-28 08:28:21	DpManagerRWI.cpp,659,[INFO]:	Current RWI version detail '1.21.0+68'
+25-07-28 08:28:21	DpManagerSystemCommon.cpp,2071,[INFO]:	Product HW platform compatibility check done.
+25-07-28 08:28:21	DpManagerSystemCommon.cpp,179,[INFO]:	Starting resolve dependencies. Current platform is 'vc', nr of products is 5.
+25-07-28 08:28:21	DpManagerSystemCommon.cpp,227,[INFO]:	Added RobotOS, version '16.0.0+231'. Number of products left is 4.
+25-07-28 08:28:21	DpManagerSystemCommon.cpp,267,[INFO]:	Dependency check to RobotOS.
+25-07-28 08:28:21	DpManagerSystemCommon.cpp,344,[INFO]:	Add product RobotControl. Nr of products left is 3.
+25-07-28 08:28:21	DpManagerSystemCommon.cpp,355,[INFO]:	Add all products that have only one dependency and it is RobotControl.
+25-07-28 08:28:21	DpManagerSystemCommon.cpp,373,[INFO]:	Only dependency on RobotControl. Add product 'Robots' to the sorted List.
+25-07-28 08:28:21	DpManagerSystemCommon.cpp,373,[INFO]:	Only dependency on RobotControl. Add product 'FlexPendantSoftwareUpdate' to the sorted List.
+25-07-28 08:28:21	DpManagerSystemCommon.cpp,391,[INFO]:	Check dependency loop 0 starts, nr of products to solve dependency is 1.
+25-07-28 08:28:21	DpManagerSystemCommon.cpp,447,[INFO]:	Add product 'Wizard' to the sorted List.
+25-07-28 08:28:21	DpManagerSystemCommon.cpp,386,[INFO]:	No more products left to check dependency.
+25-07-28 08:28:21	DpManagerSystemCommon.cpp,494,[INFO]:	Done resolving dependencies, status = 0.
+25-07-28 08:28:21	DpManagerSysInstall.cpp,1436,[INFO]:	Product root dir path 'C:/Users/Lenovo/AppData/Local/ABB/RobotWare'.
+25-07-28 08:28:21	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'RobotOS' to 'C:/Users/Lenovo/AppData/Local/ABB/RobotWare/RobotOS_16.0.0'.
+25-07-28 08:28:21	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'RobotOS' is already installed.
+25-07-28 08:28:21	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'RobotControl' to 'C:/Users/Lenovo/AppData/Local/ABB/RobotWare/RobotControl_7.18.1'.
+25-07-28 08:28:21	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'RobotControl' is already installed.
+25-07-28 08:28:21	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'Robots' to 'C:/Users/Lenovo/AppData/Local/ABB/RobotWare/Robots_1.18.1'.
+25-07-28 08:28:21	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'Robots' is already installed.
+25-07-28 08:28:21	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'FlexPendantSoftwareUpdate' to 'C:/Users/Lenovo/AppData/Local/ABB/RobotWare/FlexPendant/Apps_1.19.1'.
+25-07-28 08:28:21	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'FlexPendantSoftwareUpdate' is already installed.
+25-07-28 08:28:21	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'Wizard' to 'C:/Users/Lenovo/AppData/Local/ABB/RobotWare/Wizard_1.7.0'.
+25-07-28 08:28:21	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'Wizard' is already installed.
+25-07-28 08:28:21	DpManagerSysInstall.cpp,1614,[INFO]:	Copy 'C:\Users\Lenovo\AppData\Local\Temp\tmp2BBE.tmp\CRB15000_5_95/AdditionalFiles' to 'G:/Documents/RobotStudio/Projects/GOFA/CAFFEE/Latte_Art/Gofa_caffe_1/Virtual Controllers/CRB15000_5_95/internal/inbox/CRB15000_5_95/AdditionalFiles', status = 0.
+25-07-28 08:28:21	DpManagerUtility.cpp,2268,[INFO]:	Write return message to file 'G:/Documents/RobotStudio/Projects/GOFA/CAFFEE/Latte_Art/Gofa_caffe_1/Virtual Controllers/CRB15000_5_95/internal/inbox/message': status = 0 
+25-07-28 08:28:21	DpManagerUtility.cpp,1738,[INFO]:	Get boot info for 'VC' platform...
+25-07-28 08:28:21	DpManagerUtility.cpp,1693,[INFO]:	Got '/VCImage' from the common section: S27.01/bin/s27.01.dll.
+25-07-28 08:28:21	DpManagerSystemCommon.cpp,2640,[INFO]:	S27 OS image path from boot info: C:/Users/Lenovo/AppData/Local/ABB/RobotWare/RobotOS_16.0.0/S27.01/bin/s27.01.dll.
+25-07-28 08:28:21	DpManagerSysInstall.cpp,1305,[INFO]:	Installation has been finished, status = 0.
+25-07-28 08:28:21	DpManagerSysInstall.cpp,1306,[INFO]:	Clean up the temporary files.
+25-07-28 08:28:21	DpManagerUtility.cpp,470,[INFO]:	[7] Added 'C:\Users\Lenovo\AppData\Local\Temp\tmp2BBE.tmp\CRB15000_5_95\RobotWareInstaller/abb.robotics.robotwareinstaller.rmf' to cache.
+25-07-28 08:28:21	VCInstaller.cpp,647,[INFO]:	No HW settings file used.
+#######  Log open at 25-08-07 11:49:43 SE Asia Standard Time +0700 #######
+25-08-07 11:49:43	DpManagerUtility.cpp,470,[INFO]:	[1] Added 'C:\ProgramData\ABB\DistributionPackages\ABB.RobotWare-7.18.1\RobotPackages\RobotWareInstaller_1.21.0/abb.robotics.robotwareinstaller.rmf' to cache.
+25-08-07 11:49:43	DpManagerRWI.cpp,648,[INFO]:	Current RWI versionName: '1.21.0'
+25-08-07 11:49:43	DpManagerRWI.cpp,659,[INFO]:	Current RWI version detail '1.21.0+68'
+25-08-07 11:49:43	Startup.cpp,786,[INFO]:	Current RWI: 1.21.0+68, 1.21.0, 64-bit
+25-08-07 11:49:43	Startup.cpp,803,[INFO]:	Controller Id: VIRTUAL_CONTROLLER
+25-08-07 11:49:43	Startup.cpp,805,[INFO]:	Controller Name: CRB15000_5_95
+25-08-07 11:49:43	DpManagerSysInstall.cpp,1193,[INFO]:	Starting SystemInstallImp::InitInstallation()...
+25-08-07 11:49:43	DpManagerSystemCommon.cpp,2144,[INFO]:	Package version check for HW Platform completed. No problem found. current HWPlatform: vc, required pkg ver = 1 
+25-08-07 11:49:43	DpManagerSysInstall.cpp,863,[INFO]:	Match type 3, installation type 1, m_ctrl = '', rootPath = C:\Users\DELL\AppData\Local\Temp\tmp192A.tmp\CRB15000_5_95, systemPath = 'C:\Users\DELL\AppData\Local\Temp\tmp192A.tmp\CRB15000_5_95/Systems/CRB15000_5_95'.
+25-08-07 11:49:43	DpManagerSysInstall.cpp,2064,[INFO]:	Load all included license files from system.
+25-08-07 11:49:43	C:\a\12\s\ControllerManagerUtility\ControllerManagerUtility.cpp,657,[INFO]:	'C:/Users/DELL/Downloads/Latte_Art/Latte_Art/Gofa_caffe_1/Virtual Controllers/CRB15000_5_95/internal/temp/INSTALLTEMP/LICENSE/virtual.abb.robotics.robotcontrol.rlf' is not encrypted. 
+25-08-07 11:49:43	DpManagerSysInstall.cpp,2458,[INFO]:	Controller '' found, additional files path= ''.
+25-08-07 11:49:43	DpManagerSystemCommon.cpp,1697,[INFO]:	Reading content in file path 'C:\Users\DELL\AppData\Local\Temp\tmp192A.tmp\CRB15000_5_95/Systems/CRB15000_5_95/controller.rsf'.
+25-08-07 11:49:43	DpManagerUtility.cpp,470,[INFO]:	[1] Added 'C:\Users\DELL\AppData\Local\Temp\tmp192A.tmp\CRB15000_5_95/Products/abb.robotics.robotos_16.0.0/abb.robotics.robotos.rmf' to cache.
+25-08-07 11:49:43	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\DELL\AppData\Local\Temp\tmp192A.tmp\CRB15000_5_95/Products/abb.robotics.robotos_16.0.0', manifestfile = 'abb.robotics.robotos.rmf'.
+25-08-07 11:49:43	DpManagerUtility.cpp,470,[INFO]:	[2] Added 'C:\Users\DELL\AppData\Local\Temp\tmp192A.tmp\CRB15000_5_95/Products/abb.robotics.robotcontrol_7.18.1/abb.robotics.robotcontrol.rmf' to cache.
+25-08-07 11:49:43	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\DELL\AppData\Local\Temp\tmp192A.tmp\CRB15000_5_95/Products/abb.robotics.robotcontrol_7.18.1', manifestfile = 'abb.robotics.robotcontrol.rmf'.
+25-08-07 11:49:43	DpManagerUtility.cpp,470,[INFO]:	[3] Added 'C:\Users\DELL\AppData\Local\Temp\tmp192A.tmp\CRB15000_5_95/Products/abb.robotics.flexpendantapps_1.19.1/abb.robotics.flexpendantapps.rmf' to cache.
+25-08-07 11:49:43	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\DELL\AppData\Local\Temp\tmp192A.tmp\CRB15000_5_95/Products/abb.robotics.flexpendantapps_1.19.1', manifestfile = 'abb.robotics.flexpendantapps.rmf'.
+25-08-07 11:49:43	DpManagerUtility.cpp,470,[INFO]:	[4] Added 'C:\Users\DELL\AppData\Local\Temp\tmp192A.tmp\CRB15000_5_95/Products/abb.robotics.robots_1.18.1/abb.robotics.robots.rmf' to cache.
+25-08-07 11:49:43	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\DELL\AppData\Local\Temp\tmp192A.tmp\CRB15000_5_95/Products/abb.robotics.robots_1.18.1', manifestfile = 'abb.robotics.robots.rmf'.
+25-08-07 11:49:43	DpManagerUtility.cpp,470,[INFO]:	[5] Added 'C:\Users\DELL\AppData\Local\Temp\tmp192A.tmp\CRB15000_5_95/Products/abb.cn.robotics.wizard_1.7.0/abb.cn.robotics.wizard_1.7.0.rmf' to cache.
+25-08-07 11:49:43	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\DELL\AppData\Local\Temp\tmp192A.tmp\CRB15000_5_95/Products/abb.cn.robotics.wizard_1.7.0', manifestfile = 'abb.cn.robotics.wizard_1.7.0.rmf'.
+25-08-07 11:49:43	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotWareInstallationUtilities, min:1.21.0, max:1.99999999.99999999.
+25-08-07 11:49:43	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotOS, min:16.0.0, max:16.99999999.99999999.
+25-08-07 11:49:43	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotWareInstallationUtilities, min:1.21.0, max:1.99999999.99999999.
+25-08-07 11:49:43	DpManagerSystemCommon.cpp,854,[INFO]:	Using default hwplatform for AddIns: '*'.
+25-08-07 11:49:43	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotControl, min:7.0.0-299.Internal, max:7.99999999.99999999.
+25-08-07 11:49:43	DpManagerSystemCommon.cpp,854,[INFO]:	Using default hwplatform for AddIns: '*'.
+25-08-07 11:49:43	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotControl, min:7.1.0-225.Internal, max:7.99999999.99999999.
+25-08-07 11:49:43	DpManagerSystemCommon.cpp,854,[INFO]:	Using default hwplatform for AddIns: '*'.
+25-08-07 11:49:43	DpManagerSystemCommon.cpp,869,[INFO]:	No <Dependecy> found in product 'Wizard' in file 'abb.cn.robotics.wizard_1.7.0.rmf'.
+25-08-07 11:49:43	C:\a\12\s\ControllerManagerUtility\ControllerManagerUtility.cpp,657,[INFO]:	'C:/Users/DELL/Downloads/Latte_Art/Latte_Art/Gofa_caffe_1/Virtual Controllers/CRB15000_5_95/internal/temp/INSTALLTEMP/LICENSE/virtual.abb.robotics.robotcontrol.rlf' is not encrypted. 
+25-08-07 11:49:43	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\DELL\AppData\Local\Temp\tmp192A.tmp\CRB15000_5_95/Products/abb.robotics.robotos_16.0.0/abb.robotics.robotos.rmf'
+25-08-07 11:49:43	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-08-07 11:49:43	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\DELL\AppData\Local\Temp\tmp192A.tmp\CRB15000_5_95/Products/abb.robotics.robotcontrol_7.18.1/abb.robotics.robotcontrol.rmf'
+25-08-07 11:49:43	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-08-07 11:49:44	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\DELL\AppData\Local\Temp\tmp192A.tmp\CRB15000_5_95/Products/abb.robotics.flexpendantapps_1.19.1/abb.robotics.flexpendantapps.rmf'
+25-08-07 11:49:44	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-08-07 11:49:44	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\DELL\AppData\Local\Temp\tmp192A.tmp\CRB15000_5_95/Products/abb.robotics.robots_1.18.1/abb.robotics.robots.rmf'
+25-08-07 11:49:44	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-08-07 11:49:44	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\DELL\AppData\Local\Temp\tmp192A.tmp\CRB15000_5_95/Products/abb.cn.robotics.wizard_1.7.0/abb.cn.robotics.wizard_1.7.0.rmf'
+25-08-07 11:49:44	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-08-07 11:49:44	DpManagerUtility.cpp,470,[INFO]:	[6] Added 'C:\ProgramData\ABB\DistributionPackages\ABB.RobotWare-7.18.1\RobotPackages\RobotWareInstaller_1.21.0/abb.robotics.robotwareinstaller.rmf' to cache.
+25-08-07 11:49:44	DpManagerRWI.cpp,648,[INFO]:	Current RWI versionName: '1.21.0'
+25-08-07 11:49:44	DpManagerRWI.cpp,659,[INFO]:	Current RWI version detail '1.21.0+68'
+25-08-07 11:49:44	DpManagerRWI.cpp,648,[INFO]:	Current RWI versionName: '1.21.0'
+25-08-07 11:49:44	DpManagerRWI.cpp,659,[INFO]:	Current RWI version detail '1.21.0+68'
+25-08-07 11:49:44	DpManagerSystemCommon.cpp,2071,[INFO]:	Product HW platform compatibility check done.
+25-08-07 11:49:44	DpManagerSystemCommon.cpp,179,[INFO]:	Starting resolve dependencies. Current platform is 'vc', nr of products is 5.
+25-08-07 11:49:44	DpManagerSystemCommon.cpp,227,[INFO]:	Added RobotOS, version '16.0.0+231'. Number of products left is 4.
+25-08-07 11:49:44	DpManagerSystemCommon.cpp,267,[INFO]:	Dependency check to RobotOS.
+25-08-07 11:49:44	DpManagerSystemCommon.cpp,344,[INFO]:	Add product RobotControl. Nr of products left is 3.
+25-08-07 11:49:44	DpManagerSystemCommon.cpp,355,[INFO]:	Add all products that have only one dependency and it is RobotControl.
+25-08-07 11:49:44	DpManagerSystemCommon.cpp,373,[INFO]:	Only dependency on RobotControl. Add product 'Robots' to the sorted List.
+25-08-07 11:49:44	DpManagerSystemCommon.cpp,373,[INFO]:	Only dependency on RobotControl. Add product 'FlexPendantSoftwareUpdate' to the sorted List.
+25-08-07 11:49:44	DpManagerSystemCommon.cpp,391,[INFO]:	Check dependency loop 0 starts, nr of products to solve dependency is 1.
+25-08-07 11:49:44	DpManagerSystemCommon.cpp,447,[INFO]:	Add product 'Wizard' to the sorted List.
+25-08-07 11:49:44	DpManagerSystemCommon.cpp,386,[INFO]:	No more products left to check dependency.
+25-08-07 11:49:44	DpManagerSystemCommon.cpp,494,[INFO]:	Done resolving dependencies, status = 0.
+25-08-07 11:49:44	DpManagerSysInstall.cpp,1436,[INFO]:	Product root dir path 'C:/Users/DELL/AppData/Local/ABB/RobotWare'.
+25-08-07 11:49:44	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'RobotOS' to 'C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotOS_16.0.0'.
+25-08-07 11:49:44	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'RobotOS' is already installed.
+25-08-07 11:49:44	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'RobotControl' to 'C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1'.
+25-08-07 11:49:44	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'RobotControl' is already installed.
+25-08-07 11:49:44	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'Robots' to 'C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1'.
+25-08-07 11:49:44	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'Robots' is already installed.
+25-08-07 11:49:44	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'FlexPendantSoftwareUpdate' to 'C:/Users/DELL/AppData/Local/ABB/RobotWare/FlexPendant/Apps_1.19.1'.
+25-08-07 11:49:44	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'FlexPendantSoftwareUpdate' is already installed.
+25-08-07 11:49:44	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'Wizard' to 'C:/Users/DELL/AppData/Local/ABB/RobotWare/Wizard_1.7.0'.
+25-08-07 11:49:44	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'Wizard' is already installed.
+25-08-07 11:49:44	DpManagerSysInstall.cpp,1614,[INFO]:	Copy 'C:\Users\DELL\AppData\Local\Temp\tmp192A.tmp\CRB15000_5_95/AdditionalFiles' to 'C:/Users/DELL/Downloads/Latte_Art/Latte_Art/Gofa_caffe_1/Virtual Controllers/CRB15000_5_95/internal/inbox/CRB15000_5_95/AdditionalFiles', status = 0.
+25-08-07 11:49:44	DpManagerUtility.cpp,2268,[INFO]:	Write return message to file 'C:/Users/DELL/Downloads/Latte_Art/Latte_Art/Gofa_caffe_1/Virtual Controllers/CRB15000_5_95/internal/inbox/message': status = 0 
+25-08-07 11:49:44	DpManagerUtility.cpp,1738,[INFO]:	Get boot info for 'VC' platform...
+25-08-07 11:49:44	DpManagerUtility.cpp,1693,[INFO]:	Got '/VCImage' from the common section: S27.01/bin/s27.01.dll.
+25-08-07 11:49:44	DpManagerSystemCommon.cpp,2640,[INFO]:	S27 OS image path from boot info: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotOS_16.0.0/S27.01/bin/s27.01.dll.
+25-08-07 11:49:44	DpManagerSysInstall.cpp,1305,[INFO]:	Installation has been finished, status = 0.
+25-08-07 11:49:44	DpManagerSysInstall.cpp,1306,[INFO]:	Clean up the temporary files.
+25-08-07 11:49:44	DpManagerUtility.cpp,470,[INFO]:	[7] Added 'C:\Users\DELL\AppData\Local\Temp\tmp192A.tmp\CRB15000_5_95\RobotWareInstaller/abb.robotics.robotwareinstaller.rmf' to cache.
+25-08-07 11:49:44	VCInstaller.cpp,647,[INFO]:	No HW settings file used.
+#######  Log open at 25-08-07 12:18:26 SE Asia Standard Time +0700 #######
+25-08-07 12:18:26	DpManagerUtility.cpp,470,[INFO]:	[1] Added 'C:\ProgramData\ABB\DistributionPackages\ABB.RobotWare-7.18.1\RobotPackages\RobotWareInstaller_1.21.0/abb.robotics.robotwareinstaller.rmf' to cache.
+25-08-07 12:18:26	DpManagerRWI.cpp,648,[INFO]:	Current RWI versionName: '1.21.0'
+25-08-07 12:18:26	DpManagerRWI.cpp,659,[INFO]:	Current RWI version detail '1.21.0+68'
+25-08-07 12:18:26	Startup.cpp,786,[INFO]:	Current RWI: 1.21.0+68, 1.21.0, 64-bit
+25-08-07 12:18:26	Startup.cpp,803,[INFO]:	Controller Id: VIRTUAL_CONTROLLER
+25-08-07 12:18:26	Startup.cpp,805,[INFO]:	Controller Name: CRB15000_5_95
+25-08-07 12:18:26	DpManagerSysInstall.cpp,1193,[INFO]:	Starting SystemInstallImp::InitInstallation()...
+25-08-07 12:18:26	DpManagerSystemCommon.cpp,2144,[INFO]:	Package version check for HW Platform completed. No problem found. current HWPlatform: vc, required pkg ver = 1 
+25-08-07 12:18:26	DpManagerSysInstall.cpp,863,[INFO]:	Match type 3, installation type 1, m_ctrl = '', rootPath = C:\Users\DELL\AppData\Local\Temp\tmpB3F7.tmp\CRB15000_5_95, systemPath = 'C:\Users\DELL\AppData\Local\Temp\tmpB3F7.tmp\CRB15000_5_95/Systems/CRB15000_5_95'.
+25-08-07 12:18:26	DpManagerSysInstall.cpp,2064,[INFO]:	Load all included license files from system.
+25-08-07 12:18:26	C:\a\12\s\ControllerManagerUtility\ControllerManagerUtility.cpp,657,[INFO]:	'E:/Robots ABB/Latte_Art/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/temp/INSTALLTEMP/LICENSE/virtual.abb.robotics.robotcontrol.rlf' is not encrypted. 
+25-08-07 12:18:26	DpManagerSysInstall.cpp,2458,[INFO]:	Controller '' found, additional files path= ''.
+25-08-07 12:18:26	DpManagerSystemCommon.cpp,1697,[INFO]:	Reading content in file path 'C:\Users\DELL\AppData\Local\Temp\tmpB3F7.tmp\CRB15000_5_95/Systems/CRB15000_5_95/controller.rsf'.
+25-08-07 12:18:26	DpManagerUtility.cpp,470,[INFO]:	[1] Added 'C:\Users\DELL\AppData\Local\Temp\tmpB3F7.tmp\CRB15000_5_95/Products/abb.robotics.robotos_16.0.0/abb.robotics.robotos.rmf' to cache.
+25-08-07 12:18:26	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\DELL\AppData\Local\Temp\tmpB3F7.tmp\CRB15000_5_95/Products/abb.robotics.robotos_16.0.0', manifestfile = 'abb.robotics.robotos.rmf'.
+25-08-07 12:18:26	DpManagerUtility.cpp,470,[INFO]:	[2] Added 'C:\Users\DELL\AppData\Local\Temp\tmpB3F7.tmp\CRB15000_5_95/Products/abb.robotics.robotcontrol_7.18.1/abb.robotics.robotcontrol.rmf' to cache.
+25-08-07 12:18:26	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\DELL\AppData\Local\Temp\tmpB3F7.tmp\CRB15000_5_95/Products/abb.robotics.robotcontrol_7.18.1', manifestfile = 'abb.robotics.robotcontrol.rmf'.
+25-08-07 12:18:26	DpManagerUtility.cpp,470,[INFO]:	[3] Added 'C:\Users\DELL\AppData\Local\Temp\tmpB3F7.tmp\CRB15000_5_95/Products/abb.robotics.flexpendantapps_1.19.1/abb.robotics.flexpendantapps.rmf' to cache.
+25-08-07 12:18:26	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\DELL\AppData\Local\Temp\tmpB3F7.tmp\CRB15000_5_95/Products/abb.robotics.flexpendantapps_1.19.1', manifestfile = 'abb.robotics.flexpendantapps.rmf'.
+25-08-07 12:18:26	DpManagerUtility.cpp,470,[INFO]:	[4] Added 'C:\Users\DELL\AppData\Local\Temp\tmpB3F7.tmp\CRB15000_5_95/Products/abb.robotics.robots_1.18.1/abb.robotics.robots.rmf' to cache.
+25-08-07 12:18:26	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\DELL\AppData\Local\Temp\tmpB3F7.tmp\CRB15000_5_95/Products/abb.robotics.robots_1.18.1', manifestfile = 'abb.robotics.robots.rmf'.
+25-08-07 12:18:26	DpManagerUtility.cpp,470,[INFO]:	[5] Added 'C:\Users\DELL\AppData\Local\Temp\tmpB3F7.tmp\CRB15000_5_95/Products/abb.cn.robotics.wizard_1.7.0/abb.cn.robotics.wizard_1.7.0.rmf' to cache.
+25-08-07 12:18:26	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\DELL\AppData\Local\Temp\tmpB3F7.tmp\CRB15000_5_95/Products/abb.cn.robotics.wizard_1.7.0', manifestfile = 'abb.cn.robotics.wizard_1.7.0.rmf'.
+25-08-07 12:18:26	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotWareInstallationUtilities, min:1.21.0, max:1.99999999.99999999.
+25-08-07 12:18:26	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotOS, min:16.0.0, max:16.99999999.99999999.
+25-08-07 12:18:26	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotWareInstallationUtilities, min:1.21.0, max:1.99999999.99999999.
+25-08-07 12:18:26	DpManagerSystemCommon.cpp,854,[INFO]:	Using default hwplatform for AddIns: '*'.
+25-08-07 12:18:26	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotControl, min:7.0.0-299.Internal, max:7.99999999.99999999.
+25-08-07 12:18:26	DpManagerSystemCommon.cpp,854,[INFO]:	Using default hwplatform for AddIns: '*'.
+25-08-07 12:18:26	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotControl, min:7.1.0-225.Internal, max:7.99999999.99999999.
+25-08-07 12:18:26	DpManagerSystemCommon.cpp,854,[INFO]:	Using default hwplatform for AddIns: '*'.
+25-08-07 12:18:26	DpManagerSystemCommon.cpp,869,[INFO]:	No <Dependecy> found in product 'Wizard' in file 'abb.cn.robotics.wizard_1.7.0.rmf'.
+25-08-07 12:18:26	C:\a\12\s\ControllerManagerUtility\ControllerManagerUtility.cpp,657,[INFO]:	'E:/Robots ABB/Latte_Art/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/temp/INSTALLTEMP/LICENSE/virtual.abb.robotics.robotcontrol.rlf' is not encrypted. 
+25-08-07 12:18:26	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\DELL\AppData\Local\Temp\tmpB3F7.tmp\CRB15000_5_95/Products/abb.robotics.robotos_16.0.0/abb.robotics.robotos.rmf'
+25-08-07 12:18:26	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-08-07 12:18:27	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\DELL\AppData\Local\Temp\tmpB3F7.tmp\CRB15000_5_95/Products/abb.robotics.robotcontrol_7.18.1/abb.robotics.robotcontrol.rmf'
+25-08-07 12:18:27	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-08-07 12:18:27	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\DELL\AppData\Local\Temp\tmpB3F7.tmp\CRB15000_5_95/Products/abb.robotics.flexpendantapps_1.19.1/abb.robotics.flexpendantapps.rmf'
+25-08-07 12:18:27	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-08-07 12:18:27	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\DELL\AppData\Local\Temp\tmpB3F7.tmp\CRB15000_5_95/Products/abb.robotics.robots_1.18.1/abb.robotics.robots.rmf'
+25-08-07 12:18:27	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-08-07 12:18:28	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\DELL\AppData\Local\Temp\tmpB3F7.tmp\CRB15000_5_95/Products/abb.cn.robotics.wizard_1.7.0/abb.cn.robotics.wizard_1.7.0.rmf'
+25-08-07 12:18:28	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-08-07 12:18:28	DpManagerUtility.cpp,470,[INFO]:	[6] Added 'C:\ProgramData\ABB\DistributionPackages\ABB.RobotWare-7.18.1\RobotPackages\RobotWareInstaller_1.21.0/abb.robotics.robotwareinstaller.rmf' to cache.
+25-08-07 12:18:28	DpManagerRWI.cpp,648,[INFO]:	Current RWI versionName: '1.21.0'
+25-08-07 12:18:28	DpManagerRWI.cpp,659,[INFO]:	Current RWI version detail '1.21.0+68'
+25-08-07 12:18:28	DpManagerRWI.cpp,648,[INFO]:	Current RWI versionName: '1.21.0'
+25-08-07 12:18:28	DpManagerRWI.cpp,659,[INFO]:	Current RWI version detail '1.21.0+68'
+25-08-07 12:18:28	DpManagerSystemCommon.cpp,2071,[INFO]:	Product HW platform compatibility check done.
+25-08-07 12:18:28	DpManagerSystemCommon.cpp,179,[INFO]:	Starting resolve dependencies. Current platform is 'vc', nr of products is 5.
+25-08-07 12:18:28	DpManagerSystemCommon.cpp,227,[INFO]:	Added RobotOS, version '16.0.0+231'. Number of products left is 4.
+25-08-07 12:18:28	DpManagerSystemCommon.cpp,267,[INFO]:	Dependency check to RobotOS.
+25-08-07 12:18:28	DpManagerSystemCommon.cpp,344,[INFO]:	Add product RobotControl. Nr of products left is 3.
+25-08-07 12:18:28	DpManagerSystemCommon.cpp,355,[INFO]:	Add all products that have only one dependency and it is RobotControl.
+25-08-07 12:18:28	DpManagerSystemCommon.cpp,373,[INFO]:	Only dependency on RobotControl. Add product 'Robots' to the sorted List.
+25-08-07 12:18:28	DpManagerSystemCommon.cpp,373,[INFO]:	Only dependency on RobotControl. Add product 'FlexPendantSoftwareUpdate' to the sorted List.
+25-08-07 12:18:28	DpManagerSystemCommon.cpp,391,[INFO]:	Check dependency loop 0 starts, nr of products to solve dependency is 1.
+25-08-07 12:18:28	DpManagerSystemCommon.cpp,447,[INFO]:	Add product 'Wizard' to the sorted List.
+25-08-07 12:18:28	DpManagerSystemCommon.cpp,386,[INFO]:	No more products left to check dependency.
+25-08-07 12:18:28	DpManagerSystemCommon.cpp,494,[INFO]:	Done resolving dependencies, status = 0.
+25-08-07 12:18:28	DpManagerSysInstall.cpp,1436,[INFO]:	Product root dir path 'C:/Users/DELL/AppData/Local/ABB/RobotWare'.
+25-08-07 12:18:28	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'RobotOS' to 'C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotOS_16.0.0'.
+25-08-07 12:18:28	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'RobotOS' is already installed.
+25-08-07 12:18:28	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'RobotControl' to 'C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1'.
+25-08-07 12:18:28	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'RobotControl' is already installed.
+25-08-07 12:18:28	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'Robots' to 'C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1'.
+25-08-07 12:18:28	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'Robots' is already installed.
+25-08-07 12:18:28	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'FlexPendantSoftwareUpdate' to 'C:/Users/DELL/AppData/Local/ABB/RobotWare/FlexPendant/Apps_1.19.1'.
+25-08-07 12:18:28	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'FlexPendantSoftwareUpdate' is already installed.
+25-08-07 12:18:28	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'Wizard' to 'C:/Users/DELL/AppData/Local/ABB/RobotWare/Wizard_1.7.0'.
+25-08-07 12:18:28	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'Wizard' is already installed.
+25-08-07 12:18:28	DpManagerSysInstall.cpp,1614,[INFO]:	Copy 'C:\Users\DELL\AppData\Local\Temp\tmpB3F7.tmp\CRB15000_5_95/AdditionalFiles' to 'E:/Robots ABB/Latte_Art/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/inbox/CRB15000_5_95/AdditionalFiles', status = 0.
+25-08-07 12:18:28	DpManagerUtility.cpp,2268,[INFO]:	Write return message to file 'E:/Robots ABB/Latte_Art/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/inbox/message': status = 0 
+25-08-07 12:18:28	DpManagerUtility.cpp,1738,[INFO]:	Get boot info for 'VC' platform...
+25-08-07 12:18:28	DpManagerUtility.cpp,1693,[INFO]:	Got '/VCImage' from the common section: S27.01/bin/s27.01.dll.
+25-08-07 12:18:28	DpManagerSystemCommon.cpp,2640,[INFO]:	S27 OS image path from boot info: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotOS_16.0.0/S27.01/bin/s27.01.dll.
+25-08-07 12:18:28	DpManagerSysInstall.cpp,1305,[INFO]:	Installation has been finished, status = 0.
+25-08-07 12:18:28	DpManagerSysInstall.cpp,1306,[INFO]:	Clean up the temporary files.
+25-08-07 12:18:28	DpManagerUtility.cpp,470,[INFO]:	[7] Added 'C:\Users\DELL\AppData\Local\Temp\tmpB3F7.tmp\CRB15000_5_95\RobotWareInstaller/abb.robotics.robotwareinstaller.rmf' to cache.
+25-08-07 12:18:28	VCInstaller.cpp,647,[INFO]:	No HW settings file used.
+#######  Log open at 25-08-07 17:19:26 SE Asia Standard Time +0700 #######
+25-08-07 17:19:26	DpManagerUtility.cpp,470,[INFO]:	[1] Added 'C:\ProgramData\ABB\DistributionPackages\ABB.RobotWare-7.18.1\RobotPackages\RobotWareInstaller_1.21.0/abb.robotics.robotwareinstaller.rmf' to cache.
+25-08-07 17:19:26	DpManagerRWI.cpp,648,[INFO]:	Current RWI versionName: '1.21.0'
+25-08-07 17:19:26	DpManagerRWI.cpp,659,[INFO]:	Current RWI version detail '1.21.0+68'
+25-08-07 17:19:26	Startup.cpp,786,[INFO]:	Current RWI: 1.21.0+68, 1.21.0, 64-bit
+25-08-07 17:19:26	Startup.cpp,803,[INFO]:	Controller Id: VIRTUAL_CONTROLLER
+25-08-07 17:19:26	Startup.cpp,805,[INFO]:	Controller Name: CRB15000_5_95
+25-08-07 17:19:26	DpManagerSysInstall.cpp,1193,[INFO]:	Starting SystemInstallImp::InitInstallation()...
+25-08-07 17:19:26	DpManagerSystemCommon.cpp,2144,[INFO]:	Package version check for HW Platform completed. No problem found. current HWPlatform: vc, required pkg ver = 1 
+25-08-07 17:19:26	DpManagerSysInstall.cpp,863,[INFO]:	Match type 3, installation type 1, m_ctrl = '', rootPath = C:\Users\Lenovo\AppData\Local\Temp\tmp4DE0.tmp\CRB15000_5_95, systemPath = 'C:\Users\Lenovo\AppData\Local\Temp\tmp4DE0.tmp\CRB15000_5_95/Systems/CRB15000_5_95'.
+25-08-07 17:19:26	DpManagerSysInstall.cpp,2064,[INFO]:	Load all included license files from system.
+25-08-07 17:19:26	C:\a\12\s\ControllerManagerUtility\ControllerManagerUtility.cpp,657,[INFO]:	'G:/Documents/RobotStudio/Projects/GOFA/CAFFEE/Latte_Art/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/temp/INSTALLTEMP/LICENSE/virtual.abb.robotics.robotcontrol.rlf' is not encrypted. 
+25-08-07 17:19:26	DpManagerSysInstall.cpp,2458,[INFO]:	Controller '' found, additional files path= ''.
+25-08-07 17:19:26	DpManagerSystemCommon.cpp,1697,[INFO]:	Reading content in file path 'C:\Users\Lenovo\AppData\Local\Temp\tmp4DE0.tmp\CRB15000_5_95/Systems/CRB15000_5_95/controller.rsf'.
+25-08-07 17:19:26	DpManagerUtility.cpp,470,[INFO]:	[1] Added 'C:\Users\Lenovo\AppData\Local\Temp\tmp4DE0.tmp\CRB15000_5_95/Products/abb.robotics.robotos_16.0.0/abb.robotics.robotos.rmf' to cache.
+25-08-07 17:19:26	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\Lenovo\AppData\Local\Temp\tmp4DE0.tmp\CRB15000_5_95/Products/abb.robotics.robotos_16.0.0', manifestfile = 'abb.robotics.robotos.rmf'.
+25-08-07 17:19:26	DpManagerUtility.cpp,470,[INFO]:	[2] Added 'C:\Users\Lenovo\AppData\Local\Temp\tmp4DE0.tmp\CRB15000_5_95/Products/abb.robotics.robotcontrol_7.18.1/abb.robotics.robotcontrol.rmf' to cache.
+25-08-07 17:19:26	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\Lenovo\AppData\Local\Temp\tmp4DE0.tmp\CRB15000_5_95/Products/abb.robotics.robotcontrol_7.18.1', manifestfile = 'abb.robotics.robotcontrol.rmf'.
+25-08-07 17:19:26	DpManagerUtility.cpp,470,[INFO]:	[3] Added 'C:\Users\Lenovo\AppData\Local\Temp\tmp4DE0.tmp\CRB15000_5_95/Products/abb.robotics.flexpendantapps_1.19.1/abb.robotics.flexpendantapps.rmf' to cache.
+25-08-07 17:19:26	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\Lenovo\AppData\Local\Temp\tmp4DE0.tmp\CRB15000_5_95/Products/abb.robotics.flexpendantapps_1.19.1', manifestfile = 'abb.robotics.flexpendantapps.rmf'.
+25-08-07 17:19:26	DpManagerUtility.cpp,470,[INFO]:	[4] Added 'C:\Users\Lenovo\AppData\Local\Temp\tmp4DE0.tmp\CRB15000_5_95/Products/abb.robotics.robots_1.18.1/abb.robotics.robots.rmf' to cache.
+25-08-07 17:19:26	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\Lenovo\AppData\Local\Temp\tmp4DE0.tmp\CRB15000_5_95/Products/abb.robotics.robots_1.18.1', manifestfile = 'abb.robotics.robots.rmf'.
+25-08-07 17:19:26	DpManagerUtility.cpp,470,[INFO]:	[5] Added 'C:\Users\Lenovo\AppData\Local\Temp\tmp4DE0.tmp\CRB15000_5_95/Products/abb.cn.robotics.wizard_1.7.0/abb.cn.robotics.wizard_1.7.0.rmf' to cache.
+25-08-07 17:19:26	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\Lenovo\AppData\Local\Temp\tmp4DE0.tmp\CRB15000_5_95/Products/abb.cn.robotics.wizard_1.7.0', manifestfile = 'abb.cn.robotics.wizard_1.7.0.rmf'.
+25-08-07 17:19:26	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotWareInstallationUtilities, min:1.21.0, max:1.99999999.99999999.
+25-08-07 17:19:26	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotOS, min:16.0.0, max:16.99999999.99999999.
+25-08-07 17:19:26	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotWareInstallationUtilities, min:1.21.0, max:1.99999999.99999999.
+25-08-07 17:19:26	DpManagerSystemCommon.cpp,854,[INFO]:	Using default hwplatform for AddIns: '*'.
+25-08-07 17:19:26	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotControl, min:7.0.0-299.Internal, max:7.99999999.99999999.
+25-08-07 17:19:26	DpManagerSystemCommon.cpp,854,[INFO]:	Using default hwplatform for AddIns: '*'.
+25-08-07 17:19:26	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotControl, min:7.1.0-225.Internal, max:7.99999999.99999999.
+25-08-07 17:19:26	DpManagerSystemCommon.cpp,854,[INFO]:	Using default hwplatform for AddIns: '*'.
+25-08-07 17:19:26	DpManagerSystemCommon.cpp,869,[INFO]:	No <Dependecy> found in product 'Wizard' in file 'abb.cn.robotics.wizard_1.7.0.rmf'.
+25-08-07 17:19:26	C:\a\12\s\ControllerManagerUtility\ControllerManagerUtility.cpp,657,[INFO]:	'G:/Documents/RobotStudio/Projects/GOFA/CAFFEE/Latte_Art/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/temp/INSTALLTEMP/LICENSE/virtual.abb.robotics.robotcontrol.rlf' is not encrypted. 
+25-08-07 17:19:27	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\Lenovo\AppData\Local\Temp\tmp4DE0.tmp\CRB15000_5_95/Products/abb.robotics.robotos_16.0.0/abb.robotics.robotos.rmf'
+25-08-07 17:19:27	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-08-07 17:19:27	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\Lenovo\AppData\Local\Temp\tmp4DE0.tmp\CRB15000_5_95/Products/abb.robotics.robotcontrol_7.18.1/abb.robotics.robotcontrol.rmf'
+25-08-07 17:19:27	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-08-07 17:19:27	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\Lenovo\AppData\Local\Temp\tmp4DE0.tmp\CRB15000_5_95/Products/abb.robotics.flexpendantapps_1.19.1/abb.robotics.flexpendantapps.rmf'
+25-08-07 17:19:27	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-08-07 17:19:28	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\Lenovo\AppData\Local\Temp\tmp4DE0.tmp\CRB15000_5_95/Products/abb.robotics.robots_1.18.1/abb.robotics.robots.rmf'
+25-08-07 17:19:28	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-08-07 17:19:29	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\Lenovo\AppData\Local\Temp\tmp4DE0.tmp\CRB15000_5_95/Products/abb.cn.robotics.wizard_1.7.0/abb.cn.robotics.wizard_1.7.0.rmf'
+25-08-07 17:19:29	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-08-07 17:19:29	DpManagerUtility.cpp,470,[INFO]:	[6] Added 'C:\ProgramData\ABB\DistributionPackages\ABB.RobotWare-7.18.1\RobotPackages\RobotWareInstaller_1.21.0/abb.robotics.robotwareinstaller.rmf' to cache.
+25-08-07 17:19:29	DpManagerRWI.cpp,648,[INFO]:	Current RWI versionName: '1.21.0'
+25-08-07 17:19:29	DpManagerRWI.cpp,659,[INFO]:	Current RWI version detail '1.21.0+68'
+25-08-07 17:19:29	DpManagerRWI.cpp,648,[INFO]:	Current RWI versionName: '1.21.0'
+25-08-07 17:19:29	DpManagerRWI.cpp,659,[INFO]:	Current RWI version detail '1.21.0+68'
+25-08-07 17:19:29	DpManagerSystemCommon.cpp,2071,[INFO]:	Product HW platform compatibility check done.
+25-08-07 17:19:29	DpManagerSystemCommon.cpp,179,[INFO]:	Starting resolve dependencies. Current platform is 'vc', nr of products is 5.
+25-08-07 17:19:29	DpManagerSystemCommon.cpp,227,[INFO]:	Added RobotOS, version '16.0.0+231'. Number of products left is 4.
+25-08-07 17:19:29	DpManagerSystemCommon.cpp,267,[INFO]:	Dependency check to RobotOS.
+25-08-07 17:19:29	DpManagerSystemCommon.cpp,344,[INFO]:	Add product RobotControl. Nr of products left is 3.
+25-08-07 17:19:29	DpManagerSystemCommon.cpp,355,[INFO]:	Add all products that have only one dependency and it is RobotControl.
+25-08-07 17:19:29	DpManagerSystemCommon.cpp,373,[INFO]:	Only dependency on RobotControl. Add product 'Robots' to the sorted List.
+25-08-07 17:19:29	DpManagerSystemCommon.cpp,373,[INFO]:	Only dependency on RobotControl. Add product 'FlexPendantSoftwareUpdate' to the sorted List.
+25-08-07 17:19:29	DpManagerSystemCommon.cpp,391,[INFO]:	Check dependency loop 0 starts, nr of products to solve dependency is 1.
+25-08-07 17:19:29	DpManagerSystemCommon.cpp,447,[INFO]:	Add product 'Wizard' to the sorted List.
+25-08-07 17:19:29	DpManagerSystemCommon.cpp,386,[INFO]:	No more products left to check dependency.
+25-08-07 17:19:29	DpManagerSystemCommon.cpp,494,[INFO]:	Done resolving dependencies, status = 0.
+25-08-07 17:19:29	DpManagerSysInstall.cpp,1436,[INFO]:	Product root dir path 'C:/Users/Lenovo/AppData/Local/ABB/RobotWare'.
+25-08-07 17:19:29	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'RobotOS' to 'C:/Users/Lenovo/AppData/Local/ABB/RobotWare/RobotOS_16.0.0'.
+25-08-07 17:19:29	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'RobotOS' is already installed.
+25-08-07 17:19:29	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'RobotControl' to 'C:/Users/Lenovo/AppData/Local/ABB/RobotWare/RobotControl_7.18.1'.
+25-08-07 17:19:29	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'RobotControl' is already installed.
+25-08-07 17:19:29	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'Robots' to 'C:/Users/Lenovo/AppData/Local/ABB/RobotWare/Robots_1.18.1'.
+25-08-07 17:19:29	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'Robots' is already installed.
+25-08-07 17:19:29	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'FlexPendantSoftwareUpdate' to 'C:/Users/Lenovo/AppData/Local/ABB/RobotWare/FlexPendant/Apps_1.19.1'.
+25-08-07 17:19:29	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'FlexPendantSoftwareUpdate' is already installed.
+25-08-07 17:19:29	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'Wizard' to 'C:/Users/Lenovo/AppData/Local/ABB/RobotWare/Wizard_1.7.0'.
+25-08-07 17:19:29	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'Wizard' is already installed.
+25-08-07 17:19:29	DpManagerSysInstall.cpp,1614,[INFO]:	Copy 'C:\Users\Lenovo\AppData\Local\Temp\tmp4DE0.tmp\CRB15000_5_95/AdditionalFiles' to 'G:/Documents/RobotStudio/Projects/GOFA/CAFFEE/Latte_Art/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/inbox/CRB15000_5_95/AdditionalFiles', status = 0.
+25-08-07 17:19:29	DpManagerUtility.cpp,2268,[INFO]:	Write return message to file 'G:/Documents/RobotStudio/Projects/GOFA/CAFFEE/Latte_Art/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/inbox/message': status = 0 
+25-08-07 17:19:29	DpManagerUtility.cpp,1738,[INFO]:	Get boot info for 'VC' platform...
+25-08-07 17:19:29	DpManagerUtility.cpp,1693,[INFO]:	Got '/VCImage' from the common section: S27.01/bin/s27.01.dll.
+25-08-07 17:19:29	DpManagerSystemCommon.cpp,2640,[INFO]:	S27 OS image path from boot info: C:/Users/Lenovo/AppData/Local/ABB/RobotWare/RobotOS_16.0.0/S27.01/bin/s27.01.dll.
+25-08-07 17:19:29	DpManagerSysInstall.cpp,1305,[INFO]:	Installation has been finished, status = 0.
+25-08-07 17:19:29	DpManagerSysInstall.cpp,1306,[INFO]:	Clean up the temporary files.
+25-08-07 17:19:29	DpManagerUtility.cpp,470,[INFO]:	[7] Added 'C:\Users\Lenovo\AppData\Local\Temp\tmp4DE0.tmp\CRB15000_5_95\RobotWareInstaller/abb.robotics.robotwareinstaller.rmf' to cache.
+25-08-07 17:19:29	VCInstaller.cpp,647,[INFO]:	No HW settings file used.
+#######  Log open at 25-08-10 08:56:16 SE Asia Standard Time +0700 #######
+25-08-10 08:56:16	DpManagerUtility.cpp,470,[INFO]:	[1] Added 'C:\ProgramData\ABB\DistributionPackages\ABB.RobotWare-7.18.1\RobotPackages\RobotWareInstaller_1.21.0/abb.robotics.robotwareinstaller.rmf' to cache.
+25-08-10 08:56:16	DpManagerRWI.cpp,648,[INFO]:	Current RWI versionName: '1.21.0'
+25-08-10 08:56:16	DpManagerRWI.cpp,659,[INFO]:	Current RWI version detail '1.21.0+68'
+25-08-10 08:56:16	Startup.cpp,786,[INFO]:	Current RWI: 1.21.0+68, 1.21.0, 64-bit
+25-08-10 08:56:16	Startup.cpp,803,[INFO]:	Controller Id: VIRTUAL_CONTROLLER
+25-08-10 08:56:16	Startup.cpp,805,[INFO]:	Controller Name: CRB15000_5_95
+25-08-10 08:56:16	DpManagerSysInstall.cpp,1193,[INFO]:	Starting SystemInstallImp::InitInstallation()...
+25-08-10 08:56:16	DpManagerSystemCommon.cpp,2144,[INFO]:	Package version check for HW Platform completed. No problem found. current HWPlatform: vc, required pkg ver = 1 
+25-08-10 08:56:16	DpManagerSysInstall.cpp,863,[INFO]:	Match type 3, installation type 1, m_ctrl = '', rootPath = C:\Users\DELL\AppData\Local\Temp\tmpB5F9.tmp\CRB15000_5_95, systemPath = 'C:\Users\DELL\AppData\Local\Temp\tmpB5F9.tmp\CRB15000_5_95/Systems/CRB15000_5_95'.
+25-08-10 08:56:16	DpManagerSysInstall.cpp,2064,[INFO]:	Load all included license files from system.
+25-08-10 08:56:16	C:\a\12\s\ControllerManagerUtility\ControllerManagerUtility.cpp,657,[INFO]:	'C:/Users/DELL/Downloads/Latte_Art/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/temp/INSTALLTEMP/LICENSE/virtual.abb.robotics.robotcontrol.rlf' is not encrypted. 
+25-08-10 08:56:16	DpManagerSysInstall.cpp,2458,[INFO]:	Controller '' found, additional files path= ''.
+25-08-10 08:56:16	DpManagerSystemCommon.cpp,1697,[INFO]:	Reading content in file path 'C:\Users\DELL\AppData\Local\Temp\tmpB5F9.tmp\CRB15000_5_95/Systems/CRB15000_5_95/controller.rsf'.
+25-08-10 08:56:16	DpManagerUtility.cpp,470,[INFO]:	[1] Added 'C:\Users\DELL\AppData\Local\Temp\tmpB5F9.tmp\CRB15000_5_95/Products/abb.robotics.robotos_16.0.0/abb.robotics.robotos.rmf' to cache.
+25-08-10 08:56:16	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\DELL\AppData\Local\Temp\tmpB5F9.tmp\CRB15000_5_95/Products/abb.robotics.robotos_16.0.0', manifestfile = 'abb.robotics.robotos.rmf'.
+25-08-10 08:56:16	DpManagerUtility.cpp,470,[INFO]:	[2] Added 'C:\Users\DELL\AppData\Local\Temp\tmpB5F9.tmp\CRB15000_5_95/Products/abb.robotics.robotcontrol_7.18.1/abb.robotics.robotcontrol.rmf' to cache.
+25-08-10 08:56:16	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\DELL\AppData\Local\Temp\tmpB5F9.tmp\CRB15000_5_95/Products/abb.robotics.robotcontrol_7.18.1', manifestfile = 'abb.robotics.robotcontrol.rmf'.
+25-08-10 08:56:16	DpManagerUtility.cpp,470,[INFO]:	[3] Added 'C:\Users\DELL\AppData\Local\Temp\tmpB5F9.tmp\CRB15000_5_95/Products/abb.robotics.flexpendantapps_1.19.1/abb.robotics.flexpendantapps.rmf' to cache.
+25-08-10 08:56:16	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\DELL\AppData\Local\Temp\tmpB5F9.tmp\CRB15000_5_95/Products/abb.robotics.flexpendantapps_1.19.1', manifestfile = 'abb.robotics.flexpendantapps.rmf'.
+25-08-10 08:56:16	DpManagerUtility.cpp,470,[INFO]:	[4] Added 'C:\Users\DELL\AppData\Local\Temp\tmpB5F9.tmp\CRB15000_5_95/Products/abb.robotics.robots_1.18.1/abb.robotics.robots.rmf' to cache.
+25-08-10 08:56:16	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\DELL\AppData\Local\Temp\tmpB5F9.tmp\CRB15000_5_95/Products/abb.robotics.robots_1.18.1', manifestfile = 'abb.robotics.robots.rmf'.
+25-08-10 08:56:16	DpManagerUtility.cpp,470,[INFO]:	[5] Added 'C:\Users\DELL\AppData\Local\Temp\tmpB5F9.tmp\CRB15000_5_95/Products/abb.cn.robotics.wizard_1.7.0/abb.cn.robotics.wizard_1.7.0.rmf' to cache.
+25-08-10 08:56:16	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\DELL\AppData\Local\Temp\tmpB5F9.tmp\CRB15000_5_95/Products/abb.cn.robotics.wizard_1.7.0', manifestfile = 'abb.cn.robotics.wizard_1.7.0.rmf'.
+25-08-10 08:56:16	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotWareInstallationUtilities, min:1.21.0, max:1.99999999.99999999.
+25-08-10 08:56:16	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotOS, min:16.0.0, max:16.99999999.99999999.
+25-08-10 08:56:16	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotWareInstallationUtilities, min:1.21.0, max:1.99999999.99999999.
+25-08-10 08:56:16	DpManagerSystemCommon.cpp,854,[INFO]:	Using default hwplatform for AddIns: '*'.
+25-08-10 08:56:16	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotControl, min:7.0.0-299.Internal, max:7.99999999.99999999.
+25-08-10 08:56:16	DpManagerSystemCommon.cpp,854,[INFO]:	Using default hwplatform for AddIns: '*'.
+25-08-10 08:56:16	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotControl, min:7.1.0-225.Internal, max:7.99999999.99999999.
+25-08-10 08:56:16	DpManagerSystemCommon.cpp,854,[INFO]:	Using default hwplatform for AddIns: '*'.
+25-08-10 08:56:16	DpManagerSystemCommon.cpp,869,[INFO]:	No <Dependecy> found in product 'Wizard' in file 'abb.cn.robotics.wizard_1.7.0.rmf'.
+25-08-10 08:56:16	C:\a\12\s\ControllerManagerUtility\ControllerManagerUtility.cpp,657,[INFO]:	'C:/Users/DELL/Downloads/Latte_Art/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/temp/INSTALLTEMP/LICENSE/virtual.abb.robotics.robotcontrol.rlf' is not encrypted. 
+25-08-10 08:56:16	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\DELL\AppData\Local\Temp\tmpB5F9.tmp\CRB15000_5_95/Products/abb.robotics.robotos_16.0.0/abb.robotics.robotos.rmf'
+25-08-10 08:56:16	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-08-10 08:56:16	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\DELL\AppData\Local\Temp\tmpB5F9.tmp\CRB15000_5_95/Products/abb.robotics.robotcontrol_7.18.1/abb.robotics.robotcontrol.rmf'
+25-08-10 08:56:16	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-08-10 08:56:17	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\DELL\AppData\Local\Temp\tmpB5F9.tmp\CRB15000_5_95/Products/abb.robotics.flexpendantapps_1.19.1/abb.robotics.flexpendantapps.rmf'
+25-08-10 08:56:17	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-08-10 08:56:17	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\DELL\AppData\Local\Temp\tmpB5F9.tmp\CRB15000_5_95/Products/abb.robotics.robots_1.18.1/abb.robotics.robots.rmf'
+25-08-10 08:56:17	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-08-10 08:56:17	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\DELL\AppData\Local\Temp\tmpB5F9.tmp\CRB15000_5_95/Products/abb.cn.robotics.wizard_1.7.0/abb.cn.robotics.wizard_1.7.0.rmf'
+25-08-10 08:56:17	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-08-10 08:56:17	DpManagerUtility.cpp,470,[INFO]:	[6] Added 'C:\ProgramData\ABB\DistributionPackages\ABB.RobotWare-7.18.1\RobotPackages\RobotWareInstaller_1.21.0/abb.robotics.robotwareinstaller.rmf' to cache.
+25-08-10 08:56:17	DpManagerRWI.cpp,648,[INFO]:	Current RWI versionName: '1.21.0'
+25-08-10 08:56:17	DpManagerRWI.cpp,659,[INFO]:	Current RWI version detail '1.21.0+68'
+25-08-10 08:56:17	DpManagerRWI.cpp,648,[INFO]:	Current RWI versionName: '1.21.0'
+25-08-10 08:56:17	DpManagerRWI.cpp,659,[INFO]:	Current RWI version detail '1.21.0+68'
+25-08-10 08:56:17	DpManagerSystemCommon.cpp,2071,[INFO]:	Product HW platform compatibility check done.
+25-08-10 08:56:17	DpManagerSystemCommon.cpp,179,[INFO]:	Starting resolve dependencies. Current platform is 'vc', nr of products is 5.
+25-08-10 08:56:17	DpManagerSystemCommon.cpp,227,[INFO]:	Added RobotOS, version '16.0.0+231'. Number of products left is 4.
+25-08-10 08:56:17	DpManagerSystemCommon.cpp,267,[INFO]:	Dependency check to RobotOS.
+25-08-10 08:56:17	DpManagerSystemCommon.cpp,344,[INFO]:	Add product RobotControl. Nr of products left is 3.
+25-08-10 08:56:17	DpManagerSystemCommon.cpp,355,[INFO]:	Add all products that have only one dependency and it is RobotControl.
+25-08-10 08:56:17	DpManagerSystemCommon.cpp,373,[INFO]:	Only dependency on RobotControl. Add product 'Robots' to the sorted List.
+25-08-10 08:56:17	DpManagerSystemCommon.cpp,373,[INFO]:	Only dependency on RobotControl. Add product 'FlexPendantSoftwareUpdate' to the sorted List.
+25-08-10 08:56:17	DpManagerSystemCommon.cpp,391,[INFO]:	Check dependency loop 0 starts, nr of products to solve dependency is 1.
+25-08-10 08:56:17	DpManagerSystemCommon.cpp,447,[INFO]:	Add product 'Wizard' to the sorted List.
+25-08-10 08:56:17	DpManagerSystemCommon.cpp,386,[INFO]:	No more products left to check dependency.
+25-08-10 08:56:17	DpManagerSystemCommon.cpp,494,[INFO]:	Done resolving dependencies, status = 0.
+25-08-10 08:56:17	DpManagerSysInstall.cpp,1436,[INFO]:	Product root dir path 'C:/Users/DELL/AppData/Local/ABB/RobotWare'.
+25-08-10 08:56:17	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'RobotOS' to 'C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotOS_16.0.0'.
+25-08-10 08:56:17	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'RobotOS' is already installed.
+25-08-10 08:56:17	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'RobotControl' to 'C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1'.
+25-08-10 08:56:17	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'RobotControl' is already installed.
+25-08-10 08:56:17	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'Robots' to 'C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1'.
+25-08-10 08:56:17	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'Robots' is already installed.
+25-08-10 08:56:17	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'FlexPendantSoftwareUpdate' to 'C:/Users/DELL/AppData/Local/ABB/RobotWare/FlexPendant/Apps_1.19.1'.
+25-08-10 08:56:17	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'FlexPendantSoftwareUpdate' is already installed.
+25-08-10 08:56:17	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'Wizard' to 'C:/Users/DELL/AppData/Local/ABB/RobotWare/Wizard_1.7.0'.
+25-08-10 08:56:17	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'Wizard' is already installed.
+25-08-10 08:56:17	DpManagerSysInstall.cpp,1614,[INFO]:	Copy 'C:\Users\DELL\AppData\Local\Temp\tmpB5F9.tmp\CRB15000_5_95/AdditionalFiles' to 'C:/Users/DELL/Downloads/Latte_Art/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/inbox/CRB15000_5_95/AdditionalFiles', status = 0.
+25-08-10 08:56:17	DpManagerUtility.cpp,2268,[INFO]:	Write return message to file 'C:/Users/DELL/Downloads/Latte_Art/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/inbox/message': status = 0 
+25-08-10 08:56:17	DpManagerUtility.cpp,1738,[INFO]:	Get boot info for 'VC' platform...
+25-08-10 08:56:17	DpManagerUtility.cpp,1693,[INFO]:	Got '/VCImage' from the common section: S27.01/bin/s27.01.dll.
+25-08-10 08:56:17	DpManagerSystemCommon.cpp,2640,[INFO]:	S27 OS image path from boot info: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotOS_16.0.0/S27.01/bin/s27.01.dll.
+25-08-10 08:56:17	DpManagerSysInstall.cpp,1305,[INFO]:	Installation has been finished, status = 0.
+25-08-10 08:56:17	DpManagerSysInstall.cpp,1306,[INFO]:	Clean up the temporary files.
+25-08-10 08:56:18	DpManagerUtility.cpp,470,[INFO]:	[7] Added 'C:\Users\DELL\AppData\Local\Temp\tmpB5F9.tmp\CRB15000_5_95\RobotWareInstaller/abb.robotics.robotwareinstaller.rmf' to cache.
+25-08-10 08:56:18	VCInstaller.cpp,647,[INFO]:	No HW settings file used.
+#######  Log open at 25-08-11 07:44:18 SE Asia Standard Time +0700 #######
+25-08-11 07:44:18	DpManagerUtility.cpp,470,[INFO]:	[1] Added 'C:\ProgramData\ABB\DistributionPackages\ABB.RobotWare-7.18.1\RobotPackages\RobotWareInstaller_1.21.0/abb.robotics.robotwareinstaller.rmf' to cache.
+25-08-11 07:44:18	DpManagerRWI.cpp,648,[INFO]:	Current RWI versionName: '1.21.0'
+25-08-11 07:44:18	DpManagerRWI.cpp,659,[INFO]:	Current RWI version detail '1.21.0+68'
+25-08-11 07:44:18	Startup.cpp,786,[INFO]:	Current RWI: 1.21.0+68, 1.21.0, 64-bit
+25-08-11 07:44:18	Startup.cpp,803,[INFO]:	Controller Id: VIRTUAL_CONTROLLER
+25-08-11 07:44:18	Startup.cpp,805,[INFO]:	Controller Name: CRB15000_5_95
+25-08-11 07:44:18	DpManagerSysInstall.cpp,1193,[INFO]:	Starting SystemInstallImp::InitInstallation()...
+25-08-11 07:44:18	DpManagerSystemCommon.cpp,2144,[INFO]:	Package version check for HW Platform completed. No problem found. current HWPlatform: vc, required pkg ver = 1 
+25-08-11 07:44:18	DpManagerSysInstall.cpp,863,[INFO]:	Match type 3, installation type 1, m_ctrl = '', rootPath = C:\Users\DELL\AppData\Local\Temp\tmpC3E0.tmp\CRB15000_5_95, systemPath = 'C:\Users\DELL\AppData\Local\Temp\tmpC3E0.tmp\CRB15000_5_95/Systems/CRB15000_5_95'.
+25-08-11 07:44:18	DpManagerSysInstall.cpp,2064,[INFO]:	Load all included license files from system.
+25-08-11 07:44:18	C:\a\12\s\ControllerManagerUtility\ControllerManagerUtility.cpp,657,[INFO]:	'E:/Robots ABB/Latte_Art/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/temp/INSTALLTEMP/LICENSE/virtual.abb.robotics.robotcontrol.rlf' is not encrypted. 
+25-08-11 07:44:18	DpManagerSysInstall.cpp,2458,[INFO]:	Controller '' found, additional files path= ''.
+25-08-11 07:44:18	DpManagerSystemCommon.cpp,1697,[INFO]:	Reading content in file path 'C:\Users\DELL\AppData\Local\Temp\tmpC3E0.tmp\CRB15000_5_95/Systems/CRB15000_5_95/controller.rsf'.
+25-08-11 07:44:18	DpManagerUtility.cpp,470,[INFO]:	[1] Added 'C:\Users\DELL\AppData\Local\Temp\tmpC3E0.tmp\CRB15000_5_95/Products/abb.robotics.robotos_16.0.0/abb.robotics.robotos.rmf' to cache.
+25-08-11 07:44:18	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\DELL\AppData\Local\Temp\tmpC3E0.tmp\CRB15000_5_95/Products/abb.robotics.robotos_16.0.0', manifestfile = 'abb.robotics.robotos.rmf'.
+25-08-11 07:44:18	DpManagerUtility.cpp,470,[INFO]:	[2] Added 'C:\Users\DELL\AppData\Local\Temp\tmpC3E0.tmp\CRB15000_5_95/Products/abb.robotics.robotcontrol_7.18.1/abb.robotics.robotcontrol.rmf' to cache.
+25-08-11 07:44:18	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\DELL\AppData\Local\Temp\tmpC3E0.tmp\CRB15000_5_95/Products/abb.robotics.robotcontrol_7.18.1', manifestfile = 'abb.robotics.robotcontrol.rmf'.
+25-08-11 07:44:18	DpManagerUtility.cpp,470,[INFO]:	[3] Added 'C:\Users\DELL\AppData\Local\Temp\tmpC3E0.tmp\CRB15000_5_95/Products/abb.robotics.flexpendantapps_1.19.1/abb.robotics.flexpendantapps.rmf' to cache.
+25-08-11 07:44:18	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\DELL\AppData\Local\Temp\tmpC3E0.tmp\CRB15000_5_95/Products/abb.robotics.flexpendantapps_1.19.1', manifestfile = 'abb.robotics.flexpendantapps.rmf'.
+25-08-11 07:44:18	DpManagerUtility.cpp,470,[INFO]:	[4] Added 'C:\Users\DELL\AppData\Local\Temp\tmpC3E0.tmp\CRB15000_5_95/Products/abb.robotics.robots_1.18.1/abb.robotics.robots.rmf' to cache.
+25-08-11 07:44:18	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\DELL\AppData\Local\Temp\tmpC3E0.tmp\CRB15000_5_95/Products/abb.robotics.robots_1.18.1', manifestfile = 'abb.robotics.robots.rmf'.
+25-08-11 07:44:18	DpManagerUtility.cpp,470,[INFO]:	[5] Added 'C:\Users\DELL\AppData\Local\Temp\tmpC3E0.tmp\CRB15000_5_95/Products/abb.cn.robotics.wizard_1.7.0/abb.cn.robotics.wizard_1.7.0.rmf' to cache.
+25-08-11 07:44:18	DpManagerSysInstall.cpp,2302,[INFO]:	Path = 'C:\Users\DELL\AppData\Local\Temp\tmpC3E0.tmp\CRB15000_5_95/Products/abb.cn.robotics.wizard_1.7.0', manifestfile = 'abb.cn.robotics.wizard_1.7.0.rmf'.
+25-08-11 07:44:18	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotWareInstallationUtilities, min:1.21.0, max:1.99999999.99999999.
+25-08-11 07:44:18	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotOS, min:16.0.0, max:16.99999999.99999999.
+25-08-11 07:44:18	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotWareInstallationUtilities, min:1.21.0, max:1.99999999.99999999.
+25-08-11 07:44:18	DpManagerSystemCommon.cpp,854,[INFO]:	Using default hwplatform for AddIns: '*'.
+25-08-11 07:44:18	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotControl, min:7.0.0-299.Internal, max:7.99999999.99999999.
+25-08-11 07:44:18	DpManagerSystemCommon.cpp,854,[INFO]:	Using default hwplatform for AddIns: '*'.
+25-08-11 07:44:18	DpManagerSystemCommon.cpp,940,[INFO]:	New dependency: RobotControl, min:7.1.0-225.Internal, max:7.99999999.99999999.
+25-08-11 07:44:18	DpManagerSystemCommon.cpp,854,[INFO]:	Using default hwplatform for AddIns: '*'.
+25-08-11 07:44:18	DpManagerSystemCommon.cpp,869,[INFO]:	No <Dependecy> found in product 'Wizard' in file 'abb.cn.robotics.wizard_1.7.0.rmf'.
+25-08-11 07:44:19	C:\a\12\s\ControllerManagerUtility\ControllerManagerUtility.cpp,657,[INFO]:	'E:/Robots ABB/Latte_Art/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/temp/INSTALLTEMP/LICENSE/virtual.abb.robotics.robotcontrol.rlf' is not encrypted. 
+25-08-11 07:44:19	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\DELL\AppData\Local\Temp\tmpC3E0.tmp\CRB15000_5_95/Products/abb.robotics.robotos_16.0.0/abb.robotics.robotos.rmf'
+25-08-11 07:44:19	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-08-11 07:44:19	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\DELL\AppData\Local\Temp\tmpC3E0.tmp\CRB15000_5_95/Products/abb.robotics.robotcontrol_7.18.1/abb.robotics.robotcontrol.rmf'
+25-08-11 07:44:19	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-08-11 07:44:19	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\DELL\AppData\Local\Temp\tmpC3E0.tmp\CRB15000_5_95/Products/abb.robotics.flexpendantapps_1.19.1/abb.robotics.flexpendantapps.rmf'
+25-08-11 07:44:19	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-08-11 07:44:20	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\DELL\AppData\Local\Temp\tmpC3E0.tmp\CRB15000_5_95/Products/abb.robotics.robots_1.18.1/abb.robotics.robots.rmf'
+25-08-11 07:44:20	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-08-11 07:44:20	DpManagerUtility.cpp,766,[INFO]:	Validate manifest 'C:\Users\DELL\AppData\Local\Temp\tmpC3E0.tmp\CRB15000_5_95/Products/abb.cn.robotics.wizard_1.7.0/abb.cn.robotics.wizard_1.7.0.rmf'
+25-08-11 07:44:20	DpManagerUtility.cpp,829,[INFO]:	Validate all .rpk files.
+25-08-11 07:44:20	DpManagerUtility.cpp,470,[INFO]:	[6] Added 'C:\ProgramData\ABB\DistributionPackages\ABB.RobotWare-7.18.1\RobotPackages\RobotWareInstaller_1.21.0/abb.robotics.robotwareinstaller.rmf' to cache.
+25-08-11 07:44:20	DpManagerRWI.cpp,648,[INFO]:	Current RWI versionName: '1.21.0'
+25-08-11 07:44:20	DpManagerRWI.cpp,659,[INFO]:	Current RWI version detail '1.21.0+68'
+25-08-11 07:44:20	DpManagerRWI.cpp,648,[INFO]:	Current RWI versionName: '1.21.0'
+25-08-11 07:44:20	DpManagerRWI.cpp,659,[INFO]:	Current RWI version detail '1.21.0+68'
+25-08-11 07:44:20	DpManagerSystemCommon.cpp,2071,[INFO]:	Product HW platform compatibility check done.
+25-08-11 07:44:20	DpManagerSystemCommon.cpp,179,[INFO]:	Starting resolve dependencies. Current platform is 'vc', nr of products is 5.
+25-08-11 07:44:20	DpManagerSystemCommon.cpp,227,[INFO]:	Added RobotOS, version '16.0.0+231'. Number of products left is 4.
+25-08-11 07:44:20	DpManagerSystemCommon.cpp,267,[INFO]:	Dependency check to RobotOS.
+25-08-11 07:44:20	DpManagerSystemCommon.cpp,344,[INFO]:	Add product RobotControl. Nr of products left is 3.
+25-08-11 07:44:20	DpManagerSystemCommon.cpp,355,[INFO]:	Add all products that have only one dependency and it is RobotControl.
+25-08-11 07:44:20	DpManagerSystemCommon.cpp,373,[INFO]:	Only dependency on RobotControl. Add product 'Robots' to the sorted List.
+25-08-11 07:44:20	DpManagerSystemCommon.cpp,373,[INFO]:	Only dependency on RobotControl. Add product 'FlexPendantSoftwareUpdate' to the sorted List.
+25-08-11 07:44:20	DpManagerSystemCommon.cpp,391,[INFO]:	Check dependency loop 0 starts, nr of products to solve dependency is 1.
+25-08-11 07:44:20	DpManagerSystemCommon.cpp,447,[INFO]:	Add product 'Wizard' to the sorted List.
+25-08-11 07:44:20	DpManagerSystemCommon.cpp,386,[INFO]:	No more products left to check dependency.
+25-08-11 07:44:20	DpManagerSystemCommon.cpp,494,[INFO]:	Done resolving dependencies, status = 0.
+25-08-11 07:44:20	DpManagerSysInstall.cpp,1436,[INFO]:	Product root dir path 'C:/Users/DELL/AppData/Local/ABB/RobotWare'.
+25-08-11 07:44:20	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'RobotOS' to 'C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotOS_16.0.0'.
+25-08-11 07:44:20	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'RobotOS' is already installed.
+25-08-11 07:44:20	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'RobotControl' to 'C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotControl_7.18.1'.
+25-08-11 07:44:20	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'RobotControl' is already installed.
+25-08-11 07:44:20	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'Robots' to 'C:/Users/DELL/AppData/Local/ABB/RobotWare/Robots_1.18.1'.
+25-08-11 07:44:20	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'Robots' is already installed.
+25-08-11 07:44:20	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'FlexPendantSoftwareUpdate' to 'C:/Users/DELL/AppData/Local/ABB/RobotWare/FlexPendant/Apps_1.19.1'.
+25-08-11 07:44:20	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'FlexPendantSoftwareUpdate' is already installed.
+25-08-11 07:44:20	DpManagerSysInstall.cpp,1457,[INFO]:	Install product 'Wizard' to 'C:/Users/DELL/AppData/Local/ABB/RobotWare/Wizard_1.7.0'.
+25-08-11 07:44:20	DpManagerSysInstall.cpp,1473,[INFO]:	Product 'Wizard' is already installed.
+25-08-11 07:44:20	DpManagerSysInstall.cpp,1614,[INFO]:	Copy 'C:\Users\DELL\AppData\Local\Temp\tmpC3E0.tmp\CRB15000_5_95/AdditionalFiles' to 'E:/Robots ABB/Latte_Art/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/inbox/CRB15000_5_95/AdditionalFiles', status = 0.
+25-08-11 07:44:20	DpManagerUtility.cpp,2268,[INFO]:	Write return message to file 'E:/Robots ABB/Latte_Art/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/inbox/message': status = 0 
+25-08-11 07:44:20	DpManagerUtility.cpp,1738,[INFO]:	Get boot info for 'VC' platform...
+25-08-11 07:44:20	DpManagerUtility.cpp,1693,[INFO]:	Got '/VCImage' from the common section: S27.01/bin/s27.01.dll.
+25-08-11 07:44:20	DpManagerSystemCommon.cpp,2640,[INFO]:	S27 OS image path from boot info: C:/Users/DELL/AppData/Local/ABB/RobotWare/RobotOS_16.0.0/S27.01/bin/s27.01.dll.
+25-08-11 07:44:20	DpManagerSysInstall.cpp,1305,[INFO]:	Installation has been finished, status = 0.
+25-08-11 07:44:20	DpManagerSysInstall.cpp,1306,[INFO]:	Clean up the temporary files.
+25-08-11 07:44:20	DpManagerUtility.cpp,470,[INFO]:	[7] Added 'C:\Users\DELL\AppData\Local\Temp\tmpC3E0.tmp\CRB15000_5_95\RobotWareInstaller/abb.robotics.robotwareinstaller.rmf' to cache.
+25-08-11 07:44:20	VCInstaller.cpp,647,[INFO]:	No HW settings file used.

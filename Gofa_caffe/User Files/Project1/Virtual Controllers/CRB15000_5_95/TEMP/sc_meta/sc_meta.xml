@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigurationFile name="sc_cfg.xml"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="urn:abb-robotics-safety-configuration-meta"
+        xsi:schemaLocation="urn:abb-robotics-safety-configuration-meta sc_meta.xsd"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema-instance">
+
+  <!-- HEADER START -->
+  
+  <File name="001_Header_Start._ml" />
+  <File name="002_Seal._ml" />
+  <File name="003_Header._ml" />
+  
+  <File name="004_Header_DSQC1095._ml" >
+    <IfFeaturePresent featureString="abb.robotics.robotcontrol.controllerhw.m28.04"/>
+  </File>
+
+  <File name="004_Header_DSQC3127._ml" >
+    <IfFeaturePresent featureString="abb.robotics.robotcontrol.controllerhw.m28.05"/>
+  </File>
+
+  <File name="004_Header_DSQC1015._ml" >
+    <IfFeatureAbsent featureString="abb.robotics.robotcontrol.controllerhw.m28.04"/>
+    <IfFeatureAbsent featureString="abb.robotics.robotcontrol.controllerhw.m28.05"/>
+  </File>
+  
+  <!-- HEADER END -->
+  
+  <!-- SIOS START -->
+  
+  <File name="100_SIOS_Start._ml" />
+  <File name="101_Signals._ml" />
+  
+  <File name="101_Signals_dsqc1095._ml">
+    <IfFeaturePresent featureString="abb.robotics.robotcontrol.controllerhw.m28.04"/>
+  </File>
+
+  <File name="101_Signals_dsqc1095._ml">
+    <IfFeaturePresent featureString="abb.robotics.robotcontrol.controllerhw.m28.05"/>
+  </File>
+
+  <File name="101_Signals_funcIOMapping._ml" />
+  <File name="102_Signals_opt._ml" />  
+  
+  <File name="110_SafeLocalIO_Modular_Safety_NonVis._ml" >
+    <IfFeatureAbsent featureString="abb.robotics.robotcontrol.controllerhw.m28.04"/>
+    <IfFeatureAbsent featureString="abb.robotics.robotcontrol.controllerhw.m28.05"/>
+  </File>
+
+  <File name="110_SafeLocalIO_Modular_Safety_NonVis_dsqc1095._ml" >
+    <IfFeaturePresent featureString="abb.robotics.robotcontrol.controllerhw.m28.04"/>
+  </File>
+  <File name="110_SafeLocalIO_Modular_Safety_NonVis_dsqc1095._ml" >
+    <IfFeaturePresent featureString="abb.robotics.robotcontrol.controllerhw.m28.05"/>
+  </File>
+
+  <File name="115_FSOE_SubInstance_DSQC1095._ml" >
+    <IfOptionPresent optionString="EtherCAT" />
+    <IfFeaturePresent featureString="abb.robotics.robotcontrol.controllerhw.m28.04"/>
+  </File>
+
+  <File name="115_FSOE_SubInstance_DSQC3127._ml" >
+    <IfOptionPresent optionString="EtherCAT" />
+    <IfFeaturePresent featureString="abb.robotics.robotcontrol.controllerhw.m28.05"/>
+  </File>
+
+  <File name="116_FSOE_MainInstance_DSQC1095._ml" >
+    <IfOptionPresent optionString="FSOE_MAIN_INSTANCE" />
+    <IfFeaturePresent featureString="abb.robotics.robotcontrol.controllerhw.m28.04"/>
+  </File>
+
+  <File name="116_FSOE_MainInstance_DSQC3127._ml" >
+    <IfOptionPresent optionString="FSOE_MAIN_INSTANCE" />
+    <IfFeaturePresent featureString="abb.robotics.robotcontrol.controllerhw.m28.05"/>
+  </File>
+
+  <File name="120_PNFDevice._ml">
+    <IfOptionPresent optionString="PROFISAFEFD" />
+  </File>
+  <File name="125_CSAdapter._ml">
+    <IfOptionPresent optionString="CIPADAPTER" />
+  </File>
+  <File name="130_PNFHost._ml">
+    <IfOptionPresent optionString="PROFISAFEFH" />
+  </File>
+
+  <File name="140_Feedback_Modular_Safety._ml" >
+    <IfFeaturePresent featureString="abb.robotics.robotcontrol.controllerhw.m28.01"/>
+  </File>
+  
+  <File name="140_Feedback_Modular_Safety_Essential._ml" >
+    <IfFeaturePresent featureString="abb.robotics.robotcontrol.controllerhw.m28.02"/>
+  </File>
+	
+  <File name="140_Feedback_Modular_Safety_dsqc1095._ml">
+    <IfFeaturePresent  featureString="abb.robotics.robotcontrol.controllerhw.m28.04" />
+  </File>
+  <File name="140_Feedback_Modular_Safety_dsqc1095._ml">
+    <IfFeaturePresent  featureString="abb.robotics.robotcontrol.controllerhw.m28.05" />
+  </File>
+
+  <File name="160_CL_Signals._ml" />
+  <File name="199_SIOS_End._ml" />
+  
+  <!-- SIOS END -->
+  
+  <!-- CL START -->
+  
+  <File name="200_CL_Start._ml" />
+  <File name="210_CL_Operators._ml" />
+  <File name="220_CL_PreLogic._ml" />
+  <File name="230_CL_PostLogic._ml" />
+  <File name="299_CL_End._ml" />
+  
+  <!-- CL END -->
+  
+  <!-- SYSTEM START -->
+  
+  <File name="300_System_Start_NonVis._ml" />
+  <File name="310_System_Soft2_NonVis._ml" >
+    <IfOptionPresent optionString="KLMODESWITCH2" />
+  </File>
+  <File name="310_System_Soft3_NonVis._ml" >
+    <IfOptionAbsent  optionString="KLMODESWITCH2" />
+  </File>
+
+  <File name="320_System_Opt_NonVis._ml" />
+  <File name="399_System_End_NonVis._ml" />
+  
+  <!-- SYSTEM END -->
+
+  <!-- SAFETY START -->
+  <!--
+    400_SafetyCFG_start_Essential._ml contains the default checksum for that config
+  -->
+  <File name="400_SafetyCFG_start._ml" >
+    <IfFeatureAbsent featureString="abb.robotics.robotcontrol.controllerhw.m28.02" />
+  </File>
+  
+  <File name="400_SafetyCFG_start_Essential_cat0._ml" >
+    <IfFeaturePresent featureString="abb.robotics.robotcontrol.controllerhw.m28.02" />
+    <IfFeatureAbsent featureString="abb.robotics.robotcontrol.options.defaultcat1stop" />
+  </File>
+  <File name="400_SafetyCFG_start_Essential_cat1._ml" >
+    <IfFeaturePresent featureString="abb.robotics.robotcontrol.controllerhw.m28.02" />
+    <IfFeaturePresent featureString="abb.robotics.robotcontrol.options.defaultcat1stop" />
+  </File>
+
+  <File name="410_SafetyCFG_StopFunctions_dsqc1095._ml">
+    <IfFeaturePresent featureString="abb.robotics.robotcontrol.controllerhw.m28.04" />
+    <IfFeatureAbsent featureString="abb.robotics.robotcontrol.options.nocat0stop" />
+    <IfFeatureAbsent featureString="abb.robotics.robotcontrol.options.defaultcat1stop" />
+  </File>
+  <File name="410_SafetyCFG_StopFunctions_dsqc1095._ml">
+    <IfFeaturePresent featureString="abb.robotics.robotcontrol.controllerhw.m28.05" />
+    <IfFeatureAbsent featureString="abb.robotics.robotcontrol.options.nocat0stop" />
+    <IfFeatureAbsent featureString="abb.robotics.robotcontrol.options.defaultcat1stop" />
+  </File>
+  <File name="410_SafetyCFG_StopFunctions._ml">
+    <IfFeatureAbsent featureString="abb.robotics.robotcontrol.controllerhw.m28.04" />
+    <IfFeatureAbsent featureString="abb.robotics.robotcontrol.controllerhw.m28.05" />
+    <IfFeatureAbsent featureString="abb.robotics.robotcontrol.options.nocat0stop" />
+    <IfFeatureAbsent featureString="abb.robotics.robotcontrol.options.defaultcat1stop" />
+  </File>
+
+  <File name="410_SafetyCFG_StopFunctions_collaborative_dsqc1095._ml">
+    <IfFeaturePresent featureString="abb.robotics.robotcontrol.controllerhw.m28.04" />
+    <IfFeaturePresent featureString="abb.robotics.robotcontrol.options.nocat0stop" />
+  </File>
+  <File name="410_SafetyCFG_StopFunctions_collaborative_dsqc1095._ml">
+    <IfFeaturePresent featureString="abb.robotics.robotcontrol.controllerhw.m28.05" />
+    <IfFeaturePresent featureString="abb.robotics.robotcontrol.options.nocat0stop" />
+  </File>
+  <File name="410_SafetyCFG_StopFunctions_collaborative._ml">
+    <IfFeatureAbsent featureString="abb.robotics.robotcontrol.controllerhw.m28.04" />
+    <IfFeatureAbsent featureString="abb.robotics.robotcontrol.controllerhw.m28.05" />
+    <IfFeaturePresent featureString="abb.robotics.robotcontrol.options.nocat0stop" />
+  </File>
+  
+  <File name="410_SafetyCFG_StopFunctions_collaborative._ml">
+    <IfFeatureAbsent featureString="abb.robotics.robotcontrol.controllerhw.m28.04" />
+    <IfFeatureAbsent featureString="abb.robotics.robotcontrol.controllerhw.m28.05" />
+    <IfFeatureAbsent featureString="abb.robotics.robotcontrol.options.nocat0stop" />
+    <IfFeaturePresent featureString="abb.robotics.robotcontrol.options.defaultcat1stop" />
+  </File>
+
+  <!-- Always add at least one drive module -->
+  <File name="420_SafetyCFG_One_DriveModule._ml">
+    <IfFeatureAbsent featureString="abb.robotics.robotcontrol.options.safemove.smpnp" />
+    <IfFeatureAbsent featureString="abb.robotics.robotcontrol.options.multimove.tworobots" />
+    <IfFeatureAbsent featureString="abb.robotics.robotcontrol.options.multimove.threerobots" />
+    <IfFeatureAbsent featureString="abb.robotics.robotcontrol.options.multimove.fourrobots" />
+  </File>
+  
+  <File name="420_SafetyCFG_One_DriveModule_collaborative._ml">
+    <IfFeaturePresent featureString="abb.robotics.robotcontrol.options.safemove.smpnp" />
+    <IfFeatureAbsent featureString="abb.robotics.robotcontrol.options.multimove.tworobots" />
+    <IfFeatureAbsent featureString="abb.robotics.robotcontrol.options.multimove.threerobots" />
+    <IfFeatureAbsent featureString="abb.robotics.robotcontrol.options.multimove.fourrobots" />
+  </File>
+  
+  <!-- GoFa and MultiMove is currently not supported -->
+  
+  <!-- These options are mutually exclusive -->
+  <File name="420_SafetyCFG_Two_DriveModules._ml">
+    <IfFeaturePresent featureString="abb.robotics.robotcontrol.options.multimove.tworobots" />
+  </File>
+  
+  <File name="420_SafetyCFG_Three_DriveModules._ml">
+    <IfFeaturePresent featureString="abb.robotics.robotcontrol.options.multimove.threerobots" />
+  </File>
+  
+  <File name="420_SafetyCFG_Four_DriveModules._ml">
+    <IfFeaturePresent featureString="abb.robotics.robotcontrol.options.multimove.fourrobots" />
+  </File>
+  
+  <File name="499_SafetyCFG_End._ml" />
+  
+  <!-- SAFETY END -->
+  
+  <File name="999_Trailer._ml" />
+</ConfigurationFile>

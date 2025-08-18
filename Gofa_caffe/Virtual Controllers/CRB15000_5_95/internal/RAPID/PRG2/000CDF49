@@ -1,0 +1,428 @@
+MODULE Kcare_Latte_art
+	
+    PROC main()
+        Home;
+        Pick_Tool1;
+        PickPhin;
+        Conial_Burr;
+        Drop_phin;
+        Pay_Coffee;
+        PickPhin;
+        Put_In_Phin;
+        Drop_Tool1;
+        Pick_Tool2;
+        PickTable_Cup2;
+        Put_In_Cup;
+        Drop_Tool2;
+        Pick_Tool1;
+        Water_Supply;
+        Drop_Tool1;
+        Pick_Tool2;
+        Put_Out_Cup;
+        Put_In_Milk;
+        Move_C_R;
+        Press_Milk;
+        Move_C_L;
+        Drop_Tool2;
+        Pick_Tool3;
+        Stirring_Milk;
+        Drop_Tool3;
+        Pick_Tool2;
+        Put_out_Milk;
+        Pick_Ice;
+        DropTable_Cup2;
+        Drop_Tool2;
+        Pick_Tool1;
+        Put_Out_Phin;
+        Washing_Phin;
+        Drop_phin;
+        Drop_Tool1;
+        Home;
+    ENDPROC
+    PROC Made_Coffe()
+        SetDO ABB_Scalable_IO_0_DO1,1;
+        MoveJ Target_CoffeTG,v200,z100,Gripper_Tool;
+        MoveJ Target_10,v500,fine,Phin_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_20,v200,fine,Phin_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_30,v200,fine,Phin_Tool\WObj:=Workobject_Machine_coffe;
+        SetDO ABB_Scalable_IO_0_DO1,0;
+        WaitTime 2;
+        MoveL Target_40,v200,fine,Phin_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_CoffeTG,v200,fine,Gripper_Tool;
+    ENDPROC
+    PROC Home()
+        MoveJ Target_CupDetection10,v500,z100,tool0;
+    ENDPROC
+    PROC PickPhin()
+        SetDO ABB_Scalable_IO_0_DO1,0;
+        MoveJ Target_CoffeTG,v500,fine,Gripper_Tool\WObj:=wobj0;
+        MoveL Target_50,v500,fine,Gripper_Tool\WObj:=Workobject_PickPhin;
+        MoveL Target_60,v200,fine,Gripper_Tool\WObj:=Workobject_PickPhin;
+        SetDO ABB_Scalable_IO_0_DO1,1;
+        WaitTime 2;
+        MoveL Target_70,v200,fine,Gripper_Tool\WObj:=Workobject_PickPhin;
+        MoveL Target_CoffeTG,v500,fine,Gripper_Tool\WObj:=wobj0;
+    ENDPROC
+    PROC Drop_phin()
+        SetDO ABB_Scalable_IO_0_DO1,1;
+        MoveL Target_70,v200,fine,Gripper_Tool\WObj:=Workobject_PickPhin;
+        MoveL Target_60,v200,fine,Gripper_Tool\WObj:=Workobject_PickPhin;
+        SetDO ABB_Scalable_IO_0_DO1,0;
+        WaitTime 2;
+        MoveL Target_50,v200,fine,Gripper_Tool\WObj:=Workobject_PickPhin;
+        MoveJ Target_CoffeTG,v500,fine,Gripper_Tool;
+    ENDPROC
+    PROC Water_Supply()
+        SetDO ABB_Scalable_IO_0_DO1,0;
+        MoveJ Target_CoffeTG,v500,fine,Gripper_Tool\WObj:=wobj0;
+        MoveJ Target_80,v500,fine,Gripper_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_81,v200,fine,Gripper_Tool\WObj:=Workobject_Machine_coffe;
+        SetDO ABB_Scalable_IO_0_DO1,1;
+        WaitTime 2;
+        MoveL Target_82,v200,fine,Gripper_Tool\WObj:=Workobject_Machine_coffe;
+        WaitTime 23;
+        MoveL Target_81,v200,fine,Gripper_Tool\WObj:=Workobject_Machine_coffe;
+        SetDO ABB_Scalable_IO_0_DO1,0;
+        WaitTime 2;
+        MoveJ Target_80,v200,fine,Gripper_Tool\WObj:=Workobject_Machine_coffe;
+    ENDPROC
+    PROC Put_In_Cup()
+        MoveL Target_CoffeTG,v500,fine,Gripper_Tool\WObj:=wobj0;
+        MoveL Target_93,v200,fine,Cup_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_94,v50,fine,Cup_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_95,v50,fine,Cup_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_96,v200,fine,Cup_Tool\WObj:=Workobject_Machine_coffe;
+    ENDPROC
+    PROC PickTable_Cup2()
+        MoveJ Table_cup_TG,v200,fine,Cup_Tool\WObj:=Workobject_Table_Cup;
+        MoveJ Table_cup_10,v400,fine,Cup_Tool\WObj:=Workobject_Table_Cup;
+        MoveL Table_cup_20,v200,fine,Cup_Tool\WObj:=Workobject_Table_Cup;
+        MoveL Table_cup_30,v200,fine,Cup_Tool\WObj:=Workobject_Table_Cup;
+        MoveL Table_cup_40,v200,fine,Cup_Tool\WObj:=Workobject_Table_Cup;
+    ENDPROC
+    PROC DropTable_Cup2()
+        MoveL Table_cup_40,v200,fine,Cup_Tool\WObj:=Workobject_Table_Cup;
+        MoveL Table_cup_30,v200,fine,Cup_Tool\WObj:=Workobject_Table_Cup;
+        MoveL Table_cup_20,v200,fine,Cup_Tool\WObj:=Workobject_Table_Cup;
+        MoveL Table_cup_10,v200,fine,Cup_Tool\WObj:=Workobject_Table_Cup;
+        MoveJ Table_cup_TG,v200,fine,Cup_Tool\WObj:=Workobject_Table_Cup;
+    ENDPROC
+    PROC Put_Out_Cup()
+        MoveJ Target_CoffeTG,v500,fine,Gripper_Tool\WObj:=wobj0;
+        MoveL Target_96,v200,fine,Cup_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_95,v50,fine,Cup_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_94,v50,fine,Cup_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_93,v200,fine,Cup_Tool\WObj:=Workobject_Machine_coffe;
+    ENDPROC
+    PROC Pick_Tool3()
+        SetDO ABB_Scalable_IO_0_DO1,0;
+        MoveJ Change3_10,v200,fine,Stirrng_Tool\WObj:=Workobject_Change_Staytion;
+        MoveL Change3_20,v200,fine,Stirrng_Tool\WObj:=Workobject_Change_Staytion;
+        MoveL Change3_30,v200,fine,Stirrng_Tool\WObj:=Workobject_Change_Staytion;
+        MoveL Change3_40,v500,fine,Stirrng_Tool\WObj:=Workobject_Change_Staytion;
+    ENDPROC
+    PROC Stirring_Milk()
+        SetDO ABB_Scalable_IO_0_DO1,0;
+        MoveJ Stirring_Milk_20,v500,fine,Cup_Top_Tool\WObj:=Workobject_Milk;
+        MoveL Stirring_Milk_10,v50,fine,Cup_Top_Tool\WObj:=Workobject_Milk;
+        SetDO ABB_Scalable_IO_0_DO1,1;
+        WaitTime 15;
+        SetDO ABB_Scalable_IO_0_DO1,0;
+        MoveL Stirring_Milk_20,v200,fine,Cup_Top_Tool\WObj:=Workobject_Milk;
+    ENDPROC
+    PROC Press_Milk()
+        MoveL Press_Milk_30,v200,fine,Cup_Tool\WObj:=Workobject_Milk;
+        MoveL Press_Milk_20,v200,fine,Cup_Tool\WObj:=Workobject_Milk;
+        MoveL Press_Milk_10,v5,fine,Cup_Tool\WObj:=Workobject_Milk;
+        MoveL Press_Milk_20,v50,fine,Cup_Tool\WObj:=Workobject_Milk;
+        MoveL Press_Milk_10,v5,fine,Cup_Tool\WObj:=Workobject_Milk;
+        MoveL Press_Milk_20,v50,fine,Cup_Tool\WObj:=Workobject_Milk;
+        MoveL Press_Milk_10,v5,fine,Cup_Tool\WObj:=Workobject_Milk;
+        MoveL Press_Milk_20,v50,fine,Cup_Tool\WObj:=Workobject_Milk;
+        MoveL Press_Milk_20,v50,fine,Cup_Tool\WObj:=Workobject_Milk;
+        MoveL Press_Milk_10,v5,fine,Cup_Tool\WObj:=Workobject_Milk;
+        MoveL Press_Milk_20,v50,fine,Cup_Tool\WObj:=Workobject_Milk;
+        MoveL Press_Milk_10,v5,fine,Cup_Tool\WObj:=Workobject_Milk;
+        MoveL Press_Milk_20,v50,fine,Cup_Tool\WObj:=Workobject_Milk;
+        MoveL Press_Milk_10,v5,fine,Cup_Tool\WObj:=Workobject_Milk;
+        MoveL Press_Milk_20,v50,fine,Cup_Tool\WObj:=Workobject_Milk;
+        MoveL Press_Milk_10,v5,fine,Cup_Tool\WObj:=Workobject_Milk;
+    ENDPROC
+    PROC Put_In_Milk()
+        MoveL Milk_10,v50,fine,Cup_Top_Tool\WObj:=Workobject_Milk;
+        MoveL Milk_20,v50,fine,Cup_Top_Tool\WObj:=Workobject_Milk;
+        MoveL Milk_30,v200,fine,Cup_Top_Tool\WObj:=Workobject_Milk;
+        MoveL Milk_40,v500,fine,Cup_Top_Tool\WObj:=Workobject_Milk;
+    ENDPROC
+    PROC Put_out_Milk()
+        MoveJ Table_cup_TG,v200,fine,Cup_Tool\WObj:=Workobject_Table_Cup;
+        MoveL Milk_40,v200,fine,Cup_Top_Tool\WObj:=Workobject_Milk;
+        MoveL Milk_30,v500,fine,Cup_Top_Tool\WObj:=Workobject_Milk;
+        MoveL Milk_20,v50,fine,Cup_Top_Tool\WObj:=Workobject_Milk;
+        MoveL Milk_10,v50,fine,Cup_Top_Tool\WObj:=Workobject_Milk;
+    ENDPROC
+    PROC Move_C_R()
+        MoveJ Milk_TG,v500,fine,Cup_Tool\WObj:=Workobject_Milk;
+        MoveL Milk_50_R,v500,fine,Cup_Top_Tool\WObj:=Workobject_Milk;
+        MoveL Milk_60_R,v50,fine,Cup_Top_Tool\WObj:=Workobject_Milk;
+        MoveC Milk_70_R,Milk_80_R,v50,fine,Cup_Top_Tool\WObj:=Workobject_Milk;
+        MoveL Milk_90_R,v50,fine,Cup_Top_Tool\WObj:=Workobject_Milk;
+    ENDPROC
+    PROC Put_In_Phin()
+        SetDO ABB_Scalable_IO_0_DO1,1;
+        MoveJ Target_CoffeTG,v500,z100,Gripper_Tool;
+        MoveL Target_10,v500,fine,Phin_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_20,v200,fine,Phin_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_30,v200,fine,Phin_Tool\WObj:=Workobject_Machine_coffe;
+        SetDO ABB_Scalable_IO_0_DO1,0;
+        WaitTime 2;
+        MoveL Target_40,v200,fine,Phin_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_CoffeTG,v500,fine,Gripper_Tool;
+    ENDPROC
+    PROC Put_Out_Phin()
+        SetDO ABB_Scalable_IO_0_DO1,0;
+        MoveJ Target_CoffeTG,v500,fine,Gripper_Tool;
+        MoveJ Target_40,v200,fine,Phin_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_30,v200,fine,Phin_Tool\WObj:=Workobject_Machine_coffe;
+        SetDO ABB_Scalable_IO_0_DO1,1;
+        WaitTime 2;
+        MoveL Target_20,v200,fine,Phin_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_10,v200,fine,Phin_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_CoffeTG,v500,fine,Gripper_Tool;
+    ENDPROC
+    PROC Drop_Tool2()
+        MoveJ Change2_40,v500,fine,Cup_Tool\WObj:=Workobject_Change_Staytion;
+        MoveL Change2_30,v200,fine,Cup_Tool\WObj:=Workobject_Change_Staytion;
+        MoveL Change2_20,v200,fine,Cup_Tool\WObj:=Workobject_Change_Staytion;
+        MoveL Change2_10,v200,fine,Cup_Tool\WObj:=Workobject_Change_Staytion;
+    ENDPROC
+    PROC Pick_Tool1()
+        MoveJ Change1_10,v500,fine,Gripper_Tool\WObj:=Workobject_Change_Staytion;
+        MoveL Change1_20,v200,fine,Gripper_Tool\WObj:=Workobject_Change_Staytion;
+        SetDO ABB_Scalable_IO_0_DO1,1;
+        MoveL Change1_30,v200,fine,Gripper_Tool\WObj:=Workobject_Change_Staytion;
+        MoveL Change1_40,v500,fine,Gripper_Tool\WObj:=Workobject_Change_Staytion;
+    ENDPROC
+    PROC Put_In_Out_Ice()
+        MoveL Target_CoffeTG,v200,fine,Cup_Tool\WObj:=wobj0;
+        MoveL Target_160,v200,fine,Cup_Tool\WObj:=wobj0;
+        MoveL Target_170,v200,fine,Cup_Tool\WObj:=wobj0;
+        SetDO ABB_Scalable_IO_0_DO6,1;
+        WaitTime 5;
+        SetDO ABB_Scalable_IO_0_DO6,0;
+        MoveL Target_180,v200,fine,Cup_Tool\WObj:=wobj0;
+    ENDPROC
+    PROC Move_C_L()
+        MoveJ Milk_50_L,v50,fine,Cup_Top_Tool\WObj:=Workobject_Milk;
+        MoveL Milk_60_L,v50,fine,Cup_Top_Tool\WObj:=Workobject_Milk;
+        MoveC Milk_70_L,Milk_80_L,v50,fine,Cup_Top_Tool\WObj:=Workobject_Milk;
+        MoveL Milk_90_L,v50,fine,Cup_Top_Tool\WObj:=Workobject_Milk;
+        MoveJ Milk_TG,v500,fine,Cup_Tool\WObj:=Workobject_Milk;
+    ENDPROC
+    PROC Pick_Tool2()
+        MoveJ Change2_10,v500,fine,Cup_Tool\WObj:=Workobject_Change_Staytion;
+        MoveL Change2_20,v200,fine,Cup_Tool\WObj:=Workobject_Change_Staytion;
+        MoveL Change2_30,v200,fine,Cup_Tool\WObj:=Workobject_Change_Staytion;
+        MoveJ Change2_40,v500,fine,Cup_Tool\WObj:=Workobject_Change_Staytion;
+    ENDPROC
+    PROC Drop_Tool1()
+        SetDO ABB_Scalable_IO_0_DO1,1;
+        MoveJ Change1_40,v500,fine,Gripper_Tool\WObj:=Workobject_Change_Staytion;
+        MoveL Change1_30,v200,fine,Gripper_Tool\WObj:=Workobject_Change_Staytion;
+        MoveL Change1_20,v200,fine,Gripper_Tool\WObj:=Workobject_Change_Staytion;
+        MoveL Change1_10,v200,fine,Gripper_Tool\WObj:=Workobject_Change_Staytion;
+        SetDO ABB_Scalable_IO_0_DO1,0;
+    ENDPROC
+    PROC Drop_Tool3()
+        MoveJ Change3_40,v500,fine,Stirrng_Tool\WObj:=Workobject_Change_Staytion;
+        MoveL Change3_30,v200,fine,Stirrng_Tool\WObj:=Workobject_Change_Staytion;
+        MoveL Change3_20,v200,fine,Stirrng_Tool\WObj:=Workobject_Change_Staytion;
+        MoveL Change3_10,v200,fine,Stirrng_Tool\WObj:=Workobject_Change_Staytion;
+    ENDPROC
+    PROC Put_In_Ice()
+        MoveL Target_CoffeTG,v200,fine,Cup_Tool\WObj:=wobj0;
+        MoveL Target_160,v200,fine,Cup_Tool\WObj:=wobj0;
+        MoveL Target_170,v200,fine,Cup_Tool\WObj:=wobj0;
+        MoveL Target_180,v200,fine,Cup_Tool\WObj:=wobj0;
+    ENDPROC
+    PROC Conial_Burr()
+        SetDO ABB_Scalable_IO_0_DO5,0;
+        MoveJ Target_CoffeTG,v200,fine,Phin_Tool\WObj:=Workobject_Home_coffe;
+        MoveJ Conial_Burr_10,v500,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        MoveJ Conial_Burr_20,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        SetDO ABB_Scalable_IO_0_DO5,1;
+        MoveJ Conial_Burr_Move,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        MoveJ Conial_Burr_Back,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        MoveJ Conial_Burr_Move,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        MoveJ Conial_Burr_Back,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        MoveJ Conial_Burr_20,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        MoveJ Conial_Burr_Pitch_1,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        MoveJ Conial_Burr_Roll_1,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        MoveJ Conial_Burr_Pitch_2,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        MoveJ Conial_Burr_Roll_2,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        MoveJ Conial_Burr_Pitch_1,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        MoveJ Conial_Burr_Roll_1,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        MoveJ Conial_Burr_Pitch_2,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        MoveJ Conial_Burr_Roll_2,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        MoveJ Conial_Burr_Move,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        MoveJ Conial_Burr_Back,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        MoveJ Conial_Burr_Move,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        MoveJ Conial_Burr_Back,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        MoveJ Conial_Burr_Pitch_1,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        MoveJ Conial_Burr_Roll_1,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        MoveJ Conial_Burr_Pitch_2,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        MoveJ Conial_Burr_Roll_2,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        MoveJ Conial_Burr_Move,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        MoveJ Conial_Burr_Back,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        MoveJ Conial_Burr_Move,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        MoveJ Conial_Burr_Back,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        SetDO ABB_Scalable_IO_0_DO5,0;
+        MoveL Conial_Burr_20,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        MoveL Conial_Burr_10,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+		MoveL Target_CoffeTG,v200,fine,Phin_Tool\WObj:=Workobject_Home_coffe;
+    ENDPROC
+    PROC Pay_Coffee()
+        SetDO ABB_Scalable_IO_0_DO1,0;
+        MoveJ Pay_0,v200,fine,Gripper_Tool\WObj:=Workobject_PickPhin;
+        MoveJ Pay_20,v200,fine,Gripper_Tool\WObj:=Workobject_PickPhin;
+        MoveL Pay_10,v200,fine,Gripper_Tool\WObj:=Workobject_PickPhin;
+        SetDO ABB_Scalable_IO_0_DO1,1;
+        WaitTime 2;
+        MoveL Pay_20,v200,fine,Gripper_Tool\WObj:=Workobject_PickPhin;
+        MoveL Pay_30,v200,fine,Gripper_Tool\WObj:=Workobject_PickPhin;
+        MoveL Pay_40,v200,fine,Gripper_Tool\WObj:=Workobject_PickPhin;
+        MoveL Pay_50,v200,fine,Gripper_Tool\WObj:=Workobject_PickPhin;
+        MoveL Pay_40,v200,fine,Gripper_Tool\WObj:=Workobject_PickPhin;
+        MoveL Pay_50,v200,fine,Gripper_Tool\WObj:=Workobject_PickPhin;
+        MoveL Pay_40,v200,fine,Gripper_Tool\WObj:=Workobject_PickPhin;
+        MoveL Pay_30,v200,fine,Gripper_Tool\WObj:=Workobject_PickPhin;
+        MoveL Pay_20,v200,fine,Gripper_Tool\WObj:=Workobject_PickPhin;
+        MoveL Pay_10,v200,fine,Gripper_Tool\WObj:=Workobject_PickPhin;
+        SetDO ABB_Scalable_IO_0_DO1,0;
+        WaitTime 2;
+        MoveL Pay_20,v200,fine,Gripper_Tool\WObj:=Workobject_PickPhin;
+        MoveL Pay_0,v200,fine,Gripper_Tool\WObj:=Workobject_PickPhin;
+        MoveJ Target_CoffeTG,v200,fine,Gripper_Tool\WObj:=Workobject_Home_coffe;
+    ENDPROC
+    PROC CupDetection()
+        MoveL Target_CupDetection10,v50,fine,Gripper_Tool\WObj:=wobj0;
+        MoveL Target_CupDetection20,v50,fine,Gripper_Tool\WObj:=wobj0;
+        MoveL Target_CupDetection30,v50,fine,Gripper_Tool\WObj:=wobj0;
+        MoveL Target_CupDetection10,v50,fine,Gripper_Tool\WObj:=wobj0;
+    ENDPROC
+     PROC Washing_Phin()
+        MoveL Target_CoffeTG,v100,fine,Phin_Tool\WObj:=wobj0;
+        MoveJ washing_TG_10,v200,fine,Phin_Tool\WObj:=Workobject_Washing_Phin;
+        MoveL washing_TG_10_2,v100,fine,Phin_Tool\WObj:=Workobject_Washing_Phin;
+        MoveJ washing_TG_10_3,v100,fine,Phin_Tool\WObj:=Workobject_Washing_Phin;
+        MoveJ washing_TG_10_4,v200,fine,Phin_Tool\WObj:=Workobject_Washing_Phin;
+        MoveJ Washing_10,v200,fine,Phin_Tool\WObj:=Workobject_Washing_Phin;
+        MoveL Washing_20,v100,fine,Phin_Tool\WObj:=Workobject_Washing_Phin;
+        SetDO ABB_Scalable_IO_0_DO7,1;
+        SetDO ABB_Scalable_IO_0_DO8,1;
+        MoveL Washing_30,v200,fine,Phin_Tool\WObj:=Workobject_Washing_Phin;
+        MoveL Washing_40,v100,fine,Phin_Tool\WObj:=Workobject_Washing_Phin;
+        WaitTime 1;
+        MoveL Washing_30,v200,fine,Phin_Tool\WObj:=Workobject_Washing_Phin;
+        MoveL Washing_40,v100,fine,Phin_Tool\WObj:=Workobject_Washing_Phin;
+        MoveL Washing_30,v200,fine,Phin_Tool\WObj:=Workobject_Washing_Phin;
+        WaitTime 3;
+        MoveJ Washing_20,v200,fine,Phin_Tool\WObj:=Workobject_Washing_Phin;
+        SetDO ABB_Scalable_IO_0_DO7,0;
+        WaitTime 0.5;
+        SetDO ABB_Scalable_IO_0_DO8,0;
+        MoveL Washing_60,v100,fine,Phin_Tool\WObj:=Workobject_Washing_Phin;
+        MoveL Washing_50,v100,fine,Phin_Tool\WObj:=Workobject_Washing_Phin;
+        MoveL Washing_60,v100,fine,Phin_Tool\WObj:=Workobject_Washing_Phin;
+        MoveL Washing_50,v100,fine,Phin_Tool\WObj:=Workobject_Washing_Phin;
+        MoveJ Washing_10,v200,fine,Phin_Tool\WObj:=Workobject_Washing_Phin;
+        WaitTime 5;
+        MoveJ washing_TG_10_4,v200,fine,Phin_Tool\WObj:=Workobject_Washing_Phin;
+        MoveJ washing_TG_10_3,v200,fine,Phin_Tool\WObj:=Workobject_Washing_Phin;
+        MoveJ washing_TG_10_2,v200,fine,Phin_Tool\WObj:=Workobject_Washing_Phin;
+        MoveJ washing_TG_10,v200,fine,Phin_Tool\WObj:=Workobject_Washing_Phin;
+        MoveJ Target_CoffeTG,v200,fine,Phin_Tool\WObj:=wobj0;
+    ENDPROC
+   
+    PROC Pick_Ice()
+        MoveL Table_cup_TG,v100,fine,Cup_Tool\WObj:=Workobject_Table_Cup;
+        MoveL Ice_10,v100,fine,Cup_Tool\WObj:=Workobject_Machine_Ice;
+        MoveL Ice_20,v100,fine,Cup_Tool\WObj:=Workobject_Machine_Ice;
+        MoveL Ice_30,v100,fine,Cup_Tool\WObj:=Workobject_Machine_Ice;
+        SetDO ABB_Scalable_IO_0_DO6,1;
+        WaitTime 1;
+        SetDO ABB_Scalable_IO_0_DO6,0;
+        WaitTime 3;
+        MoveL Ice_20,v100,fine,Cup_Tool\WObj:=Workobject_Machine_Ice;
+        MoveL Ice_10,v100,fine,Cup_Tool\WObj:=Workobject_Machine_Ice;
+    ENDPROC
+    PROC Caffee()
+        Home;
+        Pick_Tool1;
+        PickPhin;
+        Conial_Burr;
+        Drop_phin;
+        Pay_Coffee;
+        PickPhin;
+        Put_In_Phin;
+        Drop_Tool1;
+        Pick_Tool2;
+        PickTable_Cup2;
+        Put_In_Cup;
+        Drop_Tool2;
+        Pick_Tool1;
+        Water_Supply;
+        Drop_Tool1;
+        Pick_Tool2;
+        Put_Out_Cup;
+        Put_In_Out_Ice;
+        DropTable_Cup2;
+        Drop_Tool2;
+        Pick_Tool1;
+        Put_Out_Phin;
+        Drop_phin;
+        Drop_Tool1;
+        Home;
+    ENDPROC
+    
+    PROC Caffee_Milk()
+        Home;
+        Pick_Tool1;
+        PickPhin;
+        Conial_Burr;
+        Drop_phin;
+        Pay_Coffee;
+        PickPhin;
+        Put_In_Phin;
+        Drop_Tool1;
+        Pick_Tool2;
+        PickTable_Cup2;
+        Put_In_Cup;
+        Drop_Tool2;
+        Pick_Tool1;
+        Water_Supply;
+        Drop_Tool1;
+        Pick_Tool2;
+        Put_Out_Cup;
+        Put_In_Milk;
+        Move_C_R;
+        Press_Milk;
+        Move_C_L;
+        Drop_Tool2;
+        Pick_Tool3;
+        Stirring_Milk;
+        Drop_Tool3;
+        Pick_Tool2;
+        Put_out_Milk;
+        Pick_Ice;
+        DropTable_Cup2;
+        Drop_Tool2;
+        Pick_Tool1;
+        Put_Out_Phin;
+        Washing_Phin;
+        Drop_phin;
+        Drop_Tool1;
+        Home;
+    ENDPROC
+    
+ENDMODULE

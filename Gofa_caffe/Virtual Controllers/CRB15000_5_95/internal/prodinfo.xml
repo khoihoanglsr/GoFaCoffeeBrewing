@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Products version="1.1">
+  <Product id="abb.robotics.robotos" name="RobotOS" version="16.0.0+231" versionName="16.0.0" installPath="$PRODUCTS/RobotOS_16.0.0" productMediaPath="$PRODUCTS/RobotOS_16.0.0/RobotOS_16.0.0" manifestFile="abb.robotics.robotos.rmf" installationTime="2025-08-11 07:44:20"/>
+  <Product id="abb.robotics.robotcontrol" name="RobotControl" version="7.18.1+696" versionName="7.18.1" installPath="$PRODUCTS/RobotControl_7.18.1" productMediaPath="$PRODUCTS/RobotControl_7.18.1/RobotControl_7.18.1" manifestFile="abb.robotics.robotcontrol.rmf" installationTime="2025-08-11 07:44:20"/>
+  <Product id="abb.robotics.robots" name="Robots" version="1.18.1+44" versionName="1.18.1" installPath="$PRODUCTS/Robots_1.18.1" productMediaPath="$PRODUCTS/Robots_1.18.1/Robots_1.18.1" manifestFile="abb.robotics.robots.rmf" installationTime="2025-08-11 07:44:20"/>
+  <Product id="abb.robotics.flexpendantapps" name="FlexPendantSoftwareUpdate" version="1.19.1+1678" versionName="1.19.1" installPath="$PRODUCTS/FlexPendant/Apps_1.19.1" productMediaPath="$PRODUCTS/FlexPendant/Apps_1.19.1/FlexPendant/Apps_1.19.1" manifestFile="abb.robotics.flexpendantapps.rmf" installationTime="2025-08-11 07:44:20"/>
+  <Product id="abb.cn.robotics.wizard" name="Wizard" version="1.7.0" versionName="1.7.0" installPath="$PRODUCTS/Wizard_1.7.0" productMediaPath="$PRODUCTS/Wizard_1.7.0/Wizard_1.7.0" manifestFile="abb.cn.robotics.wizard_1.7.0.rmf" installationTime="2025-08-11 07:44:20"/>
+  <Product id="abb.robotics.robotwareinstaller" name="RobotWareInstallationUtilities" version="" versionName="" productMediaPath=""/>
+</Products>
