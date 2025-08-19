@@ -1,4 +1,8 @@
 MODULE Kcare_Latte_art
+	CONST robtarget p10diemtest := [[-180.74,-104.51,63.48],[0.887021,0.461728,-4.86782E-05,-4.79207E-05],[0,0,-1,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+	CONST robtarget p10diemtest10 := [[-180.74,-104.51,63.48],[0.887021,0.461729,-4.87704E-05,-4.7547E-05],[0,0,-1,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+	CONST robtarget p10diemtest20 := [[-185.94,-117.48,61.51],[0.887147,0.461487,0.000207034,-8.79329E-05],[0,0,-1,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+	CONST robtarget p10diemtest30 := [[-185.94,-117.48,61.51],[0.887148,0.461486,0.000207273,-8.78088E-05],[0,0,-1,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
 	
     PROC main()
         Home;
@@ -177,7 +181,7 @@ MODULE Kcare_Latte_art
         SetDO ABB_Scalable_IO_0_DO1,0;
         WaitTime 2;
         MoveL Target_40,v200,fine,Phin_Tool\WObj:=Workobject_Machine_coffe;
-        MoveL Target_CoffeTG,v500,fine,Gripper_Tool;
+		MoveL Target_CoffeTG,v500,fine,Gripper_Tool;
     ENDPROC
     PROC Put_Out_Phin()
         SetDO ABB_Scalable_IO_0_DO1,0;

@@ -1,48 +1,4 @@
 ** PF INFO ***
-Time: Thu Aug  7 11:49:52 2025
-System: C:/Users/DELL/Downloads/Latte_Art/Latte_Art/Gofa_caffe_1/Virtual Controllers/CRB15000_5_95
-RobotWare: 7.18.1
-RobotControl: 7.18.1
-Shutdown type: 1 mode: 1 reason: 1
-Image lost in previous shutdown: no
-Restart counter: 0
-CFG counter value: 7503
-Unfinished crit sec: 0
-
-*** PF INFO ***
-Time: Thu Aug  7 11:50:05 2025
-System: C:/Users/DELL/Downloads/Latte_Art/Latte_Art/Gofa_caffe_1/Virtual Controllers/CRB15000_5_95
-RobotWare: 7.18.1
-RobotControl: 7.18.1
-Shutdown type: 1 mode: 1 reason: 1
-Image lost in previous shutdown: no
-Restart counter: 1
-CFG counter value: 8319
-Unfinished crit sec: 0
-
-*** PF INFO ***
-Time: Thu Aug  7 11:50:21 2025
-System: C:/Users/DELL/Downloads/Latte_Art/Latte_Art/Gofa_caffe_1/Virtual Controllers/CRB15000_5_95
-RobotWare: 7.18.1
-RobotControl: 7.18.1
-Shutdown type: 1 mode: 1 reason: 1
-Image lost in previous shutdown: no
-Restart counter: 2
-CFG counter value: 8415
-Unfinished crit sec: 0
-
-*** PF INFO ***
-Time: Thu Aug  7 11:54:45 2025
-System: C:/Users/DELL/Downloads/Latte_Art/Latte_Art/Gofa_caffe_1/Virtual Controllers/CRB15000_5_95
-RobotWare: 7.18.1
-RobotControl: 7.18.1
-Shutdown type: 1 mode: 1 reason: 1
-Image lost in previous shutdown: no
-Restart counter: 3
-CFG counter value: 8511
-Unfinished crit sec: 0
-
-*** PF INFO ***
 Time: Thu Aug  7 12:18:33 2025
 System: E:/Robots ABB/Latte_Art/Gofa_caffe/Virtual Controllers/CRB15000_5_95
 RobotWare: 7.18.1
@@ -326,5 +282,49 @@ Shutdown type: 1 mode: 1 reason: 1
 Image lost in previous shutdown: no
 Restart counter: 6
 CFG counter value: 8805
+Unfinished crit sec: 0
+
+*** PF INFO ***
+Time: Tue Aug 19 10:39:17 2025
+System: E:/Robots ABB/GoFaCoffeeBrewing/Gofa_caffe/Virtual Controllers/CRB15000_5_95
+RobotWare: 7.18.1
+RobotControl: 7.18.1
+Shutdown type: 1 mode: 1 reason: 1
+Image lost in previous shutdown: no
+Restart counter: 0
+CFG counter value: 7503
+Unfinished crit sec: 0
+
+*** PF INFO ***
+Time: Tue Aug 19 10:39:38 2025
+System: E:/Robots ABB/GoFaCoffeeBrewing/Gofa_caffe/Virtual Controllers/CRB15000_5_95
+RobotWare: 7.18.1
+RobotControl: 7.18.1
+Shutdown type: 1 mode: 1 reason: 1
+Image lost in previous shutdown: no
+Restart counter: 1
+CFG counter value: 8325
+Unfinished crit sec: 0
+
+*** PF INFO ***
+Time: Tue Aug 19 10:39:50 2025
+System: E:/Robots ABB/GoFaCoffeeBrewing/Gofa_caffe/Virtual Controllers/CRB15000_5_95
+RobotWare: 7.18.1
+RobotControl: 7.18.1
+Shutdown type: 1 mode: 1 reason: 1
+Image lost in previous shutdown: no
+Restart counter: 2
+CFG counter value: 8421
+Unfinished crit sec: 0
+
+*** PF INFO ***
+Time: Tue Aug 19 11:30:10 2025
+System: E:/Robots ABB/GoFaCoffeeBrewing/Gofa_caffe/Virtual Controllers/CRB15000_5_95
+RobotWare: 7.18.1
+RobotControl: 7.18.1
+Shutdown type: 1 mode: 1 reason: 1
+Image lost in previous shutdown: no
+Restart counter: 3
+CFG counter value: 8517
 Unfinished crit sec: 0
 

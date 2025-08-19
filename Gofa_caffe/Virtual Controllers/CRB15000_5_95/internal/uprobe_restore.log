@@ -1,6 +1,6 @@
 Tool: uprobe
 Version: 2.2
-StopTime: 1970-01-01 07:01:34:216002
+StopTime: 1970-01-01 07:01:47:711002
 Contexts
   0.	A:S26	C:PF	ptr:0000000044278ADC 
   1.	A:UAS	C:uas_runtime	ptr:000000004426A450 
@@ -103,17 +103,17 @@ Contexts
   98.	A:CBL	C:SUBSCRSRV	ptr:0000000044433A38 
   99.	A:MOC	C:-REFMATS-----	ptr:000000004412D7F0 
   100.	A:RobAPI2	C:FILESERVICE	ptr:000000004430C018 
-  101.	A:ROBAPI2	C:rapi_handler	ptr:00000000442EF810 
-  102.	A:Robotwebservice	C:Appweb-Connmanager    	ptr:0000000048DDF550 
-  103.	A:Robotwebservice	C:Service Dispatcher    	ptr:0000000048DDF558 
-  104.	A:Robotwebservice	C:Ctrl    	ptr:0000000048DDF560 
-  105.	A:Robotwebservice	C:Fileservice    	ptr:0000000048DDF568 
-  106.	A:Robotwebservice	C:Base-Services    	ptr:0000000048DDF570 
-  107.	A:Robotwebservice	C:Subscription    	ptr:0000000048DDF578 
-  108.	A:Robotwebservice	C:User    	ptr:0000000048DDF580 
-  109.	A:Robotwebservice	C:Memoryopers-Utils    	ptr:0000000048DDF588 
-  110.	A:Robotwebservice	C:Robotware(RW) Services    	ptr:0000000048DDF590 
-  111.	A:RobAPI2	C:rapi_ctrl_component	ptr:000000004430E668 
+  101.	A:Robotwebservice	C:Appweb-Connmanager    	ptr:0000000048DDF550 
+  102.	A:Robotwebservice	C:Service Dispatcher    	ptr:0000000048DDF558 
+  103.	A:Robotwebservice	C:Ctrl    	ptr:0000000048DDF560 
+  104.	A:Robotwebservice	C:Fileservice    	ptr:0000000048DDF568 
+  105.	A:Robotwebservice	C:Base-Services    	ptr:0000000048DDF570 
+  106.	A:Robotwebservice	C:Subscription    	ptr:0000000048DDF578 
+  107.	A:Robotwebservice	C:User    	ptr:0000000048DDF580 
+  108.	A:Robotwebservice	C:Memoryopers-Utils    	ptr:0000000048DDF588 
+  109.	A:Robotwebservice	C:Robotware(RW) Services    	ptr:0000000048DDF590 
+  110.	A:RobAPI2	C:rapi_ctrl_component	ptr:000000004430E668 
+  111.	A:ROBAPI2	C:rapi_handler	ptr:00000000442EF810 
   112.	A:RobAPI2	C:rapi_subscrserv	ptr:000000004430D9A0 
   113.	A:MOC	C:-ev_handlerts	ptr:000000004417E4E0 
   114.	A:MOC	C:-servots-----	ptr:00000000441A95A0 
@@ -132,30 +132,30 @@ Contexts
   127.	A:MOC	C:-elbow_woffs_	ptr:0000000044376C50 
   128.	A:MOC	C:-load_diagr--	ptr:0000000044189608 
   129.	A:MOC	C:-trajH-------	ptr:00007FF4EBCC2480 
-  130.	A:MOC	C:-trajD---mg0-	ptr:000000000F4B57E4 
-  131.	A:MOC	C:-moveOrder-0-	ptr:000000000F4B57F2 
+  130.	A:MOC	C:-trajD---mg0-	ptr:000000000F35E7E4 
+  131.	A:MOC	C:-moveOrder-0-	ptr:000000000F35E7F2 
   132.	A:MOC	C:-trajS---mg0-	ptr:00007FF4EBCC24BC 
-  133.	A:MOC	C:-trajD---mg1-	ptr:000000000F4FDF3C 
-  134.	A:MOC	C:-moveOrder-1-	ptr:000000000F4FDF4A 
+  133.	A:MOC	C:-trajD---mg1-	ptr:000000000F3A6F3C 
+  134.	A:MOC	C:-moveOrder-1-	ptr:000000000F3A6F4A 
   135.	A:MOC	C:-trajS---mg1-	ptr:00007FF4EBCC5D5C 
-  136.	A:MOC	C:-trajD---mg2-	ptr:000000000F546694 
-  137.	A:MOC	C:-moveOrder-2-	ptr:000000000F5466A2 
+  136.	A:MOC	C:-trajD---mg2-	ptr:000000000F3EF694 
+  137.	A:MOC	C:-moveOrder-2-	ptr:000000000F3EF6A2 
   138.	A:MOC	C:-trajS---mg2-	ptr:00007FF4EBCC95FC 
-  139.	A:MOC	C:-trajD---mg3-	ptr:000000000F58EDEC 
-  140.	A:MOC	C:-moveOrder-3-	ptr:000000000F58EDFA 
+  139.	A:MOC	C:-trajD---mg3-	ptr:000000000F437DEC 
+  140.	A:MOC	C:-moveOrder-3-	ptr:000000000F437DFA 
   141.	A:MOC	C:-trajS---mg3-	ptr:00007FF4EBCCCE9C 
-  142.	A:MOC	C:-trajD---mg4-	ptr:000000000F5D7544 
-  143.	A:MOC	C:-moveOrder-4-	ptr:000000000F5D7552 
+  142.	A:MOC	C:-trajD---mg4-	ptr:000000000F480544 
+  143.	A:MOC	C:-moveOrder-4-	ptr:000000000F480552 
   144.	A:MOC	C:-trajS---mg4-	ptr:00007FF4EBCD073C 
-  145.	A:MOC	C:-trajD---mg5-	ptr:000000000F61FC9C 
-  146.	A:MOC	C:-moveOrder-5-	ptr:000000000F61FCAA 
+  145.	A:MOC	C:-trajD---mg5-	ptr:000000000F4C8C9C 
+  146.	A:MOC	C:-moveOrder-5-	ptr:000000000F4C8CAA 
   147.	A:MOC	C:-trajS---mg5-	ptr:00007FF4EBCD3FDC 
-  148.	A:MOC	C:-trajD---mg6-	ptr:000000000F6683F4 
-  149.	A:MOC	C:-moveOrder-6-	ptr:000000000F668402 
+  148.	A:MOC	C:-trajD---mg6-	ptr:000000000F5113F4 
+  149.	A:MOC	C:-moveOrder-6-	ptr:000000000F511402 
   150.	A:MOC	C:-trajS---mg6-	ptr:00007FF4EBCD787C 
   151.	A:MOC	C:-dynmod------	ptr:00000000441C17C0 
   152.	A:MOC	C:-dyngrp------	ptr:00000000441C17D0 
-  153.	A:DriveServoControl	C:RectifierManager	ptr:0000000009B73F70 
+  153.	A:DriveServoControl	C:RectifierManager	ptr:0000000002DB5210 
   154.	A:CBL	C:Default    	ptr:0000000048FF5138 
   155.	A:CBL	C:Server    	ptr:0000000048FF5140 
   156.	A:CBL	C:Service   	ptr:0000000048FF5148 
@@ -174,7 +174,7 @@ Contexts
   169.	A:CBL	C:PROGRESS     	ptr:0000000048FF51B0 
   170.	A:CBL	C:PAINT     	ptr:0000000048FF51B8 
   171.	A:RobAPI2	C:RAPI_SUBSCRMNGR	ptr:000000004430C530 
-  172.	A:DriveServoControl	C:SystemStateManager	ptr:0000000009AA41E0 
+  172.	A:DriveServoControl	C:SystemStateManager	ptr:00000000099F6880 
   173.	A:MOC	C:-grp_q-------	ptr:0000000044183570 
   174.	A:MOC	C:-stopma------	ptr:00000000441B29E0 
   175.	A:MOC	C:-lead_through	ptr:0000000044123370 
@@ -192,25 +192,25 @@ Contexts
   187.	A:MOC	C:-ipol----mg6-	ptr:00000000451D5884 
   188.	A:MOC	C:-list--------	ptr:00000000441313E0 
   189.	A:MOC	C:-PRXCOM------	ptr:0000000044173F20 
-  190.	A:Robapi2	C:rapi_resource_service	ptr:000000004432AA60 
-  191.	A:RobAPI2	C:rw_iosubscr	ptr:00000000443258C8 
-  192.	A:<DEFAREA>	C:-MCI_REFMA---	ptr:0000000047FE957C 
-  193.	A:<DEFAREA>	C:-MCI_REFMA---	ptr:0000000047FEB2CC 
-  194.	A:<DEFAREA>	C:-MCI_REFMA---	ptr:0000000047FED01C 
-  195.	A:<DEFAREA>	C:-MCI_REFMA---	ptr:0000000047FEED6C 
-  196.	A:<DEFAREA>	C:-MCI_REFMA---	ptr:0000000047FF0ABC 
-  197.	A:MOC	C:-mecmap------	ptr:000000004418E948 
-  198.	A:MOC	C:--hpj--------	ptr:0000000044123670 
-  199.	A:MOC	C:-FRICID------	ptr:000000004417FC50 
-  200.	A:MOC	C:-MocUtility--	ptr:00000000441B7D30 
-  201.	A:MOC	C:-trajpred-mg0	ptr:0000000048172288 
-  202.	A:MOC	C:-trajpred-mg1	ptr:0000000048173A50 
-  203.	A:MOC	C:-trajpred-mg2	ptr:0000000048175218 
-  204.	A:MOC	C:-trajpred-mg3	ptr:00000000481769E0 
-  205.	A:MOC	C:-trajpred-mg4	ptr:00000000481781A8 
-  206.	A:MOC	C:-trajpred-mg5	ptr:0000000048179970 
-  207.	A:MOC	C:-trajpred-mg6	ptr:000000004817B138 
-  208.	A:MOC	C:-pl_monitor--	ptr:00000000445CF000 
+  190.	A:<DEFAREA>	C:-MCI_REFMA---	ptr:0000000047FE957C 
+  191.	A:<DEFAREA>	C:-MCI_REFMA---	ptr:0000000047FEB2CC 
+  192.	A:<DEFAREA>	C:-MCI_REFMA---	ptr:0000000047FED01C 
+  193.	A:<DEFAREA>	C:-MCI_REFMA---	ptr:0000000047FEED6C 
+  194.	A:<DEFAREA>	C:-MCI_REFMA---	ptr:0000000047FF0ABC 
+  195.	A:MOC	C:-mecmap------	ptr:000000004418E948 
+  196.	A:MOC	C:--hpj--------	ptr:0000000044123670 
+  197.	A:MOC	C:-FRICID------	ptr:000000004417FC50 
+  198.	A:MOC	C:-MocUtility--	ptr:00000000441B7D30 
+  199.	A:MOC	C:-trajpred-mg0	ptr:0000000048172288 
+  200.	A:MOC	C:-trajpred-mg1	ptr:0000000048173A50 
+  201.	A:MOC	C:-trajpred-mg2	ptr:0000000048175218 
+  202.	A:MOC	C:-trajpred-mg3	ptr:00000000481769E0 
+  203.	A:MOC	C:-trajpred-mg4	ptr:00000000481781A8 
+  204.	A:MOC	C:-trajpred-mg5	ptr:0000000048179970 
+  205.	A:MOC	C:-trajpred-mg6	ptr:000000004817B138 
+  206.	A:MOC	C:-pl_monitor--	ptr:00000000445CF000 
+  207.	A:Robapi2	C:rapi_resource_service	ptr:000000004432AA60 
+  208.	A:RobAPI2	C:rw_iosubscr	ptr:00000000443258C8 
   209.	A:RobAPI2	C:rws_service_rapid	ptr:00000000443271E0 
   210.	A:RobAPI2	C:rapi_panel	ptr:0000000044326838 
   211.	A:RobAPI2	C:rws_service_vision	ptr:0000000044329F90 
@@ -227,408 +227,418 @@ Contexts
   222.	A:RobAPI	C:RDH_RAPID	ptr:00000000440C1708 
   223.	A:RobAPI	C:RobDisp	ptr:00000000440C7868 
 
-07:00:00:024044	<DEFAREA>	<DEFCTX>	task dead	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "0" -> "1"
-07:00:00:024077	<DEFAREA>	<DEFCTX>	servdisp	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "1" -> "2"
-07:00:00:024080	<DEFAREA>	<DEFCTX>	servlist	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "2" -> "3"
-07:00:00:024083	<DEFAREA>	<DEFCTX>	ctrlsrvts	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "3" -> "4"
-07:00:00:024141	MOC	-ipol----mg0-	task dead	 ipol_start_uprobe (1120)
-07:00:00:024144	ROLSUP	rldryrun	task dead	rldryrun_init, start mode 1
-07:00:00:024145	ROLSUP	rldryrun	task dead	rldryrun_init (SYS_WARM), Retrieved memory in permanent pool for RLDRYRUN_OBJ, size: 32
-07:00:00:024148	<DEFAREA>	<DEFCTX>	task dead	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "4" -> "5"
-07:00:00:024149	<DEFAREA>	<DEFCTX>	task dead	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "5" -> "6"
-07:00:00:024156	<DEFAREA>	<DEFCTX>	task dead	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "6" -> "7"
-07:00:00:024168	<DEFAREA>	<DEFCTX>	task dead	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "7" -> "8"
-07:00:00:024189	Enip	enip	tEnip	local_build_interface: ERROR: local_netconf_network_mac_get failed for Private Network
-07:00:18:722101	<DEFAREA>	<DEFCTX>	filesrv	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "8" -> "9"
-07:00:18:722104	<DEFAREA>	<DEFCTX>	rwssubsc	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "9" -> "10"
-07:00:18:722107	<DEFAREA>	<DEFCTX>	subscription	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "10" -> "11"
-07:00:18:722110	<DEFAREA>	<DEFCTX>	rws_dipc	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "11" -> "12"
-07:00:18:722113	<DEFAREA>	<DEFCTX>	rapi_user	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "12" -> "13"
-07:00:18:722118	<DEFAREA>	<DEFCTX>	uassrv	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "13" -> "14"
-07:00:18:722130	<DEFAREA>	<DEFCTX>	S52subscts	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "14" -> "15"
-07:00:19:228002	<DEFAREA>	<DEFCTX>	servdisp	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "15" -> "14"
-07:00:19:228003	<DEFAREA>	<DEFCTX>	servlist	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "14" -> "13"
-07:00:19:228004	<DEFAREA>	<DEFCTX>	filesrv	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "13" -> "12"
-07:00:19:228005	<DEFAREA>	<DEFCTX>	rapi_user	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "12" -> "11"
-07:00:19:228006	<DEFAREA>	<DEFCTX>	rwssubsc	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "11" -> "10"
-07:00:19:228007	<DEFAREA>	<DEFCTX>	ctrlsrvts	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "10" -> "9"
-07:00:19:228008	<DEFAREA>	<DEFCTX>	uassrv	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "9" -> "8"
-07:00:19:228009	<DEFAREA>	<DEFCTX>	rws_dipc	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "8" -> "7"
-07:01:19:404001	MOC	-servo-------	task dead	Boost buffer limit time, 96000.
-07:01:19:404002	MOC	-servo-------	task dead	Boost buffer limit time, 60000.
-07:01:19:404003	MOC	-servo-------	task dead	Boost buffer limit time, 60000.
-07:01:19:404004	MOC	-servo-------	task dead	Boost buffer limit time, 60000.
-07:01:19:404005	MOC	-servo-------	task dead	Boost buffer limit time, 60000.
-07:01:19:404006	MOC	-servo-------	task dead	Boost buffer limit time, 60000.
-07:01:19:404007	MOC	-servo-------	task dead	Boost buffer limit time, 60000.
-07:01:19:404008	MOC	-ipol----mg0-	task dead	ipol_send: Failed to get slotid for task ''
-07:01:19:404009	<DEFAREA>	<DEFCTX>	task dead	 when sending command 0
-07:01:19:404010	MOC	-ipolts------	ipolts0	Got IPC_SEND, sender: 0
-07:01:19:404011	MOC	-ipolts------	ipolts0	Execute ipol_cmd_new (0)
+07:00:00:033044	<DEFAREA>	<DEFCTX>	task dead	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "0" -> "1"
+07:00:00:033077	<DEFAREA>	<DEFCTX>	servdisp	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "1" -> "2"
+07:00:00:033080	<DEFAREA>	<DEFCTX>	servlist	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "2" -> "3"
+07:00:00:033083	<DEFAREA>	<DEFCTX>	ctrlsrvts	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "3" -> "4"
+07:00:00:033141	MOC	-ipol----mg0-	task dead	 ipol_start_uprobe (1120)
+07:00:00:033144	ROLSUP	rldryrun	task dead	rldryrun_init, start mode 1
+07:00:00:033145	ROLSUP	rldryrun	task dead	rldryrun_init (SYS_WARM), Retrieved memory in permanent pool for RLDRYRUN_OBJ, size: 32
+07:00:00:033148	<DEFAREA>	<DEFCTX>	task dead	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "4" -> "5"
+07:00:00:033149	<DEFAREA>	<DEFCTX>	task dead	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "5" -> "6"
+07:00:00:033156	<DEFAREA>	<DEFCTX>	task dead	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "6" -> "7"
+07:00:00:033168	<DEFAREA>	<DEFCTX>	task dead	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "7" -> "8"
+07:00:00:033189	Enip	enip	tEnip	local_build_interface: ERROR: local_netconf_network_mac_get failed for Private Network
+07:00:23:104101	<DEFAREA>	<DEFCTX>	filesrv	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "8" -> "9"
+07:00:23:104104	<DEFAREA>	<DEFCTX>	rwssubsc	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "9" -> "10"
+07:00:23:104107	<DEFAREA>	<DEFCTX>	subscription	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "10" -> "11"
+07:00:23:104110	<DEFAREA>	<DEFCTX>	rws_dipc	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "11" -> "12"
+07:00:23:104113	<DEFAREA>	<DEFCTX>	rapi_user	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "12" -> "13"
+07:00:23:104118	<DEFAREA>	<DEFCTX>	uassrv	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "13" -> "14"
+07:00:23:104130	<DEFAREA>	<DEFCTX>	S52subscts	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "14" -> "15"
+07:00:23:610002	<DEFAREA>	<DEFCTX>	servdisp	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "15" -> "14"
+07:00:23:610003	<DEFAREA>	<DEFCTX>	servlist	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "14" -> "13"
+07:00:23:610004	<DEFAREA>	<DEFCTX>	filesrv	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "13" -> "12"
+07:00:23:610005	<DEFAREA>	<DEFCTX>	rapi_user	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "12" -> "11"
+07:00:23:610006	<DEFAREA>	<DEFCTX>	rwssubsc	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "11" -> "10"
+07:00:23:610007	<DEFAREA>	<DEFCTX>	ctrlsrvts	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "10" -> "9"
+07:00:23:610008	<DEFAREA>	<DEFCTX>	uassrv	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "9" -> "8"
+07:00:23:610009	<DEFAREA>	<DEFCTX>	rws_dipc	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "8" -> "7"
+07:01:23:787001	MOC	-servo-------	task dead	Boost buffer limit time, 96000.
+07:01:23:787002	MOC	-servo-------	task dead	Boost buffer limit time, 60000.
+07:01:23:787003	MOC	-servo-------	task dead	Boost buffer limit time, 60000.
+07:01:23:787004	MOC	-servo-------	task dead	Boost buffer limit time, 60000.
+07:01:23:787005	MOC	-servo-------	task dead	Boost buffer limit time, 60000.
+07:01:23:787006	MOC	-servo-------	task dead	Boost buffer limit time, 60000.
+07:01:23:787007	MOC	-servo-------	task dead	Boost buffer limit time, 60000.
+07:01:23:787008	MOC	-ipol----mg0-	task dead	ipol_send: Failed to get slotid for task ''
+07:01:23:787009	<DEFAREA>	<DEFCTX>	task dead	 when sending command 0
+07:01:23:787010	MOC	-ipolts------	ipolts0	Got IPC_SEND, sender: 0
+07:01:23:787011	MOC	-ipolts------	ipolts0	Execute ipol_cmd_new (0)
 
-07:01:19:404012	MOC	-spline_ip---	ipolts0	spline_ip_new 
-07:01:19:404013	MOC	-ipol----mg0-	task dead	ipol_send: Failed to get slotid for task ''
-07:01:19:404014	<DEFAREA>	<DEFCTX>	task dead	 when sending command 0
-07:01:19:404015	MOC	-ipolts------	ipolts1	Got IPC_SEND, sender: 0
-07:01:19:404016	MOC	-ipolts------	ipolts1	Execute ipol_cmd_new (0)
+07:01:23:787012	MOC	-spline_ip---	ipolts0	spline_ip_new 
+07:01:23:787013	MOC	-ipol----mg0-	task dead	ipol_send: Failed to get slotid for task ''
+07:01:23:787014	<DEFAREA>	<DEFCTX>	task dead	 when sending command 0
+07:01:23:787015	MOC	-ipolts------	ipolts1	Got IPC_SEND, sender: 0
+07:01:23:787016	MOC	-ipolts------	ipolts1	Execute ipol_cmd_new (0)
 
-07:01:19:404017	MOC	-spline_ip---	ipolts1	spline_ip_new 
-07:01:19:404018	MOC	-ipol----mg0-	task dead	ipol_send: Failed to get slotid for task ''
-07:01:19:404019	<DEFAREA>	<DEFCTX>	task dead	 when sending command 0
-07:01:19:404020	MOC	-ipolts------	ipolts2	Got IPC_SEND, sender: 0
-07:01:19:404021	MOC	-ipolts------	ipolts2	Execute ipol_cmd_new (0)
+07:01:23:787017	MOC	-spline_ip---	ipolts1	spline_ip_new 
+07:01:23:787018	MOC	-ipol----mg0-	task dead	ipol_send: Failed to get slotid for task ''
+07:01:23:787019	<DEFAREA>	<DEFCTX>	task dead	 when sending command 0
+07:01:23:787020	MOC	-ipolts------	ipolts2	Got IPC_SEND, sender: 0
+07:01:23:787021	MOC	-ipolts------	ipolts2	Execute ipol_cmd_new (0)
 
-07:01:19:404022	MOC	-spline_ip---	ipolts2	spline_ip_new 
-07:01:19:404023	MOC	-ipol----mg0-	task dead	ipol_send: Failed to get slotid for task ''
-07:01:19:404024	<DEFAREA>	<DEFCTX>	task dead	 when sending command 0
-07:01:19:404025	MOC	-ipolts------	ipolts3	Got IPC_SEND, sender: 0
-07:01:19:404026	MOC	-ipolts------	ipolts3	Execute ipol_cmd_new (0)
+07:01:23:787022	MOC	-spline_ip---	ipolts2	spline_ip_new 
+07:01:23:787023	MOC	-ipol----mg0-	task dead	ipol_send: Failed to get slotid for task ''
+07:01:23:787024	<DEFAREA>	<DEFCTX>	task dead	 when sending command 0
+07:01:23:787025	MOC	-ipolts------	ipolts3	Got IPC_SEND, sender: 0
+07:01:23:787026	MOC	-ipolts------	ipolts3	Execute ipol_cmd_new (0)
 
-07:01:19:404027	MOC	-spline_ip---	ipolts3	spline_ip_new 
-07:01:19:404028	MOC	-ipol----mg0-	task dead	ipol_send: Failed to get slotid for task ''
-07:01:19:404029	<DEFAREA>	<DEFCTX>	task dead	 when sending command 0
-07:01:19:404030	MOC	-ipolts------	ipolts4	Got IPC_SEND, sender: 0
-07:01:19:404031	MOC	-ipolts------	ipolts4	Execute ipol_cmd_new (0)
+07:01:23:787027	MOC	-spline_ip---	ipolts3	spline_ip_new 
+07:01:23:787028	MOC	-ipol----mg0-	task dead	ipol_send: Failed to get slotid for task ''
+07:01:23:787029	<DEFAREA>	<DEFCTX>	task dead	 when sending command 0
+07:01:23:787030	MOC	-ipolts------	ipolts4	Got IPC_SEND, sender: 0
+07:01:23:787031	MOC	-ipolts------	ipolts4	Execute ipol_cmd_new (0)
 
-07:01:19:404032	MOC	-spline_ip---	ipolts4	spline_ip_new 
-07:01:19:404033	MOC	-ipol----mg0-	task dead	ipol_send: Failed to get slotid for task ''
-07:01:19:404034	<DEFAREA>	<DEFCTX>	task dead	 when sending command 0
-07:01:19:404035	MOC	-ipolts------	ipolts5	Got IPC_SEND, sender: 0
-07:01:19:404036	MOC	-ipolts------	ipolts5	Execute ipol_cmd_new (0)
+07:01:23:787032	MOC	-spline_ip---	ipolts4	spline_ip_new 
+07:01:23:787033	MOC	-ipol----mg0-	task dead	ipol_send: Failed to get slotid for task ''
+07:01:23:787034	<DEFAREA>	<DEFCTX>	task dead	 when sending command 0
+07:01:23:787035	MOC	-ipolts------	ipolts5	Got IPC_SEND, sender: 0
+07:01:23:787036	MOC	-ipolts------	ipolts5	Execute ipol_cmd_new (0)
 
-07:01:19:404037	MOC	-spline_ip---	ipolts5	spline_ip_new 
-07:01:19:404038	MOC	-ipol----mg0-	task dead	ipol_send: Failed to get slotid for task ''
-07:01:19:404039	<DEFAREA>	<DEFCTX>	task dead	 when sending command 0
-07:01:19:404040	MOC	-ipolts------	ipolts6	Got IPC_SEND, sender: 0
-07:01:19:404041	MOC	-ipolts------	ipolts6	Execute ipol_cmd_new (0)
+07:01:23:787037	MOC	-spline_ip---	ipolts5	spline_ip_new 
+07:01:23:787038	MOC	-ipol----mg0-	task dead	ipol_send: Failed to get slotid for task ''
+07:01:23:787039	<DEFAREA>	<DEFCTX>	task dead	 when sending command 0
+07:01:23:787040	MOC	-ipolts------	ipolts6	Got IPC_SEND, sender: 0
+07:01:23:787041	MOC	-ipolts------	ipolts6	Execute ipol_cmd_new (0)
 
-07:01:19:404042	MOC	-spline_ip---	ipolts6	spline_ip_new 
-07:01:19:962001	<DEFAREA>	<DEFCTX>	subscription	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "7" -> "6"
-07:01:21:920004	MOC	-ipolts------	ipolts0	Got IPC_BROADCAST, sender: 0
-07:01:21:920005	MOC	-ipolts------	ipolts0	Error, got an unknown command, 299
+07:01:23:787042	MOC	-spline_ip---	ipolts6	spline_ip_new 
+07:01:25:370001	<DEFAREA>	<DEFCTX>	subscription	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "7" -> "6"
+07:01:26:303004	MOC	-ipolts------	ipolts0	Got IPC_BROADCAST, sender: 0
+07:01:26:303005	MOC	-ipolts------	ipolts0	Error, got an unknown command, 299
 
-07:01:21:920006	MOC	-ipolts------	ipolts1	Got IPC_BROADCAST, sender: 0
-07:01:21:920007	MOC	-ipolts------	ipolts1	Error, got an unknown command, 299
+07:01:26:303006	MOC	-ipolts------	ipolts1	Got IPC_BROADCAST, sender: 0
+07:01:26:303007	MOC	-ipolts------	ipolts1	Error, got an unknown command, 299
 
-07:01:21:920008	MOC	-ipolts------	ipolts2	Got IPC_BROADCAST, sender: 0
-07:01:21:920009	MOC	-ipolts------	ipolts2	Error, got an unknown command, 299
+07:01:26:303008	MOC	-ipolts------	ipolts2	Got IPC_BROADCAST, sender: 0
+07:01:26:303009	MOC	-ipolts------	ipolts2	Error, got an unknown command, 299
 
-07:01:21:920010	MOC	-ipolts------	ipolts3	Got IPC_BROADCAST, sender: 0
-07:01:21:920011	MOC	-ipolts------	ipolts3	Error, got an unknown command, 299
+07:01:26:303010	MOC	-ipolts------	ipolts3	Got IPC_BROADCAST, sender: 0
+07:01:26:303011	MOC	-ipolts------	ipolts3	Error, got an unknown command, 299
 
-07:01:21:920012	MOC	-ipolts------	ipolts4	Got IPC_BROADCAST, sender: 0
-07:01:21:920013	MOC	-ipolts------	ipolts4	Error, got an unknown command, 299
+07:01:26:303012	MOC	-ipolts------	ipolts4	Got IPC_BROADCAST, sender: 0
+07:01:26:303013	MOC	-ipolts------	ipolts4	Error, got an unknown command, 299
 
-07:01:21:920014	MOC	-ipolts------	ipolts5	Got IPC_BROADCAST, sender: 0
-07:01:21:920015	MOC	-ipolts------	ipolts5	Error, got an unknown command, 299
+07:01:26:303014	MOC	-ipolts------	ipolts5	Got IPC_BROADCAST, sender: 0
+07:01:26:303015	MOC	-ipolts------	ipolts5	Error, got an unknown command, 299
 
-07:01:21:920016	MOC	-ipolts------	ipolts6	Got IPC_BROADCAST, sender: 0
-07:01:21:920017	MOC	-ipolts------	ipolts6	Error, got an unknown command, 299
+07:01:26:303016	MOC	-ipolts------	ipolts6	Got IPC_BROADCAST, sender: 0
+07:01:26:303017	MOC	-ipolts------	ipolts6	Error, got an unknown command, 299
 
-07:01:21:920053	<DEFAREA>	<DEFCTX>	task dead	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "6" -> "5"
-07:01:21:920064	ROLSUP	rldryrun	task dead	rldryrun_init
-07:01:21:920065	ROLSUP	rldryrun	task dead	dryrun_ipm_process, IPM_REAL_INIT, 105
-07:01:21:920066	ROLSUP	rldryrun	task dead	dryrun_ipm_process, IPM_REAL_INIT, ipm_set_sysevent_mask(IPM_SYS_EVENT_MASK_DISABLE_ALL)
-07:01:21:920067	ROLSUP	rldryrun	task dead	dryrun_ipm_process, IPM_REAL_INIT, no configured signals, order alarm to kill IPM process
-07:01:21:920068	ROLSUP	rldryrun	task dead	dryrun_ipm_process, ipm_process_id 105
-07:01:21:920081	MOC	-ipolts------	ipolts0	Got IPC_SENDWAIT, sender: 17
-07:01:21:920082	MOC	-ipolts------	ipolts0	Execute ipol_cmd_activate (20)
+07:01:26:303053	<DEFAREA>	<DEFCTX>	task dead	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "6" -> "5"
+07:01:26:303064	ROLSUP	rldryrun	task dead	rldryrun_init
+07:01:26:303065	ROLSUP	rldryrun	task dead	dryrun_ipm_process, IPM_REAL_INIT, 105
+07:01:26:303066	ROLSUP	rldryrun	task dead	dryrun_ipm_process, IPM_REAL_INIT, ipm_set_sysevent_mask(IPM_SYS_EVENT_MASK_DISABLE_ALL)
+07:01:26:303067	ROLSUP	rldryrun	task dead	dryrun_ipm_process, IPM_REAL_INIT, no configured signals, order alarm to kill IPM process
+07:01:26:303068	ROLSUP	rldryrun	task dead	dryrun_ipm_process, ipm_process_id 105
+07:01:26:303081	MOC	-ipolts------	ipolts0	Got IPC_SENDWAIT, sender: 17
+07:01:26:303082	MOC	-ipolts------	ipolts0	Execute ipol_cmd_activate (20)
 
-07:01:21:988026	SD_T	Default             	rapidts	[puscfg] refresh_alias_io_in_one_task, instance: 0
-07:01:21:988027	SD_T	Default             	rapidts	[piocfg] piocfg_refresh_alias, ret: -1081
-07:01:21:988028	SD_T	Default             	rapidts	[puscfg] refresh_alias_io_in_one_task, instance: 1
-07:01:21:988029	SD_T	Default             	rapidts	[piocfg] piocfg_refresh_alias, ret: -1081
-07:01:21:988030	SD_T	Default             	rapidts	[puscfg] refresh_alias_io_in_one_task, instance: 2
-07:01:21:988031	SD_T	Default             	rapidts	[piocfg] piocfg_refresh_alias, ret: -1081
-07:01:21:988032	SD_T	Default             	rapidts	[puscfg] refresh_alias_io_in_one_task, instance: 3
-07:01:21:988033	SD_T	Default             	rapidts	[piocfg] piocfg_refresh_alias, ret: -1081
-07:01:21:988086	SD_T	Default             	rapidts	pgmrun_load_program_module  
-07:01:21:988106	SD_T	Default             	rapidts	[puscfg] refresh_alias_io_in_one_task, instance: 0
-07:01:21:988107	SD_T	Default             	rapidts	[piocfg] piocfg_refresh_alias, ret: -1081
-07:01:21:988108	SD_T	Default             	rapidts	[puscfg] refresh_alias_io_in_one_task, instance: 1
-07:01:21:988109	SD_T	Default             	rapidts	[piocfg] piocfg_refresh_alias, ret: -1081
-07:01:21:988110	SD_T	Default             	rapidts	[puscfg] refresh_alias_io_in_one_task, instance: 2
-07:01:21:988111	SD_T	Default             	rapidts	[piocfg] piocfg_refresh_alias, ret: -1081
-07:01:21:988112	SD_T	Default             	rapidts	[puscfg] refresh_alias_io_in_one_task, instance: 3
-07:01:21:988113	SD_T	Default             	rapidts	[piocfg] piocfg_refresh_alias, ret: -1081
-07:01:21:988124	<DEFAREA>	<DEFCTX>	rapidts	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "5" -> "4"
-07:01:21:988125	MOC	-ipolts------	ipolts0	Got IPC_SENDWAIT, sender: 6
-07:01:21:988126	MOC	-ipolts------	ipolts0	Execute ipol_cmd_set_servo_mode (22)
+07:01:26:371026	SD_T	Default             	rapidts	[puscfg] refresh_alias_io_in_one_task, instance: 0
+07:01:26:371027	SD_T	Default             	rapidts	[piocfg] piocfg_refresh_alias, ret: -1081
+07:01:26:371028	SD_T	Default             	rapidts	[puscfg] refresh_alias_io_in_one_task, instance: 1
+07:01:26:371029	SD_T	Default             	rapidts	[piocfg] piocfg_refresh_alias, ret: -1081
+07:01:26:371030	SD_T	Default             	rapidts	[puscfg] refresh_alias_io_in_one_task, instance: 2
+07:01:26:371031	SD_T	Default             	rapidts	[piocfg] piocfg_refresh_alias, ret: -1081
+07:01:26:371032	SD_T	Default             	rapidts	[puscfg] refresh_alias_io_in_one_task, instance: 3
+07:01:26:371033	SD_T	Default             	rapidts	[piocfg] piocfg_refresh_alias, ret: -1081
+07:01:26:371086	SD_T	Default             	rapidts	pgmrun_load_program_module  
+07:01:26:371106	SD_T	Default             	rapidts	[puscfg] refresh_alias_io_in_one_task, instance: 0
+07:01:26:371107	SD_T	Default             	rapidts	[piocfg] piocfg_refresh_alias, ret: -1081
+07:01:26:371108	SD_T	Default             	rapidts	[puscfg] refresh_alias_io_in_one_task, instance: 1
+07:01:26:371109	SD_T	Default             	rapidts	[piocfg] piocfg_refresh_alias, ret: -1081
+07:01:26:371110	SD_T	Default             	rapidts	[puscfg] refresh_alias_io_in_one_task, instance: 2
+07:01:26:371111	SD_T	Default             	rapidts	[piocfg] piocfg_refresh_alias, ret: -1081
+07:01:26:371112	SD_T	Default             	rapidts	[puscfg] refresh_alias_io_in_one_task, instance: 3
+07:01:26:371113	SD_T	Default             	rapidts	[piocfg] piocfg_refresh_alias, ret: -1081
+07:01:26:371124	<DEFAREA>	<DEFCTX>	rapidts	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "5" -> "4"
+07:01:26:371125	MOC	-ipolts------	ipolts0	Got IPC_SENDWAIT, sender: 6
+07:01:26:371126	MOC	-ipolts------	ipolts0	Execute ipol_cmd_set_servo_mode (22)
 
-07:01:21:988127	<DEFAREA>	<DEFCTX>	S52subscts	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "4" -> "3"
-07:01:22:000002	S04.01	S04_01	safevtts	scsafGoToGuardStop: scsafGoToGuardStop
-07:01:22:012001	S04.01	S04_01	scDispatcher	scsafExecuteSCCat0Stop: Category 0 stop has been ordered from SC
-07:01:22:012003	<DEFAREA>	<DEFCTX>	refmats	fc ipm_sys_qstop_set
-07:01:22:108002	MOC	-ipolts------	ipolts1	Got IPC_SENDWAIT, sender: 6
-07:01:22:108003	MOC	-ipolts------	ipolts1	Execute ipol_cmd_set_servo_mode (22)
+07:01:26:371127	<DEFAREA>	<DEFCTX>	S52subscts	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "4" -> "3"
+07:01:26:383002	S04.01	S04_01	safevtts	scsafGoToGuardStop: scsafGoToGuardStop
+07:01:26:395001	S04.01	S04_01	scDispatcher	scsafExecuteSCCat0Stop: Category 0 stop has been ordered from SC
+07:01:26:395003	<DEFAREA>	<DEFCTX>	refmats	fc ipm_sys_qstop_set
+07:01:26:491002	MOC	-ipolts------	ipolts1	Got IPC_SENDWAIT, sender: 6
+07:01:26:491003	MOC	-ipolts------	ipolts1	Execute ipol_cmd_set_servo_mode (22)
 
-07:01:22:109001	MOC	-ipolts------	ipolts2	Got IPC_SENDWAIT, sender: 6
-07:01:22:109002	MOC	-ipolts------	ipolts2	Execute ipol_cmd_set_servo_mode (22)
+07:01:26:492001	MOC	-ipolts------	ipolts2	Got IPC_SENDWAIT, sender: 6
+07:01:26:492002	MOC	-ipolts------	ipolts2	Execute ipol_cmd_set_servo_mode (22)
 
-07:01:22:130001	MOC	-ipolts------	ipolts3	Got IPC_SENDWAIT, sender: 6
-07:01:22:130002	MOC	-ipolts------	ipolts3	Execute ipol_cmd_set_servo_mode (22)
+07:01:26:513001	MOC	-ipolts------	ipolts3	Got IPC_SENDWAIT, sender: 6
+07:01:26:513002	MOC	-ipolts------	ipolts3	Execute ipol_cmd_set_servo_mode (22)
 
-07:01:22:151001	MOC	-ipolts------	ipolts4	Got IPC_SENDWAIT, sender: 6
-07:01:22:151002	MOC	-ipolts------	ipolts4	Execute ipol_cmd_set_servo_mode (22)
+07:01:26:534001	MOC	-ipolts------	ipolts4	Got IPC_SENDWAIT, sender: 6
+07:01:26:534002	MOC	-ipolts------	ipolts4	Execute ipol_cmd_set_servo_mode (22)
 
-07:01:22:172002	MOC	-ipolts------	ipolts5	Got IPC_SENDWAIT, sender: 6
-07:01:22:172003	MOC	-ipolts------	ipolts5	Execute ipol_cmd_set_servo_mode (22)
+07:01:26:555002	MOC	-ipolts------	ipolts5	Got IPC_SENDWAIT, sender: 6
+07:01:26:555003	MOC	-ipolts------	ipolts5	Execute ipol_cmd_set_servo_mode (22)
 
-07:01:22:193001	MOC	-ipolts------	ipolts6	Got IPC_SENDWAIT, sender: 6
-07:01:22:193002	MOC	-ipolts------	ipolts6	Execute ipol_cmd_set_servo_mode (22)
+07:01:26:576001	MOC	-ipolts------	ipolts6	Got IPC_SENDWAIT, sender: 6
+07:01:26:576002	MOC	-ipolts------	ipolts6	Execute ipol_cmd_set_servo_mode (22)
 
-07:01:22:214001	MOC	-ipolts------	ipolts0	Got IPC_SENDWAIT, sender: 6
-07:01:22:214002	MOC	-ipolts------	ipolts0	Execute ipol_cmd_set_servo_mode (22)
+07:01:26:597001	MOC	-ipolts------	ipolts0	Got IPC_SENDWAIT, sender: 6
+07:01:26:597002	MOC	-ipolts------	ipolts0	Execute ipol_cmd_set_servo_mode (22)
 
-07:01:22:324002	MOC	-ipolts------	ipolts1	Got IPC_SENDWAIT, sender: 6
-07:01:22:324003	MOC	-ipolts------	ipolts1	Execute ipol_cmd_set_servo_mode (22)
+07:01:26:707002	MOC	-ipolts------	ipolts1	Got IPC_SENDWAIT, sender: 6
+07:01:26:707003	MOC	-ipolts------	ipolts1	Execute ipol_cmd_set_servo_mode (22)
 
-07:01:22:340002	MOC	-ipolts------	ipolts2	Got IPC_SENDWAIT, sender: 6
-07:01:22:340003	MOC	-ipolts------	ipolts2	Execute ipol_cmd_set_servo_mode (22)
+07:01:26:723002	MOC	-ipolts------	ipolts2	Got IPC_SENDWAIT, sender: 6
+07:01:26:723003	MOC	-ipolts------	ipolts2	Execute ipol_cmd_set_servo_mode (22)
 
-07:01:22:361001	MOC	-ipolts------	ipolts3	Got IPC_SENDWAIT, sender: 6
-07:01:22:361002	MOC	-ipolts------	ipolts3	Execute ipol_cmd_set_servo_mode (22)
+07:01:26:744001	MOC	-ipolts------	ipolts3	Got IPC_SENDWAIT, sender: 6
+07:01:26:744002	MOC	-ipolts------	ipolts3	Execute ipol_cmd_set_servo_mode (22)
 
-07:01:22:382001	MOC	-ipolts------	ipolts4	Got IPC_SENDWAIT, sender: 6
-07:01:22:382002	MOC	-ipolts------	ipolts4	Execute ipol_cmd_set_servo_mode (22)
+07:01:26:765001	MOC	-ipolts------	ipolts4	Got IPC_SENDWAIT, sender: 6
+07:01:26:765002	MOC	-ipolts------	ipolts4	Execute ipol_cmd_set_servo_mode (22)
 
-07:01:22:403001	MOC	-ipolts------	ipolts5	Got IPC_SENDWAIT, sender: 6
-07:01:22:403002	MOC	-ipolts------	ipolts5	Execute ipol_cmd_set_servo_mode (22)
+07:01:26:786001	MOC	-ipolts------	ipolts5	Got IPC_SENDWAIT, sender: 6
+07:01:26:786002	MOC	-ipolts------	ipolts5	Execute ipol_cmd_set_servo_mode (22)
 
-07:01:22:424002	MOC	-ipolts------	ipolts6	Got IPC_SENDWAIT, sender: 6
-07:01:22:424003	MOC	-ipolts------	ipolts6	Execute ipol_cmd_set_servo_mode (22)
+07:01:26:807002	MOC	-ipolts------	ipolts6	Got IPC_SENDWAIT, sender: 6
+07:01:26:807003	MOC	-ipolts------	ipolts6	Execute ipol_cmd_set_servo_mode (22)
 
-07:01:22:445001	SD_T	Default             	cabts	[Synchronization point reached] sync_rapid_and_safety_disp_warm_start_cmd: Rapid startup ready
-07:01:22:445002	SD_T	Default             	cabts		controller_state_set_state_event - Status: REJECT 190
-07:01:22:920002	ROLSUP	rldryrun	peventts	dryrun_ipm_process, DRYRUN_KILL_IPM_PROC, no configured signals, kill IPM process
-07:01:22:920003	ROLSUP	rldryrun	peventts	dryrun_ipm_process, IPM_REAL_FREE - Good bye!
-07:01:22:945001	SD_T	Default             	cabts		controller_state_set_state_event - Status: REJECT 190
-07:01:23:445001	SD_T	Default             	cabts		controller_state_set_state_event - Status: REJECT 190
-07:01:23:945001	SD_T	Default             	cabts		controller_state_set_state_event - Status: REJECT 190
-07:01:24:445001	SD_T	Default             	cabts		controller_state_set_state_event - Status: REJECT 190
-07:01:24:945001	SD_T	Default             	cabts		controller_state_set_state_event - Status: REJECT 190
-07:01:25:445001	SD_T	Default             	cabts		controller_state_set_state_event - Status: REJECT 190
-07:01:25:945001	SD_T	Default             	cabts		controller_state_set_state_event - Status: REJECT 190
-07:01:26:168005	<DEFAREA>	<DEFCTX>	safevtts	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "3" -> "2"
-07:01:26:168006	S04.01	S04_01	safevtts	scsafLocalIOEvent: DriveEnableAllowed: CLOSED!
-07:01:26:168009	S04.01	S04_01	safevtts	scsafResetSysHalt: scsafResetSysHalt
-07:01:26:445001	SD_T	Default             	cabts		controller_state_set_state_event - Status: REJECT 190
-07:01:26:445002	SD_T	Default             	cabts	[Synchronization point reached] handle_warm_start: Rapid startup and safety ready
-07:01:26:445003	SD_T	Default             	cabts	sysSysfailGetStatus returns -1
-07:01:26:445004	SD_T	Default             	cabts	ESStatusBoolean returns 0
-07:01:26:445005	SD_T	Default             	cabts	sevt_runchn_status_get returns 1
-07:01:26:445006	SD_T	Default             	cabts	handle_message_from_safety has event 2
-07:01:26:445007	SD_T	Default             	cabts	Enable device 1
-07:01:26:445008	SD_T	Default             	cabts	handle_message_from_safety_controller_state SAFETYEVENTS_RUNCHN_CLOSED
-07:01:26:445009	SD_T	Default             	cabts	RESET GuardStop
-07:01:26:445015	SD_T	Default             	cabts	sevt_opmode_get returns 1
-07:01:26:445016	SD_T	Default             	cabts	handle_message_from_safety has event 7
-07:01:26:445017	SD_T	Default             	cabts	 Enable device
-07:01:26:445018	SD_T	Default             	cabts	handle_message_from_safety_operator_mode SAFETYEVENTS_REQ_AUTO
-07:01:26:445019	SD_T	Default             	cabts	Go to  Auto 1 
-07:01:26:445020	SD_T	Default             	rapidts	Force pgm to stop when setting pp
-07:01:26:445021	SD_T	Default             	rapidts	Force pgm to stop when setting pp
-07:01:26:445024	S04.01	S04_01	scorchts	scsafSetOpModeReq: Operating mode: AUTO
-07:01:26:445025	MOC	-ipolts------	ipolts0	Got IPC_SEND, sender: 6
-07:01:26:445026	MOC	-ipolts------	ipolts0	Execute ipol_cmd_reduced_speed (4)
+07:01:26:828001	SD_T	Default             	cabts	[Synchronization point reached] sync_rapid_and_safety_disp_warm_start_cmd: Rapid startup ready
+07:01:26:828002	SD_T	Default             	cabts		controller_state_set_state_event - Status: REJECT 190
+07:01:27:303002	ROLSUP	rldryrun	peventts	dryrun_ipm_process, DRYRUN_KILL_IPM_PROC, no configured signals, kill IPM process
+07:01:27:303003	ROLSUP	rldryrun	peventts	dryrun_ipm_process, IPM_REAL_FREE - Good bye!
+07:01:27:328001	SD_T	Default             	cabts		controller_state_set_state_event - Status: REJECT 190
+07:01:27:828001	SD_T	Default             	cabts		controller_state_set_state_event - Status: REJECT 190
+07:01:28:328001	SD_T	Default             	cabts		controller_state_set_state_event - Status: REJECT 190
+07:01:28:828001	SD_T	Default             	cabts		controller_state_set_state_event - Status: REJECT 190
+07:01:29:328001	SD_T	Default             	cabts		controller_state_set_state_event - Status: REJECT 190
+07:01:29:828001	SD_T	Default             	cabts		controller_state_set_state_event - Status: REJECT 190
+07:01:30:328001	SD_T	Default             	cabts		controller_state_set_state_event - Status: REJECT 190
+07:01:30:551005	<DEFAREA>	<DEFCTX>	safevtts	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "3" -> "2"
+07:01:30:551006	S04.01	S04_01	safevtts	scsafLocalIOEvent: DriveEnableAllowed: CLOSED!
+07:01:30:551009	S04.01	S04_01	safevtts	scsafResetSysHalt: scsafResetSysHalt
+07:01:30:828001	SD_T	Default             	cabts		controller_state_set_state_event - Status: REJECT 190
+07:01:30:828002	SD_T	Default             	cabts	[Synchronization point reached] handle_warm_start: Rapid startup and safety ready
+07:01:30:828003	SD_T	Default             	cabts	sysSysfailGetStatus returns -1
+07:01:30:828004	SD_T	Default             	cabts	ESStatusBoolean returns 0
+07:01:30:828005	SD_T	Default             	cabts	sevt_runchn_status_get returns 1
+07:01:30:828006	SD_T	Default             	cabts	handle_message_from_safety has event 2
+07:01:30:828007	SD_T	Default             	cabts	Enable device 1
+07:01:30:828008	SD_T	Default             	cabts	handle_message_from_safety_controller_state SAFETYEVENTS_RUNCHN_CLOSED
+07:01:30:828009	SD_T	Default             	cabts	RESET GuardStop
+07:01:30:828015	SD_T	Default             	cabts	sevt_opmode_get returns 1
+07:01:30:828016	SD_T	Default             	cabts	handle_message_from_safety has event 7
+07:01:30:828017	SD_T	Default             	cabts	 Enable device
+07:01:30:828018	SD_T	Default             	cabts	handle_message_from_safety_operator_mode SAFETYEVENTS_REQ_AUTO
+07:01:30:828019	SD_T	Default             	cabts	Go to  Auto 1 
+07:01:30:828020	SD_T	Default             	rapidts	Force pgm to stop when setting pp
+07:01:30:828021	SD_T	Default             	rapidts	Force pgm to stop when setting pp
+07:01:30:828024	S04.01	S04_01	scorchts	scsafSetOpModeReq: Operating mode: AUTO
+07:01:30:828025	MOC	-ipolts------	ipolts0	Got IPC_SEND, sender: 6
+07:01:30:828026	MOC	-ipolts------	ipolts0	Execute ipol_cmd_reduced_speed (4)
 
-07:01:26:445027	MOC	-ipolts------	ipolts1	Got IPC_SEND, sender: 6
-07:01:26:445028	MOC	-ipolts------	ipolts1	Execute ipol_cmd_reduced_speed (4)
+07:01:30:828027	MOC	-ipolts------	ipolts1	Got IPC_SEND, sender: 6
+07:01:30:828028	MOC	-ipolts------	ipolts1	Execute ipol_cmd_reduced_speed (4)
 
-07:01:26:445029	MOC	-ipolts------	ipolts2	Got IPC_SEND, sender: 6
-07:01:26:445030	MOC	-ipolts------	ipolts2	Execute ipol_cmd_reduced_speed (4)
+07:01:30:828029	MOC	-ipolts------	ipolts2	Got IPC_SEND, sender: 6
+07:01:30:828030	MOC	-ipolts------	ipolts2	Execute ipol_cmd_reduced_speed (4)
 
-07:01:26:445031	MOC	-ipolts------	ipolts3	Got IPC_SEND, sender: 6
-07:01:26:445032	MOC	-ipolts------	ipolts3	Execute ipol_cmd_reduced_speed (4)
+07:01:30:828031	MOC	-ipolts------	ipolts3	Got IPC_SEND, sender: 6
+07:01:30:828032	MOC	-ipolts------	ipolts3	Execute ipol_cmd_reduced_speed (4)
 
-07:01:26:445033	MOC	-ipolts------	ipolts4	Got IPC_SEND, sender: 6
-07:01:26:445034	MOC	-ipolts------	ipolts4	Execute ipol_cmd_reduced_speed (4)
+07:01:30:828033	MOC	-ipolts------	ipolts4	Got IPC_SEND, sender: 6
+07:01:30:828034	MOC	-ipolts------	ipolts4	Execute ipol_cmd_reduced_speed (4)
 
-07:01:26:445035	MOC	-ipolts------	ipolts5	Got IPC_SEND, sender: 6
-07:01:26:445036	MOC	-ipolts------	ipolts5	Execute ipol_cmd_reduced_speed (4)
+07:01:30:828035	MOC	-ipolts------	ipolts5	Got IPC_SEND, sender: 6
+07:01:30:828036	MOC	-ipolts------	ipolts5	Execute ipol_cmd_reduced_speed (4)
 
-07:01:26:445037	MOC	-ipolts------	ipolts6	Got IPC_SEND, sender: 6
-07:01:26:445038	MOC	-ipolts------	ipolts6	Execute ipol_cmd_reduced_speed (4)
+07:01:30:828037	MOC	-ipolts------	ipolts6	Got IPC_SEND, sender: 6
+07:01:30:828038	MOC	-ipolts------	ipolts6	Execute ipol_cmd_reduced_speed (4)
 
-07:01:26:445044	SD_T	Default             	sysorchts	Startup, user_def: 0
-07:01:26:445050	SD_T	Default             	sysevtts	 Output : CycleOn set signal: GOFA_ProgramState
-07:01:26:445052	MOC	-ipolts------	ipolts0	Got IPC_SEND, sender: 6
-07:01:26:445053	MOC	-ipolts------	ipolts0	Execute ipol_cmd_set_path_resolution (28)
+07:01:30:828044	SD_T	Default             	sysorchts	Startup, user_def: 0
+07:01:30:828050	SD_T	Default             	sysevtts	 Output : CycleOn set signal: GOFA_ProgramState
+07:01:30:828052	MOC	-ipolts------	ipolts0	Got IPC_SEND, sender: 6
+07:01:30:828053	MOC	-ipolts------	ipolts0	Execute ipol_cmd_set_path_resolution (28)
 
-07:01:26:445054	MOC	-ipolts------	ipolts0	ipolts_set_path_resolution pr_factor = 1.000000
-07:01:26:445055	MOC	-ipolts------	ipolts0	Got IPC_SENDWAIT, sender: 6
-07:01:26:445056	MOC	-ipolts------	ipolts0	Execute ipol_cmd_power_fail_re_create (1)
+07:01:30:828054	MOC	-ipolts------	ipolts0	ipolts_set_path_resolution pr_factor = 1.000000
+07:01:30:828055	MOC	-ipolts------	ipolts0	Got IPC_SENDWAIT, sender: 6
+07:01:30:828056	MOC	-ipolts------	ipolts0	Execute ipol_cmd_power_fail_re_create (1)
 
-07:01:26:445057	MOC	-ipolts------	ipolts0	Got IPC_SEND, sender: 6
-07:01:26:445058	MOC	-ipolts------	ipolts0	Execute ipol_cmd_set_path_resolution (28)
+07:01:30:828057	MOC	-ipolts------	ipolts0	Got IPC_SEND, sender: 6
+07:01:30:828058	MOC	-ipolts------	ipolts0	Execute ipol_cmd_set_path_resolution (28)
 
-07:01:26:445059	MOC	-ipolts------	ipolts0	ipolts_set_path_resolution pr_factor = 1.000000
-07:01:26:445060	MOC	-ipolts------	ipolts0	Got IPC_SENDWAIT, sender: 6
-07:01:26:445061	MOC	-ipolts------	ipolts0	Execute ipol_cmd_power_fail_re_create (1)
+07:01:30:828059	MOC	-ipolts------	ipolts0	ipolts_set_path_resolution pr_factor = 1.000000
+07:01:30:828060	MOC	-ipolts------	ipolts0	Got IPC_SENDWAIT, sender: 6
+07:01:30:828061	MOC	-ipolts------	ipolts0	Execute ipol_cmd_power_fail_re_create (1)
 
-07:01:26:445109	SD_T	Default             	cabts	Exit handle_warm_start in CABTS
-07:01:26:445110	<DEFAREA>	<DEFCTX>	cabts	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "2" -> "1"
-07:01:26:445111	SD_T	Default             	cabts	Exit cab_startup_power_on
-07:01:26:445120	SD_T	Default             	rapidts	Force pgm to stop when setting pp
-07:01:26:445129	SD_T	Default             	rapidts	Force pgm to stop when setting pp
-07:01:26:445130	SD_T	Default             	sysorchts	Startup, user_def: 1
-07:01:26:445132	MOC	-ipolts------	ipolts0	Got IPC_SEND, sender: 17
-07:01:26:445133	MOC	-ipolts------	ipolts0	Execute ipol_cmd_start (29)
+07:01:30:828109	SD_T	Default             	cabts	Exit handle_warm_start in CABTS
+07:01:30:828110	<DEFAREA>	<DEFCTX>	cabts	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "2" -> "1"
+07:01:30:828111	SD_T	Default             	cabts	Exit cab_startup_power_on
+07:01:30:828120	SD_T	Default             	rapidts	Force pgm to stop when setting pp
+07:01:30:828129	SD_T	Default             	rapidts	Force pgm to stop when setting pp
+07:01:30:828130	SD_T	Default             	sysorchts	Startup, user_def: 1
+07:01:30:828132	MOC	-ipolts------	ipolts0	Got IPC_SEND, sender: 17
+07:01:30:828133	MOC	-ipolts------	ipolts0	Execute ipol_cmd_start (29)
 
-07:01:26:445141	SD_T	Default             	rapidts	last_sys_state in run_one_start_order = 1 
-07:01:26:445149	SD_T	Default             	rapidts	last_sys_state in run_one_start_order = 1 
-07:01:26:445150	ROL	rltrig	rapidts	SysInit21, taskno: 	2
-07:01:26:445151	ROL	rltrig	rapidts	---------------------------
-07:01:26:445152	ROL	rltrig	rapidts	rltrigpr_triggint_restart_proc, IPM_REAL_INIT, sizeof(TRIGGINT_RESTART): 744, proc_id: 98
-07:01:26:445154	ROL	rltrig	rapidts	rltrig_create_restart_process, added process TRIGGINT_RESTART with id: 98
-07:01:26:445155	ROL	rltrig	rapidts	End SysInit21, taskno: 	2
-07:01:26:445156	ROL	rltrig	rapidts	SysInit21, taskno: 	3
-07:01:26:445157	ROL	rltrig	rapidts	End SysInit21, taskno: 	3
-07:01:26:445166	SD_T	Default             	rapidts	master_control_release IPOL
-07:01:26:445167	SD_T	Default             	rapidts	report_stop  instance = 2 
-07:01:26:445168	MOC	-event-------	rapidts	 1149deb0  EVENT_NEW_POSITION_TIME
-07:01:26:445169	MOC	-event-------	rapidts	 offset = 0.0 mm time_before = 0.0 ms
-07:01:26:445171	MOC	-event-------	rapidts	 1149deb0  define EVENT_ACTION_SYS_EVENT
-07:01:26:445172	MOC	-event-------	rapidts	 IPC_SLOTID_17  user_def = 256  user_data = 134545929
-07:01:26:445175	MOC	-ipolts------	ipolts0	Got IPC_SEND, sender: 17
-07:01:26:445176	MOC	-ipolts------	ipolts0	Execute ipol_cmd_wait_zero_speed (11)
+07:01:30:828141	SD_T	Default             	rapidts	last_sys_state in run_one_start_order = 1 
+07:01:30:828149	SD_T	Default             	rapidts	last_sys_state in run_one_start_order = 1 
+07:01:30:828150	ROL	rltrig	rapidts	SysInit21, taskno: 	2
+07:01:30:828151	ROL	rltrig	rapidts	---------------------------
+07:01:30:828152	ROL	rltrig	rapidts	rltrigpr_triggint_restart_proc, IPM_REAL_INIT, sizeof(TRIGGINT_RESTART): 744, proc_id: 98
+07:01:30:828154	ROL	rltrig	rapidts	rltrig_create_restart_process, added process TRIGGINT_RESTART with id: 98
+07:01:30:828155	ROL	rltrig	rapidts	End SysInit21, taskno: 	2
+07:01:30:828156	ROL	rltrig	rapidts	SysInit21, taskno: 	3
+07:01:30:828157	ROL	rltrig	rapidts	End SysInit21, taskno: 	3
+07:01:30:828166	SD_T	Default             	rapidts	master_control_release IPOL
+07:01:30:828167	SD_T	Default             	rapidts	report_stop  instance = 2 
+07:01:30:828168	MOC	-event-------	rapidts	 11352ae0  EVENT_NEW_POSITION_TIME
+07:01:30:828169	MOC	-event-------	rapidts	 offset = 0.0 mm time_before = 0.0 ms
+07:01:30:828171	MOC	-event-------	rapidts	 11352ae0  define EVENT_ACTION_SYS_EVENT
+07:01:30:828172	MOC	-event-------	rapidts	 IPC_SLOTID_17  user_def = 256  user_data = 134545929
+07:01:30:828175	MOC	-ipolts------	ipolts0	Got IPC_SEND, sender: 17
+07:01:30:828176	MOC	-ipolts------	ipolts0	Execute ipol_cmd_wait_zero_speed (11)
 
-07:01:26:445177	SD_T	Default             	rapidts	[Called] ipol_wait_for_zero_speed: 0
-07:01:26:445178	SD_T	Default             	rapidts	zerospeed_ordered = 1 
-07:01:26:445192	SD_T	Default             	rapidts	master_control_release IPOL
-07:01:26:445193	SD_T	Default             	rapidts	report_stop  instance = 3 
-07:01:26:445194	SD_T	Default             	rapidts	Set to PGMRUN_THREAD_END 
-07:01:26:445195	SD_T	Default             	rapidts	stop_environment_and_return_master = 9 
-07:01:26:445196	SD_T	Default             	rapidts	master_control_release IPOL
-07:01:26:445205	SD_T	Default             	rapidts	set_state_and_initiate_elog_for_stop last_sys_state = 3 
-07:01:26:445206	SD_T	Default             	sysorchts	Startup, user_def: 2
-07:01:26:445215	SD_T	Default             	rapidts	last_sys_state in run_one_start_order = 2 
-07:01:26:445216	ROL	rlmexe	rapidts	End of START event routine, taskno: 	3
-07:01:26:445217	ROL	rlmexe	rapidts	-----------------------------------------------------
-07:01:26:445218	SD_T	Default             	sysorchts	Startup, user_def: 3
-07:01:26:445220	SD_T	Default             	rapidts	pgmrun_start_program  orginator  = 0 
-07:01:26:445221	SD_T	Default             	rapidts	last_sys_state  = PGMRUN_SYS_STATE_START for task 1 
-07:01:26:445222	SD_T	Default             	rapidts	pgmrun_start_program  orginator  = 0 
-07:01:26:445223	SD_T	Default             	rapidts	last_sys_state  = PGMRUN_SYS_STATE_START for task 3 
-07:01:26:445224	SD_T	Default             	sysorchts	Startup, user_def: 4
-07:01:26:445226	<DEFAREA>	<DEFCTX>	sysorchts	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "1" -> "0"
-07:01:26:451007	MOC	-ipolts------	ipolts1	Got IPC_BROADCAST, sender: 0
-07:01:26:451008	MOC	-ipolts------	ipolts1	Error, got an unknown command, 299
+07:01:30:828177	SD_T	Default             	rapidts	[Called] ipol_wait_for_zero_speed: 0
+07:01:30:828178	SD_T	Default             	rapidts	zerospeed_ordered = 1 
+07:01:30:828192	SD_T	Default             	rapidts	master_control_release IPOL
+07:01:30:828193	SD_T	Default             	rapidts	report_stop  instance = 3 
+07:01:30:828194	SD_T	Default             	rapidts	Set to PGMRUN_THREAD_END 
+07:01:30:828195	SD_T	Default             	rapidts	stop_environment_and_return_master = 9 
+07:01:30:828196	SD_T	Default             	rapidts	master_control_release IPOL
+07:01:30:828205	SD_T	Default             	rapidts	set_state_and_initiate_elog_for_stop last_sys_state = 3 
+07:01:30:828206	SD_T	Default             	sysorchts	Startup, user_def: 2
+07:01:30:828215	SD_T	Default             	rapidts	last_sys_state in run_one_start_order = 2 
+07:01:30:828216	ROL	rlmexe	rapidts	End of START event routine, taskno: 	3
+07:01:30:828217	ROL	rlmexe	rapidts	-----------------------------------------------------
+07:01:30:828218	SD_T	Default             	sysorchts	Startup, user_def: 3
+07:01:30:828220	SD_T	Default             	rapidts	pgmrun_start_program  orginator  = 0 
+07:01:30:828221	SD_T	Default             	rapidts	last_sys_state  = PGMRUN_SYS_STATE_START for task 1 
+07:01:30:828222	SD_T	Default             	rapidts	pgmrun_start_program  orginator  = 0 
+07:01:30:828223	SD_T	Default             	rapidts	last_sys_state  = PGMRUN_SYS_STATE_START for task 3 
+07:01:30:828224	SD_T	Default             	sysorchts	Startup, user_def: 4
+07:01:30:828226	<DEFAREA>	<DEFCTX>	sysorchts	BulletinBoardDB NoOfPendingStartupFuncs[0]. Write value "1" -> "0"
+07:01:30:834007	MOC	-ipolts------	ipolts1	Got IPC_BROADCAST, sender: 0
+07:01:30:834008	MOC	-ipolts------	ipolts1	Error, got an unknown command, 299
 
-07:01:26:451009	MOC	-ipolts------	ipolts2	Got IPC_BROADCAST, sender: 0
-07:01:26:451010	MOC	-ipolts------	ipolts2	Error, got an unknown command, 299
+07:01:30:834009	MOC	-ipolts------	ipolts2	Got IPC_BROADCAST, sender: 0
+07:01:30:834010	MOC	-ipolts------	ipolts2	Error, got an unknown command, 299
 
-07:01:26:451011	MOC	-ipolts------	ipolts3	Got IPC_BROADCAST, sender: 0
-07:01:26:451012	MOC	-ipolts------	ipolts3	Error, got an unknown command, 299
+07:01:30:834011	MOC	-ipolts------	ipolts3	Got IPC_BROADCAST, sender: 0
+07:01:30:834012	MOC	-ipolts------	ipolts3	Error, got an unknown command, 299
 
-07:01:26:451013	MOC	-ipolts------	ipolts4	Got IPC_BROADCAST, sender: 0
-07:01:26:451014	MOC	-ipolts------	ipolts4	Error, got an unknown command, 299
+07:01:30:834013	MOC	-ipolts------	ipolts4	Got IPC_BROADCAST, sender: 0
+07:01:30:834014	MOC	-ipolts------	ipolts4	Error, got an unknown command, 299
 
-07:01:26:451015	MOC	-ipolts------	ipolts5	Got IPC_BROADCAST, sender: 0
-07:01:26:451016	MOC	-ipolts------	ipolts5	Error, got an unknown command, 299
+07:01:30:834015	MOC	-ipolts------	ipolts5	Got IPC_BROADCAST, sender: 0
+07:01:30:834016	MOC	-ipolts------	ipolts5	Error, got an unknown command, 299
 
-07:01:26:451017	MOC	-ipolts------	ipolts6	Got IPC_BROADCAST, sender: 0
-07:01:26:451018	MOC	-ipolts------	ipolts6	Error, got an unknown command, 299
+07:01:30:834017	MOC	-ipolts------	ipolts6	Got IPC_BROADCAST, sender: 0
+07:01:30:834018	MOC	-ipolts------	ipolts6	Error, got an unknown command, 299
 
-07:01:26:472002	MOC	-event-------	ipolts0	 1149deb0  event_execute
-07:01:26:472003	MOC	-event-------	ipolts0	 execute event type = POSITION action = ACTION_SYS_EVENT segm_index_0.000000
-07:01:26:472007	MOC	-event-------	ipolts0	 event_execute_private. Set up timestamp without lag.
-07:01:26:472008	MOC	-event-------	ipolts0	 Timestamp execution. Seconds 86, Nanoseconds 472006000
-07:01:26:472010	MOC	-event-------	ipolts0	event RETURNED, p = 000000001149DEB0
-07:01:26:472011	MOC	-ipolts------	ipolts0	Got IPC_BROADCAST, sender: 0
-07:01:26:472012	MOC	-ipolts------	ipolts0	Error, got an unknown command, 299
+07:01:30:855002	MOC	-event-------	ipolts0	 11352ae0  event_execute
+07:01:30:855003	MOC	-event-------	ipolts0	 execute event type = POSITION action = ACTION_SYS_EVENT segm_index_0.000000
+07:01:30:855007	MOC	-event-------	ipolts0	 event_execute_private. Set up timestamp without lag.
+07:01:30:855008	MOC	-event-------	ipolts0	 Timestamp execution. Seconds 90, Nanoseconds 855006000
+07:01:30:855010	MOC	-event-------	ipolts0	event RETURNED, p = 0000000011352AE0
+07:01:30:855011	MOC	-ipolts------	ipolts0	Got IPC_BROADCAST, sender: 0
+07:01:30:855012	MOC	-ipolts------	ipolts0	Error, got an unknown command, 299
 
-07:01:26:472013	SD_T	Default             	rapidts	PGMRUN_RESUME_THREAD_ON_SYS_EVENT_ZERO_SPEED
-07:01:26:472014	ROL	rltrig	peventts	---------------------------
-07:01:26:472015	ROL	rltrig	peventts	rltrigpr_triggint_restart_proc, IPM_SYS_PC_MOVED
-07:01:26:472016	MOC	-ipolts------	ipolts0	Got IPC_SEND, sender: 17
-07:01:26:472017	MOC	-ipolts------	ipolts0	Execute ipol_cmd_stop (39)
+07:01:30:855013	SD_T	Default             	rapidts	PGMRUN_RESUME_THREAD_ON_SYS_EVENT_ZERO_SPEED
+07:01:30:855014	ROL	rltrig	peventts	---------------------------
+07:01:30:855015	ROL	rltrig	peventts	rltrigpr_triggint_restart_proc, IPM_SYS_PC_MOVED
+07:01:30:855016	MOC	-ipolts------	ipolts0	Got IPC_SEND, sender: 17
+07:01:30:855017	MOC	-ipolts------	ipolts0	Execute ipol_cmd_stop (39)
 
-07:01:26:472018	MOC	-ipolts------	ipolts0	Got IPC_SENDWAIT, sender: 17
-07:01:26:472019	MOC	-ipolts------	ipolts0	Execute ipol_cmd_clear_path_and_servo (14)
+07:01:30:855018	MOC	-ipolts------	ipolts0	Got IPC_SENDWAIT, sender: 17
+07:01:30:855019	MOC	-ipolts------	ipolts0	Execute ipol_cmd_clear_path_and_servo (14)
 
-07:01:26:472020	MOC	-spline_ip---	ipolts0	spline_ip_clear
-07:01:26:524002	SD_T	Default             	rapidts	Set to PGMRUN_THREAD_END 
-07:01:26:524003	SD_T	Default             	rapidts	stop_environment_and_return_master = 9 
-07:01:26:524004	SD_T	Default             	rapidts	stop: cycle on write false since all has stopped
-07:01:26:524005	SD_T	Default             	rapidts	master_control_release IPOL
-07:01:26:524006	SD_T	Default             	rapidts	[Calling] ipol_stop 0
-07:01:26:524007	MOC	-ipolts------	ipolts0	Got IPC_SEND, sender: 17
-07:01:26:524008	MOC	-ipolts------	ipolts0	Execute ipol_cmd_stop (39)
+07:01:30:855020	MOC	-spline_ip---	ipolts0	spline_ip_clear
+07:01:30:907002	SD_T	Default             	rapidts	Set to PGMRUN_THREAD_END 
+07:01:30:907003	SD_T	Default             	rapidts	stop_environment_and_return_master = 9 
+07:01:30:907004	SD_T	Default             	rapidts	stop: cycle on write false since all has stopped
+07:01:30:907005	SD_T	Default             	rapidts	master_control_release IPOL
+07:01:30:907006	SD_T	Default             	rapidts	[Calling] ipol_stop 0
+07:01:30:907007	MOC	-ipolts------	ipolts0	Got IPC_SEND, sender: 17
+07:01:30:907008	MOC	-ipolts------	ipolts0	Execute ipol_cmd_stop (39)
 
-07:01:26:524017	SD_T	Default             	rapidts	set_state_and_initiate_elog_for_stop last_sys_state = 3 
-07:01:26:947001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
-07:01:26:947002	PS_T(01)	-Default- 	rapidts	errtyp 1 
-07:01:27:147001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
-07:01:27:147002	PS_T(01)	-Default- 	rapidts	errtyp 1 
-07:01:27:247001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
-07:01:27:247002	PS_T(01)	-Default- 	rapidts	errtyp 1 
-07:01:27:347001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
-07:01:27:347002	PS_T(01)	-Default- 	rapidts	errtyp 1 
-07:01:27:447001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
-07:01:27:447002	PS_T(01)	-Default- 	rapidts	errtyp 1 
-07:01:27:547001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
-07:01:27:547002	PS_T(01)	-Default- 	rapidts	errtyp 1 
-07:01:27:647001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
-07:01:27:647002	PS_T(01)	-Default- 	rapidts	errtyp 1 
-07:01:27:747001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
-07:01:27:747002	PS_T(01)	-Default- 	rapidts	errtyp 1 
-07:01:27:847001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
-07:01:27:847002	PS_T(01)	-Default- 	rapidts	errtyp 1 
-07:01:27:947001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
-07:01:27:947002	PS_T(01)	-Default- 	rapidts	errtyp 1 
-07:01:28:047001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
-07:01:28:047002	PS_T(01)	-Default- 	rapidts	errtyp 1 
-07:01:28:147001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
-07:01:28:147002	PS_T(01)	-Default- 	rapidts	errtyp 1 
-07:01:28:247001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
-07:01:28:247002	PS_T(01)	-Default- 	rapidts	errtyp 1 
-07:01:28:347001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
-07:01:28:347002	PS_T(01)	-Default- 	rapidts	errtyp 1 
-07:01:28:447001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
-07:01:28:447002	PS_T(01)	-Default- 	rapidts	errtyp 1 
-07:01:28:547001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
-07:01:28:547002	PS_T(01)	-Default- 	rapidts	errtyp 1 
-07:01:28:647001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
-07:01:28:647002	PS_T(01)	-Default- 	rapidts	errtyp 1 
-07:01:28:747001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
-07:01:28:747002	PS_T(01)	-Default- 	rapidts	errtyp 1 
-07:01:28:847001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
-07:01:28:847002	PS_T(01)	-Default- 	rapidts	errtyp 1 
-07:01:28:947001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
-07:01:28:947002	PS_T(01)	-Default- 	rapidts	errtyp 1 
-07:01:29:047001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
-07:01:29:047002	PS_T(01)	-Default- 	rapidts	errtyp 1 
-07:01:29:147001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
-07:01:29:147002	PS_T(01)	-Default- 	rapidts	errtyp 1 
-07:01:32:746002	SD_T	Default             	robdispts	gk_uas_user_locale_set did=58 uid=266195944 clocale=1 localPresenceCertificateKey=0 requestLocalPresenceCertificateKey=0
-07:01:32:746007	SD_T	Default             	robdispts	gk_uas_user_locale_set Exit status = 0
-07:01:32:827002	SD_T	Default             	rapi_user	gk_uas_user_locale_set did=131 uid=266195944 clocale=1 localPresenceCertificateKey=0 requestLocalPresenceCertificateKey=0
-07:01:32:827007	SD_T	Default             	rapi_user	gk_uas_user_locale_set Exit status = 0
-07:01:33:216003	SD_T	Default             	sysorchts	Restore, user_def: 0
-07:01:33:216005	SD_T	Default             	barts	[BAR] (5) Start restore
-07:01:33:216006	SD_T	Default             	barts	[BAR] (2/6) check backup contents 
-07:01:33:216007	SD_T	Default             	barts	[BAR] (3/7) check all cfg files 
-07:01:33:216008	SD_T	Default             	barts	[BAR] (4/8) check system id 
-07:01:33:216009	SD_T	Default             	barts	[BAR] (xx) ctrl settings validate 
-07:01:33:216010	SD_T	Default             	barts	[BAR] (xx) config  sc restore from backup 
-07:01:33:216011	SD_T	Default             	barts	Status from bar_support_restore_check_checksum =  0 
-07:01:33:216012	SD_T	Default             	barts	Status from bar_support_restore_check_passphrase =  0 
-07:01:33:216020	SD_T	Default             	barts	[BAR] (9) load file to data base and copy the HOME directory
-07:01:33:216021	SD_T	Default             	barts	[BAR] (10) load cfg domains 
-07:01:33:216022	SD_T	Default             	barts	[BAR] (11) load all domains according to backinfo file 
-07:01:33:216023	SD_T	Default             	barts	CollisionErrorHandling set to 0
-07:01:33:216024	PS_T(02)	-Default- 	barts	pgm: reset_collision_flag  
-07:01:33:216034	SD_T	Default             	barts	[BAR] (12) load internal files
-07:01:33:216035	SD_T	Default             	barts	[BAR] (13) load internal files 
-07:01:33:216036	SD_T	Default             	barts	[BAR] (14) bar_file_copy_internal_files
-07:01:33:216037	SD_T	Default             	barts	Error BAR_NOT_FOUND in bar_file_copy
-07:01:33:216038	SD_T	Default             	barts	[BAR] (15) prepare load of tasks 
-07:01:33:216039	SD_T	Default             	barts	[BAR] (16) include modules 
-07:01:33:216040	SD_T	Default             	barts	Error could not get task no in bar_support_get_tskno_from_backinfo 
-07:01:33:216041	SD_T	Default             	barts	[BAR] ELOG
-07:01:33:216049	SD_T	Default             	barts	[BAR] (17) restore controller settings
-07:01:33:216057	SD_T	Default             	barts	[BAR] (18) restore safety settings
-07:01:33:216058	SD_T	Default             	barts	[BAR] (15) config  sc restore from backup 
-07:01:33:216068	SD_T	Default             	barts	[BAR] (19) restore uas settings
-07:01:33:216069	SD_T	Default             	sysorchts	Restore, user_def: 1
+07:01:30:907017	SD_T	Default             	rapidts	set_state_and_initiate_elog_for_stop last_sys_state = 3 
+07:01:31:330001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
+07:01:31:330002	PS_T(01)	-Default- 	rapidts	errtyp 1 
+07:01:31:530001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
+07:01:31:530002	PS_T(01)	-Default- 	rapidts	errtyp 1 
+07:01:31:630001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
+07:01:31:630002	PS_T(01)	-Default- 	rapidts	errtyp 1 
+07:01:31:730001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
+07:01:31:730002	PS_T(01)	-Default- 	rapidts	errtyp 1 
+07:01:31:830001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
+07:01:31:830002	PS_T(01)	-Default- 	rapidts	errtyp 1 
+07:01:31:930001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
+07:01:31:930002	PS_T(01)	-Default- 	rapidts	errtyp 1 
+07:01:32:030001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
+07:01:32:030002	PS_T(01)	-Default- 	rapidts	errtyp 1 
+07:01:32:130001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
+07:01:32:130002	PS_T(01)	-Default- 	rapidts	errtyp 1 
+07:01:32:230001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
+07:01:32:230002	PS_T(01)	-Default- 	rapidts	errtyp 1 
+07:01:32:330001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
+07:01:32:330002	PS_T(01)	-Default- 	rapidts	errtyp 1 
+07:01:32:430001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
+07:01:32:430002	PS_T(01)	-Default- 	rapidts	errtyp 1 
+07:01:32:530001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
+07:01:32:530002	PS_T(01)	-Default- 	rapidts	errtyp 1 
+07:01:32:630001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
+07:01:32:630002	PS_T(01)	-Default- 	rapidts	errtyp 1 
+07:01:32:730001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
+07:01:32:730002	PS_T(01)	-Default- 	rapidts	errtyp 1 
+07:01:32:830001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
+07:01:32:830002	PS_T(01)	-Default- 	rapidts	errtyp 1 
+07:01:32:930001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
+07:01:32:930002	PS_T(01)	-Default- 	rapidts	errtyp 1 
+07:01:33:030001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
+07:01:33:030002	PS_T(01)	-Default- 	rapidts	errtyp 1 
+07:01:33:130001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
+07:01:33:130002	PS_T(01)	-Default- 	rapidts	errtyp 1 
+07:01:33:230001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
+07:01:33:230002	PS_T(01)	-Default- 	rapidts	errtyp 1 
+07:01:33:330001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
+07:01:33:330002	PS_T(01)	-Default- 	rapidts	errtyp 1 
+07:01:33:430001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
+07:01:33:430002	PS_T(01)	-Default- 	rapidts	errtyp 1 
+07:01:33:530001	PS_T(01)	-Default- 	rapidts	[12/12] exec_raise collision:0 
+07:01:33:530002	PS_T(01)	-Default- 	rapidts	errtyp 1 
+07:01:36:364001	SD_T	Default             	robdispts	gk_uas_user_locale_set did=58 uid=809513861 clocale=1 localPresenceCertificateKey=0 requestLocalPresenceCertificateKey=0
+07:01:36:364006	SD_T	Default             	robdispts	gk_uas_user_locale_set Exit status = 0
+07:01:36:428007	SD_T	Default             	rapi_user	gk_uas_user_locale_set did=131 uid=809513861 clocale=1 localPresenceCertificateKey=0 requestLocalPresenceCertificateKey=0
+07:01:36:428012	SD_T	Default             	rapi_user	gk_uas_user_locale_set Exit status = 0
+07:01:36:711001	SD_T	Default             	sysorchts	Restore, user_def: 0
+07:01:36:711003	SD_T	Default             	barts	[BAR] (5) Start restore
+07:01:36:711004	SD_T	Default             	barts	[BAR] (2/6) check backup contents 
+07:01:36:711005	SD_T	Default             	barts	[BAR] (3/7) check all cfg files 
+07:01:36:711006	SD_T	Default             	barts	[BAR] (4/8) check system id 
+07:01:36:711007	SD_T	Default             	barts	[BAR] (xx) ctrl settings validate 
+07:01:36:711008	SD_T	Default             	barts	[BAR] (xx) config  sc restore from backup 
+07:01:36:711009	SD_T	Default             	barts	Status from bar_support_restore_check_checksum =  0 
+07:01:36:711010	SD_T	Default             	barts	Status from bar_support_restore_check_passphrase =  0 
+07:01:36:711018	SD_T	Default             	barts	[BAR] (9) load file to data base and copy the HOME directory
+07:01:36:711019	SD_T	Default             	barts	[BAR] (10) load cfg domains 
+07:01:36:711020	SD_T	Default             	barts	[BAR] (11) load all domains according to backinfo file 
+07:01:36:711021	SD_T	Default             	barts	CollisionErrorHandling set to 0
+07:01:36:711022	PS_T(02)	-Default- 	barts	pgm: reset_collision_flag  
+07:01:36:711032	SD_T	Default             	barts	[BAR] (12) load internal files
+07:01:36:711033	SD_T	Default             	barts	[BAR] (13) load internal files 
+07:01:36:711034	SD_T	Default             	barts	[BAR] (14) bar_file_copy_internal_files
+07:01:36:711035	SD_T	Default             	barts	Error BAR_NOT_FOUND in bar_file_copy
+07:01:36:711036	SD_T	Default             	barts	Error os_xcopy in bar_file_dircopy -12
+07:01:37:711002	SD_T	Default             	barts	Error os_xcopy in bar_file_dircopy -12
+07:01:38:711002	SD_T	Default             	barts	Error os_xcopy in bar_file_dircopy -12
+07:01:39:711002	SD_T	Default             	barts	Error os_xcopy in bar_file_dircopy -12
+07:01:40:711002	SD_T	Default             	barts	Error os_xcopy in bar_file_dircopy -12
+07:01:41:711002	SD_T	Default             	barts	Error os_xcopy in bar_file_dircopy -12
+07:01:42:711002	SD_T	Default             	barts	Error os_xcopy in bar_file_dircopy -12
+07:01:43:711002	SD_T	Default             	barts	Error os_xcopy in bar_file_dircopy -12
+07:01:44:711002	SD_T	Default             	barts	Error os_xcopy in bar_file_dircopy -12
+07:01:45:711002	SD_T	Default             	barts	Error os_xcopy in bar_file_dircopy -12
+07:01:46:711002	SD_T	Default             	barts	[BAR] (15) prepare load of tasks 
+07:01:46:711003	SD_T	Default             	barts	[BAR] (16) include modules 
+07:01:46:711004	SD_T	Default             	barts	Error could not get task no in bar_support_get_tskno_from_backinfo 
+07:01:46:711005	SD_T	Default             	barts	[BAR] ELOG
+07:01:46:711013	SD_T	Default             	barts	[BAR] (17) restore controller settings
+07:01:46:711021	SD_T	Default             	barts	[BAR] (18) restore safety settings
+07:01:46:711022	SD_T	Default             	barts	[BAR] (15) config  sc restore from backup 
+07:01:46:711032	SD_T	Default             	barts	[BAR] (19) restore uas settings
+07:01:46:711033	SD_T	Default             	sysorchts	Restore, user_def: 1
