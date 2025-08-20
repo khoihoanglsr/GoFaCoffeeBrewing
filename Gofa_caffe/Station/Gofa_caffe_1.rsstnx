@@ -4046,8 +4046,6 @@
         <ObjectRef ID="7794" />
         <ObjectRef ID="7875" />
         <ObjectRef ID="8433" />
-        <ObjectRef ID="10132" />
-        <ObjectRef ID="10186" />
         <ObjectRef ID="10260" />
         <ObjectRef ID="11452" />
         <ObjectRef ID="11477" />
@@ -4154,9 +4152,9 @@
         <ObjectRef ID="15191" />
         <ObjectRef ID="15272" />
         <ObjectRef ID="15396" />
-        <ObjectRef ID="15419" />
-        <ObjectRef ID="15479" />
         <ObjectRef ID="15557" />
+        <ObjectRef ID="15614" />
+        <ObjectRef ID="15674" />
       </Declarations>
       <Targets>
         <ObjectRef ID="2414" />
@@ -8179,8 +8177,8 @@
       <Transform>
         <RowX X="0.954103488311434" Y="0.00185356495497501" Z="-0.299471364054914" W="0" />
         <RowY X="-0.00194272579424904" Y="0.999998112906464" Z="0" W="0" />
-        <RowZ X="0.299470798924438" Y="0.000581790743591758" Z="0.954105288797358" W="0" />
-        <RowT X="-0.0793597617149761" Y="-0.000154174547051816" Z="0.0121620984687002" W="1" />
+        <RowZ X="0.299470798924439" Y="0.000581790743591758" Z="0.954105288797358" W="0" />
+        <RowT X="-0.0793597617149763" Y="-0.000154174547051816" Z="0.0121620984687003" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -8206,10 +8204,10 @@
     <MechanismLinkInstance ID="2386" Name="Link3" Parent="2382" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
       <Definition ID="16" DocID="1" />
       <Transform>
-        <RowX X="0.991459306481439" Y="0.00192613720345037" Z="-0.130402199317414" W="0" />
+        <RowX X="0.991459306481438" Y="0.00192613720345037" Z="-0.130402199317414" W="0" />
         <RowY X="-0.00194272579424904" Y="0.999998112906464" Z="0" W="0" />
-        <RowZ X="0.130401953236266" Y="0.000253335716244206" Z="0.991461177461418" W="0" />
-        <RowT X="0.040510049877938" Y="7.87000673375985E-05" Z="-0.0143232265941187" W="1" />
+        <RowZ X="0.130401953236267" Y="0.000253335716244207" Z="0.991461177461418" W="0" />
+        <RowT X="0.0405100498779378" Y="7.87000673375981E-05" Z="-0.0143232265941186" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -8235,10 +8233,10 @@
     <MechanismLinkInstance ID="2387" Name="Link4" Parent="2382" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
       <Definition ID="17" DocID="1" />
       <Transform>
-        <RowX X="0.991459306481439" Y="0.00192613720344688" Z="-0.130402199317414" W="0" />
+        <RowX X="0.991459306481438" Y="0.00192613720344688" Z="-0.130402199317414" W="0" />
         <RowY X="-0.00251583430113865" Y="0.999987341074153" Z="-0.00435755312245268" W="0" />
-        <RowZ X="0.130392155320457" Y="0.00464840692272963" Z="0.991451601513643" W="0" />
-        <RowT X="0.0405180743709856" Y="-0.00352086325077396" Z="-0.0143153838928906" W="1" />
+        <RowZ X="0.130392155320458" Y="0.00464840692272963" Z="0.991451601513643" W="0" />
+        <RowT X="0.0405180743709854" Y="-0.00352086325077396" Z="-0.0143153838928904" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -8264,9 +8262,9 @@
     <MechanismLinkInstance ID="2388" Name="Link5" Parent="2382" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
       <Definition ID="18" DocID="1" />
       <Transform>
-        <RowX X="0.866025419281562" Y="1.12281598949049E-11" Z="-0.499999973158194" W="0" />
-        <RowY X="-0.00251583430114211" Y="0.999987341074153" Z="-0.00435755312245223" W="0" />
-        <RowZ X="0.499993643695561" Y="0.00503166885295489" Z="0.866014456330026" W="0" />
+        <RowX X="0.866025419281562" Y="1.12281601117453E-11" Z="-0.499999973158194" W="0" />
+        <RowY X="-0.00251583430114211" Y="0.999987341074153" Z="-0.00435755312245222" W="0" />
+        <RowZ X="0.499993643695561" Y="0.00503166885295488" Z="0.866014456330026" W="0" />
         <RowT X="-0.203231617624283" Y="-0.00292947029128565" Z="0.262128591717658" W="1" />
       </Transform>
       <Source Value="" />
@@ -8293,10 +8291,10 @@
     <MechanismLinkInstance ID="2389" Name="Link6" Parent="2382" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
       <Definition ID="19" DocID="1" />
       <Transform>
-        <RowX X="0.866025419281562" Y="1.12246684557422E-11" Z="-0.499999973158194" W="0" />
-        <RowY X="-5.14286616765114E-11" Y="1" Z="-6.66277224364853E-11" W="0" />
-        <RowZ X="0.499999973158194" Y="8.34156311732559E-11" Z="0.866025419281563" W="0" />
-        <RowT X="-0.20323730781119" Y="0.00159399993253178" Z="0.262118736024227" W="1" />
+        <RowX X="0.866025419281562" Y="1.12246686725826E-11" Z="-0.499999973158194" W="0" />
+        <RowY X="-5.14286608091497E-11" Y="1" Z="-6.66277207017618E-11" W="0" />
+        <RowZ X="0.499999973158194" Y="8.34156285711707E-11" Z="0.866025419281562" W="0" />
+        <RowT X="-0.203237307811189" Y="0.00159399993253178" Z="0.262118736024227" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -8323,9 +8321,9 @@
       <Robtarget ID="12305" />
       <Workobject ID="3354" />
       <ReferenceFrame>
-        <RowX X="5.20000081882351E-08" Y="-1.57999997252171E-07" Z="-0.999999999999986" W="0" />
-        <RowY X="-0.999999999999994" Y="-1.02000004109869E-07" Z="-5.19999920722351E-08" W="0" />
-        <RowZ X="-1.01999995893869E-07" Y="0.999999999999982" Z="-1.58000002556171E-07" W="0" />
+        <RowX X="5.20000081882344E-08" Y="-1.57999997252169E-07" Z="-0.999999999999986" W="0" />
+        <RowY X="-0.999999999999994" Y="-1.02000004109867E-07" Z="-5.19999920722344E-08" W="0" />
+        <RowZ X="-1.01999995893867E-07" Y="0.999999999999982" Z="-1.58000002556169E-07" W="0" />
         <RowT X="0.517091258268" Y="0.311137109641" Z="0.259211958834" W="1" />
       </ReferenceFrame>
       <Color Red="0" Green="0" Blue="0" Alpha="0" />
@@ -8361,10 +8359,12 @@
         <ObjectRef ID="6397" />
         <ObjectRef ID="6399" />
         <ObjectRef ID="12848" />
+        <ObjectRef ID="15769" />
         <ObjectRef ID="12850" />
         <ObjectRef ID="6405" />
         <ObjectRef ID="12872" />
         <ObjectRef ID="12874" />
+        <ObjectRef ID="15771" />
         <ObjectRef ID="12852" />
         <ObjectRef ID="12876" />
         <ObjectRef ID="6415" />
@@ -8670,9 +8670,9 @@
       <Robtarget ID="12305" />
       <Workobject ID="1201" />
       <ReferenceFrame>
-        <RowX X="5.20000081882449E-08" Y="-1.57999997252199E-07" Z="-0.999999999999986" W="0" />
-        <RowY X="-0.999999999999994" Y="-1.02000004109897E-07" Z="-5.19999920722449E-08" W="0" />
-        <RowZ X="-1.01999995893897E-07" Y="0.999999999999982" Z="-1.58000002556199E-07" W="0" />
+        <RowX X="5.20000081882442E-08" Y="-1.57999997252197E-07" Z="-0.999999999999986" W="0" />
+        <RowY X="-0.999999999999994" Y="-1.02000004109895E-07" Z="-5.19999920722442E-08" W="0" />
+        <RowZ X="-1.01999995893895E-07" Y="0.999999999999982" Z="-1.58000002556197E-07" W="0" />
         <RowT X="0.517091258268" Y="0.199326867232" Z="0.259211958834" W="1" />
       </ReferenceFrame>
       <Color Red="0" Green="0" Blue="0" Alpha="0" />
@@ -9909,7 +9909,7 @@
         <ObjectRef ID="7728" />
         <ObjectRef ID="7744" />
         <ObjectRef ID="7761" />
-        <ObjectRef ID="12878" />
+        <ObjectRef ID="15773" />
       </RoutineCalls>
     </PathProcedureDeclaration>
     <RAPIDDeclarationInfo ID="7727" Name="" Parent="7726" Local="false" EnableSync="true">
@@ -10550,7 +10550,7 @@
       <ReferenceFrame>
         <RowX X="0.701586715242164" Y="0.710552965327695" Z="0.0537639699029995" W="0" />
         <RowY X="-0.712584086964978" Y="0.69958693994792" Z="0.0529342276659794" W="0" />
-        <RowZ X="1.25150147189945E-09" Y="-0.0754493003169968" Z="0.997149639262672" W="0" />
+        <RowZ X="1.25150144414388E-09" Y="-0.0754493003169968" Z="0.997149639262671" W="0" />
         <RowT X="0.09520478648" Y="1.105030713254" Z="0.059666329454" W="1" />
       </ReferenceFrame>
       <Color Red="0" Green="0" Blue="0" Alpha="0" />
@@ -10583,7 +10583,7 @@
       <ReferenceFrame>
         <RowX X="0.701586715242164" Y="0.710552965327695" Z="0.0537639699029995" W="0" />
         <RowY X="-0.712584086964978" Y="0.69958693994792" Z="0.0529342276659794" W="0" />
-        <RowZ X="1.25150147189945E-09" Y="-0.0754493003169968" Z="0.997149639262672" W="0" />
+        <RowZ X="1.25150144414388E-09" Y="-0.0754493003169968" Z="0.997149639262671" W="0" />
         <RowT X="-0.101019960285" Y="0.903177509526" Z="0.085873062411" W="1" />
       </ReferenceFrame>
       <Color Red="0" Green="0" Blue="0" Alpha="0" />
@@ -10778,7 +10778,7 @@
         <RowX X="0" Y="-1" Z="0" W="0" />
         <RowY X="1" Y="0" Z="0" W="0" />
         <RowZ X="0" Y="0" Z="1" W="0" />
-        <RowT X="-0.04438" Y="0.693791" Z="0.2385" W="1" />
+        <RowT X="-0.04438" Y="0.699791" Z="0.2495" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -10798,7 +10798,7 @@
     <DataDeclaration ID="8433" Name="Workobject_Conial_Burr" Parent="1198" StorageType="2" DataType="wobjdata" IsInline="false" FrameSize="0.075" ShowName="false" Dimension1="0" Dimension2="0" Dimension3="0">
       <DeclarationInfo ID="8434" />
       <RoutineName Value="" />
-      <InitialExpression Value="[FALSE,TRUE,&quot;&quot;,[[-44.38,690.791,228.5],[1,0,0,0]],[[0,0,0],[1,0,0,0]]]" />
+      <InitialExpression Value="[FALSE,TRUE,&quot;&quot;,[[-44.38,696.791,239.5],[1,0,0,0]],[[0,0,0],[1,0,0,0]]]" />
       <UserFrameFollowObject ID="-1" />
       <UserFrameFollowOffset>
         <RowX X="1" Y="0" Z="0" W="0" />
@@ -10974,182 +10974,13 @@
       <Robtarget ID="12427" />
       <Workobject ID="3358" />
       <ReferenceFrame>
-        <RowX X="-0.999999999999996" Y="7.91959604657786E-08" Z="-4.80832595653651E-08" W="0" />
-        <RowY X="4.80832627013651E-08" Y="3.95979777523882E-08" Z="-0.999999999999998" W="0" />
-        <RowZ X="-7.91959585617786E-08" Y="-0.999999999999996" Z="-3.95979815603882E-08" W="0" />
+        <RowX X="-0.999999999999996" Y="7.91959604657783E-08" Z="-4.80832595653649E-08" W="0" />
+        <RowY X="4.80832627013649E-08" Y="3.95979777523881E-08" Z="-0.999999999999998" W="0" />
+        <RowZ X="-7.91959585617783E-08" Y="-0.999999999999996" Z="-3.95979815603881E-08" W="0" />
         <RowT X="-0.124829019878" Y="0.199861997407" Z="0.035496024425" W="1" />
       </ReferenceFrame>
       <Color Red="0" Green="0" Blue="0" Alpha="0" />
     </Target>
-    <PathProcedureDeclaration ID="10132" Name="Caffee" Parent="1198" ShowName="false" ZoneVisualization="0" ShowSpeeds="false">
-      <DeclarationInfo ID="10133" />
-      <RoutineCalls>
-        <ObjectRef ID="10134" />
-        <ObjectRef ID="10136" />
-        <ObjectRef ID="10150" />
-        <ObjectRef ID="10152" />
-        <ObjectRef ID="10158" />
-        <ObjectRef ID="10160" />
-        <ObjectRef ID="10164" />
-        <ObjectRef ID="10166" />
-        <ObjectRef ID="10174" />
-        <ObjectRef ID="10176" />
-        <ObjectRef ID="10182" />
-        <ObjectRef ID="10184" />
-      </RoutineCalls>
-    </PathProcedureDeclaration>
-    <RAPIDDeclarationInfo ID="10133" Name="" Parent="10132" Local="false" EnableSync="true">
-      <TaskName Value="" />
-      <ModuleName Value="Kcare_Latte_art" />
-    </RAPIDDeclarationInfo>
-    <RsPathCallInstruction ID="10134" Name="Home" Parent="10132">
-      <ArgumentList ID="10135" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10135" Name="" Parent="10134" />
-    <RsPathCallInstruction ID="10136" Name="Pick_Tool1" Parent="10132">
-      <ArgumentList ID="10137" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10137" Name="" Parent="10136" />
-    <RsPathCallInstruction ID="10150" Name="Drop_Tool1" Parent="10132">
-      <ArgumentList ID="10151" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10151" Name="" Parent="10150" />
-    <RsPathCallInstruction ID="10152" Name="Pick_Tool2" Parent="10132">
-      <ArgumentList ID="10153" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10153" Name="" Parent="10152" />
-    <RsPathCallInstruction ID="10158" Name="Drop_Tool2" Parent="10132">
-      <ArgumentList ID="10159" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10159" Name="" Parent="10158" />
-    <RsPathCallInstruction ID="10160" Name="Pick_Tool1" Parent="10132">
-      <ArgumentList ID="10161" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10161" Name="" Parent="10160" />
-    <RsPathCallInstruction ID="10164" Name="Drop_Tool1" Parent="10132">
-      <ArgumentList ID="10165" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10165" Name="" Parent="10164" />
-    <RsPathCallInstruction ID="10166" Name="Pick_Tool2" Parent="10132">
-      <ArgumentList ID="10167" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10167" Name="" Parent="10166" />
-    <RsPathCallInstruction ID="10174" Name="Drop_Tool2" Parent="10132">
-      <ArgumentList ID="10175" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10175" Name="" Parent="10174" />
-    <RsPathCallInstruction ID="10176" Name="Pick_Tool1" Parent="10132">
-      <ArgumentList ID="10177" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10177" Name="" Parent="10176" />
-    <RsPathCallInstruction ID="10182" Name="Drop_Tool1" Parent="10132">
-      <ArgumentList ID="10183" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10183" Name="" Parent="10182" />
-    <RsPathCallInstruction ID="10184" Name="Home" Parent="10132">
-      <ArgumentList ID="10185" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10185" Name="" Parent="10184" />
-    <PathProcedureDeclaration ID="10186" Name="Caffee_Milk" Parent="1198" ShowName="false" ZoneVisualization="0" ShowSpeeds="false">
-      <DeclarationInfo ID="10187" />
-      <RoutineCalls>
-        <ObjectRef ID="10188" />
-        <ObjectRef ID="10190" />
-        <ObjectRef ID="10204" />
-        <ObjectRef ID="10206" />
-        <ObjectRef ID="10212" />
-        <ObjectRef ID="10214" />
-        <ObjectRef ID="10218" />
-        <ObjectRef ID="10220" />
-        <ObjectRef ID="10226" />
-        <ObjectRef ID="10230" />
-        <ObjectRef ID="10232" />
-        <ObjectRef ID="10234" />
-        <ObjectRef ID="10238" />
-        <ObjectRef ID="10240" />
-        <ObjectRef ID="10248" />
-        <ObjectRef ID="10250" />
-        <ObjectRef ID="12274" />
-        <ObjectRef ID="10256" />
-        <ObjectRef ID="10258" />
-      </RoutineCalls>
-    </PathProcedureDeclaration>
-    <RAPIDDeclarationInfo ID="10187" Name="" Parent="10186" Local="false" EnableSync="true">
-      <TaskName Value="" />
-      <ModuleName Value="Kcare_Latte_art" />
-    </RAPIDDeclarationInfo>
-    <RsPathCallInstruction ID="10188" Name="Home" Parent="10186">
-      <ArgumentList ID="10189" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10189" Name="" Parent="10188" />
-    <RsPathCallInstruction ID="10190" Name="Pick_Tool1" Parent="10186">
-      <ArgumentList ID="10191" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10191" Name="" Parent="10190" />
-    <RsPathCallInstruction ID="10204" Name="Drop_Tool1" Parent="10186">
-      <ArgumentList ID="10205" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10205" Name="" Parent="10204" />
-    <RsPathCallInstruction ID="10206" Name="Pick_Tool2" Parent="10186">
-      <ArgumentList ID="10207" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10207" Name="" Parent="10206" />
-    <RsPathCallInstruction ID="10212" Name="Drop_Tool2" Parent="10186">
-      <ArgumentList ID="10213" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10213" Name="" Parent="10212" />
-    <RsPathCallInstruction ID="10214" Name="Pick_Tool1" Parent="10186">
-      <ArgumentList ID="10215" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10215" Name="" Parent="10214" />
-    <RsPathCallInstruction ID="10218" Name="Drop_Tool1" Parent="10186">
-      <ArgumentList ID="10219" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10219" Name="" Parent="10218" />
-    <RsPathCallInstruction ID="10220" Name="Pick_Tool2" Parent="10186">
-      <ArgumentList ID="10221" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10221" Name="" Parent="10220" />
-    <RsPathCallInstruction ID="10226" Name="Move_C_R" Parent="10186">
-      <ArgumentList ID="10227" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10227" Name="" Parent="10226" />
-    <RsPathCallInstruction ID="10230" Name="Move_C_L" Parent="10186">
-      <ArgumentList ID="10231" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10231" Name="" Parent="10230" />
-    <RsPathCallInstruction ID="10232" Name="Drop_Tool2" Parent="10186">
-      <ArgumentList ID="10233" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10233" Name="" Parent="10232" />
-    <RsPathCallInstruction ID="10234" Name="Pick_Tool3" Parent="10186">
-      <ArgumentList ID="10235" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10235" Name="" Parent="10234" />
-    <RsPathCallInstruction ID="10238" Name="Drop_Tool3" Parent="10186">
-      <ArgumentList ID="10239" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10239" Name="" Parent="10238" />
-    <RsPathCallInstruction ID="10240" Name="Pick_Tool2" Parent="10186">
-      <ArgumentList ID="10241" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10241" Name="" Parent="10240" />
-    <RsPathCallInstruction ID="10248" Name="Drop_Tool2" Parent="10186">
-      <ArgumentList ID="10249" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10249" Name="" Parent="10248" />
-    <RsPathCallInstruction ID="10250" Name="Pick_Tool1" Parent="10186">
-      <ArgumentList ID="10251" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10251" Name="" Parent="10250" />
-    <RsPathCallInstruction ID="10256" Name="Drop_Tool1" Parent="10186">
-      <ArgumentList ID="10257" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10257" Name="" Parent="10256" />
-    <RsPathCallInstruction ID="10258" Name="Home" Parent="10186">
-      <ArgumentList ID="10259" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="10259" Name="" Parent="10258" />
     <PathProcedureDeclaration ID="10260" Name="CupDetection" Parent="1198" ShowName="false" ZoneVisualization="0" ShowSpeeds="false">
       <DeclarationInfo ID="10261" />
       <RoutineCalls>
@@ -11203,10 +11034,10 @@
       </Attributes>
       <Definition ID="10357" />
       <Transform>
-        <RowX X="-0.523527392177954" Y="0" Z="-0.852008843639168" W="0" />
+        <RowX X="-0.523527392177954" Y="0" Z="-0.852008843639167" W="0" />
         <RowY X="0" Y="1" Z="0" W="0" />
-        <RowZ X="0.852008843639168" Y="0" Z="-0.523527392177954" W="0" />
-        <RowT X="0.740763809264176" Y="0.0015940000139318" Z="0.755175505462905" W="1" />
+        <RowZ X="0.852008843639167" Y="0" Z="-0.523527392177954" W="0" />
+        <RowT X="0.740763809264176" Y="0.00159400001393174" Z="0.755175505462904" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -11709,7 +11540,7 @@
         <RowX X="-0.499999973158194" Y="0" Z="-0.866025419281562" W="0" />
         <RowY X="0" Y="1" Z="0" W="0" />
         <RowZ X="0.866025419281562" Y="0" Z="-0.499999973158194" W="0" />
-        <RowT X="0.8615977414684" Y="0.00117800001393172" Z="0.694969199297323" W="1" />
+        <RowT X="0.861597741468401" Y="0.00117800001393172" Z="0.694969199297323" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -12888,9 +12719,9 @@
       <Robtarget ID="12443" />
       <Workobject ID="11452" />
       <ReferenceFrame>
-        <RowX X="-2.3051680719801E-07" Y="-2.54558741034201E-08" Z="-0.999999999999973" W="0" />
-        <RowY X="-2.60215298295051E-07" Y="0.999999999999966" Z="-2.54558141194202E-08" W="0" />
-        <RowZ X="0.99999999999994" Y="2.60215292427051E-07" Z="-2.3051681382201E-07" W="0" />
+        <RowX X="-2.30516807198004E-07" Y="-2.54558741034194E-08" Z="-0.999999999999973" W="0" />
+        <RowY X="-2.60215298295035E-07" Y="0.999999999999966" Z="-2.54558141194195E-08" W="0" />
+        <RowZ X="0.99999999999994" Y="2.60215292427035E-07" Z="-2.30516813822004E-07" W="0" />
         <RowT X="-0.351087047021" Y="-0.692018125133" Z="0.23641482325" W="1" />
       </ReferenceFrame>
       <Color Red="0" Green="0" Blue="0" Alpha="0" />
@@ -12921,9 +12752,9 @@
       <Robtarget ID="12445" />
       <Workobject ID="11452" />
       <ReferenceFrame>
-        <RowX X="-2.30516807198004E-07" Y="-2.54558741034195E-08" Z="-0.999999999999973" W="0" />
-        <RowY X="-2.60215298295036E-07" Y="0.999999999999966" Z="-2.54558141194196E-08" W="0" />
-        <RowZ X="0.99999999999994" Y="2.60215292427036E-07" Z="-2.30516813822004E-07" W="0" />
+        <RowX X="-2.30516807197998E-07" Y="-2.54558741034188E-08" Z="-0.999999999999973" W="0" />
+        <RowY X="-2.6021529829502E-07" Y="0.999999999999966" Z="-2.54558141194189E-08" W="0" />
+        <RowZ X="0.99999999999994" Y="2.6021529242702E-07" Z="-2.30516813821998E-07" W="0" />
         <RowT X="-0.351087047021" Y="-0.692018125133" Z="0.23641482325" W="1" />
       </ReferenceFrame>
       <Color Red="0" Green="0" Blue="0" Alpha="0" />
@@ -12932,9 +12763,9 @@
       <Robtarget ID="12447" />
       <Workobject ID="11452" />
       <ReferenceFrame>
-        <RowX X="-2.30516807197998E-07" Y="-2.54558741034188E-08" Z="-0.999999999999973" W="0" />
-        <RowY X="-2.6021529829502E-07" Y="0.999999999999966" Z="-2.54558141194189E-08" W="0" />
-        <RowZ X="0.99999999999994" Y="2.6021529242702E-07" Z="-2.30516813821998E-07" W="0" />
+        <RowX X="-2.30516807197992E-07" Y="-2.54558741034181E-08" Z="-0.999999999999973" W="0" />
+        <RowY X="-2.60215298295004E-07" Y="0.999999999999966" Z="-2.54558141194182E-08" W="0" />
+        <RowZ X="0.99999999999994" Y="2.60215292427004E-07" Z="-2.30516813821992E-07" W="0" />
         <RowT X="-0.351087047021" Y="-0.692018125133" Z="0.23641482325" W="1" />
       </ReferenceFrame>
       <Color Red="0" Green="0" Blue="0" Alpha="0" />
@@ -12943,9 +12774,9 @@
       <Robtarget ID="12449" />
       <Workobject ID="11452" />
       <ReferenceFrame>
-        <RowX X="-2.30516807197991E-07" Y="-2.54558741034181E-08" Z="-0.999999999999973" W="0" />
-        <RowY X="-2.60215298295004E-07" Y="0.999999999999966" Z="-2.54558141194182E-08" W="0" />
-        <RowZ X="0.99999999999994" Y="2.60215292427004E-07" Z="-2.30516813821991E-07" W="0" />
+        <RowX X="-2.30516807197985E-07" Y="-2.54558741034174E-08" Z="-0.999999999999973" W="0" />
+        <RowY X="-2.60215298294988E-07" Y="0.999999999999966" Z="-2.54558141194175E-08" W="0" />
+        <RowZ X="0.99999999999994" Y="2.60215292426988E-07" Z="-2.30516813821985E-07" W="0" />
         <RowT X="-0.351087047021" Y="-0.692018125133" Z="0.23641482325" W="1" />
       </ReferenceFrame>
       <Color Red="0" Green="0" Blue="0" Alpha="0" />
@@ -13226,10 +13057,6 @@
     <RoutineArgument ID="12267" Name="WObj" Parent="12254" Value="Workobject_Change_Staytion" />
     <RoutineArgument ID="12268" Name="Corr" Parent="12254" Enabled="false" />
     <RoutineArgument ID="12269" Name="TLoad" Parent="12254" Enabled="false" />
-    <RsPathCallInstruction ID="12274" Name="Washing_Phin" Parent="10186">
-      <ArgumentList ID="12275" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="12275" Name="" Parent="12274" />
     <MoveInstructionCall ID="12278" Name="MoveL" Parent="11477" Thickness="2" Reachable="1">
       <ArgumentList ID="12279" />
       <GroupName Value="Move" />
@@ -13500,7 +13327,7 @@
       </Attributes>
       <DeclarationInfo ID="12324" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-281.615966661,-93.794,-126.110392399],[0.991444861,0,0.130526192,0],[0,-2,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-276.739066802,-98.13,-115.81],[0.991447378,0.000077424,0.13050705,0.000028056],[0,-2,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12324" Name="" Parent="12323" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -13521,7 +13348,7 @@
       </Attributes>
       <DeclarationInfo ID="12326" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-257.34623916,-93.794,-30.678449978],[0.991444862,0,0.130526191,0],[0,-2,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-253.17,-98.1,-29.03],[0.991445,0.000068057,0.130528,0.000018265],[0,-1,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12326" Name="" Parent="12325" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -13542,7 +13369,7 @@
       </Attributes>
       <DeclarationInfo ID="12328" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-257.386447948,-93.609831953,-30.671360084],[0.931438618,0.025993433,0.125109706,0.340725703],[0,-2,1,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-253.2,-98.02,-29.03],[0.95674,0.0342962,0.125942,0.260022],[0,-1,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12328" Name="" Parent="12327" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -13747,7 +13574,7 @@
       </Attributes>
       <DeclarationInfo ID="12348" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-568.359946286,14.43221477,-702.980372442],[0.313643134,0.132522173,0.366717444,-0.865785294],[-2,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-570.58,-249.05,-446.58],[0.313695,0.132569,0.366718,-0.865759],[-2,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12348" Name="" Parent="12347" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -13763,7 +13590,7 @@
       </Attributes>
       <DeclarationInfo ID="12350" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-568.36,-289.78,-408.37],[0.313659,0.132514,0.366713,-0.865783],[-2,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-570.57,-289.17,-407.72],[0.313702,0.132548,0.366711,-0.865763],[-2,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12350" Name="" Parent="12349" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -13779,7 +13606,7 @@
       </Attributes>
       <DeclarationInfo ID="12352" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-673.14,-350.55,-471.11],[0.31364,0.132506,0.366717,-0.865789],[-2,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-665.81,-344.4,-464.75],[0.313687,0.132543,0.366714,-0.865768],[-2,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12352" Name="" Parent="12351" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -13795,7 +13622,7 @@
       </Attributes>
       <DeclarationInfo ID="12354" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-673.140207268,-49.653973506,-762.483216103],[0.313657976,0.132466081,0.366699447,-0.865796123],[-2,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-665.82,-176.11,-627.73],[0.313683,0.132545,0.366714,-0.865769],[-2,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12354" Name="" Parent="12353" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -13811,7 +13638,7 @@
       </Attributes>
       <DeclarationInfo ID="12356" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-22.38,879.36,-6.03],[0.921706,0.0349401,-0.0146217,0.386035],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-16.76,873.78,45.13],[0.921698,0.0349658,-0.0146335,0.386053],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12356" Name="" Parent="12355" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -13827,7 +13654,7 @@
       </Attributes>
       <DeclarationInfo ID="12358" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-22.37,865.43,175.26],[0.921705,0.0349639,-0.0146316,0.386036],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-16.76,863.95,175.16],[0.921698,0.0349627,-0.0146311,0.386053],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12358" Name="" Parent="12357" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -13843,7 +13670,7 @@
       </Attributes>
       <DeclarationInfo ID="12360" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-101.690000005,839.761826584,32.782719218],[0.921731879,0.034852895,-0.014586998,0.38598295],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-70.61,862.3,30.97],[0.921727,0.0348773,-0.0145975,0.385992],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12360" Name="" Parent="12359" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -13859,7 +13686,7 @@
       </Attributes>
       <DeclarationInfo ID="12362" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-101.689999996,836.526663788,75.53913211],[0.92173188,0.034852895,-0.014586998,0.38598295],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-96.95,832.55,69.16],[0.921723,0.0348829,-0.014602,0.386002],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12362" Name="" Parent="12361" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -13875,7 +13702,7 @@
       </Attributes>
       <DeclarationInfo ID="12364" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-101.68,835.73,86.12],[0.921731,0.0348416,-0.0145801,0.385986],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-96.95,831.4,84.37],[0.921723,0.0348832,-0.0146022,0.386001],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12364" Name="" Parent="12363" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -13976,7 +13803,7 @@
       </Attributes>
       <DeclarationInfo ID="12376" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-175.016866315,873.891928416,43.542500396],[0.921727087,0.034821458,-0.014582399,0.385997404],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-144.75,861.02,50.92],[0.921755,0.0348467,-0.0145929,0.385928],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12376" Name="" Parent="12375" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -13992,7 +13819,7 @@
       </Attributes>
       <DeclarationInfo ID="12378" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-172.166529959,868.075608663,83.216749062],[0.921727087,0.034821458,-0.014582399,0.385997404],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-144.76,859.84,66.39],[0.921755,0.0348435,-0.0145911,0.385927],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12378" Name="" Parent="12377" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -14008,7 +13835,7 @@
       </Attributes>
       <DeclarationInfo ID="12380" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-101.019960285,903.177509526,85.873062411],[0.921727087,0.034821459,-0.014582399,0.385997404],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-104.93,886.68,68.43],[0.921783,0.0348314,-0.0145816,0.385863],[0,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12380" Name="" Parent="12379" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -14024,7 +13851,7 @@
       </Attributes>
       <DeclarationInfo ID="12382" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-71.018414927,883.818445332,84.407930341],[0.921727087,0.034821458,-0.014582399,0.385997404],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-78.42,876.17,67.66],[0.921798,0.0348227,-0.0145756,0.385828],[0,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12382" Name="" Parent="12381" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -14040,7 +13867,7 @@
       </Attributes>
       <DeclarationInfo ID="12384" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-71.018414935,886.836417325,44.521944769],[0.921727087,0.034821458,-0.014582399,0.385997404],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-78.42,877.94,44.26],[0.921798,0.034833,-0.0145805,0.385828],[0,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12384" Name="" Parent="12383" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -14056,7 +13883,7 @@
       </Attributes>
       <DeclarationInfo ID="12386" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-579.04,-224.37,-746.6],[0.313426,0.132709,0.36679,-0.865804],[-1,-1,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-577.57,-229.48,-739.99],[0.313381,0.132733,0.366801,-0.865813],[-1,-1,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12386" Name="" Parent="12385" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -14072,7 +13899,7 @@
       </Attributes>
       <DeclarationInfo ID="12388" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-579.04,-365.06,-610.35],[0.313419,0.132724,0.366792,-0.865804],[-1,-1,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-577.57,-364.25,-609.48],[0.313384,0.132726,0.366798,-0.865814],[-1,-1,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12388" Name="" Parent="12387" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -14088,7 +13915,7 @@
       </Attributes>
       <DeclarationInfo ID="12390" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-671.09,-418.41,-665.43],[0.313438,0.132734,0.366789,-0.865797],[-1,-1,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-667.81,-416.56,-663.52],[0.313377,0.132711,0.366798,-0.865818],[-1,-1,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12390" Name="" Parent="12389" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -14104,7 +13931,7 @@
       </Attributes>
       <DeclarationInfo ID="12392" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-671.1,-345.95,-735.61],[0.313427,0.132762,0.366792,-0.865795],[-1,-1,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-667.82,-376.22,-702.61],[0.313358,0.132734,0.366802,-0.86582],[-1,-1,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12392" Name="" Parent="12391" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -14120,7 +13947,7 @@
       </Attributes>
       <DeclarationInfo ID="12394" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-475.819626729,-66.706160742,-786.768690422],[0.313499228,0.132651567,0.36677896,-0.86579154],[-1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-475.77,-281.06,-577.34],[0.313564,0.132655,0.366764,-0.865774],[-1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12394" Name="" Parent="12393" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -14136,7 +13963,7 @@
       </Attributes>
       <DeclarationInfo ID="12396" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-475.8,-334.22,-527.73],[0.313501,0.132628,0.366774,-0.865797],[-1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-475.77,-333.28,-526.77],[0.313569,0.132645,0.366762,-0.865774],[-1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12396" Name="" Parent="12395" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -14152,7 +13979,7 @@
       </Attributes>
       <DeclarationInfo ID="12398" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-577.01,-392.9,-588.31],[0.313506,0.132633,0.366773,-0.865794],[-1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-573.03,-389.65,-584.97],[0.313585,0.132657,0.36676,-0.865768],[-1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12398" Name="" Parent="12397" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -14168,7 +13995,7 @@
       </Attributes>
       <DeclarationInfo ID="12400" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-577.020232625,-112.833083558,-859.524815743],[0.313530343,0.132578093,0.366769449,-0.865795556],[-1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-573.03,-227.15,-742.34],[0.313582,0.132662,0.366762,-0.865767],[-1,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12400" Name="" Parent="12399" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -14205,7 +14032,7 @@
       </Attributes>
       <DeclarationInfo ID="12404" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-58.265294838,861.202604209,82.696703347],[0.921727087,0.034821458,-0.014582399,0.385997404],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-55.47,860.43,70.69],[0.921762,0.0348346,-0.0146011,0.385912],[0,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12404" Name="" Parent="12403" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -14221,7 +14048,7 @@
       </Attributes>
       <DeclarationInfo ID="12406" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-101.07532691,910.228520141,86.406247927],[0.921727087,0.034821458,-0.014582399,0.385997404],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-95.38,884.37,71.99],[0.92175,0.0348453,-0.0146064,0.385938],[0,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12406" Name="" Parent="12405" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -14237,7 +14064,7 @@
       </Attributes>
       <DeclarationInfo ID="12408" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-161.642729229,878.733903142,84.023208616],[0.921727087,0.034821458,-0.014582399,0.385997404],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-125.65,878.27,71.57],[0.921754,0.0348449,-0.0146053,0.38593],[0,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12408" Name="" Parent="12407" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -14253,7 +14080,7 @@
       </Attributes>
       <DeclarationInfo ID="12410" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[-164.493065585,884.550222895,44.34895995],[0.921727087,0.034821458,-0.014582399,0.385997404],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[-125.65,880.4,43.46],[0.921754,0.0348528,-0.0146097,0.385929],[0,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12410" Name="" Parent="12409" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -14458,7 +14285,7 @@
       </Attributes>
       <DeclarationInfo ID="12430" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[122.38,216.52,38.91],[0.000331345,-0.000329171,0.707034,-0.707179],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[122.16,166.54,40.82],[0.000354522,-0.000324263,0.70703,-0.707184],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12430" Name="" Parent="12429" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -14479,7 +14306,7 @@
       </Attributes>
       <DeclarationInfo ID="12432" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[122.38,66.32,38.91],[0.000318698,-0.000320321,0.707035,-0.707178],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[122.17,67.18,40.82],[0.000360758,-0.000330354,0.707029,-0.707185],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12432" Name="" Parent="12431" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -14521,7 +14348,7 @@
       </Attributes>
       <DeclarationInfo ID="12436" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[38.26,121.84,37.02],[0.000319735,-0.000265809,0.707037,-0.707176],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[37.56,124.92,37.62],[0.000331225,-0.000290302,0.707033,-0.70718],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12436" Name="" Parent="12435" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -14537,7 +14364,7 @@
       </Attributes>
       <DeclarationInfo ID="12438" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[38.29,121.84,37.15],[0.286931,0.287408,-0.645987,0.64635],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[37.58,124.92,37.73],[0.265935,0.266454,-0.654904,0.655272],[0,-1,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12438" Name="" Parent="12437" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -14810,7 +14637,7 @@
       </Attributes>
       <DeclarationInfo ID="12464" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[307.305347287,-111.274061296,79.357585587],[0.241844763,-0.664463024,0.241844763,0.664463024],[0,-1,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[370.5,-142.56,80.39],[0.241822,-0.664476,0.241854,0.664455],[0,-1,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12464" Name="" Parent="12463" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -14831,7 +14658,7 @@
       </Attributes>
       <DeclarationInfo ID="12466" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[230.700903059,-46.995300227,79.357585587],[0.241844763,-0.664463024,0.241844763,0.664463024],[0,-1,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[239.05,-46.99,80.42],[0.241837,-0.664471,0.241851,0.664456],[0,-1,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12466" Name="" Parent="12465" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -14852,7 +14679,7 @@
       </Attributes>
       <DeclarationInfo ID="12468" />
       <RoutineName Value="" />
-      <InitialExpression Value="[[230.700903059,-46.995300227,118.583809031],[0.241844763,-0.664463024,0.241844763,0.664463024],[0,-1,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+      <InitialExpression Value="[[239.04,-46.99,122.13],[0.241832,-0.664473,0.241847,0.664457],[0,-1,0,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="12468" Name="" Parent="12467" Local="false" EnableSync="true">
       <TaskName Value="T_ROB1" />
@@ -15251,44 +15078,6 @@
       <ArgumentList ID="12877" />
     </RsPathCallInstruction>
     <RoutineArgumentList ID="12877" Name="" Parent="12876" />
-    <MoveInstructionCall ID="12878" Name="MoveJ" Parent="7726" Thickness="2" Reachable="1">
-      <ArgumentList ID="12879" />
-      <GroupName Value="Move" />
-      <TemplateGroupName Value="Default" />
-      <Color Red="1" Green="1" Blue="0" Alpha="1" />
-    </MoveInstructionCall>
-    <RoutineArgumentList ID="12879" Name="" Parent="12878">
-      <RoutineArguments>
-        <ObjectRef ID="12880" />
-        <ObjectRef ID="12881" />
-        <ObjectRef ID="12882" />
-        <ObjectRef ID="12883" />
-        <ObjectRef ID="12884" />
-        <ObjectRef ID="12885" />
-        <ObjectRef ID="12886" />
-        <ObjectRef ID="12887" />
-        <ObjectRef ID="12888" />
-        <ObjectRef ID="12889" />
-        <ObjectRef ID="12890" />
-        <ObjectRef ID="12891" />
-        <ObjectRef ID="12892" />
-        <ObjectRef ID="12893" />
-      </RoutineArguments>
-    </RoutineArgumentList>
-    <RoutineArgument ID="12880" Name="Conc" Parent="12879" Enabled="false" />
-    <RoutineArgument ID="12881" Name="ToPoint" Parent="12879" Value="Change2_40" />
-    <RoutineArgument ID="12882" Name="ID" Parent="12879" Enabled="false" />
-    <RoutineArgument ID="12883" Name="Speed" Parent="12879" Value="v500" />
-    <RoutineArgument ID="12884" Name="V" Parent="12879" Enabled="false" />
-    <RoutineArgument ID="12885" Name="T" Parent="12879" Enabled="false" />
-    <RoutineArgument ID="12886" Name="KeepStartPath" Parent="12879" Enabled="false" />
-    <RoutineArgument ID="12887" Name="KeepEndPath" Parent="12879" Enabled="false" />
-    <RoutineArgument ID="12888" Name="Zone" Parent="12879" Value="fine" />
-    <RoutineArgument ID="12889" Name="Z" Parent="12879" Enabled="false" />
-    <RoutineArgument ID="12890" Name="Inpos" Parent="12879" Enabled="false" />
-    <RoutineArgument ID="12891" Name="Tool" Parent="12879" Value="Cup_Tool" />
-    <RoutineArgument ID="12892" Name="WObj" Parent="12879" Value="Workobject_Change_Staytion" />
-    <RoutineArgument ID="12893" Name="TLoad" Parent="12879" Enabled="false" />
     <ActionInstructionCall ID="12894" Name="WaitTime" Parent="11477" TrigValidity="0">
       <ArgumentList ID="12895" />
       <InstructionTemplateName Value="Default" />
@@ -15812,15 +15601,10 @@
         <ObjectRef ID="13403" />
         <ObjectRef ID="13419" />
         <ObjectRef ID="13435" />
-        <ObjectRef ID="13451" />
-        <ObjectRef ID="13467" />
-        <ObjectRef ID="13483" />
-        <ObjectRef ID="13499" />
-        <ObjectRef ID="13515" />
-        <ObjectRef ID="13531" />
+        <ObjectRef ID="15790" />
+        <ObjectRef ID="15597" />
         <ObjectRef ID="13547" />
-        <ObjectRef ID="13553" />
-        <ObjectRef ID="13570" />
+        <ObjectRef ID="15560" />
         <ObjectRef ID="13587" />
       </RoutineCalls>
     </PathProcedureDeclaration>
@@ -16698,234 +16482,6 @@
     <RoutineArgument ID="13448" Name="Tool" Parent="13436" Value="Phin_Tool" />
     <RoutineArgument ID="13449" Name="WObj" Parent="13436" Value="Workobject_Conial_Burr" />
     <RoutineArgument ID="13450" Name="TLoad" Parent="13436" Enabled="false" />
-    <MoveInstructionCall ID="13451" Name="MoveJ" Parent="13085" Thickness="2" Reachable="1">
-      <ArgumentList ID="13452" />
-      <GroupName Value="Move" />
-      <TemplateGroupName Value="Default" />
-      <Color Red="1" Green="1" Blue="0" Alpha="1" />
-    </MoveInstructionCall>
-    <RoutineArgumentList ID="13452" Name="" Parent="13451">
-      <RoutineArguments>
-        <ObjectRef ID="13453" />
-        <ObjectRef ID="13454" />
-        <ObjectRef ID="13455" />
-        <ObjectRef ID="13456" />
-        <ObjectRef ID="13457" />
-        <ObjectRef ID="13458" />
-        <ObjectRef ID="13459" />
-        <ObjectRef ID="13460" />
-        <ObjectRef ID="13461" />
-        <ObjectRef ID="13462" />
-        <ObjectRef ID="13463" />
-        <ObjectRef ID="13464" />
-        <ObjectRef ID="13465" />
-        <ObjectRef ID="13466" />
-      </RoutineArguments>
-    </RoutineArgumentList>
-    <RoutineArgument ID="13453" Name="Conc" Parent="13452" Enabled="false" />
-    <RoutineArgument ID="13454" Name="ToPoint" Parent="13452" Value="Conial_Burr_Pitch_2" />
-    <RoutineArgument ID="13455" Name="ID" Parent="13452" Enabled="false" />
-    <RoutineArgument ID="13456" Name="Speed" Parent="13452" Value="v50" />
-    <RoutineArgument ID="13457" Name="V" Parent="13452" Enabled="false" />
-    <RoutineArgument ID="13458" Name="T" Parent="13452" Enabled="false" />
-    <RoutineArgument ID="13459" Name="KeepStartPath" Parent="13452" Enabled="false" />
-    <RoutineArgument ID="13460" Name="KeepEndPath" Parent="13452" Enabled="false" />
-    <RoutineArgument ID="13461" Name="Zone" Parent="13452" Value="fine" />
-    <RoutineArgument ID="13462" Name="Z" Parent="13452" Enabled="false" />
-    <RoutineArgument ID="13463" Name="Inpos" Parent="13452" Enabled="false" />
-    <RoutineArgument ID="13464" Name="Tool" Parent="13452" Value="Phin_Tool" />
-    <RoutineArgument ID="13465" Name="WObj" Parent="13452" Value="Workobject_Conial_Burr" />
-    <RoutineArgument ID="13466" Name="TLoad" Parent="13452" Enabled="false" />
-    <MoveInstructionCall ID="13467" Name="MoveJ" Parent="13085" Thickness="2" Reachable="1">
-      <ArgumentList ID="13468" />
-      <GroupName Value="Move" />
-      <TemplateGroupName Value="Default" />
-      <Color Red="1" Green="1" Blue="0" Alpha="1" />
-    </MoveInstructionCall>
-    <RoutineArgumentList ID="13468" Name="" Parent="13467">
-      <RoutineArguments>
-        <ObjectRef ID="13469" />
-        <ObjectRef ID="13470" />
-        <ObjectRef ID="13471" />
-        <ObjectRef ID="13472" />
-        <ObjectRef ID="13473" />
-        <ObjectRef ID="13474" />
-        <ObjectRef ID="13475" />
-        <ObjectRef ID="13476" />
-        <ObjectRef ID="13477" />
-        <ObjectRef ID="13478" />
-        <ObjectRef ID="13479" />
-        <ObjectRef ID="13480" />
-        <ObjectRef ID="13481" />
-        <ObjectRef ID="13482" />
-      </RoutineArguments>
-    </RoutineArgumentList>
-    <RoutineArgument ID="13469" Name="Conc" Parent="13468" Enabled="false" />
-    <RoutineArgument ID="13470" Name="ToPoint" Parent="13468" Value="Conial_Burr_Roll_2" />
-    <RoutineArgument ID="13471" Name="ID" Parent="13468" Enabled="false" />
-    <RoutineArgument ID="13472" Name="Speed" Parent="13468" Value="v50" />
-    <RoutineArgument ID="13473" Name="V" Parent="13468" Enabled="false" />
-    <RoutineArgument ID="13474" Name="T" Parent="13468" Enabled="false" />
-    <RoutineArgument ID="13475" Name="KeepStartPath" Parent="13468" Enabled="false" />
-    <RoutineArgument ID="13476" Name="KeepEndPath" Parent="13468" Enabled="false" />
-    <RoutineArgument ID="13477" Name="Zone" Parent="13468" Value="fine" />
-    <RoutineArgument ID="13478" Name="Z" Parent="13468" Enabled="false" />
-    <RoutineArgument ID="13479" Name="Inpos" Parent="13468" Enabled="false" />
-    <RoutineArgument ID="13480" Name="Tool" Parent="13468" Value="Phin_Tool" />
-    <RoutineArgument ID="13481" Name="WObj" Parent="13468" Value="Workobject_Conial_Burr" />
-    <RoutineArgument ID="13482" Name="TLoad" Parent="13468" Enabled="false" />
-    <MoveInstructionCall ID="13483" Name="MoveJ" Parent="13085" Thickness="2" Reachable="1">
-      <ArgumentList ID="13484" />
-      <GroupName Value="Move" />
-      <TemplateGroupName Value="Default" />
-      <Color Red="1" Green="1" Blue="0" Alpha="1" />
-    </MoveInstructionCall>
-    <RoutineArgumentList ID="13484" Name="" Parent="13483">
-      <RoutineArguments>
-        <ObjectRef ID="13485" />
-        <ObjectRef ID="13486" />
-        <ObjectRef ID="13487" />
-        <ObjectRef ID="13488" />
-        <ObjectRef ID="13489" />
-        <ObjectRef ID="13490" />
-        <ObjectRef ID="13491" />
-        <ObjectRef ID="13492" />
-        <ObjectRef ID="13493" />
-        <ObjectRef ID="13494" />
-        <ObjectRef ID="13495" />
-        <ObjectRef ID="13496" />
-        <ObjectRef ID="13497" />
-        <ObjectRef ID="13498" />
-      </RoutineArguments>
-    </RoutineArgumentList>
-    <RoutineArgument ID="13485" Name="Conc" Parent="13484" Enabled="false" />
-    <RoutineArgument ID="13486" Name="ToPoint" Parent="13484" Value="Conial_Burr_Move" />
-    <RoutineArgument ID="13487" Name="ID" Parent="13484" Enabled="false" />
-    <RoutineArgument ID="13488" Name="Speed" Parent="13484" Value="v50" />
-    <RoutineArgument ID="13489" Name="V" Parent="13484" Enabled="false" />
-    <RoutineArgument ID="13490" Name="T" Parent="13484" Enabled="false" />
-    <RoutineArgument ID="13491" Name="KeepStartPath" Parent="13484" Enabled="false" />
-    <RoutineArgument ID="13492" Name="KeepEndPath" Parent="13484" Enabled="false" />
-    <RoutineArgument ID="13493" Name="Zone" Parent="13484" Value="fine" />
-    <RoutineArgument ID="13494" Name="Z" Parent="13484" Enabled="false" />
-    <RoutineArgument ID="13495" Name="Inpos" Parent="13484" Enabled="false" />
-    <RoutineArgument ID="13496" Name="Tool" Parent="13484" Value="Phin_Tool" />
-    <RoutineArgument ID="13497" Name="WObj" Parent="13484" Value="Workobject_Conial_Burr" />
-    <RoutineArgument ID="13498" Name="TLoad" Parent="13484" Enabled="false" />
-    <MoveInstructionCall ID="13499" Name="MoveJ" Parent="13085" Thickness="2" Reachable="1">
-      <ArgumentList ID="13500" />
-      <GroupName Value="Move" />
-      <TemplateGroupName Value="Default" />
-      <Color Red="1" Green="1" Blue="0" Alpha="1" />
-    </MoveInstructionCall>
-    <RoutineArgumentList ID="13500" Name="" Parent="13499">
-      <RoutineArguments>
-        <ObjectRef ID="13501" />
-        <ObjectRef ID="13502" />
-        <ObjectRef ID="13503" />
-        <ObjectRef ID="13504" />
-        <ObjectRef ID="13505" />
-        <ObjectRef ID="13506" />
-        <ObjectRef ID="13507" />
-        <ObjectRef ID="13508" />
-        <ObjectRef ID="13509" />
-        <ObjectRef ID="13510" />
-        <ObjectRef ID="13511" />
-        <ObjectRef ID="13512" />
-        <ObjectRef ID="13513" />
-        <ObjectRef ID="13514" />
-      </RoutineArguments>
-    </RoutineArgumentList>
-    <RoutineArgument ID="13501" Name="Conc" Parent="13500" Enabled="false" />
-    <RoutineArgument ID="13502" Name="ToPoint" Parent="13500" Value="Conial_Burr_Back" />
-    <RoutineArgument ID="13503" Name="ID" Parent="13500" Enabled="false" />
-    <RoutineArgument ID="13504" Name="Speed" Parent="13500" Value="v50" />
-    <RoutineArgument ID="13505" Name="V" Parent="13500" Enabled="false" />
-    <RoutineArgument ID="13506" Name="T" Parent="13500" Enabled="false" />
-    <RoutineArgument ID="13507" Name="KeepStartPath" Parent="13500" Enabled="false" />
-    <RoutineArgument ID="13508" Name="KeepEndPath" Parent="13500" Enabled="false" />
-    <RoutineArgument ID="13509" Name="Zone" Parent="13500" Value="fine" />
-    <RoutineArgument ID="13510" Name="Z" Parent="13500" Enabled="false" />
-    <RoutineArgument ID="13511" Name="Inpos" Parent="13500" Enabled="false" />
-    <RoutineArgument ID="13512" Name="Tool" Parent="13500" Value="Phin_Tool" />
-    <RoutineArgument ID="13513" Name="WObj" Parent="13500" Value="Workobject_Conial_Burr" />
-    <RoutineArgument ID="13514" Name="TLoad" Parent="13500" Enabled="false" />
-    <MoveInstructionCall ID="13515" Name="MoveJ" Parent="13085" Thickness="2" Reachable="1">
-      <ArgumentList ID="13516" />
-      <GroupName Value="Move" />
-      <TemplateGroupName Value="Default" />
-      <Color Red="1" Green="1" Blue="0" Alpha="1" />
-    </MoveInstructionCall>
-    <RoutineArgumentList ID="13516" Name="" Parent="13515">
-      <RoutineArguments>
-        <ObjectRef ID="13517" />
-        <ObjectRef ID="13518" />
-        <ObjectRef ID="13519" />
-        <ObjectRef ID="13520" />
-        <ObjectRef ID="13521" />
-        <ObjectRef ID="13522" />
-        <ObjectRef ID="13523" />
-        <ObjectRef ID="13524" />
-        <ObjectRef ID="13525" />
-        <ObjectRef ID="13526" />
-        <ObjectRef ID="13527" />
-        <ObjectRef ID="13528" />
-        <ObjectRef ID="13529" />
-        <ObjectRef ID="13530" />
-      </RoutineArguments>
-    </RoutineArgumentList>
-    <RoutineArgument ID="13517" Name="Conc" Parent="13516" Enabled="false" />
-    <RoutineArgument ID="13518" Name="ToPoint" Parent="13516" Value="Conial_Burr_Move" />
-    <RoutineArgument ID="13519" Name="ID" Parent="13516" Enabled="false" />
-    <RoutineArgument ID="13520" Name="Speed" Parent="13516" Value="v50" />
-    <RoutineArgument ID="13521" Name="V" Parent="13516" Enabled="false" />
-    <RoutineArgument ID="13522" Name="T" Parent="13516" Enabled="false" />
-    <RoutineArgument ID="13523" Name="KeepStartPath" Parent="13516" Enabled="false" />
-    <RoutineArgument ID="13524" Name="KeepEndPath" Parent="13516" Enabled="false" />
-    <RoutineArgument ID="13525" Name="Zone" Parent="13516" Value="fine" />
-    <RoutineArgument ID="13526" Name="Z" Parent="13516" Enabled="false" />
-    <RoutineArgument ID="13527" Name="Inpos" Parent="13516" Enabled="false" />
-    <RoutineArgument ID="13528" Name="Tool" Parent="13516" Value="Phin_Tool" />
-    <RoutineArgument ID="13529" Name="WObj" Parent="13516" Value="Workobject_Conial_Burr" />
-    <RoutineArgument ID="13530" Name="TLoad" Parent="13516" Enabled="false" />
-    <MoveInstructionCall ID="13531" Name="MoveJ" Parent="13085" Thickness="2" Reachable="1">
-      <ArgumentList ID="13532" />
-      <GroupName Value="Move" />
-      <TemplateGroupName Value="Default" />
-      <Color Red="1" Green="1" Blue="0" Alpha="1" />
-    </MoveInstructionCall>
-    <RoutineArgumentList ID="13532" Name="" Parent="13531">
-      <RoutineArguments>
-        <ObjectRef ID="13533" />
-        <ObjectRef ID="13534" />
-        <ObjectRef ID="13535" />
-        <ObjectRef ID="13536" />
-        <ObjectRef ID="13537" />
-        <ObjectRef ID="13538" />
-        <ObjectRef ID="13539" />
-        <ObjectRef ID="13540" />
-        <ObjectRef ID="13541" />
-        <ObjectRef ID="13542" />
-        <ObjectRef ID="13543" />
-        <ObjectRef ID="13544" />
-        <ObjectRef ID="13545" />
-        <ObjectRef ID="13546" />
-      </RoutineArguments>
-    </RoutineArgumentList>
-    <RoutineArgument ID="13533" Name="Conc" Parent="13532" Enabled="false" />
-    <RoutineArgument ID="13534" Name="ToPoint" Parent="13532" Value="Conial_Burr_Back" />
-    <RoutineArgument ID="13535" Name="ID" Parent="13532" Enabled="false" />
-    <RoutineArgument ID="13536" Name="Speed" Parent="13532" Value="v50" />
-    <RoutineArgument ID="13537" Name="V" Parent="13532" Enabled="false" />
-    <RoutineArgument ID="13538" Name="T" Parent="13532" Enabled="false" />
-    <RoutineArgument ID="13539" Name="KeepStartPath" Parent="13532" Enabled="false" />
-    <RoutineArgument ID="13540" Name="KeepEndPath" Parent="13532" Enabled="false" />
-    <RoutineArgument ID="13541" Name="Zone" Parent="13532" Value="fine" />
-    <RoutineArgument ID="13542" Name="Z" Parent="13532" Enabled="false" />
-    <RoutineArgument ID="13543" Name="Inpos" Parent="13532" Enabled="false" />
-    <RoutineArgument ID="13544" Name="Tool" Parent="13532" Value="Phin_Tool" />
-    <RoutineArgument ID="13545" Name="WObj" Parent="13532" Value="Workobject_Conial_Burr" />
-    <RoutineArgument ID="13546" Name="TLoad" Parent="13532" Enabled="false" />
     <ActionInstructionCall ID="13547" Name="SetDO" Parent="13085" TrigValidity="0">
       <ArgumentList ID="13548" />
       <InstructionTemplateName Value="Default" />
@@ -16943,86 +16499,6 @@
     <RoutineArgument ID="13550" Name="Sync" Parent="13548" Enabled="false" />
     <RoutineArgument ID="13551" Name="Signal" Parent="13548" Value="ABB_Scalable_IO_0_DO5" />
     <RoutineArgument ID="13552" Name="Value" Parent="13548" Value="0" />
-    <MoveInstructionCall ID="13553" Name="MoveL" Parent="13085" Thickness="2" Reachable="1">
-      <ArgumentList ID="13554" />
-      <GroupName Value="Move" />
-      <TemplateGroupName Value="Default" />
-      <Color Red="1" Green="1" Blue="0" Alpha="1" />
-    </MoveInstructionCall>
-    <RoutineArgumentList ID="13554" Name="" Parent="13553">
-      <RoutineArguments>
-        <ObjectRef ID="13555" />
-        <ObjectRef ID="13556" />
-        <ObjectRef ID="13557" />
-        <ObjectRef ID="13558" />
-        <ObjectRef ID="13559" />
-        <ObjectRef ID="13560" />
-        <ObjectRef ID="13561" />
-        <ObjectRef ID="13562" />
-        <ObjectRef ID="13563" />
-        <ObjectRef ID="13564" />
-        <ObjectRef ID="13565" />
-        <ObjectRef ID="13566" />
-        <ObjectRef ID="13567" />
-        <ObjectRef ID="13568" />
-        <ObjectRef ID="13569" />
-      </RoutineArguments>
-    </RoutineArgumentList>
-    <RoutineArgument ID="13555" Name="Conc" Parent="13554" Enabled="false" />
-    <RoutineArgument ID="13556" Name="ToPoint" Parent="13554" Value="Conial_Burr_20" />
-    <RoutineArgument ID="13557" Name="ID" Parent="13554" Enabled="false" />
-    <RoutineArgument ID="13558" Name="Speed" Parent="13554" Value="v50" />
-    <RoutineArgument ID="13559" Name="V" Parent="13554" Enabled="false" />
-    <RoutineArgument ID="13560" Name="T" Parent="13554" Enabled="false" />
-    <RoutineArgument ID="13561" Name="KeepStartPath" Parent="13554" Enabled="false" />
-    <RoutineArgument ID="13562" Name="KeepEndPath" Parent="13554" Enabled="false" />
-    <RoutineArgument ID="13563" Name="Zone" Parent="13554" Value="fine" />
-    <RoutineArgument ID="13564" Name="Z" Parent="13554" Enabled="false" />
-    <RoutineArgument ID="13565" Name="Inpos" Parent="13554" Enabled="false" />
-    <RoutineArgument ID="13566" Name="Tool" Parent="13554" Value="Phin_Tool" />
-    <RoutineArgument ID="13567" Name="WObj" Parent="13554" Value="Workobject_Conial_Burr" />
-    <RoutineArgument ID="13568" Name="Corr" Parent="13554" Enabled="false" />
-    <RoutineArgument ID="13569" Name="TLoad" Parent="13554" Enabled="false" />
-    <MoveInstructionCall ID="13570" Name="MoveL" Parent="13085" Thickness="2" Reachable="1">
-      <ArgumentList ID="13571" />
-      <GroupName Value="Move" />
-      <TemplateGroupName Value="Default" />
-      <Color Red="1" Green="1" Blue="0" Alpha="1" />
-    </MoveInstructionCall>
-    <RoutineArgumentList ID="13571" Name="" Parent="13570">
-      <RoutineArguments>
-        <ObjectRef ID="13572" />
-        <ObjectRef ID="13573" />
-        <ObjectRef ID="13574" />
-        <ObjectRef ID="13575" />
-        <ObjectRef ID="13576" />
-        <ObjectRef ID="13577" />
-        <ObjectRef ID="13578" />
-        <ObjectRef ID="13579" />
-        <ObjectRef ID="13580" />
-        <ObjectRef ID="13581" />
-        <ObjectRef ID="13582" />
-        <ObjectRef ID="13583" />
-        <ObjectRef ID="13584" />
-        <ObjectRef ID="13585" />
-        <ObjectRef ID="13586" />
-      </RoutineArguments>
-    </RoutineArgumentList>
-    <RoutineArgument ID="13572" Name="Conc" Parent="13571" Enabled="false" />
-    <RoutineArgument ID="13573" Name="ToPoint" Parent="13571" Value="Conial_Burr_10" />
-    <RoutineArgument ID="13574" Name="ID" Parent="13571" Enabled="false" />
-    <RoutineArgument ID="13575" Name="Speed" Parent="13571" Value="v50" />
-    <RoutineArgument ID="13576" Name="V" Parent="13571" Enabled="false" />
-    <RoutineArgument ID="13577" Name="T" Parent="13571" Enabled="false" />
-    <RoutineArgument ID="13578" Name="KeepStartPath" Parent="13571" Enabled="false" />
-    <RoutineArgument ID="13579" Name="KeepEndPath" Parent="13571" Enabled="false" />
-    <RoutineArgument ID="13580" Name="Zone" Parent="13571" Value="fine" />
-    <RoutineArgument ID="13581" Name="Z" Parent="13571" Enabled="false" />
-    <RoutineArgument ID="13582" Name="Inpos" Parent="13571" Enabled="false" />
-    <RoutineArgument ID="13583" Name="Tool" Parent="13571" Value="Phin_Tool" />
-    <RoutineArgument ID="13584" Name="WObj" Parent="13571" Value="Workobject_Conial_Burr" />
-    <RoutineArgument ID="13585" Name="Corr" Parent="13571" Enabled="false" />
-    <RoutineArgument ID="13586" Name="TLoad" Parent="13571" Enabled="false" />
     <MoveInstructionCall ID="13587" Name="MoveL" Parent="13085" Thickness="2" Reachable="1">
       <ArgumentList ID="13588" />
       <GroupName Value="Move" />
@@ -19604,54 +19080,16 @@
     <PathProcedureDeclaration ID="14613" Name="putInMilkPump" Parent="1198" ShowName="false" ZoneVisualization="0" ShowSpeeds="false">
       <DeclarationInfo ID="14614" />
       <RoutineCalls>
-        <ObjectRef ID="14615" />
         <ObjectRef ID="14631" />
         <ObjectRef ID="14648" />
         <ObjectRef ID="14665" />
+        <ObjectRef ID="15807" />
       </RoutineCalls>
     </PathProcedureDeclaration>
     <RAPIDDeclarationInfo ID="14614" Name="" Parent="14613" Local="false" EnableSync="true">
       <TaskName Value="" />
       <ModuleName Value="Kcare_Latte_art" />
     </RAPIDDeclarationInfo>
-    <MoveInstructionCall ID="14615" Name="MoveJ" Parent="14613" Thickness="2" Reachable="1">
-      <ArgumentList ID="14616" />
-      <GroupName Value="Move" />
-      <TemplateGroupName Value="Default" />
-      <Color Red="1" Green="1" Blue="0" Alpha="1" />
-    </MoveInstructionCall>
-    <RoutineArgumentList ID="14616" Name="" Parent="14615">
-      <RoutineArguments>
-        <ObjectRef ID="14617" />
-        <ObjectRef ID="14618" />
-        <ObjectRef ID="14619" />
-        <ObjectRef ID="14620" />
-        <ObjectRef ID="14621" />
-        <ObjectRef ID="14622" />
-        <ObjectRef ID="14623" />
-        <ObjectRef ID="14624" />
-        <ObjectRef ID="14625" />
-        <ObjectRef ID="14626" />
-        <ObjectRef ID="14627" />
-        <ObjectRef ID="14628" />
-        <ObjectRef ID="14629" />
-        <ObjectRef ID="14630" />
-      </RoutineArguments>
-    </RoutineArgumentList>
-    <RoutineArgument ID="14617" Name="Conc" Parent="14616" Enabled="false" />
-    <RoutineArgument ID="14618" Name="ToPoint" Parent="14616" Value="Milk_40" />
-    <RoutineArgument ID="14619" Name="ID" Parent="14616" Enabled="false" />
-    <RoutineArgument ID="14620" Name="Speed" Parent="14616" Value="v500" />
-    <RoutineArgument ID="14621" Name="V" Parent="14616" Enabled="false" />
-    <RoutineArgument ID="14622" Name="T" Parent="14616" Enabled="false" />
-    <RoutineArgument ID="14623" Name="KeepStartPath" Parent="14616" Enabled="false" />
-    <RoutineArgument ID="14624" Name="KeepEndPath" Parent="14616" Enabled="false" />
-    <RoutineArgument ID="14625" Name="Zone" Parent="14616" Value="fine" />
-    <RoutineArgument ID="14626" Name="Z" Parent="14616" Enabled="false" />
-    <RoutineArgument ID="14627" Name="Inpos" Parent="14616" Enabled="false" />
-    <RoutineArgument ID="14628" Name="Tool" Parent="14616" Value="Cup_Top_Tool" />
-    <RoutineArgument ID="14629" Name="WObj" Parent="14616" Value="Workobject_Milk" />
-    <RoutineArgument ID="14630" Name="TLoad" Parent="14616" Enabled="false" />
     <MoveInstructionCall ID="14631" Name="MoveL" Parent="14613" Thickness="2" Reachable="1">
       <ArgumentList ID="14632" />
       <GroupName Value="Move" />
@@ -21626,367 +21064,6 @@
     </RoutineArgumentList>
     <RoutineArgument ID="15417" Name="InPos" Parent="15416" Enabled="false" />
     <RoutineArgument ID="15418" Name="Time" Parent="15416" Value="0.05" />
-    <PathProcedureDeclaration ID="15419" Name="BlackCoffee" Parent="1198" ShowName="false" ZoneVisualization="0" ShowSpeeds="false">
-      <DeclarationInfo ID="15420" />
-      <RoutineCalls>
-        <ObjectRef ID="15421" />
-        <ObjectRef ID="15423" />
-        <ObjectRef ID="15425" />
-        <ObjectRef ID="15427" />
-        <ObjectRef ID="15429" />
-        <ObjectRef ID="15431" />
-        <ObjectRef ID="15433" />
-        <ObjectRef ID="15435" />
-        <ObjectRef ID="15437" />
-        <ObjectRef ID="15439" />
-        <ObjectRef ID="15441" />
-        <ObjectRef ID="15443" />
-        <ObjectRef ID="15445" />
-        <ObjectRef ID="15447" />
-        <ObjectRef ID="15449" />
-        <ObjectRef ID="15451" />
-        <ObjectRef ID="15453" />
-        <ObjectRef ID="15455" />
-        <ObjectRef ID="15457" />
-        <ObjectRef ID="15459" />
-        <ObjectRef ID="15463" />
-        <ObjectRef ID="15465" />
-        <ObjectRef ID="15467" />
-        <ObjectRef ID="15469" />
-        <ObjectRef ID="15471" />
-        <ObjectRef ID="15473" />
-        <ObjectRef ID="15475" />
-        <ObjectRef ID="15477" />
-      </RoutineCalls>
-    </PathProcedureDeclaration>
-    <RAPIDDeclarationInfo ID="15420" Name="" Parent="15419" Local="false" EnableSync="true">
-      <TaskName Value="" />
-      <ModuleName Value="Kcare_Latte_art" />
-    </RAPIDDeclarationInfo>
-    <RsPathCallInstruction ID="15421" Name="Home" Parent="15419">
-      <ArgumentList ID="15422" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15422" Name="" Parent="15421" />
-    <RsPathCallInstruction ID="15423" Name="pickTool1" Parent="15419">
-      <ArgumentList ID="15424" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15424" Name="" Parent="15423" />
-    <RsPathCallInstruction ID="15425" Name="takePhinFromBase" Parent="15419">
-      <ArgumentList ID="15426" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15426" Name="" Parent="15425" />
-    <RsPathCallInstruction ID="15427" Name="grindCoffeeConicalBurr" Parent="15419">
-      <ArgumentList ID="15428" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15428" Name="" Parent="15427" />
-    <RsPathCallInstruction ID="15429" Name="returnPhinToBase" Parent="15419">
-      <ArgumentList ID="15430" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15430" Name="" Parent="15429" />
-    <RsPathCallInstruction ID="15431" Name="tampCoffeePowder" Parent="15419">
-      <ArgumentList ID="15432" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15432" Name="" Parent="15431" />
-    <RsPathCallInstruction ID="15433" Name="takePhinFromBase" Parent="15419">
-      <ArgumentList ID="15434" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15434" Name="" Parent="15433" />
-    <RsPathCallInstruction ID="15435" Name="putPhinIntoCoffeemaker" Parent="15419">
-      <ArgumentList ID="15436" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15436" Name="" Parent="15435" />
-    <RsPathCallInstruction ID="15437" Name="dropTool1" Parent="15419">
-      <ArgumentList ID="15438" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15438" Name="" Parent="15437" />
-    <RsPathCallInstruction ID="15439" Name="Pick_Tool2" Parent="15419">
-      <ArgumentList ID="15440" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15440" Name="" Parent="15439" />
-    <RsPathCallInstruction ID="15441" Name="detectCup" Parent="15419">
-      <ArgumentList ID="15442" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15442" Name="" Parent="15441" />
-    <RsPathCallInstruction ID="15443" Name="pickCupEndpoint" Parent="15419">
-      <ArgumentList ID="15444" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15444" Name="" Parent="15443" />
-    <RsPathCallInstruction ID="15445" Name="putCupIntoCoffeemaker" Parent="15419">
-      <ArgumentList ID="15446" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15446" Name="" Parent="15445" />
-    <RsPathCallInstruction ID="15447" Name="Drop_Tool2" Parent="15419">
-      <ArgumentList ID="15448" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15448" Name="" Parent="15447" />
-    <RsPathCallInstruction ID="15449" Name="pickTool1" Parent="15419">
-      <ArgumentList ID="15450" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15450" Name="" Parent="15449" />
-    <RsPathCallInstruction ID="15451" Name="extractCoffee" Parent="15419">
-      <ArgumentList ID="15452" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15452" Name="" Parent="15451" />
-    <RsPathCallInstruction ID="15453" Name="dropTool1" Parent="15419">
-      <ArgumentList ID="15454" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15454" Name="" Parent="15453" />
-    <RsPathCallInstruction ID="15455" Name="Pick_Tool2" Parent="15419">
-      <ArgumentList ID="15456" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15456" Name="" Parent="15455" />
-    <RsPathCallInstruction ID="15457" Name="takeCupOutOfCoffeemaker" Parent="15419">
-      <ArgumentList ID="15458" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15458" Name="" Parent="15457" />
-    <ActionInstructionCall ID="15459" Name="WaitTime" Parent="15419" TrigValidity="0">
-      <ArgumentList ID="15460" />
-      <InstructionTemplateName Value="Default" />
-      <Color Red="1" Green="1" Blue="0.5019608" Alpha="0.5019608" />
-    </ActionInstructionCall>
-    <RoutineArgumentList ID="15460" Name="" Parent="15459">
-      <RoutineArguments>
-        <ObjectRef ID="15461" />
-        <ObjectRef ID="15462" />
-      </RoutineArguments>
-    </RoutineArgumentList>
-    <RoutineArgument ID="15461" Name="InPos" Parent="15460" Enabled="false" />
-    <RoutineArgument ID="15462" Name="Time" Parent="15460" Value="2" />
-    <RsPathCallInstruction ID="15463" Name="pickIce" Parent="15419">
-      <ArgumentList ID="15464" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15464" Name="" Parent="15463" />
-    <RsPathCallInstruction ID="15465" Name="dropCupEndpoint" Parent="15419">
-      <ArgumentList ID="15466" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15466" Name="" Parent="15465" />
-    <RsPathCallInstruction ID="15467" Name="Drop_Tool2" Parent="15419">
-      <ArgumentList ID="15468" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15468" Name="" Parent="15467" />
-    <RsPathCallInstruction ID="15469" Name="pickTool1" Parent="15419">
-      <ArgumentList ID="15470" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15470" Name="" Parent="15469" />
-    <RsPathCallInstruction ID="15471" Name="takePhinOutOfCoffeemaker" Parent="15419">
-      <ArgumentList ID="15472" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15472" Name="" Parent="15471" />
-    <RsPathCallInstruction ID="15473" Name="returnPhinToBase" Parent="15419">
-      <ArgumentList ID="15474" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15474" Name="" Parent="15473" />
-    <RsPathCallInstruction ID="15475" Name="dropTool1" Parent="15419">
-      <ArgumentList ID="15476" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15476" Name="" Parent="15475" />
-    <RsPathCallInstruction ID="15477" Name="Home" Parent="15419">
-      <ArgumentList ID="15478" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15478" Name="" Parent="15477" />
-    <PathProcedureDeclaration ID="15479" Name="MilkCoffee" Parent="1198" ShowName="false" ZoneVisualization="0" ShowSpeeds="false">
-      <DeclarationInfo ID="15480" />
-      <RoutineCalls>
-        <ObjectRef ID="15481" />
-        <ObjectRef ID="15483" />
-        <ObjectRef ID="15485" />
-        <ObjectRef ID="15487" />
-        <ObjectRef ID="15489" />
-        <ObjectRef ID="15491" />
-        <ObjectRef ID="15493" />
-        <ObjectRef ID="15495" />
-        <ObjectRef ID="15497" />
-        <ObjectRef ID="15499" />
-        <ObjectRef ID="15501" />
-        <ObjectRef ID="15503" />
-        <ObjectRef ID="15505" />
-        <ObjectRef ID="15507" />
-        <ObjectRef ID="15509" />
-        <ObjectRef ID="15511" />
-        <ObjectRef ID="15513" />
-        <ObjectRef ID="15515" />
-        <ObjectRef ID="15517" />
-        <ObjectRef ID="15519" />
-        <ObjectRef ID="15521" />
-        <ObjectRef ID="15523" />
-        <ObjectRef ID="15525" />
-        <ObjectRef ID="15527" />
-        <ObjectRef ID="15529" />
-        <ObjectRef ID="15531" />
-        <ObjectRef ID="15533" />
-        <ObjectRef ID="15535" />
-        <ObjectRef ID="15537" />
-        <ObjectRef ID="15541" />
-        <ObjectRef ID="15543" />
-        <ObjectRef ID="15545" />
-        <ObjectRef ID="15547" />
-        <ObjectRef ID="15549" />
-        <ObjectRef ID="15551" />
-        <ObjectRef ID="15553" />
-        <ObjectRef ID="15555" />
-      </RoutineCalls>
-    </PathProcedureDeclaration>
-    <RAPIDDeclarationInfo ID="15480" Name="" Parent="15479" Local="false" EnableSync="true">
-      <TaskName Value="" />
-      <ModuleName Value="Kcare_Latte_art" />
-    </RAPIDDeclarationInfo>
-    <RsPathCallInstruction ID="15481" Name="Home" Parent="15479">
-      <ArgumentList ID="15482" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15482" Name="" Parent="15481" />
-    <RsPathCallInstruction ID="15483" Name="pickTool1" Parent="15479">
-      <ArgumentList ID="15484" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15484" Name="" Parent="15483" />
-    <RsPathCallInstruction ID="15485" Name="takePhinFromBase" Parent="15479">
-      <ArgumentList ID="15486" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15486" Name="" Parent="15485" />
-    <RsPathCallInstruction ID="15487" Name="grindCoffeeConicalBurr" Parent="15479">
-      <ArgumentList ID="15488" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15488" Name="" Parent="15487" />
-    <RsPathCallInstruction ID="15489" Name="returnPhinToBase" Parent="15479">
-      <ArgumentList ID="15490" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15490" Name="" Parent="15489" />
-    <RsPathCallInstruction ID="15491" Name="tampCoffeePowder" Parent="15479">
-      <ArgumentList ID="15492" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15492" Name="" Parent="15491" />
-    <RsPathCallInstruction ID="15493" Name="takePhinFromBase" Parent="15479">
-      <ArgumentList ID="15494" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15494" Name="" Parent="15493" />
-    <RsPathCallInstruction ID="15495" Name="putPhinIntoCoffeemaker" Parent="15479">
-      <ArgumentList ID="15496" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15496" Name="" Parent="15495" />
-    <RsPathCallInstruction ID="15497" Name="dropTool1" Parent="15479">
-      <ArgumentList ID="15498" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15498" Name="" Parent="15497" />
-    <RsPathCallInstruction ID="15499" Name="Pick_Tool2" Parent="15479">
-      <ArgumentList ID="15500" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15500" Name="" Parent="15499" />
-    <RsPathCallInstruction ID="15501" Name="pickCupEndpoint" Parent="15479">
-      <ArgumentList ID="15502" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15502" Name="" Parent="15501" />
-    <RsPathCallInstruction ID="15503" Name="putCupIntoCoffeemaker" Parent="15479">
-      <ArgumentList ID="15504" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15504" Name="" Parent="15503" />
-    <RsPathCallInstruction ID="15505" Name="Drop_Tool2" Parent="15479">
-      <ArgumentList ID="15506" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15506" Name="" Parent="15505" />
-    <RsPathCallInstruction ID="15507" Name="pickTool1" Parent="15479">
-      <ArgumentList ID="15508" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15508" Name="" Parent="15507" />
-    <RsPathCallInstruction ID="15509" Name="extractCoffee" Parent="15479">
-      <ArgumentList ID="15510" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15510" Name="" Parent="15509" />
-    <RsPathCallInstruction ID="15511" Name="dropTool1" Parent="15479">
-      <ArgumentList ID="15512" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15512" Name="" Parent="15511" />
-    <RsPathCallInstruction ID="15513" Name="Pick_Tool2" Parent="15479">
-      <ArgumentList ID="15514" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15514" Name="" Parent="15513" />
-    <RsPathCallInstruction ID="15515" Name="takeCupOutOfCoffeemaker" Parent="15479">
-      <ArgumentList ID="15516" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15516" Name="" Parent="15515" />
-    <RsPathCallInstruction ID="15517" Name="putInMilkPump" Parent="15479">
-      <ArgumentList ID="15518" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15518" Name="" Parent="15517" />
-    <RsPathCallInstruction ID="15519" Name="Move_C_R" Parent="15479">
-      <ArgumentList ID="15520" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15520" Name="" Parent="15519" />
-    <RsPathCallInstruction ID="15521" Name="pressMilkPumpLid" Parent="15479">
-      <ArgumentList ID="15522" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15522" Name="" Parent="15521" />
-    <RsPathCallInstruction ID="15523" Name="Move_C_L" Parent="15479">
-      <ArgumentList ID="15524" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15524" Name="" Parent="15523" />
-    <RsPathCallInstruction ID="15525" Name="Drop_Tool2" Parent="15479">
-      <ArgumentList ID="15526" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15526" Name="" Parent="15525" />
-    <RsPathCallInstruction ID="15527" Name="Pick_Tool3" Parent="15479">
-      <ArgumentList ID="15528" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15528" Name="" Parent="15527" />
-    <RsPathCallInstruction ID="15529" Name="stirMilk" Parent="15479">
-      <ArgumentList ID="15530" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15530" Name="" Parent="15529" />
-    <RsPathCallInstruction ID="15531" Name="Drop_Tool3" Parent="15479">
-      <ArgumentList ID="15532" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15532" Name="" Parent="15531" />
-    <RsPathCallInstruction ID="15533" Name="Pick_Tool2" Parent="15479">
-      <ArgumentList ID="15534" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15534" Name="" Parent="15533" />
-    <RsPathCallInstruction ID="15535" Name="takeOutOfMilkPump" Parent="15479">
-      <ArgumentList ID="15536" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15536" Name="" Parent="15535" />
-    <ActionInstructionCall ID="15537" Name="WaitTime" Parent="15479" TrigValidity="0">
-      <ArgumentList ID="15538" />
-      <InstructionTemplateName Value="Default" />
-      <Color Red="1" Green="1" Blue="0.5019608" Alpha="0.5019608" />
-    </ActionInstructionCall>
-    <RoutineArgumentList ID="15538" Name="" Parent="15537">
-      <RoutineArguments>
-        <ObjectRef ID="15539" />
-        <ObjectRef ID="15540" />
-      </RoutineArguments>
-    </RoutineArgumentList>
-    <RoutineArgument ID="15539" Name="InPos" Parent="15538" Enabled="false" />
-    <RoutineArgument ID="15540" Name="Time" Parent="15538" Value="2" />
-    <RsPathCallInstruction ID="15541" Name="pickIce" Parent="15479">
-      <ArgumentList ID="15542" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15542" Name="" Parent="15541" />
-    <RsPathCallInstruction ID="15543" Name="dropCupEndpoint" Parent="15479">
-      <ArgumentList ID="15544" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15544" Name="" Parent="15543" />
-    <RsPathCallInstruction ID="15545" Name="Drop_Tool2" Parent="15479">
-      <ArgumentList ID="15546" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15546" Name="" Parent="15545" />
-    <RsPathCallInstruction ID="15547" Name="pickTool1" Parent="15479">
-      <ArgumentList ID="15548" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15548" Name="" Parent="15547" />
-    <RsPathCallInstruction ID="15549" Name="takePhinOutOfCoffeemaker" Parent="15479">
-      <ArgumentList ID="15550" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15550" Name="" Parent="15549" />
-    <RsPathCallInstruction ID="15551" Name="returnPhinToBase" Parent="15479">
-      <ArgumentList ID="15552" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15552" Name="" Parent="15551" />
-    <RsPathCallInstruction ID="15553" Name="dropTool1" Parent="15479">
-      <ArgumentList ID="15554" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15554" Name="" Parent="15553" />
-    <RsPathCallInstruction ID="15555" Name="Home" Parent="15479">
-      <ArgumentList ID="15556" />
-    </RsPathCallInstruction>
-    <RoutineArgumentList ID="15556" Name="" Parent="15555" />
     <DataDeclaration ID="15557" Name="capture_frame" Parent="1198" StorageType="0" DataType="robtarget" IsInline="false" FrameSize="0.075" ShowName="false" Dimension1="0" Dimension2="0" Dimension3="0">
       <Attributes>
         <Attribute Key="ConfigDataAssigned">
@@ -22014,6 +21091,548 @@
       </ReferenceFrame>
       <Color Red="0" Green="0" Blue="0" Alpha="0" />
     </Target>
+    <ActionInstructionCall ID="15560" Name="WaitTime" Parent="13085" TrigValidity="0">
+      <ArgumentList ID="15561" />
+      <InstructionTemplateName Value="Default" />
+      <Color Red="1" Green="1" Blue="0.5019608" Alpha="0.5019608" />
+    </ActionInstructionCall>
+    <RoutineArgumentList ID="15561" Name="" Parent="15560">
+      <RoutineArguments>
+        <ObjectRef ID="15562" />
+        <ObjectRef ID="15563" />
+      </RoutineArguments>
+    </RoutineArgumentList>
+    <RoutineArgument ID="15562" Name="InPos" Parent="15561" Enabled="false" />
+    <RoutineArgument ID="15563" Name="Time" Parent="15561" Value="1.1" />
+    <MoveInstructionCall ID="15597" Name="MoveL" Parent="13085" Thickness="2" Reachable="1">
+      <ArgumentList ID="15598" />
+      <GroupName Value="Move" />
+      <TemplateGroupName Value="Default" />
+      <Color Red="1" Green="1" Blue="0" Alpha="1" />
+    </MoveInstructionCall>
+    <RoutineArgumentList ID="15598" Name="" Parent="15597">
+      <RoutineArguments>
+        <ObjectRef ID="15599" />
+        <ObjectRef ID="15600" />
+        <ObjectRef ID="15601" />
+        <ObjectRef ID="15602" />
+        <ObjectRef ID="15603" />
+        <ObjectRef ID="15604" />
+        <ObjectRef ID="15605" />
+        <ObjectRef ID="15606" />
+        <ObjectRef ID="15607" />
+        <ObjectRef ID="15608" />
+        <ObjectRef ID="15609" />
+        <ObjectRef ID="15610" />
+        <ObjectRef ID="15611" />
+        <ObjectRef ID="15612" />
+        <ObjectRef ID="15613" />
+      </RoutineArguments>
+    </RoutineArgumentList>
+    <RoutineArgument ID="15599" Name="Conc" Parent="15598" Enabled="false" />
+    <RoutineArgument ID="15600" Name="ToPoint" Parent="15598" Value="Conial_Burr_10" />
+    <RoutineArgument ID="15601" Name="ID" Parent="15598" Enabled="false" />
+    <RoutineArgument ID="15602" Name="Speed" Parent="15598" Value="v50" />
+    <RoutineArgument ID="15603" Name="V" Parent="15598" Enabled="false" />
+    <RoutineArgument ID="15604" Name="T" Parent="15598" Enabled="false" />
+    <RoutineArgument ID="15605" Name="KeepStartPath" Parent="15598" Enabled="false" />
+    <RoutineArgument ID="15606" Name="KeepEndPath" Parent="15598" Enabled="false" />
+    <RoutineArgument ID="15607" Name="Zone" Parent="15598" Value="fine" />
+    <RoutineArgument ID="15608" Name="Z" Parent="15598" Enabled="false" />
+    <RoutineArgument ID="15609" Name="Inpos" Parent="15598" Enabled="false" />
+    <RoutineArgument ID="15610" Name="Tool" Parent="15598" Value="Phin_Tool" />
+    <RoutineArgument ID="15611" Name="WObj" Parent="15598" Value="Workobject_Conial_Burr" />
+    <RoutineArgument ID="15612" Name="Corr" Parent="15598" Enabled="false" />
+    <RoutineArgument ID="15613" Name="TLoad" Parent="15598" Enabled="false" />
+    <PathProcedureDeclaration ID="15614" Name="BlackCoffee" Parent="1198" ShowName="false" ZoneVisualization="0" ShowSpeeds="false">
+      <DeclarationInfo ID="15615" />
+      <RoutineCalls>
+        <ObjectRef ID="15616" />
+        <ObjectRef ID="15618" />
+        <ObjectRef ID="15620" />
+        <ObjectRef ID="15622" />
+        <ObjectRef ID="15624" />
+        <ObjectRef ID="15626" />
+        <ObjectRef ID="15628" />
+        <ObjectRef ID="15630" />
+        <ObjectRef ID="15632" />
+        <ObjectRef ID="15634" />
+        <ObjectRef ID="15636" />
+        <ObjectRef ID="15638" />
+        <ObjectRef ID="15640" />
+        <ObjectRef ID="15642" />
+        <ObjectRef ID="15644" />
+        <ObjectRef ID="15646" />
+        <ObjectRef ID="15648" />
+        <ObjectRef ID="15650" />
+        <ObjectRef ID="15652" />
+        <ObjectRef ID="15654" />
+        <ObjectRef ID="15658" />
+        <ObjectRef ID="15660" />
+        <ObjectRef ID="15662" />
+        <ObjectRef ID="15664" />
+        <ObjectRef ID="15666" />
+        <ObjectRef ID="15668" />
+        <ObjectRef ID="15670" />
+        <ObjectRef ID="15672" />
+      </RoutineCalls>
+    </PathProcedureDeclaration>
+    <RAPIDDeclarationInfo ID="15615" Name="" Parent="15614" Local="false" EnableSync="true">
+      <TaskName Value="" />
+      <ModuleName Value="Kcare_Latte_art" />
+    </RAPIDDeclarationInfo>
+    <RsPathCallInstruction ID="15616" Name="Home" Parent="15614">
+      <ArgumentList ID="15617" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15617" Name="" Parent="15616" />
+    <RsPathCallInstruction ID="15618" Name="pickTool1" Parent="15614">
+      <ArgumentList ID="15619" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15619" Name="" Parent="15618" />
+    <RsPathCallInstruction ID="15620" Name="takePhinFromBase" Parent="15614">
+      <ArgumentList ID="15621" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15621" Name="" Parent="15620" />
+    <RsPathCallInstruction ID="15622" Name="grindCoffeeConicalBurr" Parent="15614">
+      <ArgumentList ID="15623" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15623" Name="" Parent="15622" />
+    <RsPathCallInstruction ID="15624" Name="returnPhinToBase" Parent="15614">
+      <ArgumentList ID="15625" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15625" Name="" Parent="15624" />
+    <RsPathCallInstruction ID="15626" Name="tampCoffeePowder" Parent="15614">
+      <ArgumentList ID="15627" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15627" Name="" Parent="15626" />
+    <RsPathCallInstruction ID="15628" Name="takePhinFromBase" Parent="15614">
+      <ArgumentList ID="15629" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15629" Name="" Parent="15628" />
+    <RsPathCallInstruction ID="15630" Name="putPhinIntoCoffeemaker" Parent="15614">
+      <ArgumentList ID="15631" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15631" Name="" Parent="15630" />
+    <RsPathCallInstruction ID="15632" Name="dropTool1" Parent="15614">
+      <ArgumentList ID="15633" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15633" Name="" Parent="15632" />
+    <RsPathCallInstruction ID="15634" Name="Pick_Tool2" Parent="15614">
+      <ArgumentList ID="15635" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15635" Name="" Parent="15634" />
+    <RsPathCallInstruction ID="15636" Name="detectCup" Parent="15614">
+      <ArgumentList ID="15637" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15637" Name="" Parent="15636" />
+    <RsPathCallInstruction ID="15638" Name="pickCupEndpoint" Parent="15614">
+      <ArgumentList ID="15639" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15639" Name="" Parent="15638" />
+    <RsPathCallInstruction ID="15640" Name="putCupIntoCoffeemaker" Parent="15614">
+      <ArgumentList ID="15641" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15641" Name="" Parent="15640" />
+    <RsPathCallInstruction ID="15642" Name="Drop_Tool2" Parent="15614">
+      <ArgumentList ID="15643" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15643" Name="" Parent="15642" />
+    <RsPathCallInstruction ID="15644" Name="pickTool1" Parent="15614">
+      <ArgumentList ID="15645" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15645" Name="" Parent="15644" />
+    <RsPathCallInstruction ID="15646" Name="extractCoffee" Parent="15614">
+      <ArgumentList ID="15647" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15647" Name="" Parent="15646" />
+    <RsPathCallInstruction ID="15648" Name="dropTool1" Parent="15614">
+      <ArgumentList ID="15649" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15649" Name="" Parent="15648" />
+    <RsPathCallInstruction ID="15650" Name="Pick_Tool2" Parent="15614">
+      <ArgumentList ID="15651" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15651" Name="" Parent="15650" />
+    <RsPathCallInstruction ID="15652" Name="takeCupOutOfCoffeemaker" Parent="15614">
+      <ArgumentList ID="15653" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15653" Name="" Parent="15652" />
+    <ActionInstructionCall ID="15654" Name="WaitTime" Parent="15614" TrigValidity="0">
+      <ArgumentList ID="15655" />
+      <InstructionTemplateName Value="Default" />
+      <Color Red="1" Green="1" Blue="0.5019608" Alpha="0.5019608" />
+    </ActionInstructionCall>
+    <RoutineArgumentList ID="15655" Name="" Parent="15654">
+      <RoutineArguments>
+        <ObjectRef ID="15656" />
+        <ObjectRef ID="15657" />
+      </RoutineArguments>
+    </RoutineArgumentList>
+    <RoutineArgument ID="15656" Name="InPos" Parent="15655" Enabled="false" />
+    <RoutineArgument ID="15657" Name="Time" Parent="15655" Value="2" />
+    <RsPathCallInstruction ID="15658" Name="pickIce" Parent="15614">
+      <ArgumentList ID="15659" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15659" Name="" Parent="15658" />
+    <RsPathCallInstruction ID="15660" Name="dropCupEndpoint" Parent="15614">
+      <ArgumentList ID="15661" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15661" Name="" Parent="15660" />
+    <RsPathCallInstruction ID="15662" Name="Drop_Tool2" Parent="15614">
+      <ArgumentList ID="15663" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15663" Name="" Parent="15662" />
+    <RsPathCallInstruction ID="15664" Name="pickTool1" Parent="15614">
+      <ArgumentList ID="15665" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15665" Name="" Parent="15664" />
+    <RsPathCallInstruction ID="15666" Name="takePhinOutOfCoffeemaker" Parent="15614">
+      <ArgumentList ID="15667" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15667" Name="" Parent="15666" />
+    <RsPathCallInstruction ID="15668" Name="returnPhinToBase" Parent="15614">
+      <ArgumentList ID="15669" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15669" Name="" Parent="15668" />
+    <RsPathCallInstruction ID="15670" Name="dropTool1" Parent="15614">
+      <ArgumentList ID="15671" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15671" Name="" Parent="15670" />
+    <RsPathCallInstruction ID="15672" Name="Home" Parent="15614">
+      <ArgumentList ID="15673" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15673" Name="" Parent="15672" />
+    <PathProcedureDeclaration ID="15674" Name="MilkCoffee" Parent="1198" ShowName="false" ZoneVisualization="0" ShowSpeeds="false">
+      <DeclarationInfo ID="15675" />
+      <RoutineCalls>
+        <ObjectRef ID="15676" />
+        <ObjectRef ID="15678" />
+        <ObjectRef ID="15680" />
+        <ObjectRef ID="15682" />
+        <ObjectRef ID="15684" />
+        <ObjectRef ID="15686" />
+        <ObjectRef ID="15688" />
+        <ObjectRef ID="15690" />
+        <ObjectRef ID="15692" />
+        <ObjectRef ID="15694" />
+        <ObjectRef ID="15696" />
+        <ObjectRef ID="15698" />
+        <ObjectRef ID="15700" />
+        <ObjectRef ID="15702" />
+        <ObjectRef ID="15704" />
+        <ObjectRef ID="15706" />
+        <ObjectRef ID="15708" />
+        <ObjectRef ID="15710" />
+        <ObjectRef ID="15712" />
+        <ObjectRef ID="15714" />
+        <ObjectRef ID="15716" />
+        <ObjectRef ID="15718" />
+        <ObjectRef ID="15720" />
+        <ObjectRef ID="15722" />
+        <ObjectRef ID="15724" />
+        <ObjectRef ID="15726" />
+        <ObjectRef ID="15728" />
+        <ObjectRef ID="15730" />
+        <ObjectRef ID="15732" />
+        <ObjectRef ID="15736" />
+        <ObjectRef ID="15738" />
+        <ObjectRef ID="15740" />
+        <ObjectRef ID="15742" />
+        <ObjectRef ID="15744" />
+        <ObjectRef ID="15746" />
+        <ObjectRef ID="15748" />
+        <ObjectRef ID="15750" />
+      </RoutineCalls>
+    </PathProcedureDeclaration>
+    <RAPIDDeclarationInfo ID="15675" Name="" Parent="15674" Local="false" EnableSync="true">
+      <TaskName Value="" />
+      <ModuleName Value="Kcare_Latte_art" />
+    </RAPIDDeclarationInfo>
+    <RsPathCallInstruction ID="15676" Name="Home" Parent="15674">
+      <ArgumentList ID="15677" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15677" Name="" Parent="15676" />
+    <RsPathCallInstruction ID="15678" Name="pickTool1" Parent="15674">
+      <ArgumentList ID="15679" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15679" Name="" Parent="15678" />
+    <RsPathCallInstruction ID="15680" Name="takePhinFromBase" Parent="15674">
+      <ArgumentList ID="15681" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15681" Name="" Parent="15680" />
+    <RsPathCallInstruction ID="15682" Name="grindCoffeeConicalBurr" Parent="15674">
+      <ArgumentList ID="15683" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15683" Name="" Parent="15682" />
+    <RsPathCallInstruction ID="15684" Name="returnPhinToBase" Parent="15674">
+      <ArgumentList ID="15685" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15685" Name="" Parent="15684" />
+    <RsPathCallInstruction ID="15686" Name="tampCoffeePowder" Parent="15674">
+      <ArgumentList ID="15687" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15687" Name="" Parent="15686" />
+    <RsPathCallInstruction ID="15688" Name="takePhinFromBase" Parent="15674">
+      <ArgumentList ID="15689" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15689" Name="" Parent="15688" />
+    <RsPathCallInstruction ID="15690" Name="putPhinIntoCoffeemaker" Parent="15674">
+      <ArgumentList ID="15691" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15691" Name="" Parent="15690" />
+    <RsPathCallInstruction ID="15692" Name="dropTool1" Parent="15674">
+      <ArgumentList ID="15693" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15693" Name="" Parent="15692" />
+    <RsPathCallInstruction ID="15694" Name="Pick_Tool2" Parent="15674">
+      <ArgumentList ID="15695" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15695" Name="" Parent="15694" />
+    <RsPathCallInstruction ID="15696" Name="pickCupEndpoint" Parent="15674">
+      <ArgumentList ID="15697" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15697" Name="" Parent="15696" />
+    <RsPathCallInstruction ID="15698" Name="putCupIntoCoffeemaker" Parent="15674">
+      <ArgumentList ID="15699" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15699" Name="" Parent="15698" />
+    <RsPathCallInstruction ID="15700" Name="Drop_Tool2" Parent="15674">
+      <ArgumentList ID="15701" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15701" Name="" Parent="15700" />
+    <RsPathCallInstruction ID="15702" Name="pickTool1" Parent="15674">
+      <ArgumentList ID="15703" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15703" Name="" Parent="15702" />
+    <RsPathCallInstruction ID="15704" Name="extractCoffee" Parent="15674">
+      <ArgumentList ID="15705" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15705" Name="" Parent="15704" />
+    <RsPathCallInstruction ID="15706" Name="dropTool1" Parent="15674">
+      <ArgumentList ID="15707" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15707" Name="" Parent="15706" />
+    <RsPathCallInstruction ID="15708" Name="Pick_Tool2" Parent="15674">
+      <ArgumentList ID="15709" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15709" Name="" Parent="15708" />
+    <RsPathCallInstruction ID="15710" Name="takeCupOutOfCoffeemaker" Parent="15674">
+      <ArgumentList ID="15711" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15711" Name="" Parent="15710" />
+    <RsPathCallInstruction ID="15712" Name="putInMilkPump" Parent="15674">
+      <ArgumentList ID="15713" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15713" Name="" Parent="15712" />
+    <RsPathCallInstruction ID="15714" Name="Move_C_R" Parent="15674">
+      <ArgumentList ID="15715" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15715" Name="" Parent="15714" />
+    <RsPathCallInstruction ID="15716" Name="pressMilkPumpLid" Parent="15674">
+      <ArgumentList ID="15717" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15717" Name="" Parent="15716" />
+    <RsPathCallInstruction ID="15718" Name="Move_C_L" Parent="15674">
+      <ArgumentList ID="15719" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15719" Name="" Parent="15718" />
+    <RsPathCallInstruction ID="15720" Name="Drop_Tool2" Parent="15674">
+      <ArgumentList ID="15721" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15721" Name="" Parent="15720" />
+    <RsPathCallInstruction ID="15722" Name="Pick_Tool3" Parent="15674">
+      <ArgumentList ID="15723" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15723" Name="" Parent="15722" />
+    <RsPathCallInstruction ID="15724" Name="stirMilk" Parent="15674">
+      <ArgumentList ID="15725" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15725" Name="" Parent="15724" />
+    <RsPathCallInstruction ID="15726" Name="Drop_Tool3" Parent="15674">
+      <ArgumentList ID="15727" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15727" Name="" Parent="15726" />
+    <RsPathCallInstruction ID="15728" Name="Pick_Tool2" Parent="15674">
+      <ArgumentList ID="15729" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15729" Name="" Parent="15728" />
+    <RsPathCallInstruction ID="15730" Name="takeOutOfMilkPump" Parent="15674">
+      <ArgumentList ID="15731" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15731" Name="" Parent="15730" />
+    <ActionInstructionCall ID="15732" Name="WaitTime" Parent="15674" TrigValidity="0">
+      <ArgumentList ID="15733" />
+      <InstructionTemplateName Value="Default" />
+      <Color Red="1" Green="1" Blue="0.5019608" Alpha="0.5019608" />
+    </ActionInstructionCall>
+    <RoutineArgumentList ID="15733" Name="" Parent="15732">
+      <RoutineArguments>
+        <ObjectRef ID="15734" />
+        <ObjectRef ID="15735" />
+      </RoutineArguments>
+    </RoutineArgumentList>
+    <RoutineArgument ID="15734" Name="InPos" Parent="15733" Enabled="false" />
+    <RoutineArgument ID="15735" Name="Time" Parent="15733" Value="2" />
+    <RsPathCallInstruction ID="15736" Name="pickIce" Parent="15674">
+      <ArgumentList ID="15737" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15737" Name="" Parent="15736" />
+    <RsPathCallInstruction ID="15738" Name="dropCupEndpoint" Parent="15674">
+      <ArgumentList ID="15739" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15739" Name="" Parent="15738" />
+    <RsPathCallInstruction ID="15740" Name="Drop_Tool2" Parent="15674">
+      <ArgumentList ID="15741" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15741" Name="" Parent="15740" />
+    <RsPathCallInstruction ID="15742" Name="pickTool1" Parent="15674">
+      <ArgumentList ID="15743" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15743" Name="" Parent="15742" />
+    <RsPathCallInstruction ID="15744" Name="takePhinOutOfCoffeemaker" Parent="15674">
+      <ArgumentList ID="15745" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15745" Name="" Parent="15744" />
+    <RsPathCallInstruction ID="15746" Name="returnPhinToBase" Parent="15674">
+      <ArgumentList ID="15747" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15747" Name="" Parent="15746" />
+    <RsPathCallInstruction ID="15748" Name="dropTool1" Parent="15674">
+      <ArgumentList ID="15749" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15749" Name="" Parent="15748" />
+    <RsPathCallInstruction ID="15750" Name="Home" Parent="15674">
+      <ArgumentList ID="15751" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15751" Name="" Parent="15750" />
+    <RsPathCallInstruction ID="15769" Name="pickIce" Parent="2415">
+      <ArgumentList ID="15770" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15770" Name="" Parent="15769" />
+    <RsPathCallInstruction ID="15771" Name="Washing_Phin" Parent="2415">
+      <ArgumentList ID="15772" />
+    </RsPathCallInstruction>
+    <RoutineArgumentList ID="15772" Name="" Parent="15771" />
+    <MoveInstructionCall ID="15773" Name="MoveL" Parent="7726" Thickness="2" Reachable="1">
+      <ArgumentList ID="15774" />
+      <GroupName Value="Move" />
+      <TemplateGroupName Value="Default" />
+      <Color Red="1" Green="1" Blue="0" Alpha="1" />
+    </MoveInstructionCall>
+    <RoutineArgumentList ID="15774" Name="" Parent="15773">
+      <RoutineArguments>
+        <ObjectRef ID="15775" />
+        <ObjectRef ID="15776" />
+        <ObjectRef ID="15777" />
+        <ObjectRef ID="15778" />
+        <ObjectRef ID="15779" />
+        <ObjectRef ID="15780" />
+        <ObjectRef ID="15781" />
+        <ObjectRef ID="15782" />
+        <ObjectRef ID="15783" />
+        <ObjectRef ID="15784" />
+        <ObjectRef ID="15785" />
+        <ObjectRef ID="15786" />
+        <ObjectRef ID="15787" />
+        <ObjectRef ID="15788" />
+        <ObjectRef ID="15789" />
+      </RoutineArguments>
+    </RoutineArgumentList>
+    <RoutineArgument ID="15775" Name="Conc" Parent="15774" Enabled="false" />
+    <RoutineArgument ID="15776" Name="ToPoint" Parent="15774" Value="Change2_40" />
+    <RoutineArgument ID="15777" Name="ID" Parent="15774" Enabled="false" />
+    <RoutineArgument ID="15778" Name="Speed" Parent="15774" Value="v500" />
+    <RoutineArgument ID="15779" Name="V" Parent="15774" Enabled="false" />
+    <RoutineArgument ID="15780" Name="T" Parent="15774" Enabled="false" />
+    <RoutineArgument ID="15781" Name="KeepStartPath" Parent="15774" Enabled="false" />
+    <RoutineArgument ID="15782" Name="KeepEndPath" Parent="15774" Enabled="false" />
+    <RoutineArgument ID="15783" Name="Zone" Parent="15774" Value="fine" />
+    <RoutineArgument ID="15784" Name="Z" Parent="15774" Enabled="false" />
+    <RoutineArgument ID="15785" Name="Inpos" Parent="15774" Enabled="false" />
+    <RoutineArgument ID="15786" Name="Tool" Parent="15774" Value="Cup_Tool" />
+    <RoutineArgument ID="15787" Name="WObj" Parent="15774" Value="Workobject_Change_Staytion" />
+    <RoutineArgument ID="15788" Name="Corr" Parent="15774" Enabled="false" />
+    <RoutineArgument ID="15789" Name="TLoad" Parent="15774" Enabled="false" />
+    <MoveInstructionCall ID="15790" Name="MoveL" Parent="13085" Thickness="2" Reachable="1">
+      <ArgumentList ID="15791" />
+      <GroupName Value="Move" />
+      <TemplateGroupName Value="Default" />
+      <Color Red="1" Green="1" Blue="0" Alpha="1" />
+    </MoveInstructionCall>
+    <RoutineArgumentList ID="15791" Name="" Parent="15790">
+      <RoutineArguments>
+        <ObjectRef ID="15792" />
+        <ObjectRef ID="15793" />
+        <ObjectRef ID="15794" />
+        <ObjectRef ID="15795" />
+        <ObjectRef ID="15796" />
+        <ObjectRef ID="15797" />
+        <ObjectRef ID="15798" />
+        <ObjectRef ID="15799" />
+        <ObjectRef ID="15800" />
+        <ObjectRef ID="15801" />
+        <ObjectRef ID="15802" />
+        <ObjectRef ID="15803" />
+        <ObjectRef ID="15804" />
+        <ObjectRef ID="15805" />
+        <ObjectRef ID="15806" />
+      </RoutineArguments>
+    </RoutineArgumentList>
+    <RoutineArgument ID="15792" Name="Conc" Parent="15791" Enabled="false" />
+    <RoutineArgument ID="15793" Name="ToPoint" Parent="15791" Value="Conial_Burr_20" />
+    <RoutineArgument ID="15794" Name="ID" Parent="15791" Enabled="false" />
+    <RoutineArgument ID="15795" Name="Speed" Parent="15791" Value="v50" />
+    <RoutineArgument ID="15796" Name="V" Parent="15791" Enabled="false" />
+    <RoutineArgument ID="15797" Name="T" Parent="15791" Enabled="false" />
+    <RoutineArgument ID="15798" Name="KeepStartPath" Parent="15791" Enabled="false" />
+    <RoutineArgument ID="15799" Name="KeepEndPath" Parent="15791" Enabled="false" />
+    <RoutineArgument ID="15800" Name="Zone" Parent="15791" Value="fine" />
+    <RoutineArgument ID="15801" Name="Z" Parent="15791" Enabled="false" />
+    <RoutineArgument ID="15802" Name="Inpos" Parent="15791" Enabled="false" />
+    <RoutineArgument ID="15803" Name="Tool" Parent="15791" Value="Phin_Tool" />
+    <RoutineArgument ID="15804" Name="WObj" Parent="15791" Value="Workobject_Conial_Burr" />
+    <RoutineArgument ID="15805" Name="Corr" Parent="15791" Enabled="false" />
+    <RoutineArgument ID="15806" Name="TLoad" Parent="15791" Enabled="false" />
+    <MoveInstructionCall ID="15807" Name="MoveL" Parent="14613" Thickness="2" Reachable="1">
+      <ArgumentList ID="15808" />
+      <GroupName Value="Move" />
+      <TemplateGroupName Value="Default" />
+      <Color Red="1" Green="1" Blue="0" Alpha="1" />
+    </MoveInstructionCall>
+    <RoutineArgumentList ID="15808" Name="" Parent="15807">
+      <RoutineArguments>
+        <ObjectRef ID="15809" />
+        <ObjectRef ID="15810" />
+        <ObjectRef ID="15811" />
+        <ObjectRef ID="15812" />
+        <ObjectRef ID="15813" />
+        <ObjectRef ID="15814" />
+        <ObjectRef ID="15815" />
+        <ObjectRef ID="15816" />
+        <ObjectRef ID="15817" />
+        <ObjectRef ID="15818" />
+        <ObjectRef ID="15819" />
+        <ObjectRef ID="15820" />
+        <ObjectRef ID="15821" />
+        <ObjectRef ID="15822" />
+        <ObjectRef ID="15823" />
+      </RoutineArguments>
+    </RoutineArgumentList>
+    <RoutineArgument ID="15809" Name="Conc" Parent="15808" Enabled="false" />
+    <RoutineArgument ID="15810" Name="ToPoint" Parent="15808" Value="Milk_40" />
+    <RoutineArgument ID="15811" Name="ID" Parent="15808" Enabled="false" />
+    <RoutineArgument ID="15812" Name="Speed" Parent="15808" Value="v500" />
+    <RoutineArgument ID="15813" Name="V" Parent="15808" Enabled="false" />
+    <RoutineArgument ID="15814" Name="T" Parent="15808" Enabled="false" />
+    <RoutineArgument ID="15815" Name="KeepStartPath" Parent="15808" Enabled="false" />
+    <RoutineArgument ID="15816" Name="KeepEndPath" Parent="15808" Enabled="false" />
+    <RoutineArgument ID="15817" Name="Zone" Parent="15808" Value="fine" />
+    <RoutineArgument ID="15818" Name="Z" Parent="15808" Enabled="false" />
+    <RoutineArgument ID="15819" Name="Inpos" Parent="15808" Enabled="false" />
+    <RoutineArgument ID="15820" Name="Tool" Parent="15808" Value="Cup_Top_Tool" />
+    <RoutineArgument ID="15821" Name="WObj" Parent="15808" Value="Workobject_Milk" />
+    <RoutineArgument ID="15822" Name="Corr" Parent="15808" Enabled="false" />
+    <RoutineArgument ID="15823" Name="TLoad" Parent="15808" Enabled="false" />
   </Objects>
   <ReferencedDocuments>
     <DocRef ID="1" DocumentType="ComponentLibrary" Location="%ABB.RobotStudio.Models.CRB15000%\CRB15000_5_95__02.rslib" RelativeLocation="C:\ProgramData\ABB\DistributionPackages2\ABB.RobotStudio.Models.CRB15000-2.4\RobotStudio\LibraryComponents\CRB15000_5_95__02.rslib" GUID="{C5728BB3-4DBB-44FA-B069-3C60AB95DBED}" />
