@@ -328,3 +328,25 @@ Restart counter: 3
 CFG counter value: 8517
 Unfinished crit sec: 0
 
+*** PF INFO ***
+Time: Tue Aug 19 17:32:24 2025
+System: E:/Robots ABB/GoFaCoffeeBrewing/Gofa_caffe/Virtual Controllers/CRB15000_5_95
+RobotWare: 7.18.1
+RobotControl: 7.18.1
+Shutdown type: 1 mode: 1 reason: 1
+Image lost in previous shutdown: no
+Restart counter: 4
+CFG counter value: 8613
+Unfinished crit sec: 0
+
+*** PF INFO ***
+Time: Wed Aug 20 09:42:50 2025
+System: E:/Robots ABB/GoFaCoffeeBrewing/Gofa_caffe/Virtual Controllers/CRB15000_5_95
+RobotWare: 7.18.1
+RobotControl: 7.18.1
+Shutdown type: 1 mode: 1 reason: 1
+Image lost in previous shutdown: no
+Restart counter: 5
+CFG counter value: 8709
+Unfinished crit sec: 0
+

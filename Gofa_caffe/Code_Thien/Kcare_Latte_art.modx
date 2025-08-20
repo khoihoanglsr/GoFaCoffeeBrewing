@@ -5,7 +5,8 @@ MODULE Kcare_Latte_art
 	CONST robtarget p10diemtest30 := [[-185.94,-117.48,61.51],[0.887148,0.461486,0.000207273,-8.78088E-05],[0,0,-1,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
 	
     PROC main()
-        Home;
+        WHILE TRUE DO
+             Home;
         Pick_Tool1;
         PickPhin;
         Conial_Burr;
@@ -42,6 +43,8 @@ MODULE Kcare_Latte_art
         Drop_phin;
         Drop_Tool1;
         Home;
+        ENDWHILE
+       
     ENDPROC
     PROC Made_Coffe()
         SetDO ABB_Scalable_IO_0_DO1,1;
@@ -92,10 +95,10 @@ MODULE Kcare_Latte_art
     ENDPROC
     PROC Put_In_Cup()
         MoveL Target_CoffeTG,v500,fine,Gripper_Tool\WObj:=wobj0;
-        MoveL Target_93,v200,fine,Cup_Tool\WObj:=Workobject_Machine_coffe;
-        MoveL Target_94,v50,fine,Cup_Tool\WObj:=Workobject_Machine_coffe;
-        MoveL Target_95,v50,fine,Cup_Tool\WObj:=Workobject_Machine_coffe;
-        MoveL Target_96,v200,fine,Cup_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_93,v500,fine,Cup_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_94,v500,fine,Cup_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_95,v500,fine,Cup_Tool\WObj:=Workobject_Machine_coffe;
+        MoveL Target_96,v500,fine,Cup_Tool\WObj:=Workobject_Machine_coffe;
     ENDPROC
     PROC PickTable_Cup2()
         MoveJ Table_cup_TG,v200,fine,Cup_Tool\WObj:=Workobject_Table_Cup;
@@ -153,8 +156,8 @@ MODULE Kcare_Latte_art
         MoveL Press_Milk_10,v5,fine,Cup_Tool\WObj:=Workobject_Milk;
     ENDPROC
     PROC Put_In_Milk()
-        MoveL Milk_10,v50,fine,Cup_Top_Tool\WObj:=Workobject_Milk;
-        MoveL Milk_20,v50,fine,Cup_Top_Tool\WObj:=Workobject_Milk;
+        MoveL Milk_10,v500,fine,Cup_Top_Tool\WObj:=Workobject_Milk;
+        MoveL Milk_20,v500,fine,Cup_Top_Tool\WObj:=Workobject_Milk;
         MoveL Milk_30,v200,fine,Cup_Top_Tool\WObj:=Workobject_Milk;
         MoveL Milk_40,v500,fine,Cup_Top_Tool\WObj:=Workobject_Milk;
     ENDPROC
@@ -219,7 +222,7 @@ MODULE Kcare_Latte_art
         MoveJ Change2_10,v500,fine,Cup_Tool\WObj:=Workobject_Change_Staytion;
         MoveL Change2_20,v200,fine,Cup_Tool\WObj:=Workobject_Change_Staytion;
         MoveL Change2_30,v200,fine,Cup_Tool\WObj:=Workobject_Change_Staytion;
-        MoveJ Change2_40,v500,fine,Cup_Tool\WObj:=Workobject_Change_Staytion;
+        MoveL Change2_40,v500,fine,Cup_Tool\WObj:=Workobject_Change_Staytion;
     ENDPROC
     PROC Drop_Tool1()
         SetDO ABB_Scalable_IO_0_DO1,1;
@@ -256,20 +259,15 @@ MODULE Kcare_Latte_art
         MoveJ Conial_Burr_Pitch_2,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
         MoveJ Conial_Burr_Roll_2,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
         MoveJ Conial_Burr_Move,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
-        MoveJ Conial_Burr_Back,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
-        MoveJ Conial_Burr_Move,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
-        MoveJ Conial_Burr_Back,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
-        MoveJ Conial_Burr_Pitch_1,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
-        MoveJ Conial_Burr_Roll_1,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
-        MoveJ Conial_Burr_Pitch_2,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
-        MoveJ Conial_Burr_Roll_2,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
-        MoveJ Conial_Burr_Move,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
-        MoveJ Conial_Burr_Back,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
-        MoveJ Conial_Burr_Move,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
-        MoveJ Conial_Burr_Back,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
-        SetDO ABB_Scalable_IO_0_DO5,0;
-        MoveL Conial_Burr_20,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
         MoveL Conial_Burr_10,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        SetDO ABB_Scalable_IO_0_DO5,0;
+        WaitTime 1.1;
+        !MoveJ Conial_Burr_Back,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+
+       ! MoveJ Conial_Burr_Move,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+       ! MoveJ Conial_Burr_Back,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        !MoveL Conial_Burr_20,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        !MoveL Conial_Burr_10,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
 		MoveL Target_CoffeTG,v200,fine,Phin_Tool\WObj:=Workobject_Home_coffe;
     ENDPROC
     PROC Pay_Coffee()
@@ -337,15 +335,15 @@ MODULE Kcare_Latte_art
    
     PROC Pick_Ice()
         MoveL Table_cup_TG,v100,fine,Cup_Tool\WObj:=Workobject_Table_Cup;
-        MoveL Ice_10,v100,fine,Cup_Tool\WObj:=Workobject_Machine_Ice;
-        MoveL Ice_20,v100,fine,Cup_Tool\WObj:=Workobject_Machine_Ice;
-        MoveL Ice_30,v100,fine,Cup_Tool\WObj:=Workobject_Machine_Ice;
+        MoveL Ice_10,v500,fine,Cup_Tool\WObj:=Workobject_Machine_Ice;
+        MoveL Ice_20,v200,fine,Cup_Tool\WObj:=Workobject_Machine_Ice;
+        MoveL Ice_30,v200,fine,Cup_Tool\WObj:=Workobject_Machine_Ice;
         SetDO ABB_Scalable_IO_0_DO6,1;
         WaitTime 1;
         SetDO ABB_Scalable_IO_0_DO6,0;
         WaitTime 3;
-        MoveL Ice_20,v100,fine,Cup_Tool\WObj:=Workobject_Machine_Ice;
-        MoveL Ice_10,v100,fine,Cup_Tool\WObj:=Workobject_Machine_Ice;
+        MoveL Ice_20,v200,fine,Cup_Tool\WObj:=Workobject_Machine_Ice;
+        MoveL Ice_10,v200,fine,Cup_Tool\WObj:=Workobject_Machine_Ice;
     ENDPROC
     PROC Caffee()
         Home;
