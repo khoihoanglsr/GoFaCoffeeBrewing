@@ -1,0 +1,226 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Latte_Art_GoFa\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Latte_Art_GoFa\\OrderWindow.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Latte_Art_GoFa\\Latte_Art_GoFa\\OrderWindow.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Latte_Art_GoFa\\OrderWindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Latte_Art_GoFa\\Latte_Art_GoFa\\OrderWindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Latte_Art_GoFa\\Latte_Art_GoFa.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Latte_Art_GoFa\\Latte_Art_GoFa\\Latte_Art_GoFa.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Latte_Art_GoFa\\Latte_Art_GoFa.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Latte_Art_GoFa\\Latte_Art_GoFa\\Latte_Art_GoFa.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Latte_Art_GoFa.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Latte_Art_GoFa\\Latte_Art_GoFa.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Latte_Art_GoFa.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Latte_Art_GoFa\\Latte_Art_GoFa.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Form2.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Latte_Art_GoFa\\Form2.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Latte_Art_GoFa\\Form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Latte_Art_GoFa\\Form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Latte_Art_GoFa\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\BacXiu_image.jpeg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BacXiu_image.jpeg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\BackGroundCoffe.jpeg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BackGroundCoffe.jpeg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderWindow.Designer.cs",
+              "DocumentMoniker": "G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Latte_Art_GoFa\\OrderWindow.Designer.cs",
+              "RelativeDocumentMoniker": "Latte_Art_GoFa\\Latte_Art_GoFa\\OrderWindow.Designer.cs",
+              "ToolTip": "G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Latte_Art_GoFa\\OrderWindow.Designer.cs",
+              "RelativeToolTip": "Latte_Art_GoFa\\Latte_Art_GoFa\\OrderWindow.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T17:33:03.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderWindow.cs",
+              "DocumentMoniker": "G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Latte_Art_GoFa\\OrderWindow.cs",
+              "RelativeDocumentMoniker": "Latte_Art_GoFa\\Latte_Art_GoFa\\OrderWindow.cs",
+              "ToolTip": "G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Latte_Art_GoFa\\OrderWindow.cs",
+              "RelativeToolTip": "Latte_Art_GoFa\\Latte_Art_GoFa\\OrderWindow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T17:33:01.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Latte_Art_GoFa.csproj",
+              "DocumentMoniker": "G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Latte_Art_GoFa\\Latte_Art_GoFa.csproj",
+              "RelativeDocumentMoniker": "Latte_Art_GoFa\\Latte_Art_GoFa\\Latte_Art_GoFa.csproj",
+              "ToolTip": "G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Latte_Art_GoFa\\Latte_Art_GoFa.csproj",
+              "RelativeToolTip": "Latte_Art_GoFa\\Latte_Art_GoFa\\Latte_Art_GoFa.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-05T17:33:00.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Latte_Art_GoFa.csproj.user",
+              "DocumentMoniker": "G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Latte_Art_GoFa\\Latte_Art_GoFa.csproj.user",
+              "RelativeDocumentMoniker": "Latte_Art_GoFa\\Latte_Art_GoFa\\Latte_Art_GoFa.csproj.user",
+              "ToolTip": "G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Latte_Art_GoFa\\Latte_Art_GoFa.csproj.user",
+              "RelativeToolTip": "Latte_Art_GoFa\\Latte_Art_GoFa\\Latte_Art_GoFa.csproj.user",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2025-06-05T17:32:57.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form2.Designer.cs",
+              "DocumentMoniker": "G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Form2.Designer.cs",
+              "RelativeDocumentMoniker": "Latte_Art_GoFa\\Form2.Designer.cs",
+              "ToolTip": "G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Form2.Designer.cs",
+              "RelativeToolTip": "Latte_Art_GoFa\\Form2.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T07:10:13.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Form2.cs",
+              "RelativeDocumentMoniker": "Latte_Art_GoFa\\Form2.cs",
+              "ToolTip": "G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Form2.cs",
+              "RelativeToolTip": "Latte_Art_GoFa\\Form2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T07:10:11.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form1.resx",
+              "DocumentMoniker": "G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Form1.resx",
+              "RelativeDocumentMoniker": "Latte_Art_GoFa\\Form1.resx",
+              "ToolTip": "G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Form1.resx",
+              "RelativeToolTip": "Latte_Art_GoFa\\Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-06-05T07:10:10.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Form1.cs",
+              "RelativeDocumentMoniker": "Latte_Art_GoFa\\Form1.cs",
+              "ToolTip": "G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Form1.cs",
+              "RelativeToolTip": "Latte_Art_GoFa\\Form1.cs",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAewK4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T00:04:23.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Latte_Art_GoFa.csproj",
+              "DocumentMoniker": "G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Latte_Art_GoFa.csproj",
+              "RelativeDocumentMoniker": "Latte_Art_GoFa\\Latte_Art_GoFa.csproj",
+              "ToolTip": "G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Latte_Art_GoFa.csproj",
+              "RelativeToolTip": "Latte_Art_GoFa\\Latte_Art_GoFa.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-05T07:10:16.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Latte_Art_GoFa\\Form1.Designer.cs",
+              "ToolTip": "G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Form1.Designer.cs",
+              "RelativeToolTip": "Latte_Art_GoFa\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T07:10:09.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Latte_Art_GoFa.csproj.user",
+              "DocumentMoniker": "G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Latte_Art_GoFa.csproj.user",
+              "RelativeDocumentMoniker": "Latte_Art_GoFa\\Latte_Art_GoFa.csproj.user",
+              "ToolTip": "G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\Latte_Art_GoFa\\Latte_Art_GoFa.csproj.user",
+              "RelativeToolTip": "Latte_Art_GoFa\\Latte_Art_GoFa.csproj.user",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2025-06-03T23:26:33.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BacXiu_image.jpeg",
+              "DocumentMoniker": "G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\BacXiu_image.jpeg",
+              "RelativeDocumentMoniker": "BacXiu_image.jpeg",
+              "ToolTip": "G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\BacXiu_image.jpeg",
+              "RelativeToolTip": "BacXiu_image.jpeg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-05T07:09:16.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BackGroundCoffe.jpeg",
+              "DocumentMoniker": "G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\BackGroundCoffe.jpeg",
+              "RelativeDocumentMoniker": "BackGroundCoffe.jpeg",
+              "ToolTip": "G:\\Documents\\RobotStudio\\Projects\\Project_GoFaCaFe_\\Gofa Caffe\\Latte_Art_GoFa_Visua\\BackGroundCoffe.jpeg",
+              "RelativeToolTip": "BackGroundCoffe.jpeg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-05T07:09:09.432Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

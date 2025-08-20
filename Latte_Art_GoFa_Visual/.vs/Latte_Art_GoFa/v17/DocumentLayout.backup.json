@@ -1,0 +1,176 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Robots ABB\\ABB Content\\Gofa\\Gofa Caffe\\Latte_Art_GoFa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0DBFADF8-6210-4F59-AD4F-CA7D9232E78A}|Latte_Art_GoFa\\Latte_Art_GoFa.csproj|e:\\robots abb\\abb content\\gofa\\gofa caffe\\latte_art_gofa\\latte_art_gofa\\orderwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0DBFADF8-6210-4F59-AD4F-CA7D9232E78A}|Latte_Art_GoFa\\Latte_Art_GoFa.csproj|solutionrelative:latte_art_gofa\\orderwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DBFADF8-6210-4F59-AD4F-CA7D9232E78A}|Latte_Art_GoFa\\Latte_Art_GoFa.csproj|e:\\robots abb\\abb content\\gofa\\gofa caffe\\latte_art_gofa\\latte_art_gofa\\orderwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DBFADF8-6210-4F59-AD4F-CA7D9232E78A}|Latte_Art_GoFa\\Latte_Art_GoFa.csproj|solutionrelative:latte_art_gofa\\orderwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DBFADF8-6210-4F59-AD4F-CA7D9232E78A}|Latte_Art_GoFa\\Latte_Art_GoFa.csproj|E:\\Robots ABB\\ABB Content\\Gofa\\Gofa Caffe\\Latte_Art_GoFa\\latte_art_gofa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0DBFADF8-6210-4F59-AD4F-CA7D9232E78A}|Latte_Art_GoFa\\Latte_Art_GoFa.csproj|solutionrelative:latte_art_gofa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DBFADF8-6210-4F59-AD4F-CA7D9232E78A}|Latte_Art_GoFa\\Latte_Art_GoFa.csproj|E:\\Robots ABB\\ABB Content\\Gofa\\Gofa Caffe\\Latte_Art_GoFa\\latte_art_gofa\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0DBFADF8-6210-4F59-AD4F-CA7D9232E78A}|Latte_Art_GoFa\\Latte_Art_GoFa.csproj|solutionrelative:latte_art_gofa\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DBFADF8-6210-4F59-AD4F-CA7D9232E78A}|Latte_Art_GoFa\\Latte_Art_GoFa.csproj|e:\\robots abb\\abb content\\gofa\\gofa caffe\\latte_art_gofa\\latte_art_gofa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DBFADF8-6210-4F59-AD4F-CA7D9232E78A}|Latte_Art_GoFa\\Latte_Art_GoFa.csproj|solutionrelative:latte_art_gofa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DBFADF8-6210-4F59-AD4F-CA7D9232E78A}|Latte_Art_GoFa\\Latte_Art_GoFa.csproj|e:\\robots abb\\abb content\\gofa\\gofa caffe\\latte_art_gofa\\latte_art_gofa\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DBFADF8-6210-4F59-AD4F-CA7D9232E78A}|Latte_Art_GoFa\\Latte_Art_GoFa.csproj|solutionrelative:latte_art_gofa\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DBFADF8-6210-4F59-AD4F-CA7D9232E78A}|Latte_Art_GoFa\\Latte_Art_GoFa.csproj|e:\\robots abb\\abb content\\gofa\\gofa caffe\\latte_art_gofa\\latte_art_gofa\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DBFADF8-6210-4F59-AD4F-CA7D9232E78A}|Latte_Art_GoFa\\Latte_Art_GoFa.csproj|solutionrelative:latte_art_gofa\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DBFADF8-6210-4F59-AD4F-CA7D9232E78A}|Latte_Art_GoFa\\Latte_Art_GoFa.csproj|e:\\robots abb\\abb content\\gofa\\gofa caffe\\latte_art_gofa\\latte_art_gofa\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{0DBFADF8-6210-4F59-AD4F-CA7D9232E78A}|Latte_Art_GoFa\\Latte_Art_GoFa.csproj|solutionrelative:latte_art_gofa\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DBFADF8-6210-4F59-AD4F-CA7D9232E78A}|Latte_Art_GoFa\\Latte_Art_GoFa.csproj|e:\\robots abb\\abb content\\gofa\\gofa caffe\\latte_art_gofa\\latte_art_gofa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DBFADF8-6210-4F59-AD4F-CA7D9232E78A}|Latte_Art_GoFa\\Latte_Art_GoFa.csproj|solutionrelative:latte_art_gofa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DBFADF8-6210-4F59-AD4F-CA7D9232E78A}|Latte_Art_GoFa\\Latte_Art_GoFa.csproj|e:\\robots abb\\abb content\\gofa\\gofa caffe\\latte_art_gofa\\latte_art_gofa\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DBFADF8-6210-4F59-AD4F-CA7D9232E78A}|Latte_Art_GoFa\\Latte_Art_GoFa.csproj|solutionrelative:latte_art_gofa\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderWindow.cs",
+              "DocumentMoniker": "E:\\Robots ABB\\ABB Content\\Gofa\\Gofa Caffe\\Latte_Art_GoFa\\Latte_Art_GoFa\\OrderWindow.cs",
+              "RelativeDocumentMoniker": "Latte_Art_GoFa\\OrderWindow.cs",
+              "ToolTip": "E:\\Robots ABB\\ABB Content\\Gofa\\Gofa Caffe\\Latte_Art_GoFa\\Latte_Art_GoFa\\OrderWindow.cs",
+              "RelativeToolTip": "Latte_Art_GoFa\\OrderWindow.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAIAwwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T09:04:11.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderWindow.cs [Design]",
+              "DocumentMoniker": "E:\\Robots ABB\\ABB Content\\Gofa\\Gofa Caffe\\Latte_Art_GoFa\\Latte_Art_GoFa\\OrderWindow.cs",
+              "RelativeDocumentMoniker": "Latte_Art_GoFa\\OrderWindow.cs",
+              "ToolTip": "E:\\Robots ABB\\ABB Content\\Gofa\\Gofa Caffe\\Latte_Art_GoFa\\Latte_Art_GoFa\\OrderWindow.cs [Design]",
+              "RelativeToolTip": "Latte_Art_GoFa\\OrderWindow.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T08:02:31.675Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "E:\\Robots ABB\\ABB Content\\Gofa\\Gofa Caffe\\Latte_Art_GoFa\\Latte_Art_GoFa\\Form2.cs",
+              "RelativeDocumentMoniker": "Latte_Art_GoFa\\Form2.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Latte_Art_GoFa\\Latte_Art_GoFa\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T04:06:05.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\Robots ABB\\ABB Content\\Gofa\\Gofa Caffe\\Latte_Art_GoFa\\Latte_Art_GoFa\\Form1.cs",
+              "RelativeDocumentMoniker": "Latte_Art_GoFa\\Form1.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Latte_Art_GoFa\\Latte_Art_GoFa\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T01:05:31.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\Robots ABB\\ABB Content\\Gofa\\Gofa Caffe\\Latte_Art_GoFa\\Latte_Art_GoFa\\Form1.cs",
+              "RelativeDocumentMoniker": "Latte_Art_GoFa\\Form1.cs",
+              "ToolTip": "E:\\Robots ABB\\ABB Content\\Gofa\\Gofa Caffe\\Latte_Art_GoFa\\Latte_Art_GoFa\\Form1.cs",
+              "RelativeToolTip": "Latte_Art_GoFa\\Form1.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAADwvycAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T02:46:26.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "E:\\Robots ABB\\ABB Content\\Gofa\\Gofa Caffe\\Latte_Art_GoFa\\Latte_Art_GoFa\\Form2.cs",
+              "RelativeDocumentMoniker": "Latte_Art_GoFa\\Form2.cs",
+              "ToolTip": "E:\\Robots ABB\\ABB Content\\Gofa\\Gofa Caffe\\Latte_Art_GoFa\\Latte_Art_GoFa\\Form2.cs",
+              "RelativeToolTip": "Latte_Art_GoFa\\Form2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T05:27:32.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "E:\\Robots ABB\\ABB Content\\Gofa\\Gofa Caffe\\Latte_Art_GoFa\\Latte_Art_GoFa\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Latte_Art_GoFa\\Form1.Designer.cs",
+              "ToolTip": "E:\\Robots ABB\\ABB Content\\Gofa\\Gofa Caffe\\Latte_Art_GoFa\\Latte_Art_GoFa\\Form1.Designer.cs",
+              "RelativeToolTip": "Latte_Art_GoFa\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T01:20:16.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form2.Designer.cs",
+              "DocumentMoniker": "E:\\Robots ABB\\ABB Content\\Gofa\\Gofa Caffe\\Latte_Art_GoFa\\Latte_Art_GoFa\\Form2.Designer.cs",
+              "RelativeDocumentMoniker": "Latte_Art_GoFa\\Form2.Designer.cs",
+              "ToolTip": "E:\\Robots ABB\\ABB Content\\Gofa\\Gofa Caffe\\Latte_Art_GoFa\\Latte_Art_GoFa\\Form2.Designer.cs",
+              "RelativeToolTip": "Latte_Art_GoFa\\Form2.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T04:09:29.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Robots ABB\\ABB Content\\Gofa\\Gofa Caffe\\Latte_Art_GoFa\\Latte_Art_GoFa\\Program.cs",
+              "RelativeDocumentMoniker": "Latte_Art_GoFa\\Program.cs",
+              "ToolTip": "E:\\Robots ABB\\ABB Content\\Gofa\\Gofa Caffe\\Latte_Art_GoFa\\Latte_Art_GoFa\\Program.cs",
+              "RelativeToolTip": "Latte_Art_GoFa\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T04:05:21.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.resx",
+              "DocumentMoniker": "E:\\Robots ABB\\ABB Content\\Gofa\\Gofa Caffe\\Latte_Art_GoFa\\Latte_Art_GoFa\\Form1.resx",
+              "RelativeDocumentMoniker": "Latte_Art_GoFa\\Form1.resx",
+              "ToolTip": "E:\\Robots ABB\\ABB Content\\Gofa\\Gofa Caffe\\Latte_Art_GoFa\\Latte_Art_GoFa\\Form1.resx",
+              "RelativeToolTip": "Latte_Art_GoFa\\Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-05-09T04:05:19.372Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

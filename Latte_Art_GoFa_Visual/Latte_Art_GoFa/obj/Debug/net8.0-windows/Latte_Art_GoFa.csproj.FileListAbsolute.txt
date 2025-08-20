@@ -1,0 +1,126 @@
+C:\Users\khoi2\Source\Repos\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\Latte_Art_GoFa.exe
+C:\Users\khoi2\Source\Repos\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\Latte_Art_GoFa.deps.json
+C:\Users\khoi2\Source\Repos\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\Latte_Art_GoFa.runtimeconfig.json
+C:\Users\khoi2\Source\Repos\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\Latte_Art_GoFa.dll
+C:\Users\khoi2\Source\Repos\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\Latte_Art_GoFa.pdb
+C:\Users\khoi2\Source\Repos\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\ABB.Robotics.Controllers.PC.dll
+C:\Users\khoi2\Source\Repos\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\RobotStudio.Services.RobApi.Desktop.dll
+C:\Users\khoi2\Source\Repos\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\RobotStudio.Services.RobApi.dll
+C:\Users\khoi2\Source\Repos\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\ABB.Robotics.Controllers.PC.xml
+C:\Users\khoi2\Source\Repos\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.csproj.AssemblyReference.cache
+C:\Users\khoi2\Source\Repos\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.csproj.GenerateResource.cache
+C:\Users\khoi2\Source\Repos\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khoi2\Source\Repos\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.AssemblyInfoInputs.cache
+C:\Users\khoi2\Source\Repos\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.AssemblyInfo.cs
+C:\Users\khoi2\Source\Repos\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.csproj.CoreCompileInputs.cache
+C:\Users\khoi2\Source\Repos\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Ar.F18B5F2C.Up2Date
+C:\Users\khoi2\Source\Repos\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.dll
+C:\Users\khoi2\Source\Repos\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\refint\Latte_Art_GoFa.dll
+C:\Users\khoi2\Source\Repos\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.pdb
+C:\Users\khoi2\Source\Repos\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.genruntimeconfig.cache
+C:\Users\khoi2\Source\Repos\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\ref\Latte_Art_GoFa.dll
+C:\Users\khoi2\Source\Repos\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.Latte_Art_GoFa.resources
+C:\Users\DELL\Downloads\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\Latte_Art_GoFa.exe
+C:\Users\DELL\Downloads\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\Latte_Art_GoFa.deps.json
+C:\Users\DELL\Downloads\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\Latte_Art_GoFa.runtimeconfig.json
+C:\Users\DELL\Downloads\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\Latte_Art_GoFa.dll
+C:\Users\DELL\Downloads\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\Latte_Art_GoFa.pdb
+C:\Users\DELL\Downloads\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\ABB.Robotics.Controllers.PC.dll
+C:\Users\DELL\Downloads\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\RobotStudio.Services.RobApi.Desktop.dll
+C:\Users\DELL\Downloads\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\RobotStudio.Services.RobApi.dll
+C:\Users\DELL\Downloads\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\ABB.Robotics.Controllers.PC.xml
+C:\Users\DELL\Downloads\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.csproj.AssemblyReference.cache
+C:\Users\DELL\Downloads\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.Latte_Art_GoFa.resources
+C:\Users\DELL\Downloads\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.csproj.GenerateResource.cache
+C:\Users\DELL\Downloads\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Downloads\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.AssemblyInfoInputs.cache
+C:\Users\DELL\Downloads\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.AssemblyInfo.cs
+C:\Users\DELL\Downloads\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Downloads\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Ar.F18B5F2C.Up2Date
+C:\Users\DELL\Downloads\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.dll
+C:\Users\DELL\Downloads\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\refint\Latte_Art_GoFa.dll
+C:\Users\DELL\Downloads\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.pdb
+C:\Users\DELL\Downloads\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.genruntimeconfig.cache
+C:\Users\DELL\Downloads\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\ref\Latte_Art_GoFa.dll
+C:\Users\DELL\Downloads\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.Properties.Resources.resources
+C:\Users\DELL\Downloads\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.Login_Window.resources
+E:\Robots ABB\ABB Content\Gofa\Gofa Caffe\Latte_Art_GoFa\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\Latte_Art_GoFa.exe
+E:\Robots ABB\ABB Content\Gofa\Gofa Caffe\Latte_Art_GoFa\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\Latte_Art_GoFa.deps.json
+E:\Robots ABB\ABB Content\Gofa\Gofa Caffe\Latte_Art_GoFa\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\Latte_Art_GoFa.runtimeconfig.json
+E:\Robots ABB\ABB Content\Gofa\Gofa Caffe\Latte_Art_GoFa\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\Latte_Art_GoFa.dll
+E:\Robots ABB\ABB Content\Gofa\Gofa Caffe\Latte_Art_GoFa\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\Latte_Art_GoFa.pdb
+E:\Robots ABB\ABB Content\Gofa\Gofa Caffe\Latte_Art_GoFa\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\ABB.Robotics.Controllers.PC.dll
+E:\Robots ABB\ABB Content\Gofa\Gofa Caffe\Latte_Art_GoFa\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\RobotStudio.Services.RobApi.Desktop.dll
+E:\Robots ABB\ABB Content\Gofa\Gofa Caffe\Latte_Art_GoFa\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\RobotStudio.Services.RobApi.dll
+E:\Robots ABB\ABB Content\Gofa\Gofa Caffe\Latte_Art_GoFa\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\ABB.Robotics.Controllers.PC.xml
+E:\Robots ABB\ABB Content\Gofa\Gofa Caffe\Latte_Art_GoFa\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.csproj.AssemblyReference.cache
+E:\Robots ABB\ABB Content\Gofa\Gofa Caffe\Latte_Art_GoFa\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.CoffeWindow.resources
+E:\Robots ABB\ABB Content\Gofa\Gofa Caffe\Latte_Art_GoFa\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.Latte_Art_GoFa.resources
+E:\Robots ABB\ABB Content\Gofa\Gofa Caffe\Latte_Art_GoFa\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.Login_Window.resources
+E:\Robots ABB\ABB Content\Gofa\Gofa Caffe\Latte_Art_GoFa\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.OrderWindow.resources
+E:\Robots ABB\ABB Content\Gofa\Gofa Caffe\Latte_Art_GoFa\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.Properties.Resources.resources
+E:\Robots ABB\ABB Content\Gofa\Gofa Caffe\Latte_Art_GoFa\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.csproj.GenerateResource.cache
+E:\Robots ABB\ABB Content\Gofa\Gofa Caffe\Latte_Art_GoFa\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.GeneratedMSBuildEditorConfig.editorconfig
+E:\Robots ABB\ABB Content\Gofa\Gofa Caffe\Latte_Art_GoFa\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.AssemblyInfoInputs.cache
+E:\Robots ABB\ABB Content\Gofa\Gofa Caffe\Latte_Art_GoFa\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.AssemblyInfo.cs
+E:\Robots ABB\ABB Content\Gofa\Gofa Caffe\Latte_Art_GoFa\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.csproj.CoreCompileInputs.cache
+E:\Robots ABB\ABB Content\Gofa\Gofa Caffe\Latte_Art_GoFa\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Ar.F18B5F2C.Up2Date
+E:\Robots ABB\ABB Content\Gofa\Gofa Caffe\Latte_Art_GoFa\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.dll
+E:\Robots ABB\ABB Content\Gofa\Gofa Caffe\Latte_Art_GoFa\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\refint\Latte_Art_GoFa.dll
+E:\Robots ABB\ABB Content\Gofa\Gofa Caffe\Latte_Art_GoFa\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.pdb
+E:\Robots ABB\ABB Content\Gofa\Gofa Caffe\Latte_Art_GoFa\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.genruntimeconfig.cache
+E:\Robots ABB\ABB Content\Gofa\Gofa Caffe\Latte_Art_GoFa\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\ref\Latte_Art_GoFa.dll
+G:\Documents\RobotStudio\Projects\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.Latte_Art_GoFa.resources
+G:\Documents\RobotStudio\Projects\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.Login_Window.resources
+G:\Documents\RobotStudio\Projects\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.Properties.Resources.resources
+G:\Documents\RobotStudio\Projects\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.csproj.GenerateResource.cache
+G:\Documents\RobotStudio\Projects\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.GeneratedMSBuildEditorConfig.editorconfig
+G:\Documents\RobotStudio\Projects\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.AssemblyInfoInputs.cache
+G:\Documents\RobotStudio\Projects\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.AssemblyInfo.cs
+G:\Documents\RobotStudio\Projects\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.csproj.CoreCompileInputs.cache
+G:\Documents\RobotStudio\Projects\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.dll
+G:\Documents\RobotStudio\Projects\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\refint\Latte_Art_GoFa.dll
+G:\Documents\RobotStudio\Projects\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.pdb
+G:\Documents\RobotStudio\Projects\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\Latte_Art_GoFa.exe
+G:\Documents\RobotStudio\Projects\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\Latte_Art_GoFa.deps.json
+G:\Documents\RobotStudio\Projects\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\Latte_Art_GoFa.runtimeconfig.json
+G:\Documents\RobotStudio\Projects\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\Latte_Art_GoFa.dll
+G:\Documents\RobotStudio\Projects\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\Latte_Art_GoFa.pdb
+G:\Documents\RobotStudio\Projects\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\ABB.Robotics.Controllers.PC.dll
+G:\Documents\RobotStudio\Projects\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\RobotStudio.Services.RobApi.Desktop.dll
+G:\Documents\RobotStudio\Projects\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\RobotStudio.Services.RobApi.dll
+G:\Documents\RobotStudio\Projects\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\ABB.Robotics.Controllers.PC.xml
+G:\Documents\RobotStudio\Projects\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.csproj.AssemblyReference.cache
+G:\Documents\RobotStudio\Projects\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Ar.F18B5F2C.Up2Date
+G:\Documents\RobotStudio\Projects\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.genruntimeconfig.cache
+G:\Documents\RobotStudio\Projects\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\ref\Latte_Art_GoFa.dll
+G:\Documents\RobotStudio\Projects\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.DrinkSelectionForm_User.resources
+G:\Documents\RobotStudio\Projects\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa..Designer.resources
+G:\Documents\RobotStudio\Projects\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.DrinkPreferenceForm.resources
+G:\Documents\RobotStudio\Projects\GOFA\CAFFEE\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\Latte_Art_GoFa.exe
+G:\Documents\RobotStudio\Projects\GOFA\CAFFEE\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\Latte_Art_GoFa.deps.json
+G:\Documents\RobotStudio\Projects\GOFA\CAFFEE\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\Latte_Art_GoFa.runtimeconfig.json
+G:\Documents\RobotStudio\Projects\GOFA\CAFFEE\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\Latte_Art_GoFa.dll
+G:\Documents\RobotStudio\Projects\GOFA\CAFFEE\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\Latte_Art_GoFa.pdb
+G:\Documents\RobotStudio\Projects\GOFA\CAFFEE\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\ABB.Robotics.Controllers.PC.dll
+G:\Documents\RobotStudio\Projects\GOFA\CAFFEE\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\RobotStudio.Services.RobApi.Desktop.dll
+G:\Documents\RobotStudio\Projects\GOFA\CAFFEE\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\RobotStudio.Services.RobApi.dll
+G:\Documents\RobotStudio\Projects\GOFA\CAFFEE\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\bin\Debug\net8.0-windows\ABB.Robotics.Controllers.PC.xml
+G:\Documents\RobotStudio\Projects\GOFA\CAFFEE\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.csproj.AssemblyReference.cache
+G:\Documents\RobotStudio\Projects\GOFA\CAFFEE\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa..Designer.resources
+G:\Documents\RobotStudio\Projects\GOFA\CAFFEE\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.Latte_Art_GoFa.resources
+G:\Documents\RobotStudio\Projects\GOFA\CAFFEE\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.DrinkPreferenceForm.resources
+G:\Documents\RobotStudio\Projects\GOFA\CAFFEE\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.DrinkSelectionForm_User.resources
+G:\Documents\RobotStudio\Projects\GOFA\CAFFEE\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.Login_Window.resources
+G:\Documents\RobotStudio\Projects\GOFA\CAFFEE\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.Properties.Resources.resources
+G:\Documents\RobotStudio\Projects\GOFA\CAFFEE\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.csproj.GenerateResource.cache
+G:\Documents\RobotStudio\Projects\GOFA\CAFFEE\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.GeneratedMSBuildEditorConfig.editorconfig
+G:\Documents\RobotStudio\Projects\GOFA\CAFFEE\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.AssemblyInfoInputs.cache
+G:\Documents\RobotStudio\Projects\GOFA\CAFFEE\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.AssemblyInfo.cs
+G:\Documents\RobotStudio\Projects\GOFA\CAFFEE\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.csproj.CoreCompileInputs.cache
+G:\Documents\RobotStudio\Projects\GOFA\CAFFEE\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Ar.F18B5F2C.Up2Date
+G:\Documents\RobotStudio\Projects\GOFA\CAFFEE\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.dll
+G:\Documents\RobotStudio\Projects\GOFA\CAFFEE\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\refint\Latte_Art_GoFa.dll
+G:\Documents\RobotStudio\Projects\GOFA\CAFFEE\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.pdb
+G:\Documents\RobotStudio\Projects\GOFA\CAFFEE\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\Latte_Art_GoFa.genruntimeconfig.cache
+G:\Documents\RobotStudio\Projects\GOFA\CAFFEE\Project_GoFaCaFe_\Gofa Caffe\Latte_Art_GoFa_Visua\Latte_Art_GoFa\Latte_Art_GoFa\obj\Debug\net8.0-windows\ref\Latte_Art_GoFa.dll

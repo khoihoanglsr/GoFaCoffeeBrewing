@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Workspace\\CS-Projects\\Latte_Art_GoFa_Visual\\Latte_Art_GoFa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0DBFADF8-6210-4F59-AD4F-CA7D9232E78A}|Latte_Art_GoFa\\Latte_Art_GoFa.csproj|d:\\workspace\\cs-projects\\latte_art_gofa_visual\\latte_art_gofa\\latte_art_gofa\\cameraprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DBFADF8-6210-4F59-AD4F-CA7D9232E78A}|Latte_Art_GoFa\\Latte_Art_GoFa.csproj|solutionrelative:latte_art_gofa\\cameraprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DBFADF8-6210-4F59-AD4F-CA7D9232E78A}|Latte_Art_GoFa\\Latte_Art_GoFa.csproj|D:\\Workspace\\CS-Projects\\Latte_Art_GoFa_Visual\\Latte_Art_GoFa\\latte_art_gofa\\cameraprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0DBFADF8-6210-4F59-AD4F-CA7D9232E78A}|Latte_Art_GoFa\\Latte_Art_GoFa.csproj|solutionrelative:latte_art_gofa\\cameraprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 106,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CameraProcess.cs",
+              "DocumentMoniker": "D:\\Workspace\\CS-Projects\\Latte_Art_GoFa_Visual\\Latte_Art_GoFa\\Latte_Art_GoFa\\CameraProcess.cs",
+              "RelativeDocumentMoniker": "Latte_Art_GoFa\\CameraProcess.cs",
+              "ToolTip": "D:\\Workspace\\CS-Projects\\Latte_Art_GoFa_Visual\\Latte_Art_GoFa\\Latte_Art_GoFa\\CameraProcess.cs",
+              "RelativeToolTip": "Latte_Art_GoFa\\CameraProcess.cs",
+              "ViewState": "AgIAAPQAAAAAAAAAAAAowB8BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T04:19:31.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CameraProcess.cs [Design]",
+              "DocumentMoniker": "D:\\Workspace\\CS-Projects\\Latte_Art_GoFa_Visual\\Latte_Art_GoFa\\Latte_Art_GoFa\\CameraProcess.cs",
+              "RelativeDocumentMoniker": "Latte_Art_GoFa\\CameraProcess.cs",
+              "ToolTip": "D:\\Workspace\\CS-Projects\\Latte_Art_GoFa_Visual\\Latte_Art_GoFa\\Latte_Art_GoFa\\CameraProcess.cs [Design]",
+              "RelativeToolTip": "Latte_Art_GoFa\\CameraProcess.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T04:19:28.277Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
