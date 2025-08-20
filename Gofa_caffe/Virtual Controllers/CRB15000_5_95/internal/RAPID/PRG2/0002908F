@@ -525,6 +525,62 @@ MODULE Kcare_Latte_art
         dropTool1;
         Home;
     ENDPROC
+    PROC Pick_Tool1()
+        MoveJ Change1_10,v500,fine,Gripper_Tool\WObj:=Workobject_Change_Staytion;
+        MoveL Change1_20,v200,fine,Gripper_Tool\WObj:=Workobject_Change_Staytion;
+        SetDO ABB_Scalable_IO_0_DO1,1;
+        MoveL Change1_30,v200,fine,Gripper_Tool\WObj:=Workobject_Change_Staytion;
+        MoveL Change1_40,v500,fine,Gripper_Tool\WObj:=Workobject_Change_Staytion;
+    ENDPROC
+    PROC Drop_Tool1()
+        SetDO ABB_Scalable_IO_0_DO1,1;
+        MoveJ Change1_40,v500,fine,Gripper_Tool\WObj:=Workobject_Change_Staytion;
+        MoveL Change1_30,v200,fine,Gripper_Tool\WObj:=Workobject_Change_Staytion;
+        MoveL Change1_20,v200,fine,Gripper_Tool\WObj:=Workobject_Change_Staytion;
+        MoveL Change1_10,v200,fine,Gripper_Tool\WObj:=Workobject_Change_Staytion;
+        SetDO ABB_Scalable_IO_0_DO1,0;
+    ENDPROC
+    PROC Caffee()
+        Home;
+        Pick_Tool1;
+        Drop_Tool1;
+        Pick_Tool2;
+        Drop_Tool2;
+        Pick_Tool1;
+        Drop_Tool1;
+        Pick_Tool2;
+        Drop_Tool2;
+        Pick_Tool1;
+        Drop_Tool1;
+        Home;
+    ENDPROC
+    PROC Caffee_Milk()
+        Home;
+        Pick_Tool1;
+        Drop_Tool1;
+        Pick_Tool2;
+        Drop_Tool2;
+        Pick_Tool1;
+        Drop_Tool1;
+        Pick_Tool2;
+        Move_C_R;
+        Move_C_L;
+        Drop_Tool2;
+        Pick_Tool3;
+        Drop_Tool3;
+        Pick_Tool2;
+        Drop_Tool2;
+        Pick_Tool1;
+        Washing_Phin;
+        Drop_Tool1;
+        Home;
+    ENDPROC
+    PROC CupDetection()
+        MoveL Target_CupDetection10,v50,fine,Gripper_Tool\WObj:=wobj0;
+        MoveL Target_CupDetection20,v50,fine,Gripper_Tool\WObj:=wobj0;
+        MoveL Target_CupDetection30,v50,fine,Gripper_Tool\WObj:=wobj0;
+        MoveL Target_CupDetection10,v50,fine,Gripper_Tool\WObj:=wobj0;
+    ENDPROC
 
 
 ENDMODULE
