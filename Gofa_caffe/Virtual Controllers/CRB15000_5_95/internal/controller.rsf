@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ProductSettings version="2.0">
   <Products>
-    <Product name="RobotOS" version="16.0.0+231" id="abb.robotics.robotos" distName="RobotWare" distVersion="7.18.1">
+    <Product name="RobotOS" version="16.0.0+231" id="abb.robotics.robotos" distName="RobotWare" distVersion="7.18.0">
       <Features>
         <Feature id="abb.robotics.robotos" displayName="Robot Controller Operating System" robot="1" />
       </Features>
     </Product>
-    <Product name="RobotControl" version="7.18.1+696" id="abb.robotics.robotcontrol" distName="RobotWare" distVersion="7.18.1">
+    <Product name="RobotControl" version="7.18.0+665" id="abb.robotics.robotcontrol" distName="RobotWare" distVersion="7.18.0">
       <Features>
         <Feature id="abb.robotics.robotcontrol.base" displayName="RobotControl Base" robot="1" />
         <Feature id="abb.robotics.robotcontrol.languages.english" displayName="English" robot="1" />
@@ -27,12 +27,12 @@
         <Feature id="abb.robotics.robotcontrol.controllerhw.drivesystem.d7" displayName="D7 (for CRB 15000)" robot="1" />
       </Features>
     </Product>
-    <Product name="FlexPendantSoftwareUpdate" version="1.19.1+1678" id="abb.robotics.flexpendantapps" distName="RobotWare" distVersion="7.18.1">
+    <Product name="FlexPendantSoftwareUpdate" version="1.19.0+1646" id="abb.robotics.flexpendantapps" distName="RobotWare" distVersion="7.18.0">
       <Features>
         <Feature id="abb.robotics.flexpendantapps.apps" displayName="FlexPendant App Package" robot="1" />
       </Features>
     </Product>
-    <Product name="Robots" version="1.18.1+44" id="abb.robotics.robots" distName="RobotWare" distVersion="7.18.1">
+    <Product name="Robots" version="1.18.0+40" id="abb.robotics.robots" distName="RobotWare" distVersion="7.18.0">
       <Features>
         <Feature id="abb.robotics.robots.base" displayName="Robots Base" robot="1" />
         <Feature id="abb.robotics.robots.robots.crb15000.5-0_95" displayName="CRB 15000-5/0.95" robot="1" />

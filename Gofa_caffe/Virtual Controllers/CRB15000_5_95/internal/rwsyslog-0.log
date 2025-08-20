@@ -207,6 +207,20 @@
 <13>Aug 20 14:37:01 CRB15000_5_95 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=134024178|1210|00707|-|robot|	707
 <13>Aug 20 14:37:01 CRB15000_5_95 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=255199064|1210|00708|-|robot|	708
 <13>Aug 20 14:37:01 CRB15000_5_95 ABB-UAL:01:Log-out (user logged out)|-|Socket=560|1210|00709|-|robot|	709
+<9>Aug 20 15:56:40 CRB15000_5_95 ABB-UAL:01:Log data hash check failed (Log data altered)|-|error read from syslog.log|3220|00710|-|robot|syslog	710
+<13>Aug 20 15:56:51 CRB15000_5_95 ABB-UAL:01:Log-in successful|-|UAS_UID=621276882|1110|00711|-|robot|Default User	711
+<13>Aug 20 15:56:51 CRB15000_5_95 ABB-UAL:01:Log-in successful|-|UAS_UID=144669875|1110|00712|-|robot|Default User	712
+<13>Aug 20 15:56:51 CRB15000_5_95 ABB-UAL:01:Configuration upload|-|Start restore|1331|00713|-|robot|621276882	713
+<13>Aug 20 15:57:12 CRB15000_5_95 ABB-UAL:01:Log-in successful|-|UAS_UID=844392|1110|00714|-|robot|Default User	714
+<13>Aug 20 15:57:12 CRB15000_5_95 ABB-UAL:01:Log-in successful|-|UAS_UID=1034160204|1110|00715|-|robot|Default User	715
+<13>Aug 20 15:57:17 CRB15000_5_95 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=1034160204|1210|00716|-|robot|	716
+<13>Aug 20 15:57:17 CRB15000_5_95 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=844392|1210|00717|-|robot|	717
+<13>Aug 20 15:57:17 CRB15000_5_95 ABB-UAL:01:Log-out (user logged out)|-|Socket=3148|1210|00718|-|robot|	718
+<13>Aug 20 15:57:23 CRB15000_5_95 ABB-UAL:01:Log-in successful|-|UAS_UID=166921303|1110|00719|-|robot|Admin	719
+<13>Aug 20 15:57:23 CRB15000_5_95 ABB-UAL:01:Log-in successful|-|UAS_UID=1367102500|1110|00720|-|robot|Admin	720
+<13>Aug 20 15:57:31 CRB15000_5_95 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=1367102500|1210|00721|-|robot|	721
+<13>Aug 20 15:57:31 CRB15000_5_95 ABB-UAL:01:Log-out (user logged out)|-|UAS_UID=166921303|1210|00722|-|robot|	722
+<13>Aug 20 15:57:31 CRB15000_5_95 ABB-UAL:01:Log-out (user logged out)|-|Socket=748|1210|00723|-|robot|	723
 -----BEGIN DIGEST-----
-a8S11jMR25KNaVqM9WNAzEcp36M/fD6gkLl/QFr1tsjdXQdHA+V0dyv8gr9i8sTrABhRITeMg14XqNvhlwxRQpnt5dI=
+j4ZwHUAoZPSxEb8sloDm6INprm3rNL5hMBb2wT/R+iO1IAcsVr6nHkKDVxvqRZoluSU15TYGUxoOUOD1ENnof/jZsso=
 -----END DIGEST-----
