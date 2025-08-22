@@ -44,7 +44,7 @@ MODULE Kcare_Latte_art
     ENDPROC
     
     PROC Home()
-        MoveJ Target_CupDetection10,v500,z100,tool0;
+        MoveJ move_home,v500,z100,tool0;
     ENDPROC
     
     
@@ -97,10 +97,11 @@ MODULE Kcare_Latte_art
         MoveJ Conial_Burr_Roll_2,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
         MoveJ Conial_Burr_Move,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
         MoveJ Conial_Burr_Back,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
+        MoveJ Conial_Burr_Move,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
         MoveL Conial_Burr_20,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
         MoveL Conial_Burr_10,v50,fine,Phin_Tool\WObj:=Workobject_Conial_Burr;
         SetDO ABB_Scalable_IO_0_DO5,0;
-        WaitTime 1.5;
+        WaitTime 1.1;
 		MoveL Target_CoffeTG,v200,fine,Phin_Tool\WObj:=Workobject_Home_coffe;
     ENDPROC
     
@@ -240,7 +241,6 @@ MODULE Kcare_Latte_art
     ! Add milk into coffee
     !=====================
     PROC putInMilkPump()
-
         MoveL Milk_10,v100,fine,Cup_Top_Tool\WObj:=Workobject_Milk;
         MoveL Milk_20,v100,fine,Cup_Top_Tool\WObj:=Workobject_Milk;
         MoveL Milk_30,v200,fine,Cup_Top_Tool\WObj:=Workobject_Milk;
@@ -519,7 +519,6 @@ MODULE Kcare_Latte_art
         dropTool1;
         Home;
     ENDPROC
-
     PROC Pick_Tool1()
         MoveJ Change1_10,v500,fine,Gripper_Tool\WObj:=Workobject_Change_Staytion;
         MoveL Change1_20,v200,fine,Gripper_Tool\WObj:=Workobject_Change_Staytion;
@@ -535,13 +534,5 @@ MODULE Kcare_Latte_art
         MoveL Change1_10,v200,fine,Gripper_Tool\WObj:=Workobject_Change_Staytion;
         SetDO ABB_Scalable_IO_0_DO1,0;
     ENDPROC
-   
-    PROC CupDetection()
-        MoveL Target_CupDetection10,v50,fine,Gripper_Tool\WObj:=wobj0;
-        MoveL Target_CupDetection20,v50,fine,Gripper_Tool\WObj:=wobj0;
-        MoveL Target_CupDetection30,v50,fine,Gripper_Tool\WObj:=wobj0;
-        MoveL Target_CupDetection10,v50,fine,Gripper_Tool\WObj:=wobj0;
-    ENDPROC
-
 
 ENDMODULE

@@ -2,17 +2,17 @@ No ExternalUAS configuration found
 
 Script begin: C:/Users/Thanh Thien/AppData/Local/ABB/RobotWare/RobotControl_7.18.0/system/startup.cmd
 Goto to label: NO_AXC
-07:00:00:027019 Status 0 from if_feature_present abb.robotics.robotcontrol.controllerhw.axiscomputer.none
+07:00:00:018019 Status 0 from if_feature_present abb.robotics.robotcontrol.controllerhw.axiscomputer.none
 
 Script begin: C:/Users/Thanh Thien/AppData/Local/ABB/RobotWare/RobotControl_7.18.0/system/startup_no_axc.cmd
-07:00:00:027022 Status 0 from startup_log
+07:00:00:018022 Status 0 from startup_log
 Begin system startup
-07:00:00:027025 Status 0 from echo
-07:00:00:027027 Status 0 from invoke2 s17_initialize
+07:00:00:018025 Status 0 from echo
+07:00:00:018027 Status 0 from invoke2 s17_initialize
 Goto to label: START_EMULATED_M03
-07:00:00:027030 Status 0 from ifvc START_EMULATED_M03
-07:00:00:027032 Status 0 from invoke2 s40_create_emulated_ethercat_slave
-07:00:00:027034 Status 0 from mkdir D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_Caffe/Virtual Controllers/CRB15000_5_95/internal/M03_MEM
+07:00:00:018030 Status 0 from ifvc START_EMULATED_M03
+07:00:00:018032 Status 0 from invoke2 s40_create_emulated_ethercat_slave
+07:00:00:018034 Status 0 from mkdir D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/M03_MEM
 Load emulated slaves from dir : C:/Users/Thanh Thien/AppData/Local/ABB/RobotWare/RobotControl_7.18.0/vcbin
 CreateMailslot for slot \\.\mailslot\asyncpdi2ecat1_4362ECE4
 CreateMailslot for slot \\.\mailslot\syncpdi2ecat1_4362ECE4
@@ -44,240 +44,240 @@ CreateTestFile for slot \\.\mailslot\probemail5_4362ECE4
 CreateFile for slot \\.\mailslot\asyncecat2pdi6_4362ECE4
 CreateFile for slot \\.\mailslot\syncecat2pdi6_4362ECE4
 CreateTestFile for slot \\.\mailslot\probemail6_4362ECE4
-07:00:00:027067 Status 0 from invoke DriveLinkHal_startServices
-D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_Caffe/Virtual Controllers/CRB15000_5_95/TEMP has been mounted.
-07:00:00:027070 Status 0 from baseinit
-07:00:00:027072 Status 0 from invoke internalBusDrv
+07:00:00:018067 Status 0 from invoke DriveLinkHal_startServices
+D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_caffe/Virtual Controllers/CRB15000_5_95/TEMP has been mounted.
+07:00:00:018070 Status 0 from baseinit
+07:00:00:018072 Status 0 from invoke internalBusDrv
 Goto to label: NO_ASCII_LOG
-07:00:00:027075 Status 0 from getkey ASCIILogMedia
-07:00:00:027077 Status 0 from uprobe_init
-07:00:00:027079 Status 0 from debug_service_base_init
-07:00:00:027081 Status 0 from invoke S33_01_create
-07:00:00:027083 Status 0 from S33_01_init
-07:00:00:027085 Status 0 from invoke mchExceptionInit
-07:00:00:027087 Status 0 from invoke S98_01_create
-07:00:00:027089 Status 0 from S98_01_init
+07:00:00:018075 Status 0 from getkey ASCIILogMedia
+07:00:00:018077 Status 0 from uprobe_init
+07:00:00:018079 Status 0 from debug_service_base_init
+07:00:00:018081 Status 0 from invoke S33_01_create
+07:00:00:018083 Status 0 from S33_01_init
+07:00:00:018085 Status 0 from invoke mchExceptionInit
+07:00:00:018087 Status 0 from invoke S98_01_create
+07:00:00:018089 Status 0 from S98_01_init
 Goto to label: VC_SEP_SKIP
-07:00:00:027092 Status 0 from ifvc VC_SEP_SKIP
+07:00:00:018092 Status 0 from ifvc VC_SEP_SKIP
 Loading Safety Controller images
-07:00:00:027095 Status 0 from echo
-07:00:00:027097 Status 0 from invoke scinit_load_and_start_safety_controller
+07:00:00:018095 Status 0 from echo
+07:00:00:018097 Status 0 from invoke scinit_load_and_start_safety_controller
 Goto to label: VC_CS_SKIP
-07:00:00:027100 Status 0 from ifvc VC_CS_SKIP
+07:00:00:018100 Status 0 from ifvc VC_CS_SKIP
 Goto to label: VC_LED_SKIP
-07:00:00:027103 Status 0 from ifvc VC_LED_SKIP
-07:00:00:027105 Status 0 from bb_populate
-07:00:00:027107 Status 0 from bb_populate
-07:00:00:027109 Status 0 from bb_populate
-07:00:00:027111 Status 0 from bb_populate
-07:00:00:027113 Status 0 from bb_populate
-07:00:00:027115 Status 0 from bb_populate
-07:00:00:027117 Status 0 from bb_populate
-07:00:00:027119 Status 0 from bb_populate
-07:00:00:027121 Status 0 from bb_populate
-07:00:00:027123 Status 0 from bb_populate
-07:00:00:027125 Status 0 from bb_populate
-07:00:00:027127 Status 0 from bb_populate
-07:00:00:027129 Status 0 from sysdmp_init
-07:00:00:027131 Status 0 from task 
-07:00:00:027133 Status 0 from debug_service_init
-07:00:00:027135 Status 0 from sysdmp_add
-07:00:00:027137 Status 0 from sysdmp_add
-07:00:00:027139 Status 0 from sysdmp_add
-07:00:00:027141 Status 0 from sysdmp_add
-07:00:00:027143 Status 0 from sysdmp_add
-07:00:00:027145 Status 0 from sysdmp_add
-07:00:00:027147 Status 0 from sysdmp_add
+07:00:00:018103 Status 0 from ifvc VC_LED_SKIP
+07:00:00:018105 Status 0 from bb_populate
+07:00:00:018107 Status 0 from bb_populate
+07:00:00:018109 Status 0 from bb_populate
+07:00:00:018111 Status 0 from bb_populate
+07:00:00:018113 Status 0 from bb_populate
+07:00:00:018115 Status 0 from bb_populate
+07:00:00:018117 Status 0 from bb_populate
+07:00:00:018119 Status 0 from bb_populate
+07:00:00:018121 Status 0 from bb_populate
+07:00:00:018123 Status 0 from bb_populate
+07:00:00:018125 Status 0 from bb_populate
+07:00:00:018127 Status 0 from bb_populate
+07:00:00:018129 Status 0 from sysdmp_init
+07:00:00:018131 Status 0 from task 
+07:00:00:018133 Status 0 from debug_service_init
+07:00:00:018135 Status 0 from sysdmp_add
+07:00:00:018137 Status 0 from sysdmp_add
+07:00:00:018139 Status 0 from sysdmp_add
+07:00:00:018141 Status 0 from sysdmp_add
+07:00:00:018143 Status 0 from sysdmp_add
+07:00:00:018145 Status 0 from sysdmp_add
+07:00:00:018147 Status 0 from sysdmp_add
 Goto to label: NO_RC_DUMPS
-07:00:00:027150 Status 0 from ifvc NO_RC_DUMPS
-07:00:00:027152 Status 0 from sysdmp_add
-07:00:00:027154 Status 0 from sysdmp_add
-07:00:00:027156 Status 0 from sysdmp_add
-07:00:00:027158 Status 0 from task 
-07:00:00:033000 Status 0 from synchronize task
-07:00:00:033002 Status 0 from go task
-07:00:00:033004 Status 0 from task 
-07:00:00:033006 Status 0 from task 
-07:00:00:033008 Status 0 from task 
+07:00:00:018150 Status 0 from ifvc NO_RC_DUMPS
+07:00:00:018152 Status 0 from sysdmp_add
+07:00:00:018154 Status 0 from sysdmp_add
+07:00:00:018156 Status 0 from sysdmp_add
+07:00:00:018158 Status 0 from task 
+07:00:00:024000 Status 0 from synchronize task
+07:00:00:024002 Status 0 from go task
+07:00:00:024004 Status 0 from task 
+07:00:00:024006 Status 0 from task 
+07:00:00:024008 Status 0 from task 
 Goto to label: VC_NO_CLOCK_PROBE
-07:00:00:033011 Status 0 from ifvc VC_NO_CLOCK_PROBE
+07:00:00:024011 Status 0 from ifvc VC_NO_CLOCK_PROBE
 [94m
-25-08-20 15:57:19 MC0: type = STATE_CHANGE id = Operational code = 45 (10045)
+25-08-20 17:31:12 MC0: type = STATE_CHANGE id = Operational code = 45 (10045)
 [37m
-07:00:00:033018 Status 0 from basenew
+07:00:00:024018 Status 0 from basenew
 Base services started
-07:00:00:033021 Status 0 from echo
+07:00:00:024021 Status 0 from echo
 Goto to label: VC_NO_REMOTE_DIAGNOSTIC
-07:00:00:033024 Status 0 from ifvc VC_NO_REMOTE_DIAGNOSTIC
-07:00:00:033026 Status 0 from S98_01_new
-07:00:00:033028 Status 0 from direxist D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_Caffe/Virtual Controllers/CRB15000_5_95/TEMP/rw_trash
+07:00:00:024024 Status 0 from ifvc VC_NO_REMOTE_DIAGNOSTIC
+07:00:00:024026 Status 0 from S98_01_new
+07:00:00:024028 Status 0 from direxist D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_caffe/Virtual Controllers/CRB15000_5_95/TEMP/rw_trash
 Goto to label: NEXT_STEP
-07:00:00:033031 Status 0 from goto NEXT_STEP
+07:00:00:024031 Status 0 from goto NEXT_STEP
 Goto to label: VC_NO_MC_SEP_UPGRADE
-07:00:00:033034 Status 0 from ifvc VC_NO_MC_SEP_UPGRADE
+07:00:00:024034 Status 0 from ifvc VC_NO_MC_SEP_UPGRADE
 Goto to label: VC_NO_MC_CS_UPGRADE
-07:00:00:033037 Status 0 from ifvc VC_NO_MC_CS_UPGRADE
+07:00:00:024037 Status 0 from ifvc VC_NO_MC_CS_UPGRADE
 Goto to label: VC_NO_MC_FPGA_UPGRADE
-07:00:00:033040 Status 0 from ifvc VC_NO_MC_FPGA_UPGRADE
-07:00:00:033042 Status 0 from invoke fciInit
-07:00:00:033045 Status 0 from init eio
-07:00:00:033047 Status 0 from task 
-07:00:00:033049 Status 0 from task 
-07:00:00:033051 Status 0 from invoke incInstallDriver
+07:00:00:024040 Status 0 from ifvc VC_NO_MC_FPGA_UPGRADE
+07:00:00:024042 Status 0 from invoke fciInit
+07:00:00:024045 Status 0 from init eio
+07:00:00:024047 Status 0 from task 
+07:00:00:024049 Status 0 from task 
+07:00:00:024051 Status 0 from invoke incInstallDriver
 Goto to label: LOAD_CMD
-07:00:00:033054 Status 0 from fileexist C:/Users/Thanh Thien/AppData/Local/ABB/RobotWare/RobotControl_7.18.0/options/enms/en_base.cmd
+07:00:00:024054 Status 0 from fileexist C:/Users/Thanh Thien/AppData/Local/ABB/RobotWare/RobotControl_7.18.0/options/enms/en_base.cmd
 
 Script begin: C:/Users/Thanh Thien/AppData/Local/ABB/RobotWare/RobotControl_7.18.0/options/enms/en_base.cmd
-07:00:00:033057 Status 0 from sysdmp_add
-07:00:00:033059 Status 0 from task 
-07:00:00:033061 Status 0 from task 
-07:00:00:033063 Status 0 from task 
-07:00:00:033065 Status 0 from invoke incInstallDriver
+07:00:00:024057 Status 0 from sysdmp_add
+07:00:00:024059 Status 0 from task 
+07:00:00:024061 Status 0 from task 
+07:00:00:024063 Status 0 from task 
+07:00:00:024065 Status 0 from invoke incInstallDriver
 Script end: C:/Users/Thanh Thien/AppData/Local/ABB/RobotWare/RobotControl_7.18.0/options/enms/en_base.cmd
-07:00:00:033068 Status 0 from include 
+07:00:00:024068 Status 0 from include 
 Goto to label: NO_BONJOUR_DAEMON
-07:00:00:033071 Status 0 from ifvc NO_BONJOUR_DAEMON
-07:00:00:033073 Status 0 from invoke2 init_mempools
-07:00:00:033075 Status 0 from task 
-07:00:00:033078 Status 0 from task 
-07:00:00:033081 Status 0 from task 
-07:00:00:033084 Status 0 from task 
-07:00:00:033086 Status 0 from task 
-07:00:00:033088 Status 0 from sysdmp_trigger_add
-07:00:00:033090 Status 0 from sysdmp_trigger_add
-07:00:00:033092 Status 0 from sysdmp_trigger_add
-07:00:00:033094 Status 0 from sysdmp_trigger_add
+07:00:00:024071 Status 0 from ifvc NO_BONJOUR_DAEMON
+07:00:00:024073 Status 0 from invoke2 init_mempools
+07:00:00:024075 Status 0 from task 
+07:00:00:024078 Status 0 from task 
+07:00:00:024081 Status 0 from task 
+07:00:00:024084 Status 0 from task 
+07:00:00:024086 Status 0 from task 
+07:00:00:024088 Status 0 from sysdmp_trigger_add
+07:00:00:024090 Status 0 from sysdmp_trigger_add
+07:00:00:024092 Status 0 from sysdmp_trigger_add
+07:00:00:024094 Status 0 from sysdmp_trigger_add
 Starting features - phase 1 of 5
-07:00:00:033097 Status 0 from echo
+07:00:00:024097 Status 0 from echo
 Goto to label: LOAD_CMD
-07:00:00:033100 Status 0 from fileexist D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_Caffe/Virtual Controllers/CRB15000_5_95/internal/opt_l0.cmd
+07:00:00:024100 Status 0 from fileexist D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/opt_l0.cmd
 
-Script begin: D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_Caffe/Virtual Controllers/CRB15000_5_95/internal/opt_l0.cmd
+Script begin: D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/opt_l0.cmd
 
 Script begin: C:/Users/Thanh Thien/AppData/Local/ABB/RobotWare/RobotControl_7.18.0/options/vnet/virtualInc_opt.cmd
 Starting Virtual Inc task and install the driver and network
-07:00:00:033105 Status 0 from echo
-07:00:00:033107 Status 0 from sysdmp_add
-07:00:00:033109 Status 0 from task 
-07:00:00:033111 Status 0 from invoke incInstallDriver
+07:00:00:024105 Status 0 from echo
+07:00:00:024107 Status 0 from sysdmp_add
+07:00:00:024109 Status 0 from task 
+07:00:00:024111 Status 0 from invoke incInstallDriver
 End of Virtual Inc tasks installation
-07:00:00:033114 Status 0 from echo
+07:00:00:024114 Status 0 from echo
 Script end: C:/Users/Thanh Thien/AppData/Local/ABB/RobotWare/RobotControl_7.18.0/options/vnet/virtualInc_opt.cmd
-07:00:00:033117 Status 0 from include End of Virtual Inc tasks installation
+07:00:00:024117 Status 0 from include End of Virtual Inc tasks installation
 
 Script begin: C:/Users/Thanh Thien/AppData/Local/ABB/RobotWare/RobotControl_7.18.0/options/sc/ScInc_opt.cmd
 Starting ScIncTasks and installs the driver/networks
-07:00:00:033121 Status 0 from echo
-07:00:00:033123 Status 0 from task 
-07:00:00:033125 Status 0 from task 
-07:00:00:033127 Status 0 from invoke incInstallDriver
+07:00:00:024121 Status 0 from echo
+07:00:00:024123 Status 0 from task 
+07:00:00:024125 Status 0 from task 
+07:00:00:024127 Status 0 from invoke incInstallDriver
 End of ScIncTasks installation
-07:00:00:033130 Status 0 from echo
+07:00:00:024130 Status 0 from echo
 Script end: C:/Users/Thanh Thien/AppData/Local/ABB/RobotWare/RobotControl_7.18.0/options/sc/ScInc_opt.cmd
-07:00:00:033133 Status 0 from include End of ScIncTasks installation
-Script end: D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_Caffe/Virtual Controllers/CRB15000_5_95/internal/opt_l0.cmd
-07:00:00:033136 Status 0 from include End of ScIncTasks installation
+07:00:00:024133 Status 0 from include End of ScIncTasks installation
+Script end: D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/opt_l0.cmd
+07:00:00:024136 Status 0 from include End of ScIncTasks installation
 Initializing system interrupts
-07:00:00:033139 Status 0 from print
-07:00:00:033142 Status 0 from init motion
-07:00:00:033146 Status 0 from init rol
-07:00:00:033150 Status 0 from init cab
-07:00:00:033152 Status 0 from init bar
-07:00:00:033154 Status 0 from init pgmrun
-07:00:00:033157 Status 0 from init rapid
-07:00:00:033159 Status 0 from init puscfg
-07:00:00:033161 Status 0 from invoke sdlog_init
-07:00:00:033163 Status 0 from task 
+07:00:00:024139 Status 0 from print
+07:00:00:024142 Status 0 from init motion
+07:00:00:024146 Status 0 from init rol
+07:00:00:024150 Status 0 from init cab
+07:00:00:024152 Status 0 from init bar
+07:00:00:024154 Status 0 from init pgmrun
+07:00:00:024157 Status 0 from init rapid
+07:00:00:024159 Status 0 from init puscfg
+07:00:00:024161 Status 0 from invoke sdlog_init
+07:00:00:024163 Status 0 from task 
 Goto to label: VC_CABSUPTS_SKIP
-07:00:00:033166 Status 0 from ifvc VC_CABSUPTS_SKIP
-07:00:00:033169 Status 0 from invoke2 sevt_safety_init
-07:00:00:033171 Status 0 from invoke2 scsafIntBusInit
-07:00:00:033173 Status 0 from sysdmp_add
-07:00:00:033175 Status 0 from sysdmp_add
-07:00:00:033177 Status 0 from invoke2 epanel_device_init
-07:00:00:033179 Status 0 from preNew motion
-07:00:00:033181 Status 0 from task 
-07:00:00:033183 Status 0 from task 
-07:00:00:033185 Status 0 from task 
-07:00:00:033187 Status 0 from task 
-07:00:00:033190 Status 0 from reconfigure eio
+07:00:00:024166 Status 0 from ifvc VC_CABSUPTS_SKIP
+07:00:00:024169 Status 0 from invoke2 sevt_safety_init
+07:00:00:024171 Status 0 from invoke2 scsafIntBusInit
+07:00:00:024173 Status 0 from sysdmp_add
+07:00:00:024175 Status 0 from sysdmp_add
+07:00:00:024177 Status 0 from invoke2 epanel_device_init
+07:00:00:024179 Status 0 from preNew motion
+07:00:00:024181 Status 0 from task 
+07:00:00:024183 Status 0 from task 
+07:00:00:024185 Status 0 from task 
+07:00:00:024187 Status 0 from task 
+07:00:00:024190 Status 0 from reconfigure eio
 Starting Safety Controller orchestrator
-07:00:00:033193 Status 0 from echo
+07:00:00:034000 Status 0 from echo
+07:00:00:034002 Status 0 from task 
   Cpu1 in state ready
-07:00:00:033196 Status 0 from task 
-07:00:13:555000 Status 0 from invoke2 scorch_wait_for_early_setup_done
-07:00:13:555002 Status 0 from task 
-07:00:13:555004 Status 0 from task 
-07:00:13:555006 Status 0 from task 
-07:00:13:555008 Status 0 from task 
+07:00:12:734000 Status 0 from invoke2 scorch_wait_for_early_setup_done
+07:00:12:734002 Status 0 from task 
+07:00:12:734004 Status 0 from task 
+07:00:12:734006 Status 0 from task 
+07:00:12:734008 Status 0 from task 
 Goto to label: TWO_CORES
-07:00:13:555011 Status 0 from if_feature_present abb.robotics.robotcontrol.controllerhw.m28.01
-07:00:13:555013 Status 0 from task 
-07:00:13:555015 Status 0 from task 
-07:00:13:555017 Status 0 from task 
-07:00:13:555019 Status 0 from task 
-07:00:13:555021 Status 0 from task 
-07:00:13:555023 Status 0 from task 
-07:00:13:555025 Status 0 from task 
-07:00:13:555027 Status 0 from task 
-07:00:13:555029 Status 0 from task 
-07:00:13:555031 Status 0 from task 
-07:00:13:555033 Status 0 from task 
-07:00:13:555035 Status 0 from task 
-07:00:13:555037 Status 0 from task 
-07:00:13:555039 Status 0 from task 
-07:00:13:555041 Status 0 from task 
-07:00:13:555043 Status 0 from task 
-07:00:13:555045 Status 0 from task 
-07:00:13:555047 Status 0 from task 
-07:00:13:555049 Status 0 from task 
-07:00:13:555051 Status 0 from task 
-07:00:13:555053 Status 0 from task 
-07:00:13:555055 Status 0 from task 
-07:00:13:555057 Status 0 from task 
-07:00:13:555059 Status 0 from task 
-07:00:13:555066 Status 0 from task 
-07:00:13:555068 Status 0 from task 
-07:00:13:555070 Status 0 from task 
-07:00:13:555072 Status 0 from task 
-07:00:13:555074 Status 0 from task 
-07:00:13:555076 Status 0 from task 
-07:00:13:555078 Status 0 from task 
+07:00:12:734011 Status 0 from if_feature_present abb.robotics.robotcontrol.controllerhw.m28.01
+07:00:12:734013 Status 0 from task 
+07:00:12:734015 Status 0 from task 
+07:00:12:734017 Status 0 from task 
+07:00:12:734019 Status 0 from task 
+07:00:12:734021 Status 0 from task 
+07:00:12:734023 Status 0 from task 
+07:00:12:734025 Status 0 from task 
+07:00:12:734027 Status 0 from task 
+07:00:12:734029 Status 0 from task 
+07:00:12:734031 Status 0 from task 
+07:00:12:734033 Status 0 from task 
+07:00:12:734035 Status 0 from task 
+07:00:12:734037 Status 0 from task 
+07:00:12:734039 Status 0 from task 
+07:00:12:734041 Status 0 from task 
+07:00:12:734043 Status 0 from task 
+07:00:12:734045 Status 0 from task 
+07:00:12:734047 Status 0 from task 
+07:00:12:734049 Status 0 from task 
+07:00:12:734051 Status 0 from task 
+07:00:12:734053 Status 0 from task 
+07:00:12:734055 Status 0 from task 
+07:00:12:734057 Status 0 from task 
+07:00:12:734059 Status 0 from task 
+07:00:12:734066 Status 0 from task 
+07:00:12:734068 Status 0 from task 
+07:00:12:734070 Status 0 from task 
+07:00:12:734072 Status 0 from task 
+07:00:12:734074 Status 0 from task 
+07:00:12:734076 Status 0 from task 
+07:00:12:734078 Status 0 from task 
 Goto to label: NEXT_STEP
-07:00:13:555081 Status 0 from goto NEXT_STEP
-07:00:13:555083 Status 0 from task 
-07:00:13:555085 Status 0 from task 
-07:00:13:555087 Status 0 from task 
-07:00:13:555089 Status 0 from task 
-07:00:13:555091 Status 0 from task 
-07:00:13:555093 Status 0 from task 
-07:00:13:555095 Status 0 from task 
-07:00:13:555097 Status 0 from task 
-07:00:13:555099 Status 0 from task 
-07:00:13:555102 Status 0 from task 
-07:00:13:555105 Status 0 from task 
-07:00:13:555108 Status 0 from task 
-07:00:13:555111 Status 0 from task 
-07:00:13:555114 Status 0 from task 
-07:00:13:555116 Status 0 from task 
-07:00:13:555119 Status 0 from task 
-07:00:13:555121 Status 0 from task 
-07:00:13:555123 Status 0 from task 
-07:00:13:555125 Status 0 from task 
+07:00:12:734081 Status 0 from goto NEXT_STEP
+07:00:12:734083 Status 0 from task 
+07:00:12:734085 Status 0 from task 
+07:00:12:734087 Status 0 from task 
+07:00:12:734089 Status 0 from task 
+07:00:12:734091 Status 0 from task 
+07:00:12:734093 Status 0 from task 
+07:00:12:734095 Status 0 from task 
+07:00:12:734097 Status 0 from task 
+07:00:12:734099 Status 0 from task 
+07:00:12:734102 Status 0 from task 
+07:00:12:734105 Status 0 from task 
+07:00:12:734108 Status 0 from task 
+07:00:12:734111 Status 0 from task 
+07:00:12:734114 Status 0 from task 
+07:00:12:734116 Status 0 from task 
+07:00:12:734119 Status 0 from task 
+07:00:12:734121 Status 0 from task 
+07:00:12:734123 Status 0 from task 
+07:00:12:734125 Status 0 from task 
 Waiting for task group 1 to start
-07:00:13:555128 Status 0 from print
-07:00:13:561000 Status 0 from synchronize task
-07:00:14:061000 Status 0 from delay
+07:00:12:734128 Status 0 from print
+07:00:12:740000 Status 0 from synchronize task
+07:00:13:240000 Status 0 from delay
 Rapi-Subscription running on slot: 205
 Message (cmd/msgType: 299/3) received from sid: 0
-07:00:14:061012 Status 0 from go task
+07:00:13:240012 Status 0 from go task
 Starting features - phase 2 of 5
-07:00:14:061015 Status 0 from echo
-07:00:14:061017 Status 0 from fileexist D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_Caffe/Virtual Controllers/CRB15000_5_95/internal/option.cmd
+07:00:13:240015 Status 0 from echo
+07:00:13:240017 Status 0 from fileexist D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/option.cmd
 Goto to label: NEXT_STEP
-07:00:14:061020 Status 0 from goto NEXT_STEP
+07:00:13:240020 Status 0 from goto NEXT_STEP
 Starting motion system
-07:00:14:061023 Status 0 from echo
+07:00:13:240023 Status 0 from echo
 Message (cmd/msgType: 299/3) received from sid: 0
 DriveLogService reports "Not supported" for unit /Device_1
 DriveLogService reports "Not supported" for unit /Device_2
@@ -293,252 +293,252 @@ STATMATS. New motion_planner: motion_planner_4
 STATMATS. New motion_planner: motion_planner_5
 STATMATS. New motion_planner: motion_planner_6
 STATMATS. New motion_planner: motion_planner_7
-07:01:15:247001 Status 0 from new motion
+07:01:14:426001 Status 0 from new motion
 SISMA_BS_INFO 41152
-07:01:16:747001 Status 0 from delay
-07:01:16:747003 Status 0 from connect_dependings SYS_STORED_OBJ_CAB
-07:01:16:747005 Status 0 from if SYNCROB
+07:01:15:926001 Status 0 from delay
+07:01:15:926003 Status 0 from connect_dependings SYS_STORED_OBJ_CAB
+07:01:15:926005 Status 0 from if SYNCROB
 Goto to label: NOSYNC
-07:01:16:747008 Status 0 from goto NOSYNC
+07:01:15:926008 Status 0 from goto NOSYNC
 Waiting for motion system to start
-07:01:16:747011 Status 0 from echo
-07:01:16:753002 Status 0 from synchronize task
+07:01:15:926011 Status 0 from echo
+07:01:15:932002 Status 0 from synchronize task
 Message (cmd/msgType: 299/3) received from sid: 0
 Message (cmd/msgType: 299/3) received from sid: 0
 Message (cmd/msgType: 299/3) received from sid: 0
-07:01:16:753021 Status 0 from go task
+07:01:15:932021 Status 0 from go task
 Synchronizing industrial networks
-07:01:16:753024 Status 0 from echo
-07:01:16:753063 Status 0 from io_synchronize
+07:01:15:932024 Status 0 from echo
+07:01:15:932063 Status 0 from io_synchronize
 Goto to label: VIRTIOTS_RUN
-07:01:16:753066 Status 0 from ifvc VIRTIOTS_RUN
-07:01:16:753068 Status 0 from task 
+07:01:15:932066 Status 0 from ifvc VIRTIOTS_RUN
+07:01:15:932068 Status 0 from task 
 Starting RAPID system
-07:01:16:753071 Status 0 from echo
-07:01:16:753078 Status 0 from invoke rldryrun_start
-07:01:16:753080 Status 0 from invoke rlcyclic_start
-07:01:16:753082 Status 0 from invoke rlvisualize_start
-07:01:16:753084 Status 0 from invoke rldata_init
+07:01:15:932071 Status 0 from echo
+07:01:15:932078 Status 0 from invoke rldryrun_start
+07:01:15:932080 Status 0 from invoke rlcyclic_start
+07:01:15:932082 Status 0 from invoke rlvisualize_start
+07:01:15:932084 Status 0 from invoke rldata_init
 Message (cmd/msgType: 299/3) received from sid: 0
 ------------number_of_tasks 3 
 ------------number_of_tasks 3 
 ------------number_of_tasks 3 
 Message (cmd/msgType: 299/3) received from sid: 0
 Message (cmd/msgType: 299/3) received from sid: 0
-07:01:16:821010 Status 0 from new rapid
+07:01:16:000010 Status 0 from new rapid
 Starting features - phase 3 of 5
-07:01:16:821013 Status 0 from echo
-07:01:16:821015 Status 0 from fileexist D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_Caffe/Virtual Controllers/CRB15000_5_95/internal/opt_l1.cmd
+07:01:16:000013 Status 0 from echo
+07:01:16:000015 Status 0 from fileexist D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/opt_l1.cmd
 Goto to label: NEXT_STEP
-07:01:16:821018 Status 0 from goto NEXT_STEP
+07:01:16:000018 Status 0 from goto NEXT_STEP
 [93m
-25-08-20 15:57:22 SC CPUA: type = WARNING id = Safety code = 526 (90526)
+25-08-20 17:31:15 SC CPUA: type = WARNING id = Safety code = 526 (90526)
 [37m
 [94m
-25-08-20 15:57:22 MC0: type = STATE_CHANGE id = Operational code = 10 (10010)
+25-08-20 17:31:15 MC0: type = STATE_CHANGE id = Operational code = 10 (10010)
 [37m
 [94m
-25-08-20 15:57:22 MC0: type = STATE_CHANGE id = Operational code = 17 (10017)
+25-08-20 17:31:15 MC0: type = STATE_CHANGE id = Operational code = 17 (10017)
 [37m
-07:01:21:278060 Status 0 from new cab
+07:01:20:457060 Status 0 from new cab
 Starting communication services
-07:01:21:278063 Status 0 from echo
-07:01:21:278065 Status 0 from invoke2 set_max_allowed_robapi_wan_connections
-07:01:21:278067 Status 0 from task 
-07:01:21:278069 Status 0 from task 
-07:01:21:278071 Status 0 from task 
-07:01:21:278073 Status 0 from task 
-07:01:21:278075 Status 0 from task 
-07:01:21:278077 Status 0 from task 
-07:01:21:278079 Status 0 from task 
-07:01:21:278081 Status 0 from task 
-07:01:21:278083 Status 0 from task 
-07:01:21:278085 Status 0 from task 
-07:01:21:278087 Status 0 from task 
-07:01:21:278089 Status 0 from task 
+07:01:20:457063 Status 0 from echo
+07:01:20:457065 Status 0 from invoke2 set_max_allowed_robapi_wan_connections
+07:01:20:457067 Status 0 from task 
+07:01:20:457069 Status 0 from task 
+07:01:20:457071 Status 0 from task 
+07:01:20:457073 Status 0 from task 
+07:01:20:457075 Status 0 from task 
+07:01:20:457077 Status 0 from task 
+07:01:20:457079 Status 0 from task 
+07:01:20:457081 Status 0 from task 
+07:01:20:457083 Status 0 from task 
+07:01:20:457085 Status 0 from task 
+07:01:20:457087 Status 0 from task 
+07:01:20:457089 Status 0 from task 
 Starting features - phase 4 of 5
-07:01:21:278092 Status 0 from echo
-07:01:21:278094 Status 0 from fileexist D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_Caffe/Virtual Controllers/CRB15000_5_95/internal/opt_l2.cmd
+07:01:20:457092 Status 0 from echo
+07:01:20:457094 Status 0 from fileexist D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/opt_l2.cmd
 Goto to label: NEXT_STEP
-07:01:21:278097 Status 0 from goto NEXT_STEP
-07:01:21:278099 Status 0 from task 
+07:01:20:457097 Status 0 from goto NEXT_STEP
+07:01:20:457099 Status 0 from task 
 Goto to label: NETSCANSKIP
-07:01:21:278102 Status 0 from ifvc NETSCANSKIP
+07:01:20:457102 Status 0 from ifvc NETSCANSKIP
 Finalizing RAPID system
-07:01:21:278105 Status 0 from echo
+07:01:20:457105 Status 0 from echo
 [93m
-25-08-20 15:57:22 MC0: type = WARNING id = Program code = 210 (40210)
+25-08-20 17:31:15 MC0: type = WARNING id = Program code = 210 (40210)
 
 arg 0: T_GOFA_LED
 [37m
 [94m
-25-08-20 15:57:22 MC0: type = STATE_CHANGE id = Operational code = 2 (10002)
+25-08-20 17:31:15 MC0: type = STATE_CHANGE id = Operational code = 2 (10002)
 arg 0: 1 arg 1: 0 
 arg 2: SC_CBC
 [37m
 [94m
-25-08-20 15:57:22 MC0: type = STATE_CHANGE id = Operational code = 2 (10002)
+25-08-20 17:31:15 MC0: type = STATE_CHANGE id = Operational code = 2 (10002)
 arg 0: 3 arg 1: 0 
 arg 2: T_GOFA_LED
 [37m
 [94m
-25-08-20 15:57:22 MC0: type = STATE_CHANGE id = Operational code = 150 (10150)
+25-08-20 17:31:15 MC0: type = STATE_CHANGE id = Operational code = 150 (10150)
 arg 0: 2 
 arg 1: T_ROB1
 [37m
 [94m
-25-08-20 15:57:22 MC0: type = STATE_CHANGE id = Operational code = 150 (10150)
+25-08-20 17:31:15 MC0: type = STATE_CHANGE id = Operational code = 150 (10150)
 arg 0: 3 
 arg 1: T_GOFA_LED
 [37m
 [94m
-25-08-20 15:57:22 MC0: type = STATE_CHANGE id = Operational code = 2 (10002)
+25-08-20 17:31:15 MC0: type = STATE_CHANGE id = Operational code = 2 (10002)
 arg 0: 2 arg 1: 0 
 arg 2: T_ROB1
 [37m
 [94m
-25-08-20 15:57:22 MC0: type = STATE_CHANGE id = Operational code = 129 (10129)
+25-08-20 17:31:15 MC0: type = STATE_CHANGE id = Operational code = 129 (10129)
 arg 0: 3 
 arg 1: T_GOFA_LED
 arg 2: 9 [37m
 [94m
-25-08-20 15:57:22 MC0: type = STATE_CHANGE id = Operational code = 150 (10150)
+25-08-20 17:31:15 MC0: type = STATE_CHANGE id = Operational code = 150 (10150)
 arg 0: 3 
 arg 1: T_GOFA_LED
 [37m
 [94m
-25-08-20 15:57:22 MC0: type = STATE_CHANGE id = Operational code = 150 (10150)
+25-08-20 17:31:15 MC0: type = STATE_CHANGE id = Operational code = 150 (10150)
 arg 0: 1 
 arg 1: SC_CBC
 [37m
-07:01:21:284001 Status 0 from synchronize task
-07:01:21:284003 Status 0 from rapid_startup_ready
-07:01:21:284005 Status 0 from cab_startup_ready
+07:01:20:463001 Status 0 from synchronize task
+07:01:20:463003 Status 0 from rapid_startup_ready
+07:01:20:463005 Status 0 from cab_startup_ready
 Message (cmd/msgType: 299/3) received from sid: 0
 Message (cmd/msgType: 299/3) received from sid: 0
 Message (cmd/msgType: 299/3) received from sid: 0
-07:01:21:284022 Status 0 from go task
+07:01:20:463022 Status 0 from go task
 Goto to label: VTSPEED
-07:01:21:284025 Status 0 from ifvc VTSPEED
-07:01:21:284027 Status 0 from invoke VTSetSpeed
-07:01:21:284029 Status 0 from invoke osal_netconf_dhcps_strict_vendor_id
+07:01:20:463025 Status 0 from ifvc VTSPEED
+07:01:20:463027 Status 0 from invoke VTSetSpeed
+07:01:20:463029 Status 0 from invoke osal_netconf_dhcps_strict_vendor_id
 Starting features - phase 5 of 5
-07:01:21:284032 Status 0 from echo
-07:01:21:284034 Status 0 from fileexist D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_Caffe/Virtual Controllers/CRB15000_5_95/internal/opt_l3.cmd
+07:01:20:463032 Status 0 from echo
+07:01:20:463034 Status 0 from fileexist D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/opt_l3.cmd
 Goto to label: NEXT_STEP
-07:01:21:284037 Status 0 from goto NEXT_STEP
-07:01:21:284039 Status 0 from upgrade_warm_start_completed
-07:01:21:284041 Status 0 from unofficial_rw_notification
-07:01:21:284043 Status 0 from sysdmp_add
-07:01:21:284045 Status 0 from sysdmp_add
-07:01:21:284047 Status 0 from sysdmp_add
-07:01:21:284049 Status 0 from sysdmp_add
-07:01:21:284051 Status 0 from sysdmp_add
-07:01:21:284053 Status 0 from sysdmp_add
-07:01:21:284055 Status 0 from sysdmp_add
-07:01:21:284057 Status 0 from sysdmp_add
-07:01:21:284059 Status 0 from sysdmp_add
-07:01:21:284061 Status 0 from sysdmp_add
-07:01:21:284063 Status 0 from sysdmp_add
-07:01:21:284065 Status 0 from sysdmp_add
-07:01:21:284067 Status 0 from sysdmp_add
-07:01:21:284069 Status 0 from sysdmp_add
-07:01:21:284071 Status 0 from sysdmp_add
-07:01:21:284073 Status 0 from sysdmp_add
-07:01:21:284075 Status 0 from sysdmp_add
-07:01:21:284077 Status 0 from sysdmp_add
-07:01:21:284079 Status 0 from sysdmp_add
-07:01:21:284081 Status 0 from sysdmp_add
-07:01:21:284083 Status 0 from sysdmp_add
-07:01:21:284085 Status 0 from sysdmp_add
-07:01:21:284087 Status 0 from sysdmp_add
-07:01:21:284089 Status 0 from sysdmp_add
-07:01:21:284091 Status 0 from sysdmp_add
-07:01:21:284093 Status 0 from sysdmp_add
-07:01:21:284095 Status 0 from sysdmp_add
+07:01:20:463037 Status 0 from goto NEXT_STEP
+07:01:20:463039 Status 0 from upgrade_warm_start_completed
+07:01:20:463041 Status 0 from unofficial_rw_notification
+07:01:20:463043 Status 0 from sysdmp_add
+07:01:20:463045 Status 0 from sysdmp_add
+07:01:20:463047 Status 0 from sysdmp_add
+07:01:20:463049 Status 0 from sysdmp_add
+07:01:20:463051 Status 0 from sysdmp_add
+07:01:20:463053 Status 0 from sysdmp_add
+07:01:20:463055 Status 0 from sysdmp_add
+07:01:20:463057 Status 0 from sysdmp_add
+07:01:20:463059 Status 0 from sysdmp_add
+07:01:20:463061 Status 0 from sysdmp_add
+07:01:20:463063 Status 0 from sysdmp_add
+07:01:20:463065 Status 0 from sysdmp_add
+07:01:20:463067 Status 0 from sysdmp_add
+07:01:20:463069 Status 0 from sysdmp_add
+07:01:20:463071 Status 0 from sysdmp_add
+07:01:20:463073 Status 0 from sysdmp_add
+07:01:20:463075 Status 0 from sysdmp_add
+07:01:20:463077 Status 0 from sysdmp_add
+07:01:20:463079 Status 0 from sysdmp_add
+07:01:20:463081 Status 0 from sysdmp_add
+07:01:20:463083 Status 0 from sysdmp_add
+07:01:20:463085 Status 0 from sysdmp_add
+07:01:20:463087 Status 0 from sysdmp_add
+07:01:20:463089 Status 0 from sysdmp_add
+07:01:20:463091 Status 0 from sysdmp_add
+07:01:20:463093 Status 0 from sysdmp_add
+07:01:20:463095 Status 0 from sysdmp_add
 Goto to label: NO_TRACEMEMLEAK
-07:01:21:284098 Status 0 from ifvc NO_TRACEMEMLEAK
-07:01:21:284100 Status 0 from sysdmp_add
+07:01:20:463098 Status 0 from ifvc NO_TRACEMEMLEAK
+07:01:20:463100 Status 0 from sysdmp_add
 Goto to label: NO_SEP_DIAG
-07:01:21:284103 Status 0 from ifvc NO_SEP_DIAG
-07:01:21:284105 Status 0 from sysdmp_add
-07:01:21:284107 Status 0 from sysdmp_add
-07:01:21:284109 Status 0 from sysdmp_add
+07:01:20:463103 Status 0 from ifvc NO_SEP_DIAG
+07:01:20:463105 Status 0 from sysdmp_add
+07:01:20:463107 Status 0 from sysdmp_add
+07:01:20:463109 Status 0 from sysdmp_add
 Goto to label: NO_CHKDSK
-07:01:21:284112 Status 0 from ifvc NO_CHKDSK
-07:01:21:284114 Status 0 from sysdmp_add
-07:01:21:284116 Status 0 from sysdmp_add
-07:01:21:284118 Status 0 from sysdmp_add
-07:01:21:284120 Status 0 from sysdmp_add
-07:01:21:284122 Status 0 from sysdmp_add
-07:01:21:284124 Status 0 from sysdmp_add
+07:01:20:463112 Status 0 from ifvc NO_CHKDSK
+07:01:20:463114 Status 0 from sysdmp_add
+07:01:20:463116 Status 0 from sysdmp_add
+07:01:20:463118 Status 0 from sysdmp_add
+07:01:20:463120 Status 0 from sysdmp_add
+07:01:20:463122 Status 0 from sysdmp_add
+07:01:20:463124 Status 0 from sysdmp_add
 Goto to label: NEXT_STEP
-07:01:21:284127 Status 0 from goto NEXT_STEP
-07:01:21:284129 Status 0 from sysdmp_add
-07:01:21:284131 Status 0 from sysdmp_trigger_add
-07:01:21:284133 Status 0 from sysdmp_trigger_add
-07:01:21:284135 Status 0 from sysdmp_trigger_add
-07:01:21:284137 Status 0 from sysdmp_trigger_add
-07:01:21:284139 Status 0 from sysdmp_trigger_add
-07:01:21:284141 Status 0 from sysdmp_trigger_add
-07:01:21:284143 Status 0 from sysdmp_trigger_add
-07:01:21:284145 Status 0 from sysdmp_trigger_add
-07:01:21:284147 Status 0 from sysdmp_trigger_add
-07:01:21:284149 Status 0 from sysdmp_trigger_add
-07:01:21:284151 Status 0 from sysdmp_trigger_add
-07:01:21:284153 Status 0 from sysdmp_trigger_add
-07:01:21:284155 Status 0 from sysdmp_trigger_add
-07:01:21:284157 Status 0 from sysdmp_add_logfile
-07:01:21:284159 Status 0 from sysdmp_add_logfile
-07:01:21:284161 Status 0 from sysdmp_add_logfile
-07:01:21:284163 Status 0 from sysdmp_add_logfile
-07:01:21:284165 Status 0 from sysdmp_add_logfile
-07:01:21:284167 Status 0 from sysdmp_add_logfile
-07:01:21:284169 Status 0 from sysdmp_add_logfile
-07:01:21:284171 Status 0 from sysdmp_add_logfile
-07:01:21:284173 Status 0 from sysdmp_add_logfile
-07:01:21:284175 Status 0 from sysdmp_add_logfile
-07:01:21:284177 Status 0 from sysdmp_add_logfile
-07:01:21:284179 Status 0 from sysdmp_add_logfile
-07:01:21:284181 Status 0 from sysdmp_add_logfile
-07:01:21:284183 Status 0 from sysdmp_add_logfile
-07:01:21:284185 Status 0 from sysdmp_add_logfile
-07:01:21:284187 Status 0 from sysdmp_add_logfile
-07:01:21:284189 Status 0 from sysdmp_add_logfile
-07:01:21:284191 Status 0 from sysdmp_add_logfile
-07:01:21:284193 Status 0 from sysdmp_add_logfile
-07:01:21:284195 Status 0 from sysdmp_add_logfile
-07:01:21:284197 Status 0 from sysdmp_add_logfile
-07:01:21:284199 Status 0 from sysdmp_add_logfile
-07:01:21:284201 Status 0 from sysdmp_add_logfile
+07:01:20:463127 Status 0 from goto NEXT_STEP
+07:01:20:463129 Status 0 from sysdmp_add
+07:01:20:463131 Status 0 from sysdmp_trigger_add
+07:01:20:463133 Status 0 from sysdmp_trigger_add
+07:01:20:463135 Status 0 from sysdmp_trigger_add
+07:01:20:463137 Status 0 from sysdmp_trigger_add
+07:01:20:463139 Status 0 from sysdmp_trigger_add
+07:01:20:463141 Status 0 from sysdmp_trigger_add
+07:01:20:463143 Status 0 from sysdmp_trigger_add
+07:01:20:463145 Status 0 from sysdmp_trigger_add
+07:01:20:463147 Status 0 from sysdmp_trigger_add
+07:01:20:463149 Status 0 from sysdmp_trigger_add
+07:01:20:463151 Status 0 from sysdmp_trigger_add
+07:01:20:463153 Status 0 from sysdmp_trigger_add
+07:01:20:463155 Status 0 from sysdmp_trigger_add
+07:01:20:463157 Status 0 from sysdmp_add_logfile
+07:01:20:463159 Status 0 from sysdmp_add_logfile
+07:01:20:463161 Status 0 from sysdmp_add_logfile
+07:01:20:463163 Status 0 from sysdmp_add_logfile
+07:01:20:463165 Status 0 from sysdmp_add_logfile
+07:01:20:463167 Status 0 from sysdmp_add_logfile
+07:01:20:463169 Status 0 from sysdmp_add_logfile
+07:01:20:463171 Status 0 from sysdmp_add_logfile
+07:01:20:463173 Status 0 from sysdmp_add_logfile
+07:01:20:463175 Status 0 from sysdmp_add_logfile
+07:01:20:463177 Status 0 from sysdmp_add_logfile
+07:01:20:463179 Status 0 from sysdmp_add_logfile
+07:01:20:463181 Status 0 from sysdmp_add_logfile
+07:01:20:463183 Status 0 from sysdmp_add_logfile
+07:01:20:463185 Status 0 from sysdmp_add_logfile
+07:01:20:463187 Status 0 from sysdmp_add_logfile
+07:01:20:463189 Status 0 from sysdmp_add_logfile
+07:01:20:463191 Status 0 from sysdmp_add_logfile
+07:01:20:463193 Status 0 from sysdmp_add_logfile
+07:01:20:463195 Status 0 from sysdmp_add_logfile
+07:01:20:463197 Status 0 from sysdmp_add_logfile
+07:01:20:463199 Status 0 from sysdmp_add_logfile
+07:01:20:463201 Status 0 from sysdmp_add_logfile
 Message (cmd/msgType: 299/3) received from sid: 0
 Message (cmd/msgType: 299/3) received from sid: 0
 Message (cmd/msgType: 299/3) received from sid: 0
-07:01:21:284203 Status 0 from sysdmp_add_logfile
-07:01:21:294001 Status 0 from sysdmp_add_logfile
-07:01:21:294003 Status 0 from sysdmp_add_logfile
-07:01:21:294005 Status 0 from sysdmp_add_logfile
-07:01:21:294007 Status 0 from sysdmp_add_logfile
-07:01:21:294009 Status 0 from sysdmp_add_logfile
-07:01:21:294011 Status 0 from sysdmp_add_logfile
-07:01:21:294013 Status 0 from sysdmp_add_logfile
-07:01:21:294015 Status 0 from sysdmp_add_logfile
-07:01:21:294017 Status 0 from sysdmp_add_logfile
-07:01:21:294019 Status 0 from sysdmp_add
-07:01:21:294021 Status 0 from sysdmp_add
+07:01:20:463203 Status 0 from sysdmp_add_logfile
+07:01:20:473001 Status 0 from sysdmp_add_logfile
+07:01:20:473003 Status 0 from sysdmp_add_logfile
+07:01:20:473005 Status 0 from sysdmp_add_logfile
+07:01:20:473007 Status 0 from sysdmp_add_logfile
+07:01:20:473009 Status 0 from sysdmp_add_logfile
+07:01:20:473011 Status 0 from sysdmp_add_logfile
+07:01:20:473013 Status 0 from sysdmp_add_logfile
+07:01:20:473015 Status 0 from sysdmp_add_logfile
+07:01:20:473017 Status 0 from sysdmp_add_logfile
+07:01:20:473019 Status 0 from sysdmp_add
+07:01:20:473021 Status 0 from sysdmp_add
 Goto to label: VC_CS_SHOW_SKIP
-07:01:21:294024 Status 0 from ifvc VC_CS_SHOW_SKIP
-07:01:21:294026 Status 0 from invoke fpevent_init
-07:01:21:294029 Status 0 from invoke fpcmd_init
-07:01:21:294032 Status 0 from invoke fpconsole_init
-07:01:21:294037 Status 0 from invoke fpdbg_init
-07:01:21:294039 Status 0 from invoke fpdevices_init
-07:01:21:294041 Status 0 from systemrun
+07:01:20:473024 Status 0 from ifvc VC_CS_SHOW_SKIP
+07:01:20:473026 Status 0 from invoke fpevent_init
+07:01:20:473029 Status 0 from invoke fpcmd_init
+07:01:20:473032 Status 0 from invoke fpconsole_init
+07:01:20:473037 Status 0 from invoke fpdbg_init
+07:01:20:473039 Status 0 from invoke fpdevices_init
+07:01:20:473041 Status 0 from systemrun
 System started
-07:01:21:294044 Status 0 from echo
-07:01:21:294046 Status 0 from fileexist D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_Caffe/Virtual Controllers/CRB15000_5_95/internal/post_startup_action.cmd
+07:01:20:473044 Status 0 from echo
+07:01:20:473046 Status 0 from fileexist D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/post_startup_action.cmd
 Goto to label: NO_POST_ACTION
-07:01:21:294049 Status 0 from goto NO_POST_ACTION
+07:01:20:473049 Status 0 from goto NO_POST_ACTION
 Script end: C:/Users/Thanh Thien/AppData/Local/ABB/RobotWare/RobotControl_7.18.0/system/startup_no_axc.cmd
-07:01:21:294052 Status 0 from include NO_POST_ACTION
+07:01:20:473052 Status 0 from include NO_POST_ACTION
 Script end: C:/Users/Thanh Thien/AppData/Local/ABB/RobotWare/RobotControl_7.18.0/system/startup.cmd

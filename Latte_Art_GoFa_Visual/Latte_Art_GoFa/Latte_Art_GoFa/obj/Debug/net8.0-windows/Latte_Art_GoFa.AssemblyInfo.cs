@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Latte_Art_GoFa")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+baa464430c9bf5587ad7af832c4318fbdfee5eeb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Latte_Art_GoFa")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Latte_Art_GoFa")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

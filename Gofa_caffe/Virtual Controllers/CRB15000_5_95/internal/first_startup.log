@@ -31,3 +31,33 @@ DpUpdates_i.cpp, 882	[INFO] Update prodinfo.xml.
 DpUpdates_i.cpp, 1008	[INFO] File D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_Caffe/Virtual Controllers/CRB15000_5_95/internal/prodinfo.xml has been created, status = 0. 
 DpUpdates_i.cpp, 882	[INFO] Update prodinfo.xml. 
 DpUpdates_i.cpp, 1008	[INFO] File D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_Caffe/Virtual Controllers/CRB15000_5_95/internal/prodinfo.xml has been created, status = 0. 
+DpUpdates_i.cpp, 882	[INFO] Update prodinfo.xml. 
+DpUpdates_i.cpp, 1008	[INFO] File D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/prodinfo.xml has been created, status = 0. 
+DpUpdates_i.cpp, 1651	GetProdsAndFeaturesFromCtrlrsfFile(), file path = 'D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/controller.rsf'. 
+DpUpdates_i.cpp, 1697	GetProdsAndFeaturesFromCtrlrsfFile(), got 5 products. 
+DpUpdates_i.cpp, 1762	GetProdsAndFeaturesFromCtrlrsfFile(), got 1 features for product 'RobotOS'. 
+DpUpdates_i.cpp, 1762	GetProdsAndFeaturesFromCtrlrsfFile(), got 17 features for product 'RobotControl'. 
+DpUpdates_i.cpp, 1762	GetProdsAndFeaturesFromCtrlrsfFile(), got 1 features for product 'FlexPendantSoftwareUpdate'. 
+DpUpdates_i.cpp, 1762	GetProdsAndFeaturesFromCtrlrsfFile(), got 2 features for product 'Robots'. 
+DpUpdates_i.cpp, 1762	GetProdsAndFeaturesFromCtrlrsfFile(), got 1 features for product 'Wizard'. 
+DpUpdates_i.cpp, 2254	[INFO] ResetAddInData status =0.
+DpUpdates_i.cpp, 882	[INFO] Update prodinfo.xml. 
+DpUpdates_i.cpp, 1008	[INFO] File D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/prodinfo.xml has been created, status = 0. 
+DpUpdates_i.cpp, 2286	[INFO] Importing AddIn data from Backup.
+DpUpdates_i.cpp, 1651	GetProdsAndFeaturesFromCtrlrsfFile(), file path = 'D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/controller.rsf'. 
+DpUpdates_i.cpp, 1697	GetProdsAndFeaturesFromCtrlrsfFile(), got 5 products. 
+DpUpdates_i.cpp, 1762	GetProdsAndFeaturesFromCtrlrsfFile(), got 1 features for product 'RobotOS'. 
+DpUpdates_i.cpp, 1762	GetProdsAndFeaturesFromCtrlrsfFile(), got 17 features for product 'RobotControl'. 
+DpUpdates_i.cpp, 1762	GetProdsAndFeaturesFromCtrlrsfFile(), got 1 features for product 'FlexPendantSoftwareUpdate'. 
+DpUpdates_i.cpp, 1762	GetProdsAndFeaturesFromCtrlrsfFile(), got 2 features for product 'Robots'. 
+DpUpdates_i.cpp, 1762	GetProdsAndFeaturesFromCtrlrsfFile(), got 1 features for product 'Wizard'. 
+DpUpdates_i.cpp, 2310	[INFO] Number of AddIns present in the current system is: 5.
+DpUpdates_i.cpp, 2346	[INFO] AddIn abb.robotics.flexpendantapps data not found in Backup. Continue.
+DpUpdates_i.cpp, 2341	[INFO] Import AddIn 'abb.robotics.robots' data from Backup ok.
+DpUpdates_i.cpp, 2346	[INFO] AddIn abb.cn.robotics.wizard data not found in Backup. Continue.
+DpUpdates_i.cpp, 882	[INFO] Update prodinfo.xml. 
+DpUpdates_i.cpp, 1008	[INFO] File D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/prodinfo.xml has been created, status = 0. 
+DpUpdates_i.cpp, 882	[INFO] Update prodinfo.xml. 
+DpUpdates_i.cpp, 1008	[INFO] File D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/prodinfo.xml has been created, status = 0. 
+DpUpdates_i.cpp, 882	[INFO] Update prodinfo.xml. 
+DpUpdates_i.cpp, 1008	[INFO] File D:/Workspace/GitHub/GoFaCoffeeBrewing/Gofa_caffe/Virtual Controllers/CRB15000_5_95/internal/prodinfo.xml has been created, status = 0. 
